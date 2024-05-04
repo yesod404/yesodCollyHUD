@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "hud/Building_icon_Kills"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+}

@@ -1,0 +1,654 @@
+"UnlitGeneric"
+{
+	$basetexture "vgui/replay/thumbnails/funnyd2"
+	$translucent 1
+	$vertexcolor 1
+	$no_fullbright 1
+	$ignorez 1
+	
+	$const_thou		1000
+	$const_hund		100
+	$const_ten		10
+	$const_one		1
+	$const_half		0.5
+	$const_zero		0
+	
+	$const_updatespeed	8 // only update speed if difference is greater than ($const_updatespeed + 1)
+	$value_backup	0
+	$value_delta	0
+	$const_forceupdate 15 // every ($const_forceupdate + 1) updates, do an update even if the threshold above is not reached
+	$const_forceupdate_counter 0
+	$const_forceupdate_tmp 0
+
+	$const_interval	0.035 // update interval
+
+	$temp			0.0
+
+	$time			0.0
+
+	$interval		0.0
+
+	$update			0
+
+	$oldtime		0.0
+
+	$pos 			"[0.0 0.0 0.0]"
+	$posx			0.0
+	$posy			0.0
+
+	$dx				0.0
+	$dy				0.0
+
+	$oldposx		0.0
+	$oldposy		0.0
+
+	$dx2			0.0
+	$dy2			0.0
+	$hd2			0.0
+
+	$number			0.0
+	$sqrt			0.0
+
+	$hd				0.0
+
+	$hspeed			0.0
+
+	$value			0
+	$value_int		0
+	$thou			0
+	$thou_int		0
+	$hund			0
+	$hund_int		0
+	$ten			0
+	$ten_int		0
+	$thou_int_10	0
+	$hund_int_10	0
+	$ten_int_10		0
+
+	Proxies {
+		// Reset oldtime on new map
+		LessOrEqual
+		{
+			lessEqualVar	$oldtime
+			greaterVar		$const_zero
+			srcVar1			$oldtime
+			srcVar2 		$time
+			resultVar		$oldtime
+		}
+
+		// Get current time
+		CurrentTime
+		{
+			resultVar	$time
+		}
+
+		// Calculate current interval
+		Subtract
+		{
+			srcVar1		$time
+			srcVar2		$oldtime
+			resultVar	$interval
+		}
+
+		// Sets $update to 1 if it's time to update
+		LessOrEqual
+		{
+			lessEqualVar	$const_zero
+			greaterVar		$const_one
+			srcVar1			$interval
+			srcVar2 		$const_interval
+			resultVar		$update
+		}
+
+		// Save current time if updating
+		LessOrEqual
+		{
+			lessEqualVar	$oldtime
+			greaterVar		$time
+			srcVar1			$update
+			srcVar2 		$const_zero
+			resultVar		$oldtime
+		}
+
+		// Get player's position
+		PlayerPosition
+        {
+	        scale		1
+	        resultVar	$pos
+        }
+		Clamp
+		{
+			srcVar1 	$const_zero
+			min			"$pos[0]"
+			max			"$pos[0]"
+			resultVar 	$posx
+		}
+		Clamp
+		{
+			srcVar1		$const_zero
+			min			"$pos[1]"
+			max			"$pos[1]"
+			resultVar	$posy
+		}
+
+		// Calculate displacement
+		Subtract
+		{
+			srcVar1		$posx
+			srcVar2 	$oldposx
+			resultVar	$dx
+		}
+		Subtract
+		{
+			srcVar1		$posy
+			srcVar2 	$oldposy
+			resultVar	$dy
+		}
+
+		// Store current position if updating
+		// Save current time if updating
+		LessOrEqual
+		{
+			lessEqualVar	$oldposx
+			greaterVar		$posx
+			srcVar1			$update
+			srcVar2 		$const_zero
+			resultVar		$oldposx
+		}
+		LessOrEqual
+		{
+			lessEqualVar	$oldposy
+			greaterVar		$posy
+			srcVar1			$update
+			srcVar2 		$const_zero
+			resultVar		$oldposy
+		}
+
+		// square of horizontal distance moved
+		Multiply
+		{
+			srcVar1		$dx
+			srcVar2 	$dx
+			resultVar	$dx2
+		}
+		Multiply
+		{
+			srcVar1		$dy
+			srcVar2 	$dy
+			resultVar	$dy2
+		}
+		Add
+		{
+			srcVar1		$dx2
+			srcVar2		$dy2
+			resultVar	$hd2
+		}
+
+		// Start square root
+		Equals
+		{
+			srcVar1		$hd2
+			resultVar	$number
+		}
+		Equals
+		{
+			srcVar1		$const_one
+			resultVar	$sqrt
+		}
+
+
+
+
+
+		// 15 iterations of Newton's method, sqrt = 0.5*(sqrt + number/sqrt)
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+		Divide
+		{
+			srcVar1		$number
+			srcVar2		$sqrt
+			resultVar	$temp
+		}
+		Add
+		{
+			srcVar1		$sqrt
+			srcVar2		$temp
+			resultVar	$temp
+		}
+		Multiply
+		{
+			srcVar1		$const_half
+			srcVar2 	$temp
+			resultVar	$sqrt
+		}
+
+
+
+
+
+		// Set horizontal displacement
+		Equals
+		{
+			srcVar1		$sqrt
+			resultVar	$hd
+		}
+
+		// Calculate horizontal speed
+		Divide
+		{
+			srcVar1		$hd
+			srcVar2		$interval
+			resultVar	$hspeed
+		}
+
+		// Round horizontal speed
+		Add
+		{
+			srcVar1		$hspeed
+			srcVar2		$const_half
+			resultVar	$hspeed
+		}
+		Int
+		{
+			srcVar1		$hspeed
+			resultVar	$hspeed
+		}
+
+
+
+
+
+		// Copy old value into value_backup so we can revert it if the change is not significant
+		Equals
+		{
+			srcVar1		$value
+			resultVar	$value_backup
+		}
+
+
+		// Change display value if updating
+		LessOrEqual
+		{
+			lessEqualVar	$value
+			greaterVar		$hspeed
+			srcVar1			$update
+			srcVar2 		$const_zero
+			resultVar		$value
+		}
+		
+		
+		// Compute difference between (potentially) updated variable and store in $value_delta
+		Subtract
+		{
+			srcVar1			$value
+			srcVar2 		$value_backup
+			resultVar 		$value_delta
+		}
+		
+		// Take abs
+		Abs
+		{
+			srcVar1			$value_delta
+			resultVar		$value_delta
+		}
+		
+		// If $value_delta <= $const_updatespeed, don't update, revert back to $value_backup, otherwise, keep it
+		LessOrEqual
+		{
+			lessEqualVar	$value_backup
+			greaterVar		$value
+			srcVar1			$value_delta
+			srcVar2 		$const_updatespeed
+			resultVar		$value
+		}
+		
+		
+		// However, always update if $const_forceupdate_counter goes over $const_forceupdate.
+		// First temporarily restore the potentially increased value
+		Add
+		{
+			srcVar1			$const_forceupdate_counter
+			srcVar2			$const_one
+			resultVar		$const_forceupdate_tmp
+		}
+		
+		// Actually update the counter if we are updating
+		LessOrEqual
+		{
+			lessEqualVar	$const_forceupdate_counter
+			greaterVar		$const_forceupdate_tmp
+			srcVar1			$update
+			srcVar2 		$const_zero
+			resultVar		$const_forceupdate_counter
+		}
+		
+		// Now, if $const_forceupdate_counter > $const_forceupdate_counter, update $value to $hspeed, otherwise leave it at $value
+		LessOrEqual
+		{
+			lessEqualVar	$value
+			greaterVar		$hspeed
+			srcVar1			$const_forceupdate_counter
+			srcVar2 		$const_forceupdate
+			resultVar		$value
+		}
+		
+		// Also, set our counter back to 0 if needed
+		LessOrEqual
+		{
+			lessEqualVar	$const_forceupdate_counter
+			greaterVar		$const_zero
+			srcVar1			$const_forceupdate_counter
+			srcVar2 		$const_forceupdate
+			resultVar		$const_forceupdate_counter
+		}
+
+
+		// Display digit
+		Divide
+		{
+			srcVar1		$value
+			srcVar2		$const_thou
+			resultVar	$thou
+		}
+		Int
+		{
+			srcVar1		$thou
+			resultVar	$thou_int
+		}
+		Divide
+		{
+			srcVar1		$value
+			srcVar2		$const_hund
+			resultVar	$hund
+		}
+		Int {
+			srcVar1		$hund
+			resultVar	$hund_int
+		}
+		Divide
+		{
+			srcVar1		$value
+			srcVar2		$const_ten
+			resultVar	$ten
+		}
+		Int
+		{
+			srcVar1		$ten
+			resultVar	$ten_int
+		}
+		Multiply
+		{
+			srcVar1		$thou_int
+			srcVar2		$const_ten
+			resultVar	$thou_int_10
+		}
+		Multiply
+		{
+			srcVar1		$hund_int
+			srcVar2		$const_ten
+			resultVar	$hund_int_10
+		}
+		Multiply
+		{
+			srcVar1		$ten_int
+			srcVar2		$const_ten
+			resultVar	$ten_int_10
+		}
+		Subtract
+		{
+			srcVar1		$ten_int
+			srcVar2		$hund_int_10
+			resultVar	$frame
+		}
+	}
+}
