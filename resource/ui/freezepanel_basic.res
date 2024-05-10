@@ -59,17 +59,18 @@
 		}
 		"DeathIcon"
 		{
-			"ControlName"							"CTFImagePanel"
+			"ControlName"							"CExLabel"
 			"fieldName"								"DeathIcon"
-			"xpos"									"0"
+			"xpos"									"-2"
 			"ypos"									"0"
 			"zpos"									"2"
 			"wide"									"28"
 			"tall"									"28"
 			"visible"								"1"
 			"enabled"								"1"
-			"image"			"../hud/Building_icon_Kills"
-			"scaleImage"	"1"
+			"labeltext"									"m"
+			"font"										"Symbols 30"
+			"fgcolor"  									"255 255 255 255"
 			"pin_to_sibling" 						"DeathIconBG2"
 		}
 

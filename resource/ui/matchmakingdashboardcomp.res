@@ -1,11 +1,9 @@
-#base "MatchMakingDashboardSidePanel.res"
-
 "Resource/UI/MatchMakingDashboardComp.res"
 {
 	"CompStats"
 	{
 		"fieldName"		"CompStats"
-		"xpos"			"r0"
+		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"1002"
 		"wide"			"270"
@@ -26,8 +24,8 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"font"			"ProductBold20"
+		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -47,7 +45,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
+		"font"			"ProductBold15"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -68,7 +66,7 @@
 		"zpos"			"1000"
 		"wide"			"8"
 		"tall"			"8"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"image"			"info"
@@ -93,7 +91,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipButtonHack"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
+		"ypos"			"10"
 		"zpos"			"101"
 		"wide"			"f20"
 		"tall"			"20"
@@ -110,7 +108,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
+		"ypos"			"rs1-5"
 		"zpos"			"100"
 		"wide"			"f20"
 		"tall"			"20"
@@ -119,7 +117,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"ProductBold15"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -133,7 +131,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"armedBgColor_override"		"softgreen"
+		"defaultBgColor_override"	"0 0 0 165"
 	}
 }

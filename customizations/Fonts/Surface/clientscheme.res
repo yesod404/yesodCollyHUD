@@ -3442,7 +3442,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
+				"name"		"Surface-Medium"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3585,7 +3585,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
+				"name"		"Surface-Medium"
 				"tall"		"37"
 				"antialias" "1"
 				"additive"	"0"
@@ -3596,7 +3596,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
+				"name"		"Surface-Medium"
 				"tall"		"37"
 				"antialias" "1"
 				"additive"	"0"

@@ -3442,8 +3442,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
-				"tall"		"18"
+				"name"		"Catamaran SemiBold"
+				"tall"		"23"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"
@@ -3585,8 +3585,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
-				"tall"		"37"
+				"name"		"Catamaran SemiBold"
+				"tall"		"47"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"
@@ -3596,8 +3596,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
-				"tall"		"37"
+				"name"		"Catamaran SemiBold"
+				"tall"		"47"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"

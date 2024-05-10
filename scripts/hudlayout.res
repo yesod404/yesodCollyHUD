@@ -409,7 +409,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"r606" [$WIN32]
-		"ypos"						"60" [$WIN32]
+		"ypos"						"40" [$WIN32]
 		"wide"						"600"
 		"tall"						"600"
 		"MaxDeathNotices"			"10"
@@ -1204,12 +1204,11 @@
 		"fieldName"					"HudMenuTauntSelection"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-235"
-		"ypos"						"c-52"
-		"ypos_hidef"				"c-42"
-		"ypos_lodef"				"c-42"
-		"wide"						"470"
-		"tall"						"200"
+		"xpos"										"7"
+		"ypos"										"c-0"
+		"zpos"										"20"
+		"wide"										"88"
+		"tall"										"194"
 		"PaintBackgroundType"		"0"
 	}
 	"ItemAttributeTracker"

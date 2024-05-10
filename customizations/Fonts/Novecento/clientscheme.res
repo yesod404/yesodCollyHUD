@@ -3017,7 +3017,7 @@ Scheme
 			"1"
 			{
 				"name"		"NovecentoMedium"
-				"tall"		"18"
+				"tall"		"16"
 				"antialias" "1"
 				"outline"	"1"
 			}
@@ -3442,7 +3442,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
+				"name"		"NovecentoMedium"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3585,8 +3585,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
-				"tall"		"37"
+				"name"		"NovecentoMedium"
+				"tall"		"34"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"
@@ -3596,8 +3596,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
-				"tall"		"37"
+				"name"		"NovecentoMedium"
+				"tall"		"34"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"
