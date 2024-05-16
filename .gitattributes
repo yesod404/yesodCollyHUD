@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# mark repo as valve data format instead of rescript
+*.vdf linguist-detectable=true
+*.res linguist-detectable=true linguist-language=vdf
+*.txt linguist-detectable=true linguist-language=vdf
+*.vmt linguist-detectable=true linguist-language=vdf
+
+# make chat_english changes visible
+resource/chat_english.txt diff
+
+# don't export these files on download
+.gitattributes export-ignore
+.gitignore export-ignore
