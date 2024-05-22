@@ -809,4 +809,4 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-}s
+}

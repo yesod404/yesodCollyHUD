@@ -61,10 +61,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c66" [$WIN32]
-		"ypos"			"r183" [$WIN32]
-		"wide"			"320"
-		"tall"			"120"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 	"HudDemomanCharge"
 	{
@@ -175,10 +175,10 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"					"CHealthAccountPanel"
-		"xpos"						"5"
-		"ypos"						"435"
-		"wide"						"116"
-		"tall"						"180"
+		"xpos"										"c-149"
+		"ypos"										"r85"
+		"wide"										"f0"
+		"tall"										"24"
 		"visible"					"1"
 		"enabled"					"1"
 		"PaintBackgroundType"		"2"
@@ -1146,7 +1146,7 @@
 	"NotificationQueuePanel"
 	{
 		"fieldName"		"NotificationQueuePanel"
-		"visible"		"0"
+		"visible"		"1"
 		"enable"		"1"
 		"xpos"			"r155"
 		"ypos"			"r90"
@@ -1289,15 +1289,11 @@
 		"fieldName"					"QueueHUDStatus"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"rs1-5"
-		"ypos"						"1"
-		"zpos"						"1001"
-		"wide"						"200"
-		"tall"						"18"
-		"proportionaltoparent"		"1"
-		"keyboardinputenabled"		"1"
-		"mouseinputenabled"			"0"
-		"alpha"						"100"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+		"alpha"										"255"
 	}
 	"CurrencyStatusPanel"
 	{

@@ -5,27 +5,27 @@
 		"fieldName"				"MMDashboard"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"0"
+		"xpos"					"cs-0.5"
+		"ypos"					"-5"
+		"zpos"					"10001"
 		"wide"					"f0"
-		"tall"					"50"
+		"tall"					"35"
 		"keyboardinputenabled"	"0"
 
-		"collapsed_height"	"50"
-		"expanded_height"	"50"
-		"resize_time"		"0"
+		"collapsed_height"	"0"
+		"expanded_height"	"35"
+		"resize_time"		"0.2"
 	}
 
 	"TopBar"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TopBar"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"70"
+		"tall"			"35"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -99,7 +99,6 @@
 			"bgcolor_override"		"0 0 0 0"
 			"proportionaltoparent"	"1"
 		}
-
 		"OuterShadow"
 		{
 			"ControlName"	"EditablePanel"
@@ -168,13 +167,13 @@
 				"image"			"replay/thumbnails/fuckingworkretard"
 			}
 		}
-		
+
 		"PartySlot0"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"r175"
+			"ypos"			"rs1-3"
 			"zpos"			"100"
 			"wide"			"20"
 			"tall"			"20"
@@ -192,9 +191,6 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"pin_to_sibling" "RankPanel"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
 
 			"party_slot"	"0"
 		}
@@ -344,8 +340,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"-50"
 			"zpos"			"111"
-			"wide"			"100"
-			"tall"			"50"
+			"wide"			"220"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -376,9 +372,37 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"noborder"
-				"bgcolor"		"0 0 0 165"
+				"border"		"BlackBorder165"
 			}
+
+			"QueueLogoButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"QueueLogoButton"
+				"xpos"			"0"
+				"ypos"			"1"
+				"zpos"			"10"
+				"wide"			"o1"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labeltext"		""
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"Command"		"queue_logo_clicked"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+				"button_activation_type"	"1"
+			
+				"paintbackground"	"0"
+				"paintborder"		"0"				
+			}		
 
 			"CTFLogoPanel"
 			{
@@ -387,8 +411,8 @@
 				"xpos"			"0"
 				"ypos"			"1"
 				"zpos"			"5"
-				"wide"			"0"
-				"tall"			"0"
+				"wide"			"o1"
+				"tall"			"f0"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
@@ -402,14 +426,14 @@
 			{
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
-				"xpos"			"0"
+				"xpos"			"33"
 				"ypos"			"1"
-				"wide"			"f0"
+				"wide"			"f55"
 				"zpos"			"100"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"product8"
+				"font"			"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"%queue_state%"
@@ -420,18 +444,68 @@
 				{
 					"0"
 					{
-						"font"	"product8" // TF2 Build 11
+						"font"	"HudFontSmallestBold" // TF2 Build 11
 					}
 					"1"
 					{
-						"font"	"product8" // TF2 Build 10
+						"font"	"StorePromotionsTitle" // TF2 Build 10
 					}
 					"2"
 					{
-						"font"	"product8" // TF2 Build 9
+						"font"	"FontStorePrice" // TF2 Build 9
 					}
 				}
 			}
+
+			"MultiQueuesManageButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"MultiQueuesManageButton"
+				"xpos"			"rs1-6"
+				"ypos"			"11"
+				"zpos"			"10"
+				"wide"			"14"
+				"tall"			"14"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labeltext"		""
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				"Command"		"manage_queues"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+			
+				"paintbackground"	"0"
+			
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+			
+				"image_drawcolor"	"117 107 94 255"
+				"image_armedcolor"	"200 80 60 255"
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"1"
+					"wide"			"14"
+					"tall"			"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"glyph_options"
+					"scaleImage"	"1"
+				}				
+			}		
 
 			"CloseButton"
 			{
@@ -492,7 +566,7 @@
 			"ypos"			"-50"
 			"zpos"			"110"
 			"wide"			"220"
-			"tall"			"50"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -641,7 +715,7 @@
 				"drawcolor_override" "TanLight"
 			}
 		}
-		
+
 		"DisconnectButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -759,7 +833,7 @@
 				"drawcolor_override" "TanLight"
 			}
 		}
-		
+
 		"ButtonAnchor"
 		{
 			"ControlName"     "EditablePanel"
@@ -771,6 +845,7 @@
 			"visible"         "1"
 			"enabled"         "1"
 		}
+
 		"6Spacer"
 		{
 			"ControlName"     "EditablePanel"
@@ -785,7 +860,7 @@
 			"pin_corner_to_sibling" "3"
 			"pin_to_sibling_corner" "2"
 		}
-		
+
 		"RankPanel"
 		{
 			"ControlName"	"CPvPRankPanel"
@@ -807,8 +882,7 @@
 			"pin_corner_to_sibling" "3"
 			"pin_to_sibling_corner" "2"
 		}
-		
-	
+
 		"FindAGameButton2"
 		{
 			"ControlName"	"CExImageButton"
@@ -871,14 +945,14 @@
 
 
 		}
-		
-		
+
 		"FindAGameButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
 			"ypos"			"9999"
 			"tall"			"0"
+		}
 		}
 	}
 }

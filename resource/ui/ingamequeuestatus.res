@@ -40,7 +40,7 @@
 		"ypos"										"cs-0.5"
 		"wide"										"f35"
 		"zpos"										"100"
-		"tall"										"0"	//f0
+		"tall"										"f35"
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"ProductBold10"

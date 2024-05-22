@@ -77,7 +77,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"productbold8"
+		"font"			"product8"
 		"bgcolor_override"			"0 0 0 165"
 		"border"			"noborder"
 		"auto_wide_tocontents" "1"

@@ -43,7 +43,7 @@
 		"alpha"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"softblue" //use softgreen for green buffs
+		"fillcolor"		"softgreen" //use softgreen for green buffs
 	}
 	"HurtBG"
 	{

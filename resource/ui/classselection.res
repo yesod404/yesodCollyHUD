@@ -969,7 +969,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numScout%"
 		"textAlignment"						"center"
-		"font"								"productbold10"
+		"font"								"productbold8"
 		"fgcolor"							"White"
 	
 		"bgcolor_override"					"30 30 30 225"
@@ -996,7 +996,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numSoldier%"
 		"textAlignment"						"center"
-		"font"								"productbold10"
+		"font"								"productbold8"
 		"fgcolor"							"White"
 	
 		"bgcolor_override"					"30 30 30 225"
@@ -1023,7 +1023,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numPyro%"
 		"textAlignment"						"center"
-		"font"								"productbold10"
+		"font"								"productbold8"
 		"fgcolor"							"White"
 	
 		"bgcolor_override"					"30 30 30 225"
@@ -1050,7 +1050,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numDemoman%"
 		"textAlignment"						"center"
-		"font"								"productbold10"
+		"font"								"productbold8"
 		"fgcolor"							"White"
 	
 		"bgcolor_override"					"30 30 30 225"
@@ -1077,7 +1077,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numHeavy%"
 		"textAlignment"						"center"
-		"font"								"productbold10"
+		"font"								"productbold8"
 		"fgcolor"							"White"
 	
 		"bgcolor_override"					"30 30 30 225"
@@ -1104,7 +1104,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numEngineer%"
 		"textAlignment"						"center"
-		"font"								"productbold10"
+		"font"								"productbold8"
 		"fgcolor"							"White"
 	
 		"bgcolor_override"					"30 30 30 225"
@@ -1131,7 +1131,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numMedic%"
 		"textAlignment"						"center"
-		"font"								"productbold10"
+		"font"								"productbold8"
 		"fgcolor"							"White"
 	
 		"bgcolor_override"					"30 30 30 225"
@@ -1158,7 +1158,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numSniper%"
 		"textAlignment"						"center"
-		"font"								"productbold10"
+		"font"								"productbold8"
 		"fgcolor"							"White"
 	
 		"bgcolor_override"					"30 30 30 225"
@@ -1185,7 +1185,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numSpy%"
 		"textAlignment"						"center"
-		"font"								"productbold10"
+		"font"								"productbold8"
 		"fgcolor"							"White"
 	
 		"bgcolor_override"					"30 30 30 225"

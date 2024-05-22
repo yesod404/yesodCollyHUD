@@ -2992,6 +2992,64 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"Damage18OutlineCodePro"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"16"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage18OutlineAvenir"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"16"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage18TF2"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		"Damage18OutlineTF2"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"16"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage18TF2Build"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		"Damage18OutlineTF2Build"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"16"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"Damage18OutlineLexend"
 		{
 			"1"
@@ -8190,6 +8248,16 @@ Scheme
 		{
 			"font" 		"resource/fonts/hypnotize icons.ttf"
 			"name" 		"Hypnotize Icons V7"
+		}
+		"23"
+		{
+			"font" 		"resource/fonts/CodeProLC.otf"
+			"name" 		"Code-Pro-LC"
+		}
+		"24"
+		{
+			"font" 		"resource/fonts/AvenirLTStd-Black.ttf"
+			"name" 		"AvenirLTStd-Black"
 		}
 	}
 }

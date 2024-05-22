@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"zpos"										"-1"
 		"wide"										"f0"
-		"tall"	 									"12"
+		"tall"	 									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -30,13 +30,12 @@
 		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"14"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"Taunts"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"TitleBG"
 	}
 	"TitleLabelShadow"
 	{
@@ -49,7 +48,7 @@
 		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"14"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"Taunts"
 		"textAlignment"								"west"
@@ -63,20 +62,16 @@
 		"ControlName"		     					"EditablePanel"
 		"fieldName"									"Background"
 		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"
+		"ypos"										"2"
+		"zpos"										"-999"
 		"wide"										"f0"
-		"tall"										"f0"
+		"tall"										"184"
 		"visible"		        					"1"
 		"enabled"	          						"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"CollyHudDarkGray"
-
-		"pin_to_sibling" 							"TitleBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"bgcolor_override"							"0 0 0 165"
 	}
 
 	"WeaponTauntLabel"
@@ -111,7 +106,7 @@
 		"font"										"Product7"
 		"fgcolor"									"White"
 		"xpos"										"0"
-		"ypos"										"rs1"
+		"ypos"										"rs2"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"8"
@@ -126,7 +121,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"30 30 30 255"
+		"bgcolor_override"							"0 0 0 165"
 	}
 
 	"TauntModelPanel1"
@@ -150,24 +145,6 @@
 		"text_center"								"1"
 		"text_forcesize"							"3"
 		"model_only"								"1"
-
-		"ItemBackground"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"ItemBackground"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"-99"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"30 30 30 255"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
-		}
 
 		"attriblabel"
 		{
@@ -204,7 +181,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"30 30 30 255"
+		"bgcolor_override"							"0 0 0 165"
 
 		"pin_to_sibling"							"TauntModelPanel1"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -232,24 +209,6 @@
 		"text_center"								"1"
 		"text_forcesize"							"3"
 		"model_only"								"1"
-
-		"ItemBackground"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"ItemBackground"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"-99"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"30 30 30 255"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
-		}
 
 		"attriblabel"
 		{
@@ -288,7 +247,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"30 30 30 255"
+		"bgcolor_override"							"0 0 0 165"
 
 		"pin_to_sibling"							"TauntModelPanel2"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -316,24 +275,6 @@
 		"text_center"								"1"
 		"text_forcesize"							"3"
 		"model_only"								"1"
-
-		"ItemBackground"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"ItemBackground"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"-99"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"30 30 30 255"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
-		}
 
 		"attriblabel"
 		{
@@ -372,7 +313,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"30 30 30 255"
+		"bgcolor_override"							"0 0 0 165"
 
 		"pin_to_sibling"							"TauntModelPanel3"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -400,24 +341,6 @@
 		"text_center"								"1"
 		"text_forcesize"							"3"
 		"model_only"								"1"
-
-		"ItemBackground"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"ItemBackground"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"-99"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"30 30 30 255"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
-		}
 
 		"attriblabel"
 		{
@@ -456,7 +379,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"30 30 30 255"
+		"bgcolor_override"							"0 0 0 165"
 
 		"pin_to_sibling"							"TauntModelPanel4"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -484,24 +407,6 @@
 		"text_center"								"1"
 		"text_forcesize"							"3"
 		"model_only"								"1"
-
-		"ItemBackground"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"ItemBackground"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"-99"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"30 30 30 255"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
-		}
 
 		"attriblabel"
 		{
@@ -540,7 +445,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"30 30 30 255"
+		"bgcolor_override"							"0 0 0 165"
 
 		"pin_to_sibling"							"TauntModelPanel5"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -569,23 +474,6 @@
 		"text_forcesize"							"3"
 		"model_only"								"1"
 
-		"ItemBackground"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"ItemBackground"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"-99"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"30 30 30 255"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
-		}
 
 		"attriblabel"
 		{
@@ -624,7 +512,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"30 30 30 255"
+		"bgcolor_override"							"0 0 0 165"
 
 		"pin_to_sibling"							"TauntModelPanel6"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -653,23 +541,6 @@
 		"text_forcesize"							"3"
 		"model_only"								"1"
 
-		"ItemBackground"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"ItemBackground"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"-99"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"30 30 30 255"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
-		}
 
 		"attriblabel"
 		{
@@ -708,7 +579,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"30 30 30 255"
+		"bgcolor_override"							"0 0 0 165"
 
 		"pin_to_sibling"							"TauntModelPanel7"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
@@ -737,23 +608,6 @@
 		"text_forcesize"							"3"
 		"model_only"								"1"
 
-		"ItemBackground"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"ItemBackground"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"-99"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"30 30 30 255"
-			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
-		}
 
 		"attriblabel"
 		{
@@ -792,7 +646,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"30 30 30 255"
+		"bgcolor_override"							"0 0 0 165"
 
 		"pin_to_sibling"							"TauntModelPanel8"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"

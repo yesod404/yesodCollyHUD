@@ -50,8 +50,8 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"BarImage"
-		"xpos"					"0"
-		"ypos"					"0"
+			"xpos"					"0"
+			"ypos"					"0"
 			"zpos"									"5"
 			"wide"									"168"
 			"tall"									"1"
@@ -60,8 +60,22 @@
 			"image"									"replay/thumbnails/blue"
 			"scaleImage"							"1"
 		}
-
 	}
+		"BarImageBg"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"BarImageBg"
+			"xpos"					"25"
+			"ypos"					"13"
+			"zpos"									"5"
+			"wide"									"168"
+			"tall"									"1"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
+		"image"					"replay/thumbnails/whitetrans"
+		}
+		
 	"NameLabel"
 	{
 		"ControlName"			"Label"
@@ -84,7 +98,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TankImage"
-		"xpos"			"8"
+		"xpos"			"7"
 		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"18"

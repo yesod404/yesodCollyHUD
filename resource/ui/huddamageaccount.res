@@ -21,4 +21,10 @@
 //Damage18OutlineSemiBold
 //Damage18OutlineSharpened
 //Damage18OutlineLexend
+//Damage18OutlineCodePro
+//Damage18OutlineAvenir
+//Damage18OutlineTF2Build
+//Damage18OutlineTF2
+//Damage18TF2
+//Damage18TF2Build
 //Damage20OutlineCatamaran

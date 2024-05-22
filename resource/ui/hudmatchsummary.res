@@ -258,7 +258,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderBlueBGOpaque"
+					"bgcolor_override"		"softblue"
 
 					if_large
 					{

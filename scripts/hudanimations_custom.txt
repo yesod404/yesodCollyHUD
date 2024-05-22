@@ -40,7 +40,7 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthValueBG				FgColor			"softgreen"		Linear 0.0 0.0
 	
 	Animate	PlayerStatusHealthValueMain 	FgColor		"White"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"0"		Linear	0.0 0.0
+	Animate PlayerStatusHealthValueMainShadowHidden	FgColor		"softgreen"	Linear 0.0 0.0
 	
 	Animate	BuffBG 							Alpha		"255"				Linear 0.0 0.0
 	Animate	BuffBG2							Alpha		"200"				Linear 0.0 0.0
@@ -63,8 +63,7 @@ event HudHealthBonusPulseStop
 	Animate	HPReal 							FgColor		"220 220 220 250"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"0 0 0 200"		Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueMain 	FgColor		"0 0 0 255"			Linear 0.0 0.0
-	
-	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"0"		Linear	0.0 0.0
+	Animate PlayerStatusHealthValueMainShadowHidden	FgColor		"0 0 0 255"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -72,9 +71,10 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"softred"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueMain 	FgColor		"White"			Linear 0.0 0.0
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.0
+	Animate PlayerStatusHealthValueMainShadowHidden	FgColor		"softred"	Linear 0.0 0.0
 	Animate	HurtBG 							Alpha		"255"				Linear 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.25
@@ -93,6 +93,7 @@ event HudHealthDyingPulseStop
 	Animate	HurtBG 							Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueMain 	FgColor		"White"			Linear 0.0 0.0
+	Animate PlayerStatusHealthValueMainShadowHidden	FgColor		"0 0 0 255"	Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"White"			Linear 0.0 0.0
 
 

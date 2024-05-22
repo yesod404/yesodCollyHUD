@@ -11,8 +11,8 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"tanlight120"
-		"fgcolor_override"		"tanlight120"
+		"fgcolor"		"White"
+		"fgcolor_override"		"White"
 	}
 
 	"AvatarBGPanel"
@@ -69,13 +69,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"tanlight60"
-		"fgcolor_override" "tanlight60"
+		"fgcolor"		"White"
+		"fgcolor_override" "White"
 		"if_high_priority"
 		{
-			"fgcolor"			"tanlight60"
-			"fgcolor_override"	"tanlight60"
-			"font"				"productbold8"
+			"fgcolor"			"White"
+			"fgcolor_override"	"White"
+			"font"				"product8"
 		}
 		"xpos"			"0"
 		"ypos"			"0"
@@ -89,6 +89,6 @@
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"West"
-		"font"			"productbold8"
+		"font"			"product8"
 	}
 }

@@ -14,9 +14,9 @@
 
 		"left_steal_edge_offset"					"97"
 		"right_steal_edge_offset"					"97"
-		"robot_x_offset"							"1"
-		"robot_y_offset"							"0"
-		"robot_x_step"								"16"
+		"robot_x_offset"							"0"
+		"robot_y_offset"							"18"
+		"robot_x_step"								"18"
 		"robot_y_step"								"0"
 
 
@@ -33,12 +33,12 @@
 			"ControlName"							"CTFHudRobotDestruction_RobotIndicator"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"15"
-			"tall"									"15"
+			"wide"									"20"
+			"tall"									"20"
 			"visible"								"1"
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			"AutoResize" 							"1"
+			"AutoResize" 							"0"
 			"skip_autoresize" 						"1"
 		}
 	}
@@ -64,7 +64,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayingTo"
 		"xpos"										"0"
-		"ypos"										"2"
+		"ypos"										"-11"
 		"zpos"										"4"
 		"wide"										"60"
 		"tall"										"7"
@@ -74,32 +74,12 @@
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"productbold8"
+		"font"										"product8"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"CenterBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}
-	"PlayingToShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayingToShadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"3"
-		"wide"										"60"
-		"tall"										"7"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"#TF_PlayingTo"
-		"textAlignment"								"center"
-		"AllCaps"									"1"
-		"proportionaltoparent"						"1"
-		"font"										"productbold8"
-		"fgcolor"									"0 0 0 255"
-
-		"pin_to_sibling"							"PlayingTo"
 	}
 
 	"BlueBG"
@@ -179,7 +159,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"CarriedContainer"
 		"xpos"										"cs-0.5"
-		"ypos"										"rs1-35"
+		"ypos"										"rs1-50"
 		"zpos"										"1"
 		"wide"										"35"
 		"tall"										"16"

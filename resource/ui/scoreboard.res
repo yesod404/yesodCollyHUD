@@ -950,7 +950,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
-		"xpos"			"0"
+		"xpos"			"125"
 		"ypos"			"395"
 		"zpos"			"3"
 		"wide"			"600"
@@ -969,7 +969,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
-			"font"			"ScoreboardSmall"
+			"font"			"ProductBold11"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
 			"xpos"			"250"
@@ -1021,8 +1021,8 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"117 107 94 255"
+				"PaintBackgroundType"	"0"
+				"bgcolor_override"	"White"
 			}
 			"AvatarImage"
 			{
@@ -1056,7 +1056,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"HudFontSmallest"
+				"font"			"ProductBold10"
 			}
 			"Score"
 			{
@@ -1073,7 +1073,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"font"			"Product20"
 			}
 		}
 
@@ -1100,8 +1100,8 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"117 107 94 255"
+				"PaintBackgroundType"	"0"
+				"bgcolor_override"	"White"
 			}
 			"AvatarImage"
 			{
@@ -1135,7 +1135,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"HudFontSmallest"
+				"font"			"ProductBold10"
 			}
 			"Score"
 			{
@@ -1152,7 +1152,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"font"			"Product20"
 			}
 		}
 	}

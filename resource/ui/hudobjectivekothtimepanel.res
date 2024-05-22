@@ -8,10 +8,10 @@
 		}
 	}
 	
-	"BlueLine"
+	"StripBlue"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueLine"
+		"fieldName"		"StripBlue"
 		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"10"
@@ -29,10 +29,10 @@
 			"visible"		"0"
 		}
 	}
-	"RedLine"
+	"StripRed"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"RedLine"
+		"fieldName"		"StripRed"
 		"xpos"			"46"
 		"ypos"			"0"
 		"zpos"			"10"

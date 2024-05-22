@@ -73,12 +73,16 @@
 		{
 			"visible"	"0"
 		}
+		"if_hybrid_single"
+		{
+			"visible"	"0"
+		}
 	}
 	
-	"RedScoreBG"
+	"StripRed"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"RedScoreBG"
+		"fieldName"		"StripRed"
 		"xpos"			"c24"
 		"ypos"			"r26"
 		"zpos"			"126"
@@ -96,6 +100,10 @@
 			"visible"	"0"
 		}
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		"if_hybrid_single"
 		{
 			"visible"	"0"
 		}
@@ -325,7 +333,8 @@
 
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-20"
+			"ypos"		"c170"
 		}
 
 		"if_hybrid_double"
@@ -365,7 +374,8 @@
 
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-20"
+			"ypos"		"c170"
 		}
 
 		"if_hybrid_double"
@@ -375,7 +385,8 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r50"
+			"xpos"		"410"
 		}
 
 		"if_no_flags"

@@ -191,7 +191,7 @@
 	{
 		"fieldName"									"RoundCounter"
 		"xpos"										"cs-0.5"
-		"ypos"										"26"
+		"ypos"										"2"
 		"zpos"										"7"
 		"wide"										"54"
 		"tall"										"15"
@@ -208,7 +208,7 @@
 		{
 			"ypos"									"0"
 			"wide"									"4"
-			"tall"									"3"
+			"tall"									"2"
 			"zpos"									"8"
 			"image"									"../vgui/replay/thumbnails/panels/Material_Transparent_Black_70"
 			"scaleimage"							"1"
@@ -217,7 +217,7 @@
 		{
 			"ypos"									"0"
 			"wide"									"4"
-			"tall"									"3"
+			"tall"									"2"
 			"zpos"									"8"
 			"image"									"../vgui/replay/thumbnails/panels/flat_red"
 			"scaleimage"							"1"
@@ -226,7 +226,7 @@
 		{
 			"ypos"									"0"
 			"wide"									"4"
-			"tall"									"3"
+			"tall"									"2"
 			"zpos"									"8"
 			"image"									"../vgui/replay/thumbnails/panels/flat_blue"
 			"scaleimage"							"1"
@@ -255,18 +255,13 @@
 		{
 			"visible"		"1"
 		}
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-30"
+		"xpos"				"c-20"
 		"ypos"				"6"	[$WIN32]
 		"zpos"				"2"
 		"wide"				"60"
@@ -274,17 +269,19 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"9999"	[$WIN32]
-		
+
+
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"productbold14"
 			"fgcolor"		"tanlight"
-			"xpos"			"-1"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"64"
+			"wide"			"40"
 			"textinsety"			"0"
 			"tall"			"20"
 			"visible"		"1"
@@ -294,42 +291,7 @@
 			"bgcolor_override"		"0 0 0 165"
 			"border"		"noborder"
 		}
-		
-	"StripRed"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"StripRed"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"65"
-		"tall"			"2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"bgcolor_override"		"softred"
 	}
-
-	"StripBlue"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"StripBlue"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"31"
-		"tall"			"2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"bgcolor_override"		"softblue"
-	}
-	}
-
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -341,6 +303,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+
 
 		"max_size"	"20"
 
@@ -478,38 +441,38 @@
 			}
 			"ReadyBG"
 			{
-				"ControlName"			"ScalableImagePanel"
-				"fieldName"				"ReadyBG"
-				"xpos"					"30"
-				"ypos"					"6"
-				"zpos"					"-1"
-				"wide"					"16"
-				"tall"					"16"
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"0"
-				"enabled"				"1"
-				"image"					"../HUD/tournament_panel_brown"
-				"src_corner_height"		"22"			// pixels inside the image
-				"src_corner_width"		"22"
-				"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+				"ControlName"		"ScalableImagePanel"
+				"fieldName"		"ReadyBG"
+				"xpos"			"30"
+				"ypos"			"6"
+				"zpos"			"-1"
+				"wide"			"16"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/tournament_panel_brown"
+				"src_corner_height"	"22"				// pixels inside the image
+				"src_corner_width"	"22"
+				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 			}
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
-				"fieldName"			"ReadyImage"
-				"xpos"				"32"
-				"ypos"				"8"
-				"zpos"				"0"
-				"wide"				"12"
-				"tall"				"12"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"0"
-				"enabled"			"1"
-				"image"				"hud/checkmark"
-				"scaleImage"		"1"
+				"fieldName"		"ReadyImage"
+				"xpos"			"32"
+				"ypos"			"8"
+				"zpos"			"0"
+				"wide"			"12"
+				"tall"			"12"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"hud/checkmark"
+				"scaleImage"	"1"
 			}
 			"respawntime"
 			{
@@ -533,20 +496,20 @@
 			}
 			"chargeamount"
 			{
-				"ControlName"			"CExLabel"
-				"fieldName"				"chargeamount"
-				"font"					"productbold14"
-				"xpos"					"0"
-				"ypos"					"0"
-				"zpos"					"6"
-				"wide"					"20"
-				"tall"					"19"
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"labelText"				"%chargeamount%"
-				"textAlignment"			"north"
-				"fgcolor"				"softgreen"
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamount"
+				"font"			"productbold14"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"20"
+				"tall"			"19"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"north"
+				"fgcolor"		"softgreen"
 			}
 			"specindex"
 			{
@@ -569,7 +532,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"DeathPanel"
-				"xpos"			"999"
+				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"0"
 				"wide"			"0"
@@ -584,11 +547,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SkullPanel"
-				"xpos"			"999"
+				"xpos"			"2"
 				"ypos"			"2"
 				"zpos"			"1"
-				"wide"			"0"
-				"tall"			"0"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../HUD/comp_player_status_skull"

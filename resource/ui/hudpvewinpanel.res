@@ -7,15 +7,18 @@
 		"xpos"			"20"
 		"ypos"			"0"
 		"wide"			"250"
-		"tall"			"20"
+		"tall"			"2"
 		"visible"		"1"
 		"bgcolor_override"	"softblue"
+	}
 
 		"WinningTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
 			"font"			"productbold20"
+			"xpos"			"20"
+			"ypos"			"10"
 			"zpos"			"1"
 			"wide"			"250"
 			"tall"			"20"
@@ -43,7 +46,6 @@
 
 			"pin_to_sibling"		"WinningTeamLabel"
 		}
-	}
 
 	"WinPanelBG"
 	{
@@ -51,7 +53,7 @@
 		"fieldName"		"WinPanelBG"
 		"zpos"		"-1"
 		"wide"		"250"
-		"tall"		"50"
+		"tall"		"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"replay/thumbnails/panels/black"
@@ -69,7 +71,7 @@
 		"fieldName"		"WinReasonLabel"
 		"font"			"product11"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-35"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"20"

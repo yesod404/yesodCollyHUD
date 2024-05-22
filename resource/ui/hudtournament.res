@@ -12,13 +12,14 @@
 		"proportionaltoparent"	"1"
 
 		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"32"
-		"team1_player_delta_x"				"-24"
+		"team1_player_base_y"				"0"
+		"team1_player_delta_x"				"-47"
 		"team1_player_delta_y"				"0"
 		"team2_player_base_offset_x"		"25"
-		"team2_player_base_y"				"32"
-		"team2_player_delta_x"				"24"
+		"team2_player_base_y"				"0"
+		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
+		"teams_player_delta_x_comp"			"42"
 
 		"avatar_width"	"20"
 		"spacer"		"2"
@@ -32,9 +33,9 @@
 			"wide"					"f0"
 			"tall"					"480"
 
-			"team1_player_base_y"			"72"
-			"team2_player_base_y"			"72"
-			"team2_player_delta_x"			"24"
+			"team1_player_base_y"			"77"
+			"team2_player_base_y"			"77"
+			"team2_player_delta_x"			"33"
 		}
 
 
@@ -64,30 +65,52 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"		"40"
+			"tall"		"26"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
+	"PlayerTeamIndicator"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"PlayerTeamIndicator"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"1"
+		"wide"					"50"
+		"tall"						"2"
+		"visible"				"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/bg_blue"
+		"scaleImage"		"1"
+		"teambg_2"		"replay/thumbnails/bg_red"
+		"teambg_3"		"replay/thumbnails/bg_red"
+	}
 			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
+				"font"			"Product8"
+				"xpos"			"0"
+				"ypos"			"18"
 				"zpos"			"5"
-				"wide"			"0"
+				"wide"			"f0"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				"textAlignment"	"center"
+				"fgcolor"		"White"
+				"textinsetx"		"4"
+				"use_proportional_insets"	"1"
+				
+				"proportionaltoparent" "1"
+				
+				"bgcolor_override"	"30 30 30 255"
 			}
 			
 			"classimage"
@@ -95,10 +118,10 @@
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"2"
 				"zpos"			"16"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -150,7 +173,7 @@
 				"border"		"blurborder"
 				"bgcolor"		"blank"
 				"bgcolor_override"		"blank"
-				"PaintBackgroundType"	"0"
+				"PaintBackgroundType"	"0"		
 			}
 			
 			"HealthIcon"
@@ -183,16 +206,17 @@
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
-				"xpos"			"30"
-				"ypos"			"6"
+				"xpos"			"25"
+				"ypos"			"5"
 				"zpos"			"-1"
-				"wide"			"16"
-				"tall"			"16"
+				"wide"			"11"
+				"tall"			"11"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
+				"alpha"				"200"
+				"image"			"replay/thumbnails/panels/black"
 
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
@@ -453,7 +477,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"productbold8"
+		"font"			"product8"
 		"xpos"			"c-43"
 		"ypos"			"6"
 		"zpos"			"1"
@@ -545,7 +569,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"productbold8"
+		"font"			"product8"
 		"xpos"			"c3"
 		"ypos"			"6"
 		"zpos"			"1"
@@ -698,7 +722,7 @@
 
 	}
 	
-	"CountdownBG"
+"CountdownBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
@@ -726,13 +750,6 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"150"
 		}
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
-	}
 
 	"CountdownLabel"
 	{	

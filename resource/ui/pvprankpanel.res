@@ -56,7 +56,7 @@
 			"tall"			"p0.12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"fov"			"70"
 			"proportionaltoparent"	"1"

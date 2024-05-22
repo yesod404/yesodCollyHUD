@@ -9,7 +9,7 @@
 		"text_ypos"			"15"
 		"text_forcesize" "0"
 		"text_xpos"		"15"
-		"text_wide"		"270"
+		"text_wide"		"300"
 		//"model_xpos_collection"	"77"
 		//"model_ypos_collection"	"20"
 		//"model_wide_collection"	"156"

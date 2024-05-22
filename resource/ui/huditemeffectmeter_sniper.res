@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"x_offset"		"0"
 		"xpos"			"c-19"	[$WIN32]
-		"ypos"			"r108"	[$WIN32]
+		"ypos"			"r100"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"

@@ -79,7 +79,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"softblue" //use softgreen for green buffs
+		"fillcolor"		"softgreen" //use softgreen for green buffs
 	}
 
 	"PlayerStatusHealthValueMain2"

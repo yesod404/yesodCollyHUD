@@ -11,7 +11,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"noborder"
+		"border"		"BlackBorder165"
 	}
 
 
@@ -20,7 +20,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HelpTextLabel"
 		"fgcolor"		"RedSolid"
-		"xpos"			"6"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"140"
@@ -31,10 +31,10 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
-		"textAlignment"	"west"
+		"textAlignment"	"North"
 		"font"			"TFFontSmall"
-		"textinsetx"	"0"
-		"textinsety"	"0"
+		"textinsetx"	"2"
+		"textinsety"	"7"
 	}
 
 }
