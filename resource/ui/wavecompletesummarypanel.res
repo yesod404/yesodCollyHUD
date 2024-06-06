@@ -5,21 +5,23 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WaveCompleteContainer"
 		"wide"			"250"
-		"tall"			"20"
+		"tall"			"2"
 		"visible"		"1"
 		"bgcolor_override"	"softred"
-
+	}
 		"WaveCompleteLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
+			"xpos"			"10"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"250"
 			"tall"			"20"
 			"font"			"productbold20"
 			"textAlignment"	"center"
-			"labelText"		"%titletext%"
-			"visible"		"1"
+			"labelText"		""
+			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}
@@ -40,7 +42,6 @@
 			"fgcolor_override"	"Shadow"
 			"pin_to_sibling"	"WaveCompleteLabel"
 		}
-	}
 
 	"Background"
 	{

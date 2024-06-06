@@ -325,6 +325,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 
+		"if_mvm"
+		{
+			"xpos"		"c-20"
+			"ypos"		"rs1.4"
+		}
+
 		"if_hybrid"
 		{
 			"visible"	"0"

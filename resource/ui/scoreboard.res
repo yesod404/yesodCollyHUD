@@ -567,39 +567,44 @@
 		"fgcolor"		"tanlight"
 		"auto_wide_tocontents"	"1"
 		"xpos"				"6"
-		"textinsetx"		"14"
-		"textinsety"		"0"
+		"textinsetx"			"10"
+		"textinsety"			"0"
 		"ypos"				"6"
 		"zpos"				"4"
 		"tall"					"20"
+		"wide"				"5"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 
 		if_mvm
 		{
-			"ypos"		"999"
+			"ypos"		"6"
 		}
 	}
-	"ServerLabelBG"
+	"ServerLabelBg"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ServerLabel"
-		"labelText"		"h"
+		"fieldName"		"ServerLabelBg"
+		"labelText"		""
 		"font"			"product8"
 		"fgcolor"		"tanlight"
-		"xpos"				"6"
-		"textinsetx"		"14"
-		"textinsety"		"0"
-		"ypos"				"6"
+		"xpos"				"0"
+		"textinsetx"			"0"
+		"textinsety"			"0"
+		"ypos"				"0"
 		"zpos"				"4"
 		"tall"					"20"
-		"wide"				"75"
+		"wide"				"5"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-	
+
+		"pin_to_sibling"				"ServerLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
 		if_mvm
 		{
-			"ypos"		"999"
+			"visible"			"1"
 		}
 	}
 	"MapName"
@@ -611,7 +616,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"			"east"
 		"auto_wide_tocontents"	"1"
-		"xpos"					"29"
+		"xpos"					"31"
 		"textinsetx"			"10"
 		"textinsety"			"0"
 		"ypos"					"54"
@@ -623,7 +628,7 @@
 		
 		if_mvm
 		{
-			"ypos"				"6"
+			"ypos"				"30"
 		}
 	}
 	"MapNameLabel"
@@ -634,7 +639,7 @@
 		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
 		"textAlignment"		"WEST"
-		"wide" 				"50"
+		"wide" 				"25"
 		"xpos"				"6"
 		"textinsetx"		"14"
 		"textinsety"		"0"
@@ -645,7 +650,7 @@
 		"pinCorner"			"0"
 		if_mvm
 		{
-			"ypos"				"6"
+			"ypos"				"30"
 		}
 	}
 	"ServerTimeLeft"
@@ -657,7 +662,7 @@
 		"fgcolor"				"TANLIGHT120"
 		"textAlignment"			"east"
 		"auto_wide_tocontents"	"1"
-		"xpos"					"86"
+		"xpos"					"87"
 		"textinsetx"			"14"
 		"textinsety"			"0"
 		"ypos"					"30"
@@ -679,7 +684,7 @@
 		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
 		"textAlignment"		"WEST"
-		"wide" 				"82"
+		"wide" 				"81"
 		"xpos"				"6"
 		"textinsetx"		"14"
 		"textinsety"		"0"
@@ -702,7 +707,7 @@
 		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
 		"textAlignment"		"WEST"
-		"wide" 				"54"
+		"wide" 				"48"
 		"xpos"				"6"
 		"textinsetx"		"14"
 		"textinsety"		"0"

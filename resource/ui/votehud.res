@@ -170,7 +170,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"softblue"
+			"fillcolor"								"softgreen"
 			"visible"								"1"
 		}
 
@@ -217,7 +217,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"softblue"
+			"fillcolor"								"softgreen"
 			"visible"								"1"
 		}
 
@@ -264,7 +264,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"softblue"
+			"fillcolor"								"softgreen"
 			"visible"								"0"
 		}
 
@@ -294,7 +294,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"softblue"
+			"fillcolor"								"softgreen"
 			"visible"								"0"
 		}
 
@@ -324,7 +324,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"softblue"
+			"fillcolor"								"softgreen"
 			"visible"								"0"
 		}
 
@@ -740,26 +740,44 @@
 
 		"Button1"
 		{
-			"ControlName"							"Button"
+			"ControlName"							"CExImageButton"
 			"fieldName"								"Button1"
 			"xpos"									"rs1-5"
-			"ypos"									"2"
-			"wide"									"30"
-			"tall"									"30"
+			"ypos"									"7"
+			"wide"									"20"
+			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"labelText"								"x"
+			"labelText"								""
 			"textAlignment"							"center"
 			"Command"								"Close"
 			"Default"								"0"
 			"proportionaltoparent"					"1"
-			"font"									"ProductBold26"
+			"font"									"product8"
 
-			"paintbackground"						"0"
+			"paintbackground"						"2"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"softred"
-			"depressedFgColor_override"				"softred"
+			"fgcolor_override"		"White"
+			"defaultfgcolor_override"		"White"
+			"armedfgcolor_override"		"White"
+			"armedbgcolor_override"		"softred"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			""
+				"ypos"			""
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/x"
+				"scaleImage"	"1"
+				"paintbackgroundtype" "0"
+				"proportionaltoparent"	"1"
+			}
 		}
 	}
 }

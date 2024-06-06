@@ -148,6 +148,7 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"Hudoffwhite"
 	}
+	
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"

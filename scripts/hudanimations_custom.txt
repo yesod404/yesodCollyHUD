@@ -39,8 +39,9 @@ event HudHealthBonusPulse
 	Animate	HPReal 							FgColor		"47 185 123 240"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"softgreen"		Linear 0.0 0.0
 	
-	Animate	PlayerStatusHealthValueMain 	FgColor		"White"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueMainShadowHidden	FgColor		"softgreen"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueMain		FgColor		"White"	Linear 0.0	0.0
+	Animate PlayerStatusHealthValueMainShadowHidden		FgColor		"kirapurple"	Linear 0.0	0.0
+	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"255"		Linear	0.0 0.0
 	
 	Animate	BuffBG 							Alpha		"255"				Linear 0.0 0.0
 	Animate	BuffBG2							Alpha		"200"				Linear 0.0 0.0
@@ -62,8 +63,10 @@ event HudHealthBonusPulseStop
 	Animate	BuffBG2 						Alpha		"0"					Linear 0.0 0.0
 	Animate	HPReal 							FgColor		"220 220 220 250"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"0 0 0 200"		Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueMain 	FgColor		"0 0 0 255"			Linear 0.0 0.0
-	Animate PlayerStatusHealthValueMainShadowHidden	FgColor		"0 0 0 255"	Linear 0.0 0.0
+	
+	Animate PlayerStatusHealthValueMain		FgColor		"White"	Linear 0.0	0.0
+	Animate PlayerStatusHealthValueMainShadowHidden		FgColor		"0 0 0 255"	Linear 0.0	0.0
+	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"0"		Linear	0.0 0.0
 }
 
 //===========================================
@@ -71,10 +74,13 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"					Linear 0.0 0.0
+
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"					Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"					Linear 0.125 0.075
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"softred"			Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueMain 	FgColor		"White"			Linear 0.0 0.0
-	Animate PlayerStatusHealthValueMainShadowHidden	FgColor		"softred"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueMain		FgColor		"White"	Linear 0.0	0.0
+	Animate PlayerStatusHealthValueMainShadowHidden		FgColor		"kiramagenta"	Linear 0.0	0.0
+	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"255"		Linear	0.0 0.0
 	Animate	HurtBG 							Alpha		"255"				Linear 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.25
@@ -92,10 +98,11 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 		0.0
 	Animate	HurtBG 							Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueMain 	FgColor		"White"			Linear 0.0 0.0
-	Animate PlayerStatusHealthValueMainShadowHidden	FgColor		"0 0 0 255"	Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"White"			Linear 0.0 0.0
 
+	Animate PlayerStatusHealthValueMain		FgColor		"White"	Linear 0.0	0.0
+	Animate PlayerStatusHealthValueMainShadowHidden		FgColor		"0 0 0 255"	Linear 0.0	0.0
+	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"0"		Linear	0.0 0.0
 
 }
 
@@ -215,3 +222,26 @@ event TeamStatus_PlayerAlive
 	SetVisible SkullPanel  0 0.2
 	SetVisible respawntime 0 0.2
 }
+
+// Spy Disguise
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+}
+
+event HudSpyDisguiseChanged
+{
+	Animate	PlayerStatusSpyOutlineImage	Alpha		"200"				Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage	Position	"c-350 r175"		Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage	Size		"150 150"			Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide			0.7
+}
+

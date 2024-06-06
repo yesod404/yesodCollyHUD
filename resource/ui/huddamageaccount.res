@@ -9,8 +9,8 @@
 		"PositiveColor"			"43 195 123 255"
 		"NegativeColor"			"210 200 30 255"
 		"delta_lifetime"		"1.355"
-		"delta_item_font"		"Damage18OutlineNovecento"
-		"delta_item_font_big"	"Damage18OutlineNovecento"
+		"delta_item_font"		"Damage18OutlineSharpened"
+		"delta_item_font_big"	"Damage18OutlineSharpened"
 	}
 }
 
@@ -25,6 +25,8 @@
 //Damage18OutlineAvenir
 //Damage18OutlineTF2Build
 //Damage18OutlineTF2
+//Damage18OutlineRoboto
 //Damage18TF2
 //Damage18TF2Build
 //Damage20OutlineCatamaran
+

@@ -53,7 +53,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"		"62"
-		"ypos"		"51"
+		"ypos"		"48"
 		"zpos"		"-4"
 		"wide"		"38"
 		"tall"		"38"
@@ -84,8 +84,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueMainShadowHidden"
-		"xpos"			"-1"
-		"ypos"			"-1"	[$WIN32]
+		"xpos"			"34"
+		"ypos"			"34"	[$WIN32]
 		"zpos"			"6"
 		"wide"			"96"
 		"tall"			"68"
@@ -95,18 +95,14 @@
 		"textAlignment"	"center"
 		"font"			"product37"
 		"fgcolor"		"0 0 0 255"
-		
-		"pin_to_sibling"	"PlayerStatusHealthValueMain"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"PlayerStatusHealthValueMainShadowHiddenExtra"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueMainShadowHiddenExtra"
-		"xpos"			"-1"
-		"ypos"			"-1"	[$WIN32]
+		"xpos"			"35"
+		"ypos"			"35"	[$WIN32]
 		"zpos"			"6"
 		"wide"			"96"
 		"tall"			"68"
@@ -116,10 +112,7 @@
 		"textAlignment"	"center"
 		"font"			"product37"
 		"fgcolor"		"0 0 0 255"
-		
-		"pin_to_sibling"	"PlayerStatusHealthValueMainShadowHidden"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"alpha"			"0"
 	}
 
 	"PlayerStatusBleedImage"

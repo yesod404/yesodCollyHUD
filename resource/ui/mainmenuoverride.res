@@ -2495,6 +2495,7 @@
 				
 		"image_drawcolor"	"White"
 		"image_armedcolor"	"White"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

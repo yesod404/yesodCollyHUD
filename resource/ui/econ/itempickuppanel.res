@@ -269,12 +269,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "117 107 94 255"
-		"armedBgColor_override" "145 73 59 255"
-		"depressedBgColor_override" "117 107 94 255"
+		"defaultBgColor_override" "30 30 30 255"
+		"armedBgColor_override" "softred"
+		"depressedBgColor_override" "30 30 30 255"
 			
-		"image_drawcolor"	"235 226 202 255"		
-		"image_armedcolor"	"235 226 202 255"		
+		"image_drawcolor"	"White"		
+		"image_armedcolor"	"White"		
 		
 		"SubImage"
 		{
@@ -300,11 +300,11 @@
 		"xpos"			"c180"
 		"ypos"			"175"
 		"zpos"			"11"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"80"
+		"tall"			"30"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"BlackBorder165"
 		
 		"TipLabel"
 		{
@@ -313,15 +313,16 @@
 			"font"			"ProductBold8"
 			"labelText"		"#DiscardItem"
 			"textAlignment"	"center"
-			"xpos"			"12"
+			"xpos"			"0"
 			"ypos"			"0"
+			"zpos"			"2"
 			"wide"			"80"
-			"tall"			"50"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

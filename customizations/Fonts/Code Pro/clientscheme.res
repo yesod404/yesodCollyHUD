@@ -12,13 +12,32 @@ Scheme
 		
 		"CollyHudDarkGray"						"39 39 40 255"
 		
+		"softred"								"180 65 55 255"
+		"softorange"							"237 147 43 255"
+		"softyellow"							"209 185 58 255"
+		"softgreen"								"60 163 115 255"
+		"softblue"								"86 133 181 255"
+		"softpurple"									"82 44 147 255"
+		"softpink"								"240 110 125 255"
+		"softgray"								"67 76 86 255"
+
+		"m0rered"								"255 0 0 255"
+		"m0reorange"							"255 156 74 255"
+		"m0reyellow"							"255 191 0 255"
+		"m0regreen"								"0 185 0 255"
+		"m0reblue"								"24 116 205 255"
+		"m0repurple"									"151 46 236 255"
+		"m0repink"								"250 186 241 255"
+		"m0remagenta"								"255 0 128 255"
+		
+		"kirapurple"							"86 36 195 255"
+		"kiramagenta"						"255 57 108 255"
+		
 		"MainBG"								"39 39 40 255"
 		"MainBGL"								"39 39 40 230"
 		"MenuTransBlack"						"0 0 0 165"
-		
+
 		"softshadow"							"9 9 9 105"
-		"softpink"								"240 110 125 255"
-		"SOFTYELLOW"							"209 185 58 255"
 		"softpinkhighlight"						"60 163 115 255"
 		"darkestgray"							"245 245 245 235"
 		"darkestgraytrans"						"245 245 245 235"
@@ -26,19 +45,12 @@ Scheme
 		"darkergraytrans"						"245 245 245 235"
 		"softshadowdarker"						"245 245 245 235"
 		"OffWhiteTrans"							"216 216 216 125"
-		"softpurple"									"82 44 147 255"
 		
-		"softred"								"180 65 55 255"
 		"softred160"							"180 65 55 160"
-		"softblue"								"86 133 181 255"
-		
 		"softred200"							"180 65 55 255"
 		"softblue200"							"86 133 181 255"
 		
-		"softorange"							"237 147 43 255"
-		"softgreen"								"60 163 115 255"
 		"softgreen160"							"60 163 115 160"
-		"softgray"								"67 76 86 255"
 		"softgraydarker"						"32 36 48 255"
 		"softgraydarkest"						"22 24 32 255"
 		
@@ -8284,6 +8296,11 @@ Scheme
 		{
 			"font" 		"resource/fonts/AvenirLTStd-Black.ttf"
 			"name" 		"AvenirLTStd-Black"
+		}
+		"25"
+		{
+			"font" 		"resource/fonts/Roboto-Bold.ttf"
+			"name" 		"Roboto Bold"
 		}
 	}
 }

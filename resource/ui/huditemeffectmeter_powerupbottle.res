@@ -18,7 +18,7 @@
         "ControlName"     	"EditablePanel"
         "fieldName"     	"ExampleAnchor"
         "xpos"				"rs1-6"
-        "ypos"             	"rs1-54"
+        "ypos"             	"rs1-79"
         "wide"             	"6"
         "tall"             	"20"
         "bgcolor_override"  "0 0 0 165"

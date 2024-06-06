@@ -50,11 +50,9 @@
 					
 				if_mvm
 				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"xpos"				"19"
+					"ypos"				"0"
+					"wide"				"80"
 				}
 			}
 			
@@ -88,11 +86,6 @@
 				
 				if_mvm
 				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
 				}
 			}
 			
@@ -112,7 +105,6 @@
 				
 				if_mvm
 				{
-					"visible"		"0"
 				}
 			}
 			
@@ -161,7 +153,6 @@
 				
 				if_mvm
 				{
-					"visible"		"1"
 				}	
 			}
 			
@@ -183,7 +174,6 @@
 
 				if_mvm
 				{
-					"visible"		"1"
 				}
 			}
 			
@@ -211,7 +201,6 @@
 				
 				if_mvm
 				{
-					"ypos"			"17"
 				}
 			}
 			"respawntimecover"
@@ -237,14 +226,13 @@
 				
 				if_mvm
 				{
-					"ypos"			"17"
 				}
 			}
 			"chargeamountblock"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountblock"
-				"font"			"Blocks48"
+				"font"			"Blocks"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"6"
@@ -255,7 +243,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"center"
-				"fgcolor"		"0 0 0 0"
+				"fgcolor"		"softgreen"
 				
 				"pin_to_sibling"		"HealthIcon"
 				"pin_corner_to_sibling"	"0"
@@ -322,19 +310,11 @@
 			
 			if_mvm
 			{
-				"wide"		"55"
-				"tall"		"35"
 			}
 		}
 		
 		if_mvm
 		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
 		}		
 	}
 
@@ -364,15 +344,18 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ReinforcementsAnchor"
-		"xpos"			"cs-0.5"
-		"ypos"			"r80"
-		"wide"			"f0"
-		"tall"			"24"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"bgcolor_override"	"blank"
+        "xpos"             "0"
+        "ypos"             "46"
+        "wide"             "f0"
+        "tall"             "1"
+        "visible"         "1"
+        "enabled"         "1"
+		
+		if_mvm
+		{
+			"visible"		"1"
+			"ypos"             "150"
+		}	
 	}
 	"ReinforcementsLabel"
 	{
@@ -380,7 +363,10 @@
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"600"
+		"wide"			"60"
+		"proportionaltoparent"	"1"
+		"text_center"			"1"
+		"textinsetx"			"28"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -388,23 +374,22 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"ProductBold14"
-		
-		"bgcolor_override"	"42 46 48 120"
-		"auto_wide_tocontents"	"1"
-		"use_proportional_insets"	"1"
-		"textinsetx"			"16"
+		"font"			"product8"
+		"bgcolor_override"			"0 0 0 165"
+		"border"			"noborder"
+		"auto_wide_tocontents" "1"
 		
 		"pin_to_sibling"		"ReinforcementsAnchor"
 		"pin_corner_to_sibling"	"6"
 		"pin_to_sibling_corner"	"6"
+		
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"c-190"
-		"ypos"			"16"
+		"xpos"			"0"
+		"ypos"			"11"
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -413,9 +398,13 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"product8ds"
 		"wrap"			"1"
 		"centerwrap"	"1"
+	
+		"pin_to_sibling"		"ReinforcementsAnchor"
+		"pin_corner_to_sibling"	"6"
+		"pin_to_sibling_corner"	"6"
 	
 		if_mvm
 		{
