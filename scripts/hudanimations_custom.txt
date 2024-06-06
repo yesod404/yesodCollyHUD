@@ -244,4 +244,3 @@ event HudSpyDisguiseChanged
 
 	RunEvent HudSpyDisguiseHide			0.7
 }
-
