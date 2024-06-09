@@ -7,7 +7,7 @@ Link to Imgur: https://imgur.com/a/DuWMTA8
 ### I am not sure how long it will take me to deal with them, but they are a bitch to work with.
 
 ## Special Thanks
-###These huds/art had massive inspiration on this project
+### These huds/art had massive inspiration on this project
 
 ahud by n0kk
 sammyhud by sammy
