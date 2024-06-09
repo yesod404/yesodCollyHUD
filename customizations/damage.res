@@ -8,6 +8,6 @@
 //=========================================================================================
 
 
-//#base "../resource/ui/huddamage_enabled.res"			// ENABLED
+#base "../resource/ui/huddamage_enabled.res"			// ENABLED
 //#base "../resource/ui/huddamage_centered.res"			// CENTERED
-#base "../resource/ui/huddamage_disabled.res"			// DISABLED
+//#base "../resource/ui/huddamage_disabled.res"			// DISABLED

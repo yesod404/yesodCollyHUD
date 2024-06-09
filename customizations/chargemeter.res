@@ -5,5 +5,5 @@
 // IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED!!
 //================================================================================================
 
-#base "../resource/ui/hudmediccharge_meteroff.res"	//CHARGE METER OFF
-//#base "../resource/ui/hudmediccharge_meteron.res"	//CHARGE METER ON
+//#base "../resource/ui/hudmediccharge_meteroff.res"	//CHARGE METER OFF
+#base "../resource/ui/hudmediccharge_meteron.res"	//CHARGE METER ON
