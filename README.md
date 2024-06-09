@@ -1,13 +1,18 @@
-# yesodCollyHUD
- Updated/Reworked version of Collyhud
+# yesodHUD
 
-Link to Imgur: https://imgur.com/a/DuWMTA8
+A minimalistic custom HUD for Team Fortress 2, base was collyhud created by colly. This HUD was my approach at reworking/updating collyhud, as it is pretty outdated. This originally started as a HUD for myself, but decided to expand it for others.
 
-### Remaining bugs are in Casual at the end of the match (other than windows which 1% of people use), 
-### I am not sure how long it will take me to deal with them, but they are a bitch to work with.
+# Links
 
-## Special Thanks
-### These huds/art had massive inspiration on this project
+[Screenshots](https://imgur.com/a/DuWMTA8)
+
+# Compatibility
+
+This HUD supports every gamemode, including hybrids. Supported customization with fonts, health styles, and many more. This HUD supports 4:3 as well.
+
+The only other bugs of major note are dealing with end of match stuff in Casual, but it is a pain to work with. As well as windows that only 1% of people use :P.
+
+## Credits
 
 * ahud by n0kk
 * sammyhud by sammy
@@ -16,4 +21,12 @@ Link to Imgur: https://imgur.com/a/DuWMTA8
 * HexHud by Hypnotize
 * TF2 Symbols by Hypnotize
 
-I have much appreciation for all of the members of HUDS.TF for being incredibly polite and helpful.
+I have much appreciation for all of the members of HUDS.TF for being incredibly polite and helpful. However, big thanks to:
+
+* techno
+* Village Green Preserver
+*  kogasa
+* Revan
+* Hypnotize
+
+This project would not have been completed without them :)
