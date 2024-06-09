@@ -236,12 +236,17 @@
 			"ypos"		"r142"
 		}
 
+		"if_hybrid_single"
+		{
+			"xpos"		"c-25"
+			"ypos"		"r75"
+		}
+
 		"if_specialdelivery"
 		{
 			"visible"	"r142"
 		}
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -328,7 +333,7 @@
 		"if_mvm"
 		{
 			"xpos"		"c-20"
-			"ypos"		"rs1.4"
+			"ypos"		"rs1.5"
 		}
 
 		"if_hybrid"

@@ -9,7 +9,7 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"0 0 0 165"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"border"				"GrayDialogBorder"
@@ -33,7 +33,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""
-				"font"			"HudFontSmallBold"
+				"font"			"Product10"
 				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
@@ -66,19 +66,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"ProductBold28"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"400"
-		"tall"			"25"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 	
 	"PlayerListScroller"
@@ -90,7 +90,7 @@
 		"wide"			"380"
 		"tall"			"130"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"0 0 0 64"
 		
 		"PlayerList"
@@ -115,13 +115,13 @@
 		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Product10"
 			"labelText"		"#TF_TradeStartDialog_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -133,7 +133,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "softred"
 		}	
 
 		"subbutton0"
@@ -219,7 +219,7 @@
 		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	
 		"QueryLabel"
 		{
@@ -270,7 +270,7 @@
 		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	
 		"QueryLabel"
 		{
@@ -322,7 +322,7 @@
 		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	
 		"QueryLabel"
 		{
@@ -361,7 +361,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "117 107 94 255"
+			"fgcolor_override" "softyellow"
 		}	
 		
 		"URLFailLabel"
@@ -382,7 +382,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "softred"
 		}	
 		"URLSearchingLabel"
 		{
@@ -402,7 +402,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "White"
 		}	
 		
 		"URLEntry"
@@ -424,7 +424,7 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"wrap"				"0"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""

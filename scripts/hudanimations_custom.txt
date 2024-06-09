@@ -39,9 +39,30 @@ event HudHealthBonusPulse
 	Animate	HPReal 							FgColor		"47 185 123 240"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"softgreen"		Linear 0.0 0.0
 	
-	Animate PlayerStatusHealthValueMain		FgColor		"White"	Linear 0.0	0.0
-	Animate PlayerStatusHealthValueMainShadowHidden		FgColor		"kirapurple"	Linear 0.0	0.0
-	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"255"		Linear	0.0 0.0
+	Animate	PlayerStatusHealthValueMain 	FgColor		"White"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"0"		Linear	0.0 0.0
+	
+	//STANDARD STYLE
+	Animate	PlayerStatusHealthValueMain 	FgColor		"White"			Linear 0.0 0.0
+	
+	//M0RESHADOW STYLE
+	Animate m0reHealth						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate m0reHealthShadow					FgColor 	"m0reblue" 						Linear 	0.0		0.0
+	Animate m0reHealthShadowExtra					Alpha 		"255" 								Linear 	0.0		0.0
+	
+	//SHADOW STYLE
+	Animate Health_Shadow						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate Health_Shadow_Buff					FgColor 	"softgreen" 						Linear 	0.0		0.0
+	Animate Health_Shadow_Extra					Alpha 		"255" 								Linear 	0.0		0.0
+	
+	//MINIMAL STYLE
+	Animate HealthMinimal		FgColor		"75 125 255 255"	Linear 0.0	0.075
+	Animate HealthMinimal		FgColor		"0 200 255 255"	Linear 0.125	0.075
+	
+	//BOX STYLE
+	Animate	HealthBoxBG		BgColor		"0 255 127 255"		Accel 0.0 0.0
+	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
+	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 	
 	Animate	BuffBG 							Alpha		"255"				Linear 0.0 0.0
 	Animate	BuffBG2							Alpha		"200"				Linear 0.0 0.0
@@ -63,9 +84,29 @@ event HudHealthBonusPulseStop
 	Animate	BuffBG2 						Alpha		"0"					Linear 0.0 0.0
 	Animate	HPReal 							FgColor		"220 220 220 250"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"0 0 0 200"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueMain 	FgColor		"0 0 0 255"			Linear 0.0 0.0
 	
-	Animate PlayerStatusHealthValueMain		FgColor		"White"	Linear 0.0	0.0
-	Animate PlayerStatusHealthValueMainShadowHidden		FgColor		"0 0 0 255"	Linear 0.0	0.0
+	//STANDARD STYLE
+	Animate	PlayerStatusHealthValueMain 	FgColor		"White"			Linear 0.0 0.0
+	
+	//M0RESHADOW STYLE
+	Animate m0reHealth						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate m0reHealthShadow					FgColor 	"0 0 0 255" 						Linear 	0.0		0.0
+	Animate m0reHealthShadowExtra					Alpha 		"0" 								Linear 	0.0		0.0
+	
+	//SHADOW STYLE
+	Animate Health_Shadow						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate Health_Shadow_Buff					FgColor 	"0 0 0 255" 						Linear 	0.0		0.0
+	Animate Health_Shadow_Extra					Alpha 		"255" 								Linear 	0.0		0.0
+	
+	//MINIMAL STYLE
+	Animate HealthMinimal		FgColor		"White"	Linear 0.0	0.0
+	
+	//BOX STYLE
+	Animate	HealthBoxBG		BgColor		"Blank"		Accel 0.0 0.0
+	Animate	HealthBoxBG		Alpha		"0"		Accel 0.0 0.0
+	
+	
 	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"0"		Linear	0.0 0.0
 }
 
@@ -74,14 +115,32 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"					Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"					Linear 0.125 0.075
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"softred"			Linear 0.0 0.0
-	Animate PlayerStatusHealthValueMain		FgColor		"White"	Linear 0.0	0.0
-	Animate PlayerStatusHealthValueMainShadowHidden		FgColor		"kiramagenta"	Linear 0.0	0.0
-	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"255"		Linear	0.0 0.0
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.0
 	Animate	HurtBG 							Alpha		"255"				Linear 0.0 0.0
+
+	//STANDARD STYLE
+	Animate	PlayerStatusHealthValueMain 	FgColor		"White"			Linear 0.0 0.0
+	
+	//M0RESHADOW STYLE
+	Animate m0reHealth						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate m0reHealthShadow					FgColor 	"m0rered" 						Linear 	0.0		0.0
+	Animate m0reHealthShadowExtra					Alpha 		"255" 								Linear 	0.0		0.0
+
+	//SHADOW STYLE
+	Animate Health_Shadow						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate Health_Shadow_Buff					FgColor 	"softred" 						Linear 	0.0		0.0
+	Animate Health_Shadow_Extra					Alpha 		"255" 								Linear 	0.0		0.0
+
+	//MINIMAL STYLE
+	Animate HealthMinimal		FgColor		"255 0 0 255"	Linear 0.0	0.075
+	Animate HealthMinimal		FgColor		"255 75 75 255"	Linear 0.125	0.075
+
+	//BOX STYLE
+	Animate	HealthBoxBG		BgColor		"200 45 45 255"		Accel 0.0 0.0
+	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
+	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
+
 
 	RunEvent HudHealthDyingPulseLoop		0.25
 }
@@ -100,9 +159,25 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"White"			Linear 0.0 0.0
 
-	Animate PlayerStatusHealthValueMain		FgColor		"White"	Linear 0.0	0.0
-	Animate PlayerStatusHealthValueMainShadowHidden		FgColor		"0 0 0 255"	Linear 0.0	0.0
-	Animate PlayerStatusHealthValueMainShadowHiddenExtra	Alpha	"0"		Linear	0.0 0.0
+	//STANDARD STYLE
+	Animate	PlayerStatusHealthValueMain 	FgColor		"White"			Linear 0.0 0.0
+
+	//M0RESHADOW STYLE
+	Animate m0reHealth						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate m0reHealthShadow					FgColor 	"0 0 0 255" 						Linear 	0.0		0.0
+	Animate m0reHealthShadowExtra					Alpha 		"0" 								Linear 	0.0		0.0
+
+	//SHADOW STYLE
+	Animate Health_Shadow						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate Health_Shadow_Buff					FgColor 	"0 0 0 255" 						Linear 	0.0		0.0
+	Animate Health_Shadow_Extra					Alpha 		"255" 								Linear 	0.0		0.0
+
+	//MINIMAL STYLE
+	Animate HealthMinimal		FgColor		"White"	Linear 0.0	0.075
+
+	//BOX STYLE
+	Animate	HealthBoxBG		BgColor		"Blank"		Accel 0.0 0.0
+	Animate	HealthBoxBG		Alpha		"0"		Accel 0.0 0.0
 
 }
 

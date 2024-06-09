@@ -27,7 +27,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"ItemEffectMeterLabel"
 		"xpos"						"10"
-		"ypos"						"3"
+		"ypos"						"10"
 		"zpos"						"2"
 		"wide"						"80"
 		"tall"						"15"
@@ -40,7 +40,7 @@
 		"textAlignment"				"center"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"font"						"HudFontSmallest"
+		"font"						"Product7"
 		"fgcolor"					"menutext"
 	}
 	
@@ -49,7 +49,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"JetpackAnchor"
 		"xpos"						"10"
-		"ypos"						"15"
+		"ypos"						"12"
 		"wide"						"80"
 		"tall"						"1"
 		"visible"					"1"

@@ -49,7 +49,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AmmoInClip"
-		"font"					"product37"
+		"font"					"HealthAmmo"
 		"fgcolor"				"236 236 236 255"
 		"xpos"					"0"
 		"ypos"					"32"
@@ -66,7 +66,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AmmoInClipShadow"
-		"font"					"product37"
+		"font"					"HealthAmmo"
 		"fgcolor"				"0 0 0 255"
 		"xpos"					"2"
 		"ypos"					"34"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AmmoInReserve"
-		"font"					"product22"
+		"font"					"ReserveAmmo"
 		"fgcolor"				"White"
 		"xpos"			"70"
 		"ypos"			"34"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AmmoInReserveShadow"
-		"font"					"product22"
+		"font"					"ReserveAmmo"
 		"fgcolor"				"0 0 0 255"
 		"xpos"			"70"
 		"ypos"			"35"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AmmoNoClip"
-		"font"					"product37"
+		"font"					"HealthAmmo"
 		"fgcolor"				"236 236 236 255"
 		"xpos"					"24"
 		"ypos"					"32"
@@ -135,7 +135,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AmmoNoClipShadow"
-		"font"					"product37"
+		"font"					"HealthAmmo"
 		"fgcolor"				"0 0 0 255"
 		"xpos"					"26"
 		"ypos"					"34"

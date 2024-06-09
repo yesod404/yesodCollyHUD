@@ -62,6 +62,8 @@
 		"alpha"								"255"
 		"bgcolor_override"					"blank"
 		"PaintBackgroundType"				"0"
+		"selectionhover"								"1"
+
 		
 		"pin_to_sibling"					"SoldierButtonPanel"
 		"pin_corner_to_sibling"				"2"
@@ -87,7 +89,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -178,7 +180,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -269,7 +271,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -360,7 +362,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -451,7 +453,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -505,7 +507,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"EngineerButtonPanel"
-		"xpos"								"cs-0.5"
+		"xpos"								"cs-0"
 		"ypos"								"cs0"
 		"zpos"								"3"
 		"wide"								"110"
@@ -538,7 +540,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -629,7 +631,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -720,7 +722,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -793,7 +795,7 @@
 		
 		"TeamButtonNumber"
 		{
-			"labelText"						"&I"
+			"labelText"						"&W"
 			"command"						"select 8"
 			
 			"fgcolor"						"White"
@@ -811,7 +813,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -902,7 +904,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"paintborder"					"0"
-			"font"							"Symbols 18"
+			"font"							"Class Symbols 18"
 			"textAlignment"					"center"
 			
 			"textinsetx"					"0"
@@ -2125,6 +2127,44 @@
 		"fgcolor"		"blank"
 	}
 	
+	"TFPlayerModelBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"TFPlayerModelBG"
+		"xpos"										"3"
+		"ypos"										"0"
+		"zpos"										"5"
+		"wide"										"180"
+		"tall"										"220"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"0 0 0 165"
+		"proportionaltoparent"						"1"
+
+		"InnerBG"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldname"								"InnerBG"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"6"
+			"wide"									"f6"
+			"tall"									"f6"
+			"visible"								"1"
+			"enabled"								"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"0 0 0 165"
+			"proportionaltoparent"					"1"
+		}
+
+		"pin_to_sibling"							"ScoutButtonPanel"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
@@ -2762,42 +2802,141 @@
 		"fieldName"		"TFPlayerModel"
 		
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"7"
 		"zpos"			"6"		
-		"wide"			"0"
-		"tall"			"0"
+		"wide"										"180"
+		"tall"										"250"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"									"1"
+		"enabled"									"1"
 		
-		"render_texture"	"0"
-		"fov"			"25"
-		"allow_rot"		"0"
+		"render_texture"							"0"
+		"fov"										"15"
+		"allow_rot"									"0"
 
-		"paintbackground" "1"		
-		"paintbackgroundenabled" "1"
+		"paintbackground"							"0"
+		"paintbackgroundenabled" 					"1"
 		"bgcolor_override" "255 255 255 0"
 		
 		"model"
 		{
 			"force_pos"	"1"
 
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "320"
-			"origin_y" "10"
-			"origin_z" "-49"
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"0"
-			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"angles_x" 								"0"
+			"angles_y" 								"180"
+			"angles_z" 								"0"
+			"origin_x" 								"320"
+			"origin_y" 								"0"
+			"origin_z" 								"-40"
+			"frame_origin_x"						"0"
+			"frame_origin_y"						"0"
+			"frame_origin_z"						"0"
+			"spotlight" 							"1"
 		
 			"modelname"		""
 			"vcd"		"class_select.vcd"
 		}
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"								"15"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"320"
+				"origin_y"							"-4"
+				"origin_z"							"-39"
+			}
+			"Sniper"
+			{
+				"fov"								"14"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"320"
+				"origin_y"							"-2"
+				"origin_z"							"-43"
+			}
+			"Soldier"
+			{
+				"fov"								"14"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"320"
+				"origin_y"							"-4"
+				"origin_z"							"-40"
+			}
+			"Demoman"
+			{
+				"fov"								"15"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"320"
+				"origin_y"							"-8"
+				"origin_z"							"-42"
+			}
+			"Medic"
+			{
+				"fov"								"15"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"320"
+				"origin_y"							"-3"
+				"origin_z"							"-43"
+			}
+			"Heavy"
+			{
+				"fov"								"16"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"320"
+				"origin_y"							"-4"
+				"origin_z"							"-43"
+			}
+			"Pyro"
+			{
+				"fov"								"15"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"320"
+				"origin_y"							"-5"
+				"origin_z"							"-43"
+			}
+			"Spy"
+			{
+				"fov"								"15"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"320"
+				"origin_y"							"-7"
+				"origin_z"							"-44"
+			}
+			"Engineer"
+			{
+				"fov"								"14"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"320"
+				"origin_y"							"-5"
+				"origin_z"							"-39"
+			}
+		}
+
+		"pin_to_sibling"							"TFPlayerModelBG"
+	}
 	}
 	
 	"ClassTipsPanel"

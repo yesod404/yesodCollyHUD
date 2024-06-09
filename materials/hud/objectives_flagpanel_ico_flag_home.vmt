@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/ctf_icons/objectives_flagpanel_ico_flag_home"
+	"$translucent" 1
+}

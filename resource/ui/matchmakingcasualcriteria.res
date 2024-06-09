@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlaylistBGPanel"
-		"xpos"			"0"
-		"ypos"			"15"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"p0.98"
+		"tall"			"p1"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
@@ -16,50 +16,14 @@
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
-		"RankImage"
-		{
-			"ControlName"	"CTFLocalPlayerBadgePanel"
-			"fieldName"		"RankImage"
-			"xpos"			"4"
-			"ypos"			"-8"
-			"zpos"			"110"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"matchgroup"	"MatchGroup_Casual_12v12"
-		}
-	
-		"RankPanel"
-		{
-			"ControlName"	"CPvPRankPanel"
-			"fieldName"		"RankPanel"
-			"xpos"			"-70"
-			"ypos"			"-35"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"matchgroup"	"MatchGroup_Casual_12v12"
-
-			"show_model"	"0"
-			"show_name"		"0"
-		}
-
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"rs1-83"
-			"ypos"			"4"
+			"xpos"			"rs1-49"
+			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"20"
+			"wide"			"15"
 			"tall"			"o1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -77,14 +41,14 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
@@ -92,7 +56,6 @@
 				"enabled"		"1"
 				"image"			"button_load"
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
 			}
 		}
 
@@ -100,10 +63,10 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"rs1-59"
-			"ypos"			"4"
+			"xpos"			"rs1-29"
+			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"20"
+			"wide"			"15"
 			"tall"			"o1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -121,14 +84,14 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
@@ -136,7 +99,6 @@
 				"enabled"		"1"
 				"image"			"button_save"
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
 			}
 		}
 
@@ -144,18 +106,18 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowExplanationsButton"
-			"xpos"			"r16"
-			"ypos"			"4"
+			"xpos"			"rs1-9"
+			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"15"
+			"tall"			"o1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"?"
-			"font"			"product8"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -171,15 +133,15 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"Title"
-			"xpos"		"10"
-			"ypos"		"47"
+			"xpos"		"9999"
+			"ypos"		"9999"
 			"zpos"		"0"
-			"wide"		"0"
+			"wide"		"f0"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
-			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
+			"textAlignment"	"west"
+			"font"			"nüBold18"
 		
 			"mouseinputenabled"	"0"
 		}
@@ -188,21 +150,19 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"		"0"
-			"ypos"		"4"
+			"xpos"		"10"
+			"ypos"		"1"
 			"zpos"		"0"
-			"wide"		"100"
-			"tall"		"20"
+			"wide"		"f0"
+			"tall"		"14"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"product8"
-			"fgcolor_override"	"tanlight60"
+			"font"			"nüMedium12"
+			"fgcolor_override"	"White"
 		
 			"mouseinputenabled"	"1"
 		}
-		
-		
 
 		"QueueEstimation"
 		{
@@ -224,36 +184,51 @@
 			"mouseinputenabled"	"0"
 		}
 
+		"PlayListDropShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PlayListDropShadow"
+			"xpos"			"cs-0.5"
+			"ypos"			"18"
+			"zpos"			"101"
+			"wide"			"f15"
+			"tall"			"f0"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"border"		"InnerShadowBorder"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+		}
 
 		"GameModesList"
 		{
 			"ControlName"	"CScrollableList"
 			"fieldName"		"GameModesList"
-			"xpos"			"0"
-			"ypos"			"28"
-			"wide"			"f0"
-			"tall"			"f32"
+			"xpos"			"cs-0.5"
+			"ypos"			"18"
+			"wide"			"f15"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
 
-			"border"		"noborder"
+			"border"		"MainMenuBGBorder"
 
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
+				"xpos"			"rs0.7-1"
 				"ypos"			"0"
 				"tall"			"f0"
-				"wide"			"3" // This gets slammed from client schme.  GG.
-				"zpos"			"1001"
+				"wide"			"5" // This gets slammed from client schme.  GG.
+				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
 
 				"Slider"
 				{
-					"fgcolor_override"	"255 255 255 16"
+					"fgcolor_override"	"White"
 				}
 		
 				"UpButton"

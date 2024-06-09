@@ -52,16 +52,16 @@ Scheme
 		Button.DepressedBgColor							"blank"
 		Button.FocusBorderColor							"82 82 82 0"
 
-		CheckButton.TextColor							"white60"
+		CheckButton.TextColor							"White"
 		CheckButton.SelectedTextColor					"White"
-		CheckButton.BgColor								"TransparentBlack"
-		CheckButton.Border1  							"blank" 		// the left checkbutton border
-		CheckButton.Border2  							"blank"		// the right checkbutton border
+		CheckButton.BgColor								"softgray"
+		CheckButton.Border1  							"Border.Dark" 		// the left checkbutton border
+		CheckButton.Border2  							"Border.Bright"		// the right checkbutton border
 		CheckButton.Check								"white"	// color of the check itself
 		CheckButton.HighlightFgColor					"white"
 		CheckButton.ArmedBgColor						"Blank"
 		CheckButton.DepressedBgColor					"Blank"
-		CheckButton.DisabledBgColor	   					"153 153 153 255"
+		CheckButton.DisabledBgColor	   					"Blank"
 
 		ComboBoxButton.ArrowColor						"white"
 		ComboBoxButton.ArmedArrowColor					"softred"

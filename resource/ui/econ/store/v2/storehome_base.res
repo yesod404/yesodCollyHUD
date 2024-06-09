@@ -35,7 +35,7 @@
 		
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"9 9 9 255"
+		"item_backdrop_color"				"17 17 17 255"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
@@ -44,7 +44,7 @@
 
 		"item_backdrop_zpos"				"1"
 		
-		"item_panel_bgcolor"			"24 24 24 255"
+		"item_panel_bgcolor"			"0 0 0 165"
 		"item_panel_bgcolor_mouseover"	"softgreen"
 		"item_panel_bgcolor_selected"	"softgreen"
 		
@@ -172,7 +172,8 @@
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		
-		"text_ypos"			"20"
+		"text_xpos"			"0"
+		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
@@ -315,11 +316,11 @@
 			"font"			"ProductBold12"
 			
 			"fgcolor"	"White"
-			"defaultBgColor_override" "9 9 10 255"
+			"defaultBgColor_override" "17 17 17 255"
 			"defaultFgColor_override" "165 165 165 255"
-			"armedBgColor_override" "9 9 10 255"
+			"armedBgColor_override" "17 17 17 255"
 			"armedFgColor_override" "White"
-			"selectedBgColor_override" "9 9 10 255"
+			"selectedBgColor_override" "17 17 17 255"
 			"selectedFgColor_override"	"White"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -352,7 +353,7 @@
 		"tabPosition"	"0"
 		"labelText"		"<"
 		"font"			"ProductBold10"
-		"defaultBgColor_override" "24 24 24 255"
+		"defaultBgColor_override" "0 0 0 165"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -395,7 +396,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		">"
-		"defaultBgColor_override" "24 24 24 255"
+		"defaultBgColor_override" "0 0 0 165"
 		"font"			"ProductBold10"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -508,7 +509,7 @@
 		"default"		"1"
 		"Command"		"marketplace"
 		"paintbackground"	"1"
-		"defaultBgColor_override" "24 24 24 255"
+		"defaultBgColor_override" "0 0 0 165"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

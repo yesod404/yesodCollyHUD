@@ -34,7 +34,7 @@
 
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"9 9 9 255"
+		"item_backdrop_color"				"softpink"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
@@ -275,7 +275,8 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"text_ypos"			"20"
+		"text_xpos"			"0"
+		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
@@ -321,7 +322,7 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"White"
 	}
 
 	"PrevPageButton"
