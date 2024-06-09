@@ -49,7 +49,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"18"
+				"tall"										"22"
 			}
 		}
 

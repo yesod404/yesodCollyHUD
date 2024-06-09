@@ -48,8 +48,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"SurfaceSharpened-Medium"
-				"tall"										"18"
+				"name"										"Surface-Medium"
+				"tall"										"22"
 			}
 		}
 
@@ -73,6 +73,11 @@ Scheme
 		{
 			"font" 		"resource/fonts/surface_sharpened.ttf"
 			"name" 		"SurfaceSharpened-Medium"
+		}
+		"84"
+		{
+			"font" "resource/fonts/Surface_Medium.otf"
+			"name" "Surface-Medium"  
 		}
 	}
 }
