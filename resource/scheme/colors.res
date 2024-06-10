@@ -31,7 +31,7 @@
 		"m0remagenta"								"255 0 128 255"
 		
 		"kirapurple"							"86 36 195 255"
-		"kiramagenta"						"255 57 108 255"
+		"kiramagenta"						"180 63 91 255"
 		
 		"MainBG"								"39 39 40 255"
 		"MainBGL"								"39 39 40 230"
