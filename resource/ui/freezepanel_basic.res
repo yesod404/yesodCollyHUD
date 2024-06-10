@@ -68,7 +68,7 @@
 			"tall"									"28"
 			"visible"								"1"
 			"enabled"								"1"
-			"labeltext"									"m"
+			"labeltext"									"K"
 			"font"										"Symbols 30"
 			"fgcolor"  									"255 255 255 255"
 			"pin_to_sibling" 						"DeathIconBG2"

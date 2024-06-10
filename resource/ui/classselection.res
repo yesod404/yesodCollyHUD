@@ -2514,8 +2514,8 @@
 		"alpha"			"165"
 		
 		"pin_to_sibling" 		"ScoutButtonPanel"
-        "pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
-        "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 	
 	"MvMUpgradeImageSolider"
@@ -2535,8 +2535,8 @@
 		"alpha"			"165"
 		
 		"pin_to_sibling" 		"SoldierButtonPanel"
-        "pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
-        "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 	
 	"MvMUpgradeImagePyro" 
@@ -2556,8 +2556,8 @@
 		"alpha"			"165"
 		
 		"pin_to_sibling" 		"PyroButtonPanel"
-        "pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
-        "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 	
 	"MvMUpgradeImageDemoman" 
@@ -2577,8 +2577,8 @@
 		"alpha"			"165"
 		
 		"pin_to_sibling" 		"DemoButtonPanel"
-        "pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
-        "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 	
 	"MvMUpgradeImageHeavy"
@@ -2598,8 +2598,8 @@
 		"alpha"			"165"
 		
 		"pin_to_sibling" 		"HeavyButtonPanel"
-        "pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
-        "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 	
 	"MvMUpgradeImageEngineer"
@@ -2619,8 +2619,8 @@
 		"alpha"			"165"
 		
 		"pin_to_sibling" 		"EngineerButtonPanel"
-        "pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
-        "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 	
 	"MvMUpgradeImageMedic"
@@ -2640,8 +2640,8 @@
 		"alpha"			"165"
 		
 		"pin_to_sibling" 		"MedicButtonPanel"
-        "pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
-        "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 	
 	"MvMUpgradeImageSniper"
@@ -2661,8 +2661,8 @@
 		"alpha"			"165"
 		
 		"pin_to_sibling" 		"SniperButtonPanel"
-        "pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
-        "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 	
 	"MvMUpgradeImageSpy"
@@ -2682,8 +2682,8 @@
 		"alpha"			"165"
 		
 		"pin_to_sibling" 		"SpyButtonPanel"
-        "pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
-        "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
 	}
 
 	"StartExplanation"
