@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/icon_obj_blu_locked"
+	"$baseTexture" "vgui/replay/thumbnails/cp_icons/icon_obj_blu_locked"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
