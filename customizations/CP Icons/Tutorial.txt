@@ -1,0 +1,21 @@
+//==============================================================================================
+// CAPTURE POINT ICONS
+//==============================================================================================
+// This text document will give you more information on how to change your capture point icons.
+//==============================================================================================
+
+Changing of the Textures:
+
+The first thing to do is to manually change the texture of all the cp icons. To do this, navigate to materials/vgui/replay/thumbnails/cp_icons.
+You will see a folder at the top called "Alternatives", this contains the materials for the different types, which you can reference to with the photo in customizations.
+
+Changing of the Cap Mask:
+
+Colly & Default work together fine, however Alternate is different, so make sure if you want to used the Alternate version, navigate to the folder "Alternate" in customizations/CP Icons.
+This will contain the .vmt files you need to change to make sure it is compatible. You will place these in materials/sprites/obj_icons.
+
+If you want to go back to Colly or Default, repeat the same process above except pulling from the "Colly & Default" folder in the same location.
+
+Loading Everything:
+
+After everything is put into place, do mat_reloadallmaterials in console. The server must be on sv_cheats 1, so you will have to go into a private server or restart your game.
