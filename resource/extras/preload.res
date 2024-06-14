@@ -609,4 +609,71 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_red_up"
 	}
+	"blumodelbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpcapredup"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/model_bg_blue"
+	}
+	"redmodelbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpcapredup"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/model_bg_red"
+	}
+	"cpicona"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpicona"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_a"
+	}
+	
+	"cpiconb"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpiconb"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_b"
+	}
+	
+	"cpiconc"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpiconc"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_c"
+	}
+	
+	"cpicond"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpicond"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_d"
+	}
+	
+	"cpicone"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpicone"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_e"
+	}
 }

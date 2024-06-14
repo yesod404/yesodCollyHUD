@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"-5"		[$WIN32]
+		"xpos"			"9999"		[$WIN32]
 		//"xpos_minmode"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
 		//"ypos_minmode"	"r44"	[$WIN32]
