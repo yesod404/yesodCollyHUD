@@ -53,7 +53,7 @@
         "ControlName"     "EditablePanel"
         "fieldName"     "ExampleAnchor"
         "xpos"             "0"
-        "ypos"             "46"
+        "ypos"             "50"
         "wide"             "f0"
         "tall"             "1"
         "visible"         "1"
