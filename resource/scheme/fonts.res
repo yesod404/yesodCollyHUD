@@ -2748,6 +2748,17 @@
 				"dropshadow" "1"
 			}
 		}
+		"product14ds"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"14"
+				"antialias" "1"
+				"additive"	"0"
+				"dropshadow" "1"
+			}
+		}
 		"productsans8"
 		{
 			"1"

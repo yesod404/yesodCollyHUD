@@ -1,122 +1,149 @@
-"Resource/UI/FreezePanelKillerHealth.res"
+"Resource/UI/SpectatorGUIHealth.res"
 {
-	"HealthBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HealthBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"  					"1"
-		"paintbackground"  							"1"
-		"paintbackgroundtype"  						"0"
-		"bgcolor_override"  						"CollyHudDarkGray"
-	}
-	"BuffBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BuffBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"alpha"			"0"
-		"proportionaltoparent"  					"1"
-		"paintbackground"  							"1"
-		"paintbackgroundtype"  						"0"
-		"bgcolor_override"  						"softgreen"
-	}
-	"HurtBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HurtBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"alpha"			"0"
-		"enabled"									"1"
-		"proportionaltoparent"  					"1"
-		"paintbackground"  							"1"
-		"paintbackgroundtype"  						"0"
-		"bgcolor_override"  						"softred"
-	}
-
-	"Health_Killer"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Health_Killer"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
-		"zpos"										"20"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"
-		"labeltext"									"%Health%"
-		"font"										"ProductBold24"
-		"fgcolor"  									"255 255 255 255"
-		"proportionaltoparent"  					"1"
-	}
-
-	"Health_Killer_Shadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Health_Killer_Shadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"19"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"0"
-		"enabled"									"1"
-		"textAlignment"								"center"
-		"labeltext"									"%Health%"
-		"font"										"ProductBold20"
-		"fgcolor"  									"0 0 0 255"
-		"proportionaltoparent"  					"1"
-		"pin_to_sibling"							"Health_Killer"
-	}
-
-
-
-
-
-
-
-	//REMOVED STUFF
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImage"
-		"xpos"										"9999"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"xpos"			"226"
+		"ypos"			"2"
+		"zpos"			"4"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImageBG"
-		"xpos"										"9999"
-	}
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"9999"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"224"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"
 	}
 	"BuildingStatusHealthImageBG"
 	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BuildingStatusHealthImageBG"
-		"xpos"										"9999"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuildingStatusHealthImageBG"
+		"xpos"			"9999"
+	}
+	"PlayerStatusHealthValueMain"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"PlayerStatusHealthValueMain"
+		"xpos"			"0"//-9
+		"ypos"			"0"//11
+		"zpos"			"28"
+		"wide"			"200"
+		"tall"			"42"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"%Health%"
+		"textAlignment"		"center"
+		"font"			"ProductBold28"//"DefaultVerySmall"
+		"fgcolor_override"		"tanlight"
+	}
+	"PlayerStatusHealthValueMainS"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"PlayerStatusHealthValueMainS"
+		"xpos"			"1"//-9
+		"ypos"			"1"//11
+		"zpos"			"20"
+		"wide"			"200"
+		"tall"			"42"
+		"visible"		"0"
+		"enabled"		"0"
+		"labeltext"		"%Health%"
+		"textAlignment"		"center"
+		"font"			"ProductBold28"//"DefaultVerySmall"
+		"fgcolor_override"		"0 0 0 255"
+	}
+
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ScaleableImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"14"
+		"wide"			"0"
+		"tall"			"19"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/white"
+		"border"			"blurborder"
+		"scaleImage"	"1"
+	}
+
+	"NORMBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NORMBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"0"
+		"alpha"			"255"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"			"180 180 180 0"
+		"border"			"blurborder"
+		"scaleImage"	"1"
+
+	}
+
+	"HurtBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HurtBG"
+		"xpos"			"76"
+		"ypos"			"8"
+		"zpos"			"-1000"
+		"wide"			"48"
+		"alpha"			"0"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"softred"
+	}
+
+	"BuffBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuffBG"
+		"xpos"			"76"
+		"ypos"			"8"
+		"zpos"			"-1000"
+		"wide"			"48"
+		"alpha"			"0"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"softgreen"
+	}
+	
+
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusPlayerLevel"
+		"xpos"			"8"
+		"ypos"			"9"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"16"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"font"			"ScoreboardVerySmall"
+		"fgcolor"		"TFOrange"
 	}
 }
