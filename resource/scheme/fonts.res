@@ -23,7 +23,7 @@
 			"1"
 			{
 				"name"		"product sans"
-				"tall"		"8"
+				"tall"		"10"
 				"weight"	"0"
 				"antialias"	"1"
 			}
@@ -1102,7 +1102,7 @@
 			"1"
 			{
 				"name"		"product sans"
-				"tall"		"8"
+				"tall"		"20"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"

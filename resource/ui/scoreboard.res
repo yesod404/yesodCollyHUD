@@ -1,101 +1,4 @@
-
-
-
 #base "../../resource/extras/scoreboard/compsafe.res"
-
-
-
-// If you're playing TF2 competitively (ETF2L, RGL, etc.), leave the above line alone.
-// This also goes for if you're using DX8.
-// If you wish to use the old collyhud scoreboard effect, comment the above line using // before the line.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 "Resource/UI/Scoreboard.res"
 {
@@ -193,7 +96,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"c-255"		
-		"ypos"			"r279"
+		"ypos"			"150"
 		"zpos"			"-1"
 		"wide"			"255"
 		"tall"			"258"
@@ -220,7 +123,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG2"
 		"xpos"			"c0"		
-		"ypos"			"r279"
+		"ypos"			"150"
 		"zpos"			"-1"
 		"wide"			"255"
 		"tall"			"258"
@@ -242,7 +145,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueTeamBorder"
 		"xpos"			"cs-1.005"
-		"ypos"			"r302"
+		"ypos"			"126"
 		"zpos" 			"1"
 		"wide"			"254"
 		"tall"			"2"
@@ -263,7 +166,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueTeamLabelBG"
 		"xpos"			"cs-1.005"
-		"ypos"			"r301"
+		"ypos"			"127"
 		"zpos" 			"0"
 		"wide"			"254"
 		"tall"			"21"
@@ -284,7 +187,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedTeamBorder"
 		"xpos"			"cs0.005"
-		"ypos"			"r302"
+		"ypos"			"126"
 		"zpos"			"5"
 		"wide"			"254"
 		"tall"			"2"
@@ -309,7 +212,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamLabelBG"
 		"xpos"			"cs0.005"
-		"ypos"			"r301" 
+		"ypos"			"127" 
 		"wide"			"254"
 		"tall"			"21"
 		"autoResize"	"0"
@@ -410,7 +313,7 @@
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"c-251"			
-		"ypos"			"r301"				
+		"ypos"			"127"				
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"20"
@@ -440,7 +343,7 @@
 		"fgcolor"		"White"
 		"textAlignment"	"center"
 		"xpos"			"c-75"
-		"ypos"			"r311"			[!$OSX]
+		"ypos"			"117"
 		"zpos"			"5"
 		"wide"			"99"
 		"tall"			"41"
@@ -477,7 +380,7 @@
 		"fgcolor"		"White"
 		"textAlignment"	"east"
 		"xpos"			"c-237"
-		"ypos"			"r297"
+		"ypos"			"131"
 		"wide"			"160"
 		"tall"			"13"
 		"visible"		"1"
@@ -497,7 +400,7 @@
 		"fgcolor"		"White"
 		"textAlignment"	"east"
 		"xpos"			"c150"
-		"ypos"			"r301"				
+		"ypos"			"127"				
 		"zpos"			"5"		
 		"wide"			"100"
 		"tall"			"20"
@@ -520,7 +423,7 @@
 		"fgcolor"		"White"
 		"textAlignment"	"center"
 		"xpos"			"c-25"
-		"ypos"			"r311"
+		"ypos"			"117"
 		"zpos"			"5"
 		"wide"			"99"
 		"tall"			"41"
@@ -547,7 +450,7 @@
 		"fgcolor"		"White"
 		"textAlignment"	"west"
 		"xpos"			"c77"
-		"ypos"			"r297"
+		"ypos"			"131"
 		"wide"			"160"
 		"tall"			"13"
 		"visible"		"1"
@@ -757,7 +660,7 @@
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
 		"xpos"			"c-257"
-		"ypos"			"r280"
+		"ypos"			"r330"
 		"zpos"			"20"
 		"wide"			"254"
 		"tall"			"204"
@@ -777,7 +680,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"c3"
-		"ypos"			"r280"
+		"ypos"			"r330"
 		"zpos"			"20"
 		"wide"			"254"
 		"tall"			"204"
@@ -956,7 +859,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"125"
-		"ypos"			"395"
+		"ypos"			"r125"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
@@ -1167,7 +1070,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"c-255"
-		"ypos"			"r71"
+		"ypos"			"r125"
 		"zpos"			"3"
 		"wide"			"510"
 		"tall"			"50"
