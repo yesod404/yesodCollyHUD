@@ -105,7 +105,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_boss_hatman"
+		"image"			"replay/thumbnails/custom_icons/leaderboard_class_boss_hatman"
 		"scaleImage"	"1"
 	}
 

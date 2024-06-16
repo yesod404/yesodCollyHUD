@@ -238,7 +238,7 @@
 				"tall"			"19"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../hud/leaderboard_class_boss_hale"
+				"image"			"replay/thumbnails/custom_icons/leaderboard_class_boss_hale"
 				"scaleImage"	"1"
 			}
 			"NameLabel"
