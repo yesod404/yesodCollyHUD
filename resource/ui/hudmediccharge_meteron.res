@@ -27,7 +27,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"product37shadow"
+		"font"										"Healthshadow"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 
@@ -49,7 +49,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
-		"font"										"product37shadow"
+		"font"										"Healthshadow"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 
@@ -62,11 +62,11 @@
 	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
-		"xpos"										"cs-0.5"
-		"ypos"										"r102"
-		"zpos"										"2"
+		"xpos"			"c-60"
+		"ypos"			"c130"
+		"zpos"										"5"
 		"wide"										"100"
-		"tall"										"3"
+		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -76,11 +76,11 @@
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter1"
-		"xpos"										"1"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"25"
-		"tall"										"3"
+		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 		"pin_to_sibling"							"ChargeMeter"
@@ -90,11 +90,11 @@
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter2"
-		"xpos"										"1"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"25"
-		"tall"										"3"
+		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -107,11 +107,11 @@
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter3"
-		"xpos"										"1"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"25"
-		"tall"										"3"
+		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -124,17 +124,71 @@
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter4"
-		"xpos"										"1"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"25"
-		"tall"										"3"
+		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 
 		"pin_to_sibling"							"ChargeMeter3"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+	
+		"Charge25Percent"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Charge25Percent"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"2000"
+		"wide"			"1"
+		"tall"			"5"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+
+		"pin_to_sibling"	"ChargeMeter"
+        "pin_corner_to_sibling"	"PIN_TOPLEFT"
+        "pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+
+	"Charge50Percent"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Charge50Percent"
+		"xpos"			"1"
+		"ypos"			"0"
+		"zpos"			"2000"
+		"wide"			"1"
+		"tall"			"5"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+
+		"pin_to_sibling"	"ChargeMeter"
+        "pin_corner_to_sibling"	"PIN_CENTER_TOP"
+        "pin_to_sibling_corner"	"PIN_CENTER_TOP"
+	}
+
+	"Charge75Percent"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Charge75Percent"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"2000"
+		"wide"			"1"
+		"tall"			"5"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+
+		"pin_to_sibling"	"ChargeMeter"
+        "pin_corner_to_sibling"	"PIN_TOPRIGHT"
+        "pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
 	"HealthClusterIcon"
