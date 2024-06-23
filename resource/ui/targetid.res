@@ -115,7 +115,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetDataLabel"
-		"font"				"TargetIDHypnotize"
+		"font"				"TargetIDHypnotize9dsBold"
 		"xpos"				"55"
 		"ypos"				"2"
 		"zpos"				"1"
@@ -168,7 +168,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"KillStreakIconAnchor"
-		"xpos"				"95"
+		"xpos"				"80"
 		"ypos"				"2"
 		"wide"			"8"
 		"tall"			"8"
@@ -183,8 +183,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"12"
-		"wide"			"9"
-		"tall"			"9"
+		"wide"			"10"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/target/streak"

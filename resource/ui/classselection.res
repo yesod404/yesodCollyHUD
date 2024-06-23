@@ -580,7 +580,7 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
-		"labelText"									"S"
+		"labelText"									"E"
 		"font"										"Class Symbols 18"
 		"fgcolor"									"White"
 		"paintbackground"							"1"
