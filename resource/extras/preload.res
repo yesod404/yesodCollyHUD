@@ -676,4 +676,14 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_e"
 	}
+
+	"menuthumbmissing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"menuthumbmissing"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../maps/menu_thumb_Missing"
+	}
 }

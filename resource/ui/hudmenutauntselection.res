@@ -13,9 +13,9 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
-		"image"										"replay/thumbnails/panels/flat_background"
+		"image"										"replay/thumbnails/panels/flat_grey"
 		"scaleImage"								"1"
-		"teambg_1"									"replay/thumbnails/panels/flat_background"
+		"teambg_1"									"replay/thumbnails/panels/flat_grey"
 		"teambg_2"									"replay/thumbnails/panels/flat_red"
 		"teambg_3"									"replay/thumbnails/panels/flat_blue"
 	}
