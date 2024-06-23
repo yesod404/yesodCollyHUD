@@ -498,3 +498,4 @@
 		
 		"VguiScreenCursor"								"255 208 64 255"
 	}
+}

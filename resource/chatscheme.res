@@ -180,7 +180,6 @@
 
 	Fonts
 	{
-
 		"Default"
 		{
 			"1"
@@ -361,9 +360,6 @@
 				"dropshadow"	"1"
 			}
 		}
-
-
-	}
 	}
 	"Borders"
 	{
