@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture"		"vgui/maps/menu_thumb_Missing"
+	"$baseTexture"		"vgui/maps/menu_thumb_missing"
 	"$vertexalpha"		"1"
 	"$alpha"			"1"
 	"$translucent"		"1"

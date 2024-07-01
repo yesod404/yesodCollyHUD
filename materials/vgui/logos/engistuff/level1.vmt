@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" "1"
-	"$baseTexture" "vgui\logos\EngiStuff\Level3"
+	"$baseTexture" "vgui\logos\engistuff\level1"
 	"$alpha" "1"
 	"$vertexalpha" "1"	
 	"$vertexcolor" "1"

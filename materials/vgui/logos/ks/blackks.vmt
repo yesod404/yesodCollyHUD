@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/logos/ImprovedKillIcons_Negative/dneg_images_v3"
+	"$basetexture" "vgui/logos/ks/blackks"
 	"$translucent"		"1"
 	"$vertexcolor"		"1"
 	"$vertexalpha"		"1"
