@@ -6,10 +6,10 @@
 	"$ignorez" 1
 	"%keywords" "tf"
 	
-		"$baseTexture" "vgui\replay\thumbnails\health_bg_DX9"
+		"$baseTexture" "vgui\replay\thumbnails\health_bg_dx9"
 	
 	UnlitGeneric_DX8
 	{
-		"$baseTexture" "vgui\replay\thumbnails\health_bg_DX8"
+		"$baseTexture" "vgui\replay\thumbnails\health_bg_dx8"
 	}	
 }
