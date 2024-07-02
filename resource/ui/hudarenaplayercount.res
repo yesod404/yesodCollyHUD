@@ -42,7 +42,7 @@
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
-			"image"			"capture_icon_white"
+			"image"			"replay/thumbnails/softicons/playerwhite"
 			"scaleImage"	"1"
 		}
 
@@ -126,7 +126,7 @@
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
-			"image"			"capture_icon_white"
+			"image"			"replay/thumbnails/softicons/playerwhite"
 			"scaleImage"	"1"
 		}
 

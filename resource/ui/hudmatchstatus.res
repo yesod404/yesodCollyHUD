@@ -312,11 +312,11 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-48"
-		"team1_max_expand"	"140"
+		"team1_max_expand"	"170"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c48"
-		"team2_max_expand"	"140"
+		"team2_max_expand"	"170"
 		
 
 		"playerpanels_kv"
@@ -387,7 +387,7 @@
 				"fieldName"				"healthbar"
 				"font"					"Default"
 				"xpos"					"0"
-				"ypos"					"rs1"
+				"ypos"					"19"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"2"
@@ -407,7 +407,7 @@
 				"fieldName"				"overhealbar"
 				"font"					"Default"
 				"xpos"					"0"
-				"ypos"					"rs1"
+				"ypos"					"19"
 				"zpos"					"6"
 				"wide"					"p2"
 				"tall"					"2"

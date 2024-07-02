@@ -1,15 +1,34 @@
 "Resource/UI/HudTeamSwitch.res"
 {
+	"HudTeamSwitchBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HudTeamSwitchBG"
+		"xpos"			"20"
+		"ypos"			"28"
+		"zpos"			"-1"
+		"wide"					"320"
+		"tall"						"2"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/death_panel_blue_bg"
+		"scaleImage"		"1"
+		"teambg_2"		"replay/thumbnails/bg_red"
+		"teambg_3"		"replay/thumbnails/bg_blue"
+	}
+
 	"SwitchLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchLabel"
 		"font"										"ProductBold12"
-		"xpos"										"cs-0.5"
-		"ypos"										"80"
+		"xpos"			"50"
+		"ypos"			"50"
 		"zpos"										"2"
-		"wide"										"f0"
-		"tall"										"15"
+		"wide"			"240"
+		"tall"			"55"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
@@ -19,6 +38,7 @@
 		"fgcolor"									"White"
 		"textAlignment"								"center"
 	}
+
 	
 	"HudArenaNotificationBG"
 	{
@@ -35,53 +55,32 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"0 0 0 200"
-
-	"PlayerTeamIndicator"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"PlayerTeamIndicator"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"1"
-		"wide"					"50"
-		"tall"						"2"
-		"visible"				"1"
-		"enabled"			"1"
-		"image"				"replay/thumbnails/bg_blue"
-		"scaleImage"		"1"
-		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_3"		"replay/thumbnails/bg_red"
-	}
 	}
 
 
 	"BalanceLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"BalanceLabel"
-		"font"										"Product10"
-		"xpos"										"cs-0.5"
-		"ypos"										"60"
-		"zpos"										"2"
-		"wide"										"f0"
-		"tall"										"15"
-		"visible"									"1"
-		"enabled"									"1"
-		"AllCaps"									"1"
-		"wrap"										"1"
-		"centerwrap"								"1"
-		"labelText"									""
-		"fgcolor"									"White"
-		"textAlignment"								"center"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"BalanceLabel"
+		"font"			"ProductBold24"
+		"xpos"			"65"
+		"ypos"			"25"
+		"ypos_hidef"	"23"
+		"ypos_lodef"	"20"
+		"zpos"			"1"
+		"wide"			"230"	[$WIN32]
+		"wide"			"180"	[$X360]
+		"tall"			"55"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"labelText"		""
+		"textAlignment"		"center"
 	}
 	
 	//REMOVED
-	"HudTeamSwitchBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"HudTeamSwitchBG"
-		"xpos"										"9999"
-	}
 	"SwitchImage"
 	{
 		"ControlName"								"CTFImagePanel"

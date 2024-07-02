@@ -2341,6 +2341,72 @@
 				"proportionaltoparent"	"1"
 			}
 	}
+	"MinModeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"MinModeButton"
+		"xpos"			"4"
+		"ypos"			"-140"
+		"zpos"			"26"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+
+		"pin_to_sibling" "FriendsContainer"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuSubButtonBorder"
+			"paintbackground"	"1"
+			"paintborder"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"245 245 245 60"
+			"image_armedcolor"	"245 245 245 120"
+			"proportionaltoparent"		"1"			
+		}
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"-5"
+				"wide"			"18"
+				"tall"			"18"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/minmodeon"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+	}
 
 	"RequestCoachButton"
 	{
@@ -2757,7 +2823,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image" "replay/thumbnails/softicons/minmodeon"
+			"image" "replay/thumbnails/softicons/advancedgear"
 		}	
 		
 		"pin_to_sibling" "quitbutton"

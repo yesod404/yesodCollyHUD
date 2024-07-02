@@ -40,6 +40,12 @@
 		"command"		"engine record demo; stop"
 		"OnlyInGame"	"1"
 	}
+	"MinModeButton"
+	{
+		"label"			""
+		"command"		"engine toggle cl_hud_minmode"
+		"OnlyInGame"	"1"
+	}
 	"RequestCoachButton"
 	{
 		"label"			""

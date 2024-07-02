@@ -47,7 +47,7 @@ event HudHealthBonusPulse
 	
 	//M0RESHADOW STYLE
 	Animate m0reHealth						Alpha 		"255" 								Linear 	0.0		0.0
-	Animate m0reHealthShadow					FgColor 	"kirapurple" 						Linear 	0.0		0.0
+	Animate m0reHealthShadow					FgColor 	"m0reblue" 						Linear 	0.0		0.0
 	Animate m0reHealthShadowExtra					Alpha 		"255" 								Linear 	0.0		0.0
 	
 	//SHADOW STYLE
@@ -124,7 +124,7 @@ event HudHealthDyingPulse
 	
 	//M0RESHADOW STYLE
 	Animate m0reHealth						Alpha 		"255" 								Linear 	0.0		0.0
-	Animate m0reHealthShadow					FgColor 	"kiramagenta" 						Linear 	0.0		0.0
+	Animate m0reHealthShadow					FgColor 	"m0rered" 						Linear 	0.0		0.0
 	Animate m0reHealthShadowExtra					Alpha 		"255" 								Linear 	0.0		0.0
 
 	//SHADOW STYLE

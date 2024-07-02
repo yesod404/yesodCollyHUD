@@ -153,14 +153,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"32"
-		"ypos"			"0"
+		"xpos"			"33"
+		"ypos"			"2"
 		"zpos"			"12"
-		"wide"			"11"
-		"tall"			"11"
+		"wide"			"8"
+		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/custom_icons/ammo_icon_OL"
+		"image"			"replay/thumbnails/target/ammo"
 		"scaleImage"	"1"
 	}
 

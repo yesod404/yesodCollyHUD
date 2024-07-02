@@ -10,34 +10,36 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"name"										"HeeboFixedNumbers Edit"
+				"tall"										"35"
 			}
 		}
+		
 		"HealthAmmoShadowBuff"
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"name"										"HeeboFixedNumbers Edit"
+				"tall"										"35"
 			}
 		}
 		"HealthAmmoShadowBuffExtra"
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"name"										"HeeboFixedNumbers Edit"
+				"tall"										"35"
 			}
 		}
 		"HealthAmmoMinimal"
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"name"										"HeeboFixedNumbers Edit"
+				"tall"										"35"
 			}
 		}
+		
 		//===========================================================================================================
 		// Ammo Reserve Font
 		//===========================================================================================================
@@ -46,8 +48,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
-				"tall"										"23"
+				"name"										"HeeboFixedNumbers Edit"
+				"tall"										"18"
 			}
 		}
 
@@ -59,8 +61,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"name"										"HeeboFixedNumbers Edit"
+				"tall"										"35"
 			}
 		}
 	}
@@ -69,8 +71,8 @@ Scheme
 	{
 		"83"
 		{
-			"font" 		"resource/fonts/Catamaran-SemiBold.ttf"
-			"name" 		"Catamaran SemiBold"
+			"font" "resource/fonts/HeeboFixedNumbers-Edit.ttf"
+			"name" "HeeboFixedNumbers Edit"  
 		}
 	}
 }

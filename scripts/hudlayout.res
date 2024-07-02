@@ -49,10 +49,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"
-		"ypos"			"r52"
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -276,10 +276,10 @@
 		"fieldName"					"BuildingStatus_Engineer"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"-6"
-		"ypos"						"50"
-		"wide"						"640"
-		"tall"						"480"
+		"xpos"					"-6"
+		"ypos"					"150+1"
+		"wide"					"640"
+		"tall"					"480"
 		"PaintBackgroundType"		"2"
 	}
 	"HudMannVsMachineStatus"
@@ -842,7 +842,7 @@
 		"ypos"						"275"
 		"wide"						"320"
 		"tall"						"120"
-		"PaintBackgroundType"		"2"
+		"PaintBackgroundType"		"0"
 	}
 	"HudMenuEngyBuild"
 	{
@@ -922,7 +922,7 @@
 		"ypos_hidef"		"90"
 		"ypos_lodef"		"90"
 		"wide"				"320"
-		"tall"				"100"
+		"tall"				"90"
 	}
 	"HudArenaNotification"
 	{

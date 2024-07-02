@@ -9,8 +9,8 @@
 		"PositiveColor"			"43 195 123 255"
 		"NegativeColor"			"210 200 30 255"
 		"delta_lifetime"		"1.355"
-		"delta_item_font"		"Damage18OutlineSurface"
-		"delta_item_font_big"	"Damage18OutlineSurface"
+		"delta_item_font"		"Damage18OutlineBold"
+		"delta_item_font_big"	"Damage18OutlineBold"
 	}
 	"DamageAccountValue"
 	{
@@ -52,6 +52,7 @@
 
 //Damage18OutlineBold
 //Damage18OutlineProduct
+//Damage18OutlineNovecentoBold
 //Damage18OutlineNovecento
 //Damage18OutlineSemiBold
 //Damage18OutlineAvenir
