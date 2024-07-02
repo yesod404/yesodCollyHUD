@@ -686,4 +686,143 @@
 		"enabled"		"1"
 		"image"			"../maps/menu_thumb_Missing"
 	}
+	//==================================================================================================
+	// CAPTURE THE FLAG ICONS
+	//==================================================================================================
+
+	"CTFCompassBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFCompassBlue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_compass_blue"
+	}
+	"CTFCompassRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFCompassRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_compass_red"
+	}
+	"CTFCompassGrey"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFCompassGrey"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_compass_grey"
+	}
+	"CTFCompassBlueNoArrow"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFCompassBlueNoArrow"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_compass_blue_noarrow"
+	}
+	"CTFCompassRedNoArrow"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFCompassRedNoArrow"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_compass_red_noarrow"
+	}
+	"CTFCompassGreyRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFCompassGreyRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_compass_grey_with_red"
+	}
+	"CTFIconBriefcase"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFIconBriefcase"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_briefcase"
+	}
+	"CTFIconCarriedBlu"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFIconCarriedBlu"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_carried_blue"
+	}
+	"CTFIconCarriedOutline"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFIconCarriedOutline"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_carried_outline"
+	}
+	"CTFIconCarriedRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFIconCarriedRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_carried_red"
+	}
+	"CTFIconHome"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFIconHome"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_ico_flag_home"
+	}
+	"CTFIconHomeALT"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFIconHomeALT"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_ico_flag_home_alt"
+	}
+	"CTFIconDropped"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFIconDropped"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_ico_flag_dropped"
+	}
+	"CTFIconMoving"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFIconMoving"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_ico_flag_moving"
+	}
+	"CTFIconMovingALT"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CTFIconMovingALT"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_flagpanel_ico_flag_moving_alt"
+	}
 }
