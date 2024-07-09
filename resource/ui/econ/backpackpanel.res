@@ -125,6 +125,24 @@
 				"allow_rot"				"0"
 			}
 
+			"ItemBackground"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"ItemBackground"
+				"xpos"								"0"
+				"ypos"								"-2"
+				"zpos"								"-99"
+				"wide"								"f0"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"paintbackground"					"1"
+				"paintbackgroundtype"				"0"
+				"bgcolor_override"					"18 18 18 255"
+				"proportionaltoparent"				"1"
+				"mouseinputenabled" 				"0"
+			}
+			
 			"New"
 			{
 				"ControlName"	"CExLabel"
@@ -220,17 +238,12 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"tool_icon"
-		"xpos"			"10"
-		"ypos"			"10"
-		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"backpack_jewel_modify_target_b_g"
-		"tileImage"		"0"
-		"tileVertically" "0"
-		"drawcolor"		"softpink"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 

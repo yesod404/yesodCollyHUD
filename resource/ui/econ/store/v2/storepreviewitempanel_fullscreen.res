@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "CollyHudDarkGray"
 		
 		"fullscreen_fade_to_black_duration"	"0.32"
 		"fullscreen_modelpanel_origin_x"	"221"
@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "CollyHudDarkGray"
 	}
 		
 	"RotateLeftButton"
@@ -54,17 +54,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
-		"font"			"HudFontBiggerBold"
+		"labelText"									"<"
+		"font"										"Symbols 16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"paintbackground"							"0"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override" 				"White"
 	}		
 	
 	"RotateRightButton"
@@ -81,17 +81,18 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"HudFontBiggerBold"
+		"labelText"									">"
+		"font"										"Symbols 16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		
+		"paintbackground"							"0"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override" 				"White"
 	}	
 				
 	"NextWeaponButton"
@@ -129,8 +130,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labeltext"									"r"
+		"font"										"Symbols 16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -139,25 +140,15 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"zoom_toggle"
 		
-		"paintbackground"	"0"
-		
-		"image_drawcolor"	"118 107 94 200"
-		"image_armedcolor"	"246 247 213 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"store/store_zoom"
-			"scaleImage"	"1"
-		}				
+		"paintbackground"							"1"
+
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+
+		"defaultBgColor_override"					"0 0 0 165"
+		"armedBgColor_override"						"softgreen"
+		"depressedBgColor_override"					"softgreen"
 	}
 	
 	"TeamNavPanel"
@@ -284,25 +275,27 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"close"	// Intentionally using "closex" instead of "close" for stats
 		
-		"paintbackground"	"0"
-		
-		"image_drawcolor"	"118 107 94 200"
-		"image_armedcolor"	"246 247 213 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"store/store_fullscreen_exit"
-			"scaleImage"	"1"
-		}				
+			"paintbackground"							"1"
+			"fgcolor_override"		"White"
+			"defaultfgcolor_override"		"White"
+			"armedfgcolor_override"		"White"
+			"armedbgcolor_override"		"softred"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			""
+				"ypos"			""
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/x"
+				"scaleImage"	"1"
+				"paintbackgroundtype" "0"
+				"proportionaltoparent"	"1"
+			}	
 	}		
 	
 	"TryItOutButton"
@@ -352,9 +345,10 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"34 30 31 255"
-		"defaultBgColor_override"	"76 107 34 255"
-		"ArmedBgColor_override"	"86 117 44 255"
-		"depressedBgColor_override" "66 97 24 255"
+		"fgcolor"		"White"
+		
+		"defaultBgColor_override"					"0 0 0 165"
+		"armedBgColor_override"						"softgreen"
+		"depressedBgColor_override" 				"softgreen"
 	}		
 }

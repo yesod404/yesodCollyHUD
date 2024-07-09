@@ -47,7 +47,7 @@ event HudHealthBonusPulse
 	
 	//M0RESHADOW STYLE
 	Animate m0reHealth						Alpha 		"255" 								Linear 	0.0		0.0
-	Animate m0reHealthShadow					FgColor 	"m0reblue" 						Linear 	0.0		0.0
+	Animate m0reHealthShadow					FgColor 	"softgreen" 						Linear 	0.0		0.0
 	Animate m0reHealthShadowExtra					Alpha 		"255" 								Linear 	0.0		0.0
 	
 	//SHADOW STYLE
@@ -56,11 +56,10 @@ event HudHealthBonusPulse
 	Animate Health_Shadow_Extra					Alpha 		"255" 								Linear 	0.0		0.0
 	
 	//MINIMAL STYLE
-	Animate HealthMinimal		FgColor		"75 125 255 255"	Linear 0.0	0.075
-	Animate HealthMinimal		FgColor		"0 200 255 255"	Linear 0.125	0.075
+	Animate HealthMinimal		FgColor		"softgreen"	Linear 0.0	0.0
 	
 	//BOX STYLE
-	Animate	HealthBoxBG		BgColor		"0 255 127 255"		Accel 0.0 0.0
+	Animate	HealthBoxBG		BgColor		"softgreen"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 	
@@ -124,7 +123,7 @@ event HudHealthDyingPulse
 	
 	//M0RESHADOW STYLE
 	Animate m0reHealth						Alpha 		"255" 								Linear 	0.0		0.0
-	Animate m0reHealthShadow					FgColor 	"m0rered" 						Linear 	0.0		0.0
+	Animate m0reHealthShadow					FgColor 	"softred" 						Linear 	0.0		0.0
 	Animate m0reHealthShadowExtra					Alpha 		"255" 								Linear 	0.0		0.0
 
 	//SHADOW STYLE
@@ -133,11 +132,10 @@ event HudHealthDyingPulse
 	Animate Health_Shadow_Extra					Alpha 		"255" 								Linear 	0.0		0.0
 
 	//MINIMAL STYLE
-	Animate HealthMinimal		FgColor		"255 0 0 255"	Linear 0.0	0.075
-	Animate HealthMinimal		FgColor		"255 75 75 255"	Linear 0.125	0.075
+	Animate HealthMinimal		FgColor		"softred"	Linear 0.0	0.0
 
 	//BOX STYLE
-	Animate	HealthBoxBG		BgColor		"200 45 45 255"		Accel 0.0 0.0
+	Animate	HealthBoxBG		BgColor		"softred"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
 
@@ -187,14 +185,10 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage			Alpha		"80"				Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage			Alpha		"255"				Linear 0.125 0.075
-	Animate	AmmoInClip								FgColor		"212 50 50 255"					Linear	0.0		0.075
-	Animate	AmmoInClip								FgColor		"White"					Linear	0.125	0.075
 
-	Animate	AmmoInReserve							FgColor		"212 50 50 255"					Linear	0.0		0.075
-	Animate	AmmoInReserve							FgColor		"White"					Linear	0.125	0.075
+	Animate	AmmoInReserve							FgColor		"242 58 58 255"					Linear 0.0 0.3
 
-	Animate	AmmoNoClip								FgColor		"212 50 50 255"					Linear	0.0		0.075
-	Animate	AmmoNoClip								FgColor		"White"					Linear	0.125	0.075
+	Animate	AmmoNoClip								FgColor		"242 58 58 255"					Linear 0.0 0.3
 
 	RunEvent HudLowAmmoPulseLoop			0.25
 }
@@ -210,9 +204,9 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 				0.0
 	StopEvent HudLowAmmoPulseLoop 			0.0
 	Animate	HudWeaponAmmoBGLow				Alpha		"0"					Linear 0.0 0.0
-	Animate	AmmoInReserve					FgColor		"White"	Linear 0.0 0.0
-	Animate	AmmoInClip						FgColor		"menutext"			Linear 0.0 0.0
-	Animate	AmmoNoClip						FgColor		"menutext"			Linear 0.0 0.0
+	
+	Animate	AmmoInReserve					FgColor		"softgreen"	Linear 0.0 0.0
+	Animate	AmmoNoClip						FgColor		"White"			Linear 0.0 0.0
 }
 
 

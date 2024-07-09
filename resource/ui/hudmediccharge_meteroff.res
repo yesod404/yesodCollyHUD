@@ -5,11 +5,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"UberAnchor"
-		"xpos"										"c130"
-		"ypos"										"c100"
+		"xpos"										"c150"
+		"ypos"										"c90"
 		"zpos"										"0"
 		"wide"										"2"
-		"tall"										"50"
+		"tall"										"40"
 		"visible"									"0"
 		"enabled"									"1"
 	}
@@ -22,7 +22,7 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"150"
-		"tall"										"50"
+		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_UberchargeMinHUD"

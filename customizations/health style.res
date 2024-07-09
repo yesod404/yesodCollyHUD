@@ -12,4 +12,3 @@
 //#base "../resource/ui/hudplayerhealth_standard.res"				// STANDARD
 #base "../resource/ui/hudplayerhealth_shadow.res"			// SHADOW
 //#base "../resource/ui/hudplayerhealth_m0re.res"			// M0RESHADOW
-//#base "../resource/ui/hudplayerhealth_classic.res"			// CLASSIC

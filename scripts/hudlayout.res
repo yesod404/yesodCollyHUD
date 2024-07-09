@@ -13,12 +13,12 @@
 	"HudWeaponAmmo"
 	{
 		"fieldName"		"HudWeaponAmmo"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c66" [$WIN32]
-		"ypos"			"r183" [$WIN32]
-		"wide"			"320"
-		"tall"			"120"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
 	}
 	"HudObjectiveStatus"
 	{
@@ -202,7 +202,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"		"374"				
-		"ypos"		"c120"				
+		"ypos"		"c130"				
 		"zpos"		"-1"	
 		"wide"		"248"
 		"tall"		"453"

@@ -1,0 +1,321 @@
+"Resource/UI/CharInfoPanel.res"
+{
+	"character_info"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"character_info"
+		"xpos"								"0"
+		"ypos"								"0"
+		"wide"								"f0"
+		"zpos"								"1"
+		"tall"								"480"
+		"autoResize"						"0"
+		"pinCorner"							"0"
+		"visible"							"1"
+		"enabled"							"1"
+		"tabPosition"						"0"
+		"settitlebarvisible"				"1"
+		"PaintBackgroundType"				"0"
+		"bgcolor_override"				"46 43 42 0"
+		"infocus_bgcolor_override"		"46 43 42 0"
+		"outoffocus_bgcolor_override"	"46 43 42 0"
+
+		"title"								"#CharInfoAndSetup"
+		"title_font"						"productbold20"
+		"titletextinsetX"	"40"
+		"titletextinsetY"	"-30"
+		"titlebarfgcolor_override"				"200 187 161 255"
+		"titlebardisabledfgcolor_override"		"200 187 161 255"
+		"titlebarbgcolor_override"				"46 43 42 255"
+
+		"clientinsetx_override"				"0"
+		"sheetinset_bottom"					"0"
+	}
+
+	"BackgroundHeader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}
+	"BackgroundFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+	}
+	"FooterLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}
+
+	
+	"FakeBG"
+	{
+		"ControlName"						"ImagePanel"
+		"fieldName"							"FakeBG"
+		"xpos"								"0"
+		"ypos"								"50"
+		"zpos"								"-1000"
+		"wide"								"f0"
+		"tall"								"f0"
+		"visible"							"1"
+		"enabled"							"1"
+		"fillcolor"							"CollyHudDarkGray"
+		"scaleImage"						"1"
+	}
+	
+	"FakeBG2"
+	{
+		"ControlName"						"ImagePanel"
+		"fieldName"							"FakeBG2"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"-999"
+		"wide"								"f0"
+		"tall"								"50"
+		"visible"							"1"
+		"enabled"							"1"
+		"fillcolor"							"CollyHudDarkGray"
+		"scaleImage"						"1"
+	}
+
+	"Sheet"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Sheet"
+		"tabxindent"	"30"
+		"tabxdelta"		"10"
+		"tabwidth"		"150"
+		"tabheight"		"20"
+		"transition_time" "0"
+		"yoffset"		"20"
+		"zpos"			"1"
+		
+		"HeaderLine"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"HeaderLine"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"10"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"loadout_solid_line"
+			"scaleImage"	"1"
+		}				
+		
+		"tabskv"
+		{
+			"textinsetx"		"0"
+			"textinsety"		"-2"
+			"font"				"productbold20"
+			"selectedcolor"		"White"
+			"unselectedcolor"	"0 0 0 165"	
+			"defaultBgColor_override"	"Blank"
+			"paintbackground"	"0"
+			"activeborder_override"	"NoBorder"
+			"normalborder_override" "NoBorder"
+		}
+	}
+
+	"BackButton"
+	{
+		"ControlName"						"CExImageButton"
+		"fieldName"							"BackButton"
+		"xpos"								"9999"
+		"ypos"								"r36"
+		"zpos"								"2"
+		"wide"								"24"
+		"tall"								"24"
+		"autoResize"						"0"
+		"pinCorner"							"3"
+		"visible"							"1"
+		"enabled"							"1"
+		"tabPosition"						"0"
+		"labelText"							"&Q"
+		"textinset"							"9999999"
+		"textAlignment"						"west"
+		"paintbackground"					"0"
+		"dulltext"							"0"
+		"brighttext"						"0"
+		"default"							"0"
+		"Command"							"back"
+		"sound_depressed"					"UI/buttonclick.wav"
+		"sound_released"					"UI/buttonclickrelease.wav"
+		"fgcolor_override"					"blank"
+		"armedfgcolor_override"				"blank"
+		"defaultfgcolor_override"			"blank"
+		"image_drawcolor"					"245 245 245 60"
+		"image_armedcolor"					"245 245 245 235"
+		
+		"SubImage"
+		{
+			"ControlName"					"ImagePanel"
+			"fieldName"						"SubImage"
+			"xpos"							"2"
+			"ypos"							"3"
+			"zpos"							"1"
+			"wide"							"20"
+			"tall"							"20"
+			"visible"						"1"
+			"enabled"						"1"
+			"scaleImage"					"1"
+			"image"							"replay/thumbnails/softicons/x"
+		}
+	}
+	
+	"BackButton2"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"BackButton2"
+		"xpos"				"3"
+		"ypos"			    "r25"
+		"zpos"				"2"
+		"wide"			    "70"
+		"tall"				"22"
+		"autoResize"		"0"
+		"pinCorner"			"3"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"Back (&Q)"
+		"font"				"product8"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"default"			"0"
+		"Command"			"back"
+		
+		"AllCaps"					"0"
+		
+		"paintbackground"			"1"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"border_default"			"noborder"
+		"border_armed"				"noborder"
+		
+		"defaultBgColor_override"	"0 0 0 165"
+		"armedBgColor_override"		"79 79 79 255"
+		"depressedBgColor_override" "79 79 79 255"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"255 255 255 255"
+		"depressedFgColor_override" "White"
+	}
+	
+	"CloseButton"
+	{
+		"ControlName"						"CExImageButton"
+		"fieldName"							"CloseButton"
+		"xpos"						"r73"
+		"ypos"						"r25"
+		"zpos"						"2"
+		"wide"						"70"
+		"tall"						"22"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"Close (&E)"
+		"font"						"HudFontSmallBold"
+		"textAlignment"				"center"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"0"
+		"Command"					"close"
+		
+		"AllCaps"					"0"
+		
+		"paintbackground"			"1"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"border_default"			"noborder"
+		"border_armed"				"noborder"
+		
+		"defaultBgColor_override"	"0 0 0 165"
+		"armedBgColor_override"		"79 79 79 255"
+		"depressedBgColor_override" "79 79 79 255"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"255 255 255 255"
+		"depressedFgColor_override" "White"
+	}
+	
+	"CloseButtonHIDDEN"
+	{
+		"ControlName"						"CExImageButton"
+		"fieldName"							"CloseButtonHIDDEN"
+		"xpos"								"9999"
+		"ypos"								"9999"
+		
+		"wide"								"20"
+		"tall"								"20"
+		"default"							"1"
+		"labelText"							"&ESC"
+		"Command"							"close"
+		
+		"SubImage"
+		{
+			"ControlName"					"ImagePanel"
+			"fieldName"						"SubImage"
+			"xpos"							"cs-0.5"
+			"ypos"							"cs-0.5"
+			"proportionaltoparent"			"1"
+			"zpos"							"1"
+			"wide"							"0"
+			"tall"							"0"
+			"visible"						"0"
+			"enabled"						"1"
+			"scaleImage"					"1"
+			"image" 						"replay/thumbnails/softicons/x"
+		}	
+	}
+
+	"NotificationsPresentPanel"
+	{
+		"ControlName"						"CNotificationsPresentPanel"
+		"fieldName"							"NotificationsPresentPanel"
+		"xpos"								"r200"
+		"ypos"								"32"
+		"zpos"								"10000"
+		"wide"								"190"
+		"wide"								"190"
+		"tall"								"50"
+		"visible"							"0"
+		"enabled"							"1"
+	}
+}

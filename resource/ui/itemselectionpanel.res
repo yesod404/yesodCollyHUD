@@ -39,6 +39,24 @@
 
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
+			
+			"ItemBackground"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"ItemBackground"
+				"xpos"								"0"
+				"ypos"								"-2"
+				"zpos"								"-99"
+				"wide"								"f0"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"paintbackground"					"1"
+				"paintbackgroundtype"				"0"
+				"bgcolor_override"					"18 18 18 255"
+				"proportionaltoparent"				"1"
+				"mouseinputenabled" 				"0"
+			}
 		}
 		"modelpanels_kv"
 		{

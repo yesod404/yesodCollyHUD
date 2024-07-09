@@ -28,7 +28,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 				0.0
 	StopEvent HudLowAmmoPulseLoop 			0.0
 	Animate	HudWeaponAmmoBGLow				Alpha		"0"					Linear 0.0 0.0
-	Animate	AmmoInReserve					FgColor		"58 150 242 255"	Linear 0.0 0.0
+	Animate	AmmoInReserve					FgColor		"softgreen"	Linear 0.0 0.0
 	Animate	AmmoInClip						FgColor		"White"			Linear 0.0 0.0
 	Animate	AmmoNoClip						FgColor		"White"			Linear 0.0 0.0
 }

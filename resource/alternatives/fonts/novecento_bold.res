@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"BoldNumbers"
+				"name"										"Novecentowide-DemiBold"
 				"tall"										"34"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"BoldNumbers"
+				"name"										"Novecentowide-DemiBold"
 				"tall"										"34"
 			}
 		}
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"BoldNumbers"
+				"name"										"Novecentowide-DemiBold"
 				"tall"										"34"
 			}
 		}
@@ -35,7 +35,15 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"BoldNumbers"
+				"name"										"Novecentowide-DemiBold"
+				"tall"										"34"
+			}
+		}
+		"HealthAmmoBlur"
+		{
+			"1"
+			{
+				"name"										"Novecentowide-DemiBold"
 				"tall"										"34"
 			}
 		}
@@ -48,7 +56,15 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"BoldNumbers"
+				"name"										"Novecentowide-DemiBold"
+				"tall"										"18"
+			}
+		}
+		"ReserveAmmoBlur"
+		{
+			"1"
+			{
+				"name"										"Novecentowide-DemiBold"
 				"tall"										"18"
 			}
 		}
@@ -61,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"BoldNumbers"
+				"name"										"Novecentowide-DemiBold"
 				"tall"										"34"
 			}
 		}
@@ -71,8 +87,8 @@ Scheme
 	{
 		"83"
 		{
-			"font" "resource/fonts/BoldNumbers.ttf"
-			"name" "BoldNumbers"  
+			"font" "resource/fonts/Novecentowide-DemiBold.otf"
+			"name" "Novecentowide-DemiBold"  
 		}
 	}
 }

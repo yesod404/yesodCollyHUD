@@ -11,7 +11,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"40"
+				"tall"										"43"
 			}
 		}
 		
@@ -20,7 +20,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"40"
+				"tall"										"43"
 			}
 		}
 		"HealthAmmoShadowBuffExtra"
@@ -28,7 +28,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"40"
+				"tall"										"43"
 			}
 		}
 		"HealthAmmoMinimal"
@@ -36,15 +36,30 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"40"
+				"tall"										"43"
 			}
 		}
-		
+		"HealthAmmoBlur"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"43"
+			}
+		}
 		//===========================================================================================================
 		// Ammo Reserve Font
 		//===========================================================================================================
 
 		"ReserveAmmo"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"22"
+			}
+		}
+		"ReserveAmmoBlur"
 		{
 			"1"
 			{
@@ -62,7 +77,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"40"
+				"tall"										"43"
 			}
 		}
 	}

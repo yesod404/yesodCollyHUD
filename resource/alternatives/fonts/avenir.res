@@ -11,7 +11,7 @@ Scheme
 			"1"
 			{
 				"name"										"AvenirLTStd-Black"
-				"tall"										"40"
+				"tall"										"32"
 			}
 		}
 		"HealthAmmoShadowBuff"
@@ -19,7 +19,7 @@ Scheme
 			"1"
 			{
 				"name"										"AvenirLTStd-Black"
-				"tall"										"40"
+				"tall"										"32"
 			}
 		}
 		"HealthAmmoShadowBuffExtra"
@@ -27,7 +27,7 @@ Scheme
 			"1"
 			{
 				"name"										"AvenirLTStd-Black"
-				"tall"										"40"
+				"tall"										"32"
 			}
 		}
 		"HealthAmmoMinimal"
@@ -35,7 +35,15 @@ Scheme
 			"1"
 			{
 				"name"										"AvenirLTStd-Black"
-				"tall"										"40"
+				"tall"										"32"
+			}
+		}
+		"HealthAmmoBlur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+				"tall"										"32"
 			}
 		}
 		
@@ -44,6 +52,14 @@ Scheme
 		//===========================================================================================================
 
 		"ReserveAmmo"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+				"tall"										"18"
+			}
+		}
+		"ReserveAmmoBlur"
 		{
 			"1"
 			{
@@ -61,7 +77,7 @@ Scheme
 			"1"
 			{
 				"name"										"AvenirLTStd-Black"
-				"tall"										"40"
+				"tall"										"32"
 			}
 		}
 	}

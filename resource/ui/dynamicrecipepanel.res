@@ -61,6 +61,23 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
+			"ItemBackground"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"ItemBackground"
+				"xpos"								"0"
+				"ypos"								"-2"
+				"zpos"								"-99"
+				"wide"								"f0"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"paintbackground"					"1"
+				"paintbackgroundtype"				"0"
+				"bgcolor_override"					"18 18 18 255"
+				"proportionaltoparent"				"1"
+				"mouseinputenabled" 				"0"
+			}
 		}
 		
 	

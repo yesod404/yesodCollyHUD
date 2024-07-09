@@ -11,7 +11,7 @@ Scheme
 			"1"
 			{
 				"name"										"SurfaceSharpened-Medium"
-				"tall"										"40"
+				"tall"										"38"
 			}
 		}
 		
@@ -20,7 +20,7 @@ Scheme
 			"1"
 			{
 				"name"										"SurfaceSharpened-Medium"
-				"tall"										"40"
+				"tall"										"38"
 			}
 		}
 		"HealthAmmoShadowBuffExtra"
@@ -28,7 +28,7 @@ Scheme
 			"1"
 			{
 				"name"										"SurfaceSharpened-Medium"
-				"tall"										"40"
+				"tall"										"38"
 			}
 		}
 		"HealthAmmoMinimal"
@@ -36,7 +36,15 @@ Scheme
 			"1"
 			{
 				"name"										"SurfaceSharpened-Medium"
-				"tall"										"40"
+				"tall"										"38"
+			}
+		}
+		"HealthAmmoBlur"
+		{
+			"1"
+			{
+				"name"										"SurfaceSharpened-Medium"
+				"tall"										"38"
 			}
 		}
 		
@@ -49,7 +57,15 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"22"
+				"tall"										"20"
+			}
+		}
+		"ReserveAmmoBlur"
+		{
+			"1"
+			{
+				"name"										"AvenirLTStd-Black"
+				"tall"										"20"
 			}
 		}
 
@@ -62,7 +78,7 @@ Scheme
 			"1"
 			{
 				"name"										"SurfaceSharpened-Medium"
-				"tall"										"40"
+				"tall"										"38"
 			}
 		}
 	}

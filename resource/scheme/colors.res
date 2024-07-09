@@ -68,7 +68,7 @@
 		"menubase"								"50 54 80 255"
 		"titlebg"								"30 30 30 255"
 		"menuhighlight"							"60 163 115 255"
-		"menutext"								"230 230 230 255"
+		"menutext"								"225 220 220 255"
 		"menusubtext"							"200 200 200 255"
 		"menusubtext2"							"180 180 180 255"
 		"menuborder"							"35 35 35 0"
@@ -93,7 +93,7 @@
 		"PartyMember5"							"255 118 108 255"
 		"PartyMember6"							"255 133 255 255"
 		
-		"White"									"255 255 255 255"
+		"White"									"225 220 220 255"
 		"Red"									"192 28 0 140"
 		"RedSolid"								"192 28 0 255"
 		"Blue"									"0 28 162 140"
@@ -192,7 +192,7 @@
 		"ItemFlags"								"114 114 114 235"
 		"ItemLimitedQuantity"					"225 209 0 220"
 		
-		"QualityColorNormal"					"194 194 194 255"
+		"QualityColorNormal"					"210 210 210 255"
 		"QualityColorrarity1"					"60 163 115 255"
 		"QualityColorrarity2"					"141 131 75 255"
 		"QualityColorrarity3"					"204 204 250 255"
