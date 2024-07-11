@@ -13,7 +13,8 @@
 //#base "../resource/alternatives/fonts/handel.res"							// HANDEL
 //#base "../resource/alternatives/fonts/lexend.res"							// LEXEND
 //#base "../resource/alternatives/fonts/novecento.res"							// NOVECENTO
-#base "../resource/alternatives/fonts/novecento_bold.res"							// NOVECENTO BOLD
+#base "../resource/alternatives/fonts/novecento_semibold.res"							// NOVECENTO SEMIBOLD
+//#base "../resource/alternatives/fonts/novecento_bold.res"							// NOVECENTO BOLD
 //#base "../resource/alternatives/fonts/product.res"									// PRODUCT
 //#base "../resource/alternatives/fonts/product_semibold.res"			// PRODUCT SEMIBOLD
 //#base "../resource/alternatives/fonts/product_bold.res"						// PRODUCT BOLD
