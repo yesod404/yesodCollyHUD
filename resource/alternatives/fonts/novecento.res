@@ -87,7 +87,7 @@ Scheme
 	{
 		"83"
 		{
-			"font" "resource/fonts/NovecentoMediumEdit.ttf"
+			"font" "resource/fonts/NovecentoMediumEdit4.ttf"
 			"name" "Novecento-Medium-Edit"  
 		}
 	}
