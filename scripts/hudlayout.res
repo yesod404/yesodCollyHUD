@@ -263,10 +263,8 @@
 		"fieldName"					"BuildingStatus_Spy"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"0" [$WIN32]
-		"ypos"						"0" [$WIN32]
-		"xpos"						"32" [$X360]
-		"ypos"						"16" [$X360]
+		"xpos"					"-6"
+		"ypos"					"150+1"
 		"wide"						"640"
 		"tall"						"480"
 		"PaintBackgroundType"		"2"

@@ -1,4 +1,4 @@
-Scheme
+=-=-------------------=========================Scheme
 {
 	Fonts
 	{
@@ -11,7 +11,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"43"
+				"tall"										"40"
 			}
 		}
 		
@@ -20,7 +20,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"43"
+				"tall"										"40"
 			}
 		}
 		"HealthAmmoShadowBuffExtra"
@@ -28,7 +28,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"43"
+				"tall"										"40"
 			}
 		}
 		"HealthAmmoMinimal"
@@ -36,7 +36,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"43"
+				"tall"										"40"
 			}
 		}
 		"HealthAmmoBlur"
@@ -44,7 +44,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"43"
+				"tall"										"40"
 			}
 		}
 		//===========================================================================================================
@@ -77,7 +77,7 @@ Scheme
 			"1"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"43"
+				"tall"										"40"
 			}
 		}
 	}

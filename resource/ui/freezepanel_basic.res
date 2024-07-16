@@ -180,7 +180,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"product14ds"
+			"font"			"product14"
 			"xpos"			"0"
 			"ypos"			"c65"
 			"zpos"			"25"
@@ -192,7 +192,24 @@
 			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"center"
-	
+		}
+		"FreezeLabelKillerShadow"
+		{	
+			"ControlName"	"Label"
+			"fieldName"		"FreezeLabelKillerShadow"
+			"font"			"product14"
+			"xpos"			"1"
+			"ypos"			"c66"
+			"zpos"			"25"
+			"wide"			"f0"
+			"tall"			"22"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%killername%"
+			"fgcolor_override"		"0 0 0 255"
+			"textAlignment"		"center"
 		}
 
 		"AvatarImage"
