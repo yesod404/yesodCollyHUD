@@ -461,26 +461,11 @@
 		"Command"							"characterloadout"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		"font"								"product8"
+		"labelText"									"="
+		"font"								"Symbols 16"
 		"textAlignment"						"center"
 		"labelText"							""
 		"paintbackground"					"1"
-
-		"SubImage"
-		{
-			"ControlName"					"ImagePanel"
-			"fieldName"						"SubImage"
-			"xpos"							"cs-0.5"
-			"ypos"							"cs-0.5"
-			"zpos"							"1"
-			"wide"							"f4"
-			"tall"							"f4"
-			"visible"						"1"
-			"enabled"						"1"
-			"scaleImage"					"1"
-			"proportionaltoparent"			"1"
-			"image"							"glyph_items"
-		}
 	}
 
 	"TauntLoadoutButton"
@@ -503,27 +488,11 @@
 		"Command"							"tauntloadout"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		"font"								"product8"
+		"labelText"									"^"
+		"font"								"Symbols 16"
 		"textAlignment"						"center"
 		"labelText"							""
-		"textinsety"						"-1"
 		"paintbackground"					"1"
-
-		"SubImage"
-		{
-			"ControlName"					"ImagePanel"
-			"fieldName"						"SubImage"
-			"xpos"							"cs-0.5"
-			"ypos"							"cs-0.5"
-			"zpos"							"1"
-			"wide"							"f4"
-			"tall"							"f4"
-			"visible"						"1"
-			"enabled"						"1"
-			"scaleImage"					"1"
-			"proportionaltoparent"			"1"
-			"image"							"../hud/ico_reel"
-		}
 	}
 
 	"TauntsExplanation"

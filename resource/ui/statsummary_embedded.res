@@ -358,7 +358,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"36 119 183 255"
+			"fillcolor"		"softgreen"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1B"
@@ -375,7 +375,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"36 119 183 255"
+			"fillcolor"		"softgreen"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel1A"
@@ -477,7 +477,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"60 133 190 255"
+			"fillcolor"		"66 181 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar2B"
@@ -494,7 +494,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"60 133 190 255"
+			"fillcolor"		"66 181 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel2A"
@@ -596,7 +596,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"82 146 197 255"
+			"fillcolor"		"91 193 144 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar3B"
@@ -613,7 +613,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"82 146 197 255"
+			"fillcolor"		"91 193 144 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel3A"
@@ -715,7 +715,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"105 160 204 255"
+			"fillcolor"		"118 211 166 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar4B"
@@ -732,7 +732,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"105 160 204 255"
+			"fillcolor"		"118 211 166 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel4A"
@@ -834,7 +834,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"127 174 212 255"
+			"fillcolor"		"145 226 187 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar5B"
@@ -851,7 +851,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"127 174 212 255"
+			"fillcolor"		"145 226 187 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel5A"
@@ -953,7 +953,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"149 188 219 255"
+			"fillcolor"		"167 239 204 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar6B"
@@ -970,7 +970,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"149 188 219 255"
+			"fillcolor"		"167 239 204 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel6A"
@@ -1072,7 +1072,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"171 201 225 255"
+			"fillcolor"		"191 255 224 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar7B"
@@ -1089,7 +1089,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"171 201 225 255"
+			"fillcolor"		"191 255 224 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel7A"
@@ -1191,7 +1191,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"191 218 225 255"
+			"fillcolor"		"224 255 240 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar8B"
@@ -1208,7 +1208,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"191 218 225 255"
+			"fillcolor"		"224 255 240 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel8A"
@@ -1310,7 +1310,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"213 228 241 255"
+			"fillcolor"		"239 255 247 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar9B"
@@ -1327,7 +1327,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"213 228 241 255"
+			"fillcolor"		"239 255 247 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel9A"
