@@ -70,8 +70,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Health_Shadow_Buff"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"6"
 		"wide"			"80"
 		"tall"			"40"
@@ -101,7 +101,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HealthAmmo"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"0 0 0 0"
 		
 		"pin_to_sibling"	"Health_Shadow_Buff"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
