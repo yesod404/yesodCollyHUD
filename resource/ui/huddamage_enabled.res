@@ -9,8 +9,8 @@
 		"PositiveColor"			"43 195 123 255"
 		"NegativeColor"			"210 200 30 255"
 		"delta_lifetime"		"1.355"
-		"delta_item_font"		"Damage18OutlineBold"
-		"delta_item_font_big"	"Damage18OutlineBold"
+		"delta_item_font"		"Damage18OutlineNovecentoSemiBold"
+		"delta_item_font_big"	"Damage18OutlineNovecentoSemiBold"
 	}
 	"DamageAccountValue"
 	{
@@ -49,18 +49,25 @@
 	}
 }
 
-//Damage18OutlineBold
-//Damage18OutlineProduct
-//Damage18OutlineNovecento
-//Damage18OutlineNovecentoBold
-//Damage18OutlineSemiBold
+//Damage20OutlineAcre
+//Damage20OutlineAcreBold
 //Damage18OutlineAvenir
+//Damage20OutlineCatamaran
+//Damage20OutlineCodePro
+//Damage18OutlineHandel
+//Damage23OutlineLexend
+//Damage18OutlineNovecento
+//Damage18OutlineNovecentoSemiBold
+//Damage18OutlineNovecentoBold
+//Damage18OutlineProduct
+//Damage18OutlineProductSemiBold
+//Damage18OutlineProductBold
+//Damage20OutlineRenogare
+//Damage18OutlineRoboto
+//Damage20OutlineSurface
+//Damage18OutlineSharpened
 //Damage18OutlineTF2Build
 //Damage18OutlineTF2
-//Damage18TF2
 //Damage18TF2Build
-//Damage20OutlineSurface
-//Damage20OutlineCodePro
-//Damage20OutlineSharpened
-//Damage20OutlineCatamaran
+//Damage18TF2
 

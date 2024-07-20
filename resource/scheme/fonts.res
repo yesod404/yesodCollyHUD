@@ -2483,7 +2483,7 @@
 				"antialias" "1"
 			}
 		}
-		"Damage18OutlineBold"
+		"Damage18OutlineProductBold"
 		{
 			"1"
 			{
@@ -2585,8 +2585,78 @@
 		{
 			"1"
 			{
-				"name"		"NovecentoMedium"
-				"tall"		"16"
+				"name"		"Novecento-Medium-Edit"
+				"tall"		"18"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage18OutlineNovecentoSemiBold"
+		{
+			"1"
+			{
+				"name"		"Novecento-Semi-Bold"
+				"tall"		"18"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage20OutlineRenogare"
+		{
+			"1"
+			{
+				"name"		"RenogareSoft-Regular"
+				"tall"		"20"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage18OutlineRoboto"
+		{
+			"1"
+			{
+				"name"		"HeeboFixedNumbers Edit"
+				"tall"		"18"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage18OutlineHandel"
+		{
+			"1"
+			{
+				"name"		"Handel Gothic BT"
+				"tall"		"18"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage23OutlineLexend"
+		{
+			"1"
+			{
+				"name"		"Lexend SemiBold Edit"
+				"tall"		"23"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage20OutlineAcre"
+		{
+			"1"
+			{
+				"name"		"Acre-Medium"
+				"tall"		"20"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage20OutlineAcreBold"
+		{
+			"1"
+			{
+				"name"		"Acre Bold"
+				"tall"		"20"
 				"antialias" "1"
 				"outline"	"1"
 			}
@@ -2611,7 +2681,7 @@
 				"outline"	"1"
 			}
 		}
-		"Damage18OutlineSemiBold"
+		"Damage18OutlineProductSemiBold"
 		{
 			"1"
 			{
@@ -2621,12 +2691,12 @@
 				"outline"	"1"
 			}
 		}
-		"Damage20OutlineSharpened"
+		"Damage18OutlineSharpened"
 		{
 			"1"
 			{
 				"name"		"SurfaceSharpened-Medium"
-				"tall"		"20"
+				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
 			}
