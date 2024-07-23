@@ -1,0 +1,1 @@
+Put chat_english in resource and put targetid in resource/ui
