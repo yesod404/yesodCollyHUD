@@ -192,55 +192,101 @@
 		"ItemFlags"								"114 114 114 235"
 		"ItemLimitedQuantity"					"225 209 0 220"
 		
-		"QualityColorNormal"					"210 210 210 255"
-		"QualityColorrarity1"					"60 163 115 255"
-		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"204 204 250 255"
-		"QualityColorrarity4"					"112 57 203 255"
-		"QualityColorVintage"					"53 105 155 255"
-		"QualityColorUnique"					"239 174 40 255"
-		"QualityColorCommunity"					"112 176 74 255"
-		"QualityColorDeveloper"					"165 15 121 255"
-		"QualityColorSelfMade"					"112 176 74 255"
-		"QualityColorCustomized"				"71 98 145 255"
-		"QualityColorStrange"					"251 118 35 255"
-		"QualityColorCompleted"					"134 80 172 255"
-		"QualityColorHaunted"					"42 202 156 255"
-		"QualityColorCollectors"				"187 63 60 255"
-		"QualityColorPaintkitWeapon"			"250 250 250 255"
+		"QualityColorNormal"								"178 178 178 255"		// Empty
+		"QualityColorrarity1"								"77 116 85 255"		// Genuine
+		"QualityColorrarity2"								"141 131 75 255"		//
+		"QualityColorrarity3"								"204 204 250 255"		//
+		"QualityColorrarity4"								"134 80 172 255"		// Unusual
+		"QualityColorVintage"								"71 98 145 255"		// Vintage
+		"QualityColorUnique"								"255 215 0 255"		// Unique
+		"QualityColorCommunity"								"112 176 74 255"		// Community
+		"QualityColorDeveloper"								"165 15 121 255"		// Developer
+		"QualityColorSelfMade"								"112 176 74 255"		// Self Made
+		"QualityColorCustomized"							"71 98 145 255"		// Customized
+		"QualityColorStrange"								"207 106 50 255"		// Strange
+		"QualityColorCompleted"								"134 80 172 255"		// Completed
+		"QualityColorHaunted"								"56 243 171 255"		// Haunted
+		"QualityColorCollectors"							"170 0 0 255"			// Collectors
+		"QualityColorPaintkitWeapon"						"250 250 250 255"		// Paint kit Weapon
 		
-		"ItemRarityDefault"						"131 126 119 255"
-		"ItemRarityCommon"						"176 195 217 255"
-		"ItemRarityUncommon"					"94 152 217 255"
-		"ItemRarityRare"						"75 105 255 255"
-		"ItemRarityMythical"					"136 71 255 255"
-		"ItemRarityLegendary"					"211 44 230 255"
-		"ItemRarityAncient"						"235 75 75 255"
+		"ItemRarityDefault"									"131 126 119 255"		// Default Graded Weapon
+		"ItemRarityCommon"									"176 195 217 255"		// Civilian Grade
+		"ItemRarityUncommon"								"94 152 217 255"		// Freelance Grade
+		"ItemRarityRare"									"75 105 255 255"		// Mercenary Grade
+		"ItemRarityMythical"								"136 71 255 255"		// Commando Grade
+		"ItemRarityLegendary"								"211 44 230 255"		// Assassin Grade
+		"ItemRarityAncient"									"235 75 75 255"		// Elite Grade
 		
-		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
-		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
-		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
-		"ItemRarityRare_GreyedOut"				"25 35 85 255"
-		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
-		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
-		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
+		"ItemRarityDefault_GreyedOut"						"44 42 40 255"			// Default Graded Weapon
+		"ItemRarityCommon_GreyedOut"						"59 65 72 255"			// Civilian Grade
+		"ItemRarityUncommon_GreyedOut"						"31 50 72 255"			// Freelance Grade
+		"ItemRarityRare_GreyedOut"							"25 35 85 255"			// Mercenary Grade
+		"ItemRarityMythical_GreyedOut"						"45 24 85 255"			// Commando Grade
+		"ItemRarityLegendary_GreyedOut"						"70 15 77 255"			// Assassin Grade
+		"ItemRarityAncient_GreyedOut"						"78 25 25 255"			// Elite Grade
 		
-		"QualityColorNormal_GreyedOut"			"44 44 44 255"
-		"QualityColorrarity1_GreyedOut"			"60 163 115 55"
-		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
-		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
-		"QualityColorrarity4_GreyedOut"			"112 57 203 55"
-		"QualityColorVintage_GreyedOut"			"53 105 155 55"
-		"QualityColorUnique_GreyedOut"			"239 174 40 55"
-		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
-		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
-		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
-		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
-		"QualityColorStrange_GreyedOut"			"251 118 35 55"
-		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
-		"QualityColorHaunted_GreyedOut"			"42 202 156 55"
-		"QualityColorCollectors_GreyedOut"		"187 63 60 55"
-		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
+		"QualityColorNormal_GreyedOut"						"44 44 44 255"			// Empty
+		"QualityColorrarity1_GreyedOut"						"20 29 21 255"			// Genuine
+		"QualityColorrarity2_GreyedOut"						"35 33 19 255"			//
+		"QualityColorrarity3_GreyedOut"						"51 51 62 255"			//
+		"QualityColorrarity4_GreyedOut"						"36 20 43 255"			// Unusual
+		"QualityColorVintage_GreyedOut"						"18 25 36 255"			// Vintage
+		"QualityColorUnique_GreyedOut"						"64 54 0 255"			// Unique
+		"QualityColorCommunity_GreyedOut"					"28 44 19 255"			// Community
+		"QualityColorDeveloper_GreyedOut"					"41 4 30 255"			// Developer
+		"QualityColorSelfMade_GreyedOut"					"28 44 74 255"			// Self Made
+		"QualityColorCustomized_GreyedOut"					"71 98 19 255"			// Customized
+		"QualityColorStrange_GreyedOut"						"52 27 13 255"			// Strange
+		"QualityColorCompleted_GreyedOut"					"34 20 43 255"			// Completed
+		"QualityColorHaunted_GreyedOut"						"14 61 43 255"			// Haunted
+		"QualityColorCollectors_GreyedOut"					"60 0 0 255"			// Collectors
+		"QualityColorPaintkitWeapon_GreyedOut"				"60 60 60 255"			// Paint kit Weapon
+		
+		"Normal"											"50 50 50 255"
+		"Genuine"											"77 116 85 255"
+		"Unusual"											"134 80 172 255"
+		"Vintage"											"71 98 145 255"
+		"Unique"											"255 215 0 255"
+		"Community"											"112 176 74 255"
+		"Developer"											"165 15 121 255"
+		"SelfMade"											"112 176 74 255"
+		"Customized"										"71 98 145 255"
+		"Strange"											"207 106 50 255"
+		"Completed"											"134 80 172 255"
+		"Haunted"											"56 243 171 255"
+		"Collectors"										"170 0 0 255"
+		"PaintkitWeapon"									"250 250 250 255"
+
+		"GradedWeaponDefault"								"131 126 119 255"
+		"CivilianGrade"										"176 195 217 255"
+		"FreelanceGrade"									"94 152 217 255"
+		"MercenaryGrade"									"75 105 255 255"
+		"CommandoGrade"										"136 71 255 255"
+		"AssassinGrade"										"211 44 230 255"
+		"EliteGrade"										"235 75 75 255"
+		
+		"Normal_Hover"										"235 240 245 255"
+		"Genuine_Hover"										"235 240 245 255"
+		"Unusual_Hover"										"235 240 245 255"
+		"Vintage_Hover"										"235 240 245 255"
+		"Unique_Hover"										"235 240 245 255"
+		"Community_Hover"									"235 240 245 255"
+		"Developer_Hover"									"235 240 245 255"
+		"SelfMade_Hover"									"235 240 245 255"
+		"Customized_Hover"									"235 240 245 255"
+		"Strange_Hover"										"235 240 245 255"
+		"Completed_Hover"									"235 240 245 255"
+		"Haunted_Hover"										"235 240 245 255"
+		"Collectors_Hover"									"235 240 245 255"
+		"PaintkitWeapon_Hover"								"235 240 245 255"
+
+		"GradedWeaponDefault_Hover"							"235 240 245 255"
+		"CivilianGrade_Hover"								"235 240 245 255"
+		"FreelanceGrade_Hover"								"235 240 245 255"
+		"MercenaryGrade_Hover"								"235 240 245 255"
+		"CommandoGrade_Hover"								"235 240 245 255"
+		"AssassinGrade_Hover"								"235 240 245 255"
+		"EliteGrade_Hover"									"235 240 245 255"
 		
 		"SaleGreen"								"76 107 34 255"
 		
