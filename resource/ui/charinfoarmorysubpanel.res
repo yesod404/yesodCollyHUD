@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
-		"font"			"ProductBold30"
+		"font"			"Product30"
 		"labelText"		"Mann Co. Catalog"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
@@ -96,28 +96,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
-	}
-	"ArmoryLabelShadow"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"ArmoryLabelShadow"
-		"font"			"ProductBold30"
-		"labelText"		"Mann Co. Catalog"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"560"
-		"tall"			"32"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"0 0 0 255"
-
-		"pin_to_sibling"	"ArmoryLabel"
-        "pin_corner_to_sibling"		"1"
-        "pin_to_sibling_corner"		"1"
 	}
 
 	"FiltersLabel"

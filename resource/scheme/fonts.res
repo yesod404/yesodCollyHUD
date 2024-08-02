@@ -1145,7 +1145,7 @@
 		{
 			"1"
 			{
-				"name"			"Product Sans"
+				"name"			"Product Sans Regular"
 				"tall"			"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1541,7 +1541,7 @@
 		{
 			"1"
 			{
-				"name"			"Product Sans"
+				"name"			"Product Sans Regular"
 				"tall"			"28"
 				"tall_lodef"	"24"
 				"weight"		"500"
@@ -1569,7 +1569,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1578,7 +1578,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1628,7 +1628,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -1639,7 +1639,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -1983,7 +1983,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -1992,7 +1992,7 @@
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2001,7 +2001,7 @@
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2014,7 +2014,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2024,7 +2024,7 @@
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2034,7 +2034,7 @@
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2048,7 +2048,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2057,7 +2057,7 @@
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2066,7 +2066,7 @@
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2079,7 +2079,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2091,7 +2091,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2103,7 +2103,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2211,7 +2211,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2357,7 +2357,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2370,7 +2370,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2497,7 +2497,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2788,7 +2788,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2799,7 +2799,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"6"
 				"antialias" "1"
 				"additive"	"0"
@@ -2810,7 +2810,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"7"
 				"antialias" "1"
 				"additive"	"0"
@@ -2821,7 +2821,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2832,7 +2832,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -2843,7 +2843,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2854,7 +2854,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -2865,7 +2865,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -2876,7 +2876,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -2889,7 +2889,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"7"
 				"antialias" "1"
 				"additive"	"0"
@@ -2900,7 +2900,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2911,7 +2911,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -2922,7 +2922,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -2933,7 +2933,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -2944,7 +2944,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
@@ -2955,7 +2955,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -2966,7 +2966,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -2977,7 +2977,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -2988,7 +2988,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -2999,7 +2999,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3010,7 +3010,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
@@ -3021,7 +3021,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3034,7 +3034,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -3045,7 +3045,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"10"
 				"antialias" "1"
 				"blur" 		"1"
@@ -3057,7 +3057,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -3068,7 +3068,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -3079,7 +3079,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3090,7 +3090,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3101,7 +3101,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3123,7 +3123,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3134,7 +3134,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
@@ -3145,7 +3145,7 @@
 		{
 			"1"
 			{
-				"name"			"Product Sans"
+				"name"			"Product Sans Regular"
 				"tall"			"26"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -3156,7 +3156,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
@@ -3167,7 +3167,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"29"
 				"antialias" "1"
 				"additive"	"0"
@@ -3178,7 +3178,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"30"
 				"antialias" "1"
 				"additive"	"0"
@@ -3189,7 +3189,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"31"
 				"antialias" "1"
 				"additive"	"0"
@@ -3200,7 +3200,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"32"
 				"antialias" "1"
 				"additive"	"0"
@@ -3211,7 +3211,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"33"
 				"antialias" "1"
 				"additive"	"0"
@@ -3222,7 +3222,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"34"
 				"antialias" "1"
 				"additive"	"0"
@@ -3233,7 +3233,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"35"
 				"antialias" "1"
 				"additive"	"0"
@@ -3244,7 +3244,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"36"
 				"antialias" "1"
 				"additive"	"0"
@@ -3359,7 +3359,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -3418,7 +3418,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans"
+				"name"		"Product Sans Regular"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -4635,12 +4635,12 @@
 		}
 		"13"
 		{
-			"font" "resource/fonts/Product Sans.ttf"
-			"name" "Product Sans"
+			"font" "resource/fonts/ProductSans-Regular4.ttf"
+			"name" "Product Sans Regular"
 		}
 		"14"
 		{
-			"font" "resource/fonts/ProductSansBold.ttf"
+			"font" "resource/fonts/ProductSansBold3.ttf"
 			"name" "Product Sans Bold"
 		}
 		"15"
@@ -4665,8 +4665,8 @@
 		}
 		"19"
 		{
-			"font" 		"resource/fonts/ProductSans-SemiBold.ttf"
-			"name" 		"ProductSans-SemiBold"
+			"font" 		"resource/fonts/ProductSans-SemiBold9.ttf"
+			"name" 		"Product Sans SemiBold Edited"
 		}
 		"20"
 		{

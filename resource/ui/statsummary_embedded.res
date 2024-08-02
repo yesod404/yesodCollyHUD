@@ -13,11 +13,25 @@
 		"bgcolor_override"	"CollyHudDarkGray"
 	}
 	
-		"StatsTitleLabel"
+	"SubHeader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SubHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"598"
+		"wide"			"f0"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 165"
+	}
+	
+	"StatsTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModifyLoadoutLabel"
-		"font"			"ProductBold26"
+		"font"			"Product30"
 		"labelText"		"YOUR STATISTICS"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -30,28 +44,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "White"
-	}
-	"StatsTitleLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ModifyLoadoutLabelShadow"
-		"font"			"ProductBold26"
-		"labelText"		"YOUR STATISTICS"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "0 0 0 255"
-
-		"pin_to_sibling"	"ModifyLoadoutLabel"
-        "pin_corner_to_sibling"		"1"
-        "pin_to_sibling_corner"		"1"
 	}
 	
 	"OnYourWayLabel" [$WIN32]
@@ -2012,11 +2004,11 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
-		"xpos"			"c130"
-		"ypos"			"310"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"xpos"			"22"
+		"ypos"			"0"
+		"zpos"			"601"
+		"wide"			"52"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -2027,6 +2019,21 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
+		"font"			"Product12"
+		"textinsetx"	"0"
+		"textinsety"	"0"
+		
+		"paintborder"	"0"
+		"paintbackground"	"0"
+		
+		"auto_wide_tocontents"	"1"
+		
+		"defaultFgColor_override" "62 62 62 255"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "62 62 62 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"CloseButton" [$WIN32]
 	{

@@ -110,7 +110,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"30"
+		"tabxindent"	"21"
 		"tabxdelta"		"10"
 		"tabwidth"		"150"
 		"tabheight"		"20"
@@ -137,14 +137,28 @@
 		{
 			"textinsetx"		"0"
 			"textinsety"		"-2"
-			"font"				"productbold20"
+			"font"				"product16"
 			"selectedcolor"		"White"
-			"unselectedcolor"	"0 0 0 165"	
+			"unselectedcolor"	"62 62 62 255"	
 			"defaultBgColor_override"	"Blank"
 			"paintbackground"	"0"
 			"activeborder_override"	"NoBorder"
 			"normalborder_override" "NoBorder"
 		}
+	}
+
+	"Header"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Header"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-3"
+		"wide"			"f0"
+		"tall"			"42"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
 	}
 
 	"BackButton"

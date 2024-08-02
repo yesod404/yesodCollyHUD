@@ -141,7 +141,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"ProductBold30"
+		"font"			"Product30"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"c-120"
@@ -155,28 +155,7 @@
 		"enabled"		"1"
 		"fgcolor_override"	"nüWhite"
 	}
-	"ClassLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabelShadow"
-		"font"			"ProductBold30"
-		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"32"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"0 0 0 255"
-		
-		"pin_to_sibling"	"ClassLabel"
-        "pin_corner_to_sibling"		"1"
-        "pin_to_sibling_corner"		"1"
-	}
+
 	"TauntCaratLabel"
 	{
 		"ControlName"		"CExLabel"
