@@ -2709,7 +2709,7 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"default"					"1"
-		"labeltext" 				"MINMODE"
+		"labeltext" 				"SCOREBOARD"
 		"command" 					"engine toggle cl_hud_minmode"
 		"proportionaltoparent"		"1"
 		

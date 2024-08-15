@@ -2,6 +2,7 @@
 // ALTERNATIVE FONTS
 //====================================================================================
 // Uncomment (by removing the // before #base) the font line you want to activate
+// PLEASE MAKE SURE TO INSTALL EVERY FONT (OVERWRITE FOR THE PROPER ONES)
 // IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED!!
 //====================================================================================
 
@@ -9,6 +10,7 @@
 //#base "../resource/alternatives/fonts/acre_bold.res"							// ACRE BOLD
 //#base "../resource/alternatives/fonts/avenir.res"										// AVENIR
 //#base "../resource/alternatives/fonts/catamaran.res"							// CATAMARAN
+//#base "../resource/alternatives/fonts/cerbetica.res"							// CERBETICA
 //#base "../resource/alternatives/fonts/code_pro.res"								// CODE PRO
 //#base "../resource/alternatives/fonts/handel.res"							// HANDEL
 //#base "../resource/alternatives/fonts/lexend.res"							// LEXEND

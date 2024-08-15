@@ -4,30 +4,29 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ModeImage"
-		"xpos"			"-5"
-		"ypos"			"0"
+		"xpos"			"-7"
+		"ypos"			"-7"
 		"zpos"			"0"
-		"wide"			"240"
-		"tall"			"60"
+		"wide"			"132"
+		"tall"			"66"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"proportionaltoparent"	"0"
 		"image"			""
 	}
-
 	"ModeImageCover"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ModeImage"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"240"
-		"tall"			"80"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"CollyHudDarkGray"
+		"fillcolor"		"collyhuddarkgray"
 	}
 
 	"PlayListDropShadow"
@@ -59,7 +58,7 @@
 		"enabled"		"1"
 		
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"softgreen"
+		"bgcolor_override"	"0 0 0 255"
 	}
 
 	
@@ -104,14 +103,13 @@
 		"ypos"			"rs1"
 		"zpos"			"6"
 		"wide"			"120"
-		"tall"			"80"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%button_token%"
 		"textinsetx"	"6"
-		"textinsety"	"70"
 		"use_proportional_insets" "1"
-		"font"			"ProductBold8"
+		"font"			"HudFontSmallestBold"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -122,7 +120,7 @@
 
 		//"border_default"		"MainMenuMiniButtonDefault"
 		//"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -140,7 +138,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"0"
-		"bgcolor_override"	"softpink"
+		"bgcolor_override"	"0 0 0 250"
 		"proportionaltoparent"	"1"
 
 		"MatchmakingBanDurationLabel"
@@ -187,7 +185,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "TanLight60"
-		"bgcolor_override" "softblue"
+		"bgcolor_override" "0 0 0 165"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}

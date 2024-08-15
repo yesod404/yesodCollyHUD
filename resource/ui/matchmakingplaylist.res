@@ -28,88 +28,6 @@
 		"button_command"	"play_event"
 	}
 	
-			"CasualLogo"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"CasualLogo"
-				"xpos"			"163"
-				"ypos"			"15"
-				"zpos"			"3"
-				"wide"			"37"
-				"tall"			"37"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/gamemodes/casual"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"pin_to_sibling"			"CasualEntry"
-			}
-			
-			"CompetitiveLogo"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"CompetitiveLogo"
-				"xpos"			"285"
-				"ypos"			"15"
-				"zpos"			"3"
-				"wide"			"37"
-				"tall"			"37"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/gamemodes/competitive"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"pin_to_sibling"			"CompetitiveEntry"
-			}
-			"MVMLogo"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"MVMLogo"
-				"xpos"			"410"
-				"ypos"			"15"
-				"zpos"			"3"
-				"wide"			"37"
-				"tall"			"37"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/gamemodes/mvm"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"pin_to_sibling"			"MvMEntry"
-			}
-			"TrainingLogo"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"TrainingLogo"
-				"xpos"			"535"
-				"ypos"			"15"
-				"zpos"			"3"
-				"wide"			"37"
-				"tall"			"37"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/gamemodes/trainingfix"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"pin_to_sibling"			"TrainingEntry"
-			}
-			"ServerLogo"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"ServerLogo"
-				"xpos"			"660"
-				"ypos"			"15"
-				"zpos"			"3"
-				"wide"			"37"
-				"tall"			"37"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/gamemodes/server"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"pin_to_sibling"			"CreateServerEntryEntry"
-			}
-	
 	"CasualEntry"
 	{
 		"ControlName"	"CPlayListEntry"
@@ -121,7 +39,7 @@
 		"wide"			"120"
 		"proportionaltoparent"	"0"
 
-		"image_name"		"main_menu/main_menu_button_casual"
+		"image_name"		"logos/mmplaylisticons/casualicon"
 		"button_token"		"#MMenu_PlayList_Casual_Button"
 		"button_command"	"play_casual"
 		"desc_token"		"#MMenu_PlayList_Casual_Desc"
@@ -139,7 +57,7 @@
 		"wide"			"120"
 		"proportionaltoparent"	"0"
 
-		"image_name"		"main_menu/main_menu_button_competitive"
+		"image_name"		"logos/mmplaylisticons/compicon"
 		"button_token"		"#MMenu_PlayList_Competitive_Button"
 		"button_command"	"play_competitive"
 		"desc_token"		"#MMenu_PlayList_Competitive_Desc"
@@ -161,7 +79,7 @@
 		"wide"			"120"
 		"proportionaltoparent"	"0"
 
-		"image_name"		"main_menu/main_menu_button_mvm"
+		"image_name"		"logos/mmplaylisticons/mvmicon"
 		"button_token"		"#MMenu_PlayList_MvM_Button"
 		"button_command"	"play_mvm"
 		"desc_token"		"#MMenu_PlayList_MvM_Desc"
@@ -200,7 +118,7 @@
 		"wide"			"120"
 		"proportionaltoparent"	"0"
 
-		"image_name"		"main_menu/main_menu_button_training"
+		"image_name"		"logos/mmplaylisticons/trainingicon"
 		"button_token"		"#MMenu_PlayList_Training_Button"
 		"button_command"	"play_training"
 		"desc_token"		"#MMenu_PlayList_Training_Desc"
@@ -221,7 +139,7 @@
 		"wide"			"120"
 		"proportionaltoparent"	"0"
 
-		"image_name"		"main_menu/main_menu_button_custom_server"
+		"image_name"		"logos/mmplaylisticons/servericon"
 		"button_token"		"#MMenu_PlayList_CreateServer_Button"
 		"button_command"	"create_server"
 		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
