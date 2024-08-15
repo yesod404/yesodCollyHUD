@@ -282,7 +282,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"labelText"			"e"
+			"labelText"			""
 			"bgcolor"			"softred"
 			"fgcolor_override"			"tanlight"
 			"textAlignment"		"CENTER"
@@ -291,7 +291,7 @@
 		}
 		"MoveableKeyLabel2"
 		{
-			"ControlName"		"Label"
+			"ControlName"		"EditablePanel"
 			"fieldName"			"MoveableKeyLabel2"
 			"font"				"Symbols 14"
 			"xpos"				"16"
@@ -306,11 +306,27 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"labelText"			"e"
+			"labelText"			""
 			"fgcolor_override"			"tanlight"
 			"textAlignment"		"CENTER"
 			"dulltext"			"0"
 			"brighttext"		"0"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"10"
+				"ypos"			"2"
+				"zpos"			"-5"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/upload"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
 		}
 
 

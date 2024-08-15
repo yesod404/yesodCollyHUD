@@ -8,7 +8,7 @@
 		"ypos"										"-5"
 		"zpos"										"1"
 		"wide"										"f0"
-		"tall"										"480"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -677,7 +677,7 @@
 		"ypos"										"rs1-31"
 		"zpos"										"1"
 		"wide"										"35"
-		"tall"										"14"
+		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"paintbackground"							"1"
@@ -705,7 +705,7 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CarriedImage"
 			"xpos"									"1"
-			"ypos"									"cs-0.5"
+			"ypos"									"cs-0.4"
 			"zpos"									"4"
 			"wide"									"11"
 			"tall"									"11"
@@ -715,22 +715,23 @@
 			"scaleImage"							"1"
 			"proportionalToParent"					"1"
 		}
-	"StripGreen"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"StripRed"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"59"
-		"tall"			"2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		
-		"bgcolor_override"		"softgreen"
-	}
+		"StripGreen"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"StripRed"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"59"
+			"tall"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"bgcolor_override"		"softgreen"
+		}
 
 		"FlagValue"
 		{
@@ -752,10 +753,19 @@
 
 		"TeamLeaderImage"
 		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"TeamLeaderImage"
-			"xpos"									"9999"
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"TeamLeaderImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1000"
+			"wide"									"59"
+			"tall"									"2"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/bg_yellow"
+			"scaleImage"	"1"	
 		}
+		
 		"CarriedProgressBar"
 		{
 			"fieldName"								"CarriedProgressBar"

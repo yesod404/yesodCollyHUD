@@ -5,8 +5,6 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r-305"
-		"ypos"					"0"
 		"zpos"					"1001"
 		"wide"					"230"
 		"tall"					"120"

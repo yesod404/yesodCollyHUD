@@ -13,7 +13,7 @@
 		"proportionaltoparent"						"1"
 		"keyboardinputenabled"						"1"
 		"mouseinputenabled"							"0"
-		"alpha"										"255"
+		"alpha"										"100"
 	}
 
 	"CTFLogoPanel"

@@ -279,7 +279,7 @@
 "ChatPin"
 {
     "ControlName"    "Panel"
-		"xpos"					"r-304"
+		"xpos"					"0"
 		"ypos"					"42"
 }
 "partychat"
