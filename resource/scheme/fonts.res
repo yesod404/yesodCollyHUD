@@ -4635,12 +4635,12 @@
 		}
 		"13"
 		{
-			"font" "resource/fonts/ProductSans-Regular4.ttf"
+			"font" "resource/fonts/ProductSans-Regular-Edited.ttf"
 			"name" "Product Sans Regular"
 		}
 		"14"
 		{
-			"font" "resource/fonts/ProductSansBold3.ttf"
+			"font" "resource/fonts/ProductSans-Bold3.ttf"
 			"name" "Product Sans Bold"
 		}
 		"15"
@@ -4655,7 +4655,7 @@
 		}
 		"17"
 		{
-			"font" "resource/fonts/NovecentoMedium.ttf"
+			"font" "resource/fonts/NovecentoMediumEdit4.ttf"
 			"name" "NovecentoMedium"  
 		}
 		"18"
