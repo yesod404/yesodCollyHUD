@@ -2,18 +2,18 @@
 // COLOR SCHEME
 //============================================================
 
-#base   "../resource/scheme/colors.res"
+#base   "scheme/colors.res"
 
 //============================================================
 // FONT SCHEMES
 //============================================================
 
 #base   "../customizations/alternative fonts.res"
-#base   "../resource/scheme/fonts.res"
+#base   "scheme/fonts.res"
 
 //============================================================
 // BORDER SCHEME
 //============================================================
 
-#base   "../resource/scheme/borders.res"
+#base   "scheme/borders.res"
 
