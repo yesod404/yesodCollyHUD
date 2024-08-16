@@ -11,7 +11,7 @@ Scheme
 			"1"
 			{
 				"name"										"Code-Pro-LC"
-				"tall"										"40"
+				"tall"										"35"
 			}
 		}
 		"HealthAmmoShadowBuff"
@@ -19,7 +19,7 @@ Scheme
 			"1"
 			{
 				"name"										"Code-Pro-LC"
-				"tall"										"40"
+				"tall"										"35"
 			}
 		}
 		"HealthAmmoShadowBuffExtra"
@@ -27,7 +27,7 @@ Scheme
 			"1"
 			{
 				"name"										"Code-Pro-LC"
-				"tall"										"40"
+				"tall"										"35"
 			}
 		}
 		"HealthAmmoMinimal"
@@ -35,7 +35,7 @@ Scheme
 			"1"
 			{
 				"name"										"Code-Pro-LC"
-				"tall"										"40"
+				"tall"										"35"
 			}
 		}
 		"HealthAmmoBlur"
@@ -43,7 +43,7 @@ Scheme
 			"1"
 			{
 				"name"										"Code-Pro-LC"
-				"tall"										"40"
+				"tall"										"35"
 			}
 		}
 		
@@ -77,7 +77,7 @@ Scheme
 			"1"
 			{
 				"name"										"Code-Pro-LC"
-				"tall"										"40"
+				"tall"										"35"
 			}
 		}
 	}

@@ -6,8 +6,8 @@ Scheme
 		"White120"					"245 245 245 120"
 		"White60"					"245 245 245 60"
 		
-		"collygray"					"39 39 40 255"
-		"collygraydarker"			"27 27 28 255"
+		"collygray"					"0 0 0 165"
+		"collygraydarker"			"0 0 0 200"
 		
 		"transwhite"				"255 255 255 16"
 		"transblack80"				"0 0 0 80"

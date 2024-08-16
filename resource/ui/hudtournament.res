@@ -95,7 +95,7 @@
 
 				if_readymode
 				{
-				"visible"		"0"
+				"visible"		"1"
 				}
 			}
 			
@@ -358,6 +358,8 @@
 			}
 		}
 	}
+
+
 
 	"HudTournamentBG"
 	{

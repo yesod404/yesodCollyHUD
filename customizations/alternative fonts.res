@@ -2,7 +2,6 @@
 // ALTERNATIVE FONTS
 //====================================================================================
 // Uncomment (by removing the // before #base) the font line you want to activate
-// PLEASE MAKE SURE TO INSTALL EVERY FONT (OVERWRITE FOR THE PROPER ONES)
 // IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED!!
 //====================================================================================
 

@@ -11,7 +11,7 @@ Scheme
 			"1"
 			{
 				"name"										"Handel Gothic BT"
-				"tall"										"34"
+				"tall"										"32"
 			}
 		}
 		
@@ -20,7 +20,7 @@ Scheme
 			"1"
 			{
 				"name"										"Handel Gothic BT"
-				"tall"										"34"
+				"tall"										"32"
 			}
 		}
 		"HealthAmmoShadowBuffExtra"
@@ -28,7 +28,7 @@ Scheme
 			"1"
 			{
 				"name"										"Handel Gothic BT"
-				"tall"										"34"
+				"tall"										"32"
 			}
 		}
 		"HealthAmmoMinimal"
@@ -36,7 +36,7 @@ Scheme
 			"1"
 			{
 				"name"										"Handel Gothic BT"
-				"tall"										"34"
+				"tall"										"32"
 			}
 		}
 		"HealthAmmoBlur"
@@ -44,7 +44,7 @@ Scheme
 			"1"
 			{
 				"name"										"Handel Gothic BT"
-				"tall"										"34"
+				"tall"										"32"
 			}
 		}
 		
@@ -78,7 +78,7 @@ Scheme
 			"1"
 			{
 				"name"										"Handel Gothic BT"
-				"tall"										"34"
+				"tall"										"32"
 			}
 		}
 	}

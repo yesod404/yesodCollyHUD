@@ -13,7 +13,7 @@
 		"softpink"								"240 110 125 255"
 		"softgray"								"67 76 86 255"
 
-		"m0rered"								"255 0 0 255"
+		"m0rered"								"212 50 50 255"
 		"m0reorange"							"255 156 74 255"
 		"m0reyellow"							"255 191 0 255"
 		"m0regreen"								"0 185 0 255"

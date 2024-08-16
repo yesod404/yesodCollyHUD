@@ -11,7 +11,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"tall"										"65"
 			}
 		}
 		"HealthAmmoShadowBuff"
@@ -19,7 +19,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"tall"										"65"
 			}
 		}
 		"HealthAmmoShadowBuffExtra"
@@ -27,7 +27,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"tall"										"65"
 			}
 		}
 		"HealthAmmoMinimal"
@@ -35,7 +35,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"tall"										"65"
 			}
 		}
 		"HealthAmmoBlur"
@@ -43,7 +43,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"tall"										"65"
 			}
 		}
 		//===========================================================================================================
@@ -55,7 +55,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"23"
+				"tall"										"25"
 			}
 		}
 
@@ -64,7 +64,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"23"
+				"tall"										"25"
 			}
 		}
 		//===========================================================================================================
@@ -76,7 +76,7 @@ Scheme
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"80"
+				"tall"										"65"
 			}
 		}
 	}

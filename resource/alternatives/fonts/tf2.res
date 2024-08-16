@@ -11,7 +11,7 @@ Scheme
 			"1"
 			{
 				"name"										"TF2 Build"
-				"tall"										"34"
+				"tall"										"32"
 			}
 		}
 		"HealthAmmoBlur"
@@ -19,7 +19,7 @@ Scheme
 			"1"
 			{
 				"name"										"TF2 Build"
-				"tall"										"34"
+				"tall"										"32"
 			}
 		}
 		
@@ -53,7 +53,7 @@ Scheme
 			"1"
 			{
 				"name"										"TF2 Build"
-				"tall"										"34"
+				"tall"										"32"
 			}
 		}
 	}

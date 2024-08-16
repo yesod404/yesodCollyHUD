@@ -87,7 +87,7 @@ Scheme
 	{
 		"83"
 		{
-			"font" "resource/fonts/ProductSansBold.ttf"
+			"font" "resource/fonts/ProductSansBold3.ttf"
 			"name" "Product Sans Bold"
 		}
 	}

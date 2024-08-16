@@ -9,6 +9,7 @@
 		"tabPosition"	"0"
 		"paintbackground"	"0"
 		"zpos"			"20"
+        "ypos"       "80"//45
 		"visible"		"0"
 
 		"AnimBluePlayerListParent"		"p.47"
@@ -71,9 +72,9 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"r0"
 		"zpos"			"9001"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -97,9 +98,9 @@
 		"ypos"			"r1"
 
 		"zpos"			"9002"
-		"wide"			"2000"
-		"tall"			"2000"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -119,14 +120,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatsBgPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-100"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"PaintBackgroundType"	"1"
-		"bgcolor_override" "0 0 0 250"
+		"PaintBackgroundType"	""
+		"bgcolor_override" "0 0 0 200"
 	}
 
 	"DrawingPanel"
@@ -258,12 +259,28 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"bgcolor_override"		"softblue"
+					"border"		"BlackBorder165"
 
 					if_large
 					{
 						"ypos"			"39"
 					}
+	"StripRed"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"StripRed"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"800"
+		"tall"			"2"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"bgcolor_override"		"softblue"
+	}
 				}
 				"BlueTeamScore"
 				{
@@ -299,11 +316,11 @@
 					"xpos"			"6"
 					"ypos"			"104"
 					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
+					"wide"			"0"
+					"tall"			"0"
 					"autoResize"	"0"
 					"pinCorner"		"0"
-					"visible"		"1"
+					"visible"		"0"
 					"enabled"		"1"
 
 					if_large
@@ -338,14 +355,14 @@
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
 					"font"			"ProductBold20"
-					"fgcolor"		"0 0 0 255"
+					"fgcolor"		"0 0 0 0"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"		"east"
 					"xpos"			"6"
 					"ypos"			"104"
 					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
+					"wide"			"0"
+					"tall"			"0"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -528,12 +545,28 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderRedBGOpaque"
+					"border"		"BlackBorder165"
 
 					if_large
 					{
 						"ypos"			"39"
 					}
+	"StripBlue"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"StripBlue"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"800"
+		"tall"			"2"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"bgcolor_override"		"softred"
+	}
 				}						
 				"RedTeamScore"
 				{
@@ -568,8 +601,8 @@
 					"xpos"			"r4-p.19"
 					"ypos"			"104"
 					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
+					"wide"			"0"
+					"tall"			"0"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -613,8 +646,8 @@
 					"xpos"			"r4-p.19"
 					"ypos"			"104"
 					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
+					"wide"			"0"
+					"tall"			"0"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
