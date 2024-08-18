@@ -25,7 +25,7 @@
 		"zpos"			"1"
 		"wide"			"F0"
 		"tall"			"f0"
-		"fillcolor"			"collyhuddarkgray"
+		"fillcolor"			"0 0 0 165"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

@@ -119,18 +119,25 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"0"
-		"ypos"			"16"
-		"zpos"			"5"
-		"wide"			"120"
-		"tall"			"18"
+		"ypos"			"20"
+		"zpos"			"0"
+		"wide"			"40"
+		"textinsety"			"0"
+		"textinsetx"			"0"
+		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
 		"textAlignment"		"center"
+		"bgcolor_override"		"0 0 0 165"
+		"fgcolor_override"		"245 245 245 165"
+		"paintbackgroundtype"	"2"
+		"roundedcorners"	"0"
+		"border"		"noborder"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"chudreg12"
+		"font"			"product7"
 	}
 	"SuddenDeathBG"
 	{
@@ -235,7 +242,5 @@
 		"fillcolor"			"250 250 250 0"
 		"border"		"LightWhiteLine"
 		"paintborder"		"1"
-
-		
 	}
 }

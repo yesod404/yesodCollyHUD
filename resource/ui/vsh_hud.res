@@ -266,7 +266,7 @@
 			"fieldName"								"BarImageBg"
 			"xpos"					"c-70"
 			"ypos"					"66"
-			"zpos"									"0"
+			"zpos"									"-5"
 			"wide"									"152"
 			"tall"									"1"
 			"visible"								"1"

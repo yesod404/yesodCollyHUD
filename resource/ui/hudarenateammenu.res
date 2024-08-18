@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MapName"
-		"xpos"			"-30"
+		"xpos"			"-33"
 		"ypos"			"22"
 		"zpos"			"1"
 		"wide"			"0"

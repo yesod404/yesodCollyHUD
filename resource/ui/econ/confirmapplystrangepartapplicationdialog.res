@@ -128,7 +128,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"18 18 18 255"
+			"bgcolor_override"						"0 0 0 165"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled" 					"0"
 		}
