@@ -361,29 +361,6 @@
 
 
 
-	"HudTournamentBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"HudTournamentBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"55"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-		"proportionaltoparent"	"1"
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
-			
-	}
 	"TournamentLabel"
 	{	
 		"ControlName"		"Label"
@@ -755,68 +732,26 @@
 		"textAlignment"	"left"
 
 	}
-	
-"CountdownBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"CountdownBG"
-		"xpos"			"230"
-		"ypos"			"r55"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"40"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/black"
-		"alpha"				"200"
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"150"
-		}
-	}
 	"CountdownLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"ProductBold24"
-		"xpos"			"230"
-		"ypos"			"r55"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"5"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
-			"fgcolor"		"White"
-			"font"			"ProductBold24"
-		}
-
-		if_readymode
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
-			"visible"		"0"
-		}
+		"xpos"										"cs-0.5"
+		"ypos"										"100"
+		"wide"										"40"
+		"tall"										"40"
+		"zpos"										"5"
+		"visible"									"0"
+		"enabled"									"1"
+		"font"										"product24DS"
+		"labelText"									"%tournamentstatelabel%"
+		"textAlignment"								"center"
+		"proportionaltoparent"						"1"
 	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"HudTournamentBG"{"ControlName" "ScalableImagePanel" "fieldName" "HudTournamentBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"CountdownBG"{"ControlName" "ScalableImagePanel" "fieldName" "CountdownBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

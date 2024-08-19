@@ -161,13 +161,13 @@
 		"ControlName"					"EditablePanel"
 		"fieldName"						"BGPanel"
 		"xpos"							"-5"
-		"ypos"							"0"
+		"ypos"							"-40"
 		"zpos"							"1"
 		"wide"							"p2"
 		"tall"							"410"
 		"visible"						"1"
 		"proportionaltoparent"			"1"
 		"paintbackground"	"1"
-		"bgcolor_override"			"CollyHudDarkGray"
+		"bgcolor_override"			"34 34 35 255"
 	}
 }

@@ -452,7 +452,7 @@
 					"enabled"						"1"
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
-					"font"							"productbold18"
+					"font"							"productbold14"
 					"fgcolor"						"softyellow"
 					"proportionalToParent"			"1"
 				}
@@ -497,7 +497,7 @@
 					"enabled"						"1"
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
-					"font"							"productbold18"
+					"font"							"productbold14"
 					"fgcolor"						"softyellow"
 					"proportionalToParent"			"1"
 				}

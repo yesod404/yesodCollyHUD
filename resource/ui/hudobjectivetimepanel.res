@@ -57,9 +57,9 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"3"
+		"xpos"			"0"
 		"ypos"			"19"
-		"wide"			"34"
+		"wide"			"40"
 		"tall"			"1"
 		"zpos"			"12"
 		"alpha"			"255"
@@ -100,9 +100,9 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"3"
+		"xpos"			"0"
 		"ypos"			"19"
-		"wide"			"34"
+		"wide"			"40"//34
 		"tall"			"1"
 		"zpos"			"12"
 		"alpha"			"255"

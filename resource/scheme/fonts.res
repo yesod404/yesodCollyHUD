@@ -3152,6 +3152,17 @@
 				"antialias" 	"1"
 			}
 		}
+		"product24DS"
+		{
+			"1"
+			{
+				"name"			"Product Sans Bold"
+				"tall"			"24"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+				"antialias" 	"1"
+			}
+		}
 		"product28"
 		{
 			"1"
@@ -4635,12 +4646,12 @@
 		}
 		"13"
 		{
-			"font" "resource/fonts/ProductSans-Regular-Edited.ttf"
+			"font" "resource/fonts/ProductSans-Regular4.ttf"
 			"name" "Product Sans Regular"
 		}
 		"14"
 		{
-			"font" "resource/fonts/ProductSans-Bold3.ttf"
+			"font" "resource/fonts/ProductSansBold3.ttf"
 			"name" "Product Sans Bold"
 		}
 		"15"
@@ -4655,7 +4666,7 @@
 		}
 		"17"
 		{
-			"font" "resource/fonts/NovecentoMediumEdit4.ttf"
+			"font" "resource/fonts/NovecentoMedium.ttf"
 			"name" "NovecentoMedium"  
 		}
 		"18"

@@ -155,7 +155,7 @@
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"PracticeGroupBox"
 		"xpos"		"6"
-		"ypos"		"245"
+		"ypos"		"236"
 		"zpos"		"100"
 		"wide"		"240"
 		"tall"		"130"

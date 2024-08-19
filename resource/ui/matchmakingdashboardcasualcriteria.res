@@ -66,8 +66,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
+		"xpos"			"cs-0.51"
+		"ypos"			"rs1-14"
 		"zpos"			"100"
 		"wide"			"f20"
 		"tall"			"20"
@@ -101,7 +101,7 @@
 		"xpos"							"-150"
 		"ypos"							"0"
 		"zpos"							"-1"
-		"wide"							"260"
+		"wide"							"0"//260
 		"tall"							"f100"
 		"bgcolor_override"				"CollyHudDarkGray"
 		
