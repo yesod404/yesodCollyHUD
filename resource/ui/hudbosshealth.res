@@ -57,7 +57,7 @@
 			"tall"									"1"
 			"visible"								"1"
 			"enabled"								"1"
-			"image"									"replay/thumbnails/bg_purple"
+			"image"									"replay/thumbnails/bg_softpurple"
 			"scaleImage"							"1"
 		}
 	}
