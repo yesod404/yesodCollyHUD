@@ -117,15 +117,14 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"										"cs-0.5"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"40"
-		"tall"										"30"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"delta_lifetime"							"0"
+		"xpos"				"c-20"
+		"ypos"				"6"
+		"zpos"				"2"
+		"wide"				"60"
+		"tall"				"150"
+		"visible"			"0"
+		"enabled"			"1"
+		"delta_item_x"			"9999"	[$WIN32]
 
 		"TimePanelValue"
 		{
