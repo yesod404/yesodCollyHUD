@@ -749,15 +749,11 @@
 	}
 	"ArenaWinPanel"
 	{
-		"fieldName"					"ArenaWinPanel"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"c-42"
-		"ypos"						"72"
-		"wide"						"f0"
-		"tall"						"20"
-		"zpos"						"4"
-		"proportionaltoparent"		"1"
+		"xpos"										"0"
+		"ypos"										"-35"
+		"zpos"										"20"
+		"wide"										"f0"
+		"tall"										"f0"
 	}
 	"PVEWinPanel"
 	{
