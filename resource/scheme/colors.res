@@ -33,6 +33,9 @@
 		"kirapurple"							"86 36 195 255"
 		"kiramagenta"						"180 63 91 255"
 		
+		"zonablue"								"102 190 224 255"
+		"zonapink"								"210 149 196 255"
+		
 		"MainBG"								"39 39 40 255"
 		"MainBGL"								"39 39 40 230"
 		"MenuTransBlack"						"0 0 0 165"
@@ -242,7 +245,7 @@
 		"QualityColorCollectors_GreyedOut"					"60 0 0 255"			// Collectors
 		"QualityColorPaintkitWeapon_GreyedOut"				"60 60 60 255"			// Paint kit Weapon
 		
-		"Normal"											"50 50 50 255"
+		"Normal"											"178 178 178 255"
 		"Genuine"											"77 116 85 255"
 		"Unusual"											"134 80 172 255"
 		"Vintage"											"71 98 145 255"

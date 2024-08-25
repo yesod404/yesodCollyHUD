@@ -24,3 +24,6 @@
 		
 		"kirapurple"							"86 36 195 255"
 		"kiramagenta"						"180 63 91 255"
+
+		"zonablue"								"102 190 224 255"
+		"zonapink"								"210 149 196 255"

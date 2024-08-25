@@ -1,3 +1,5 @@
+#base "../../../../../resource/extras/menu_tabs.res"
+
 "Resource/UI/StorePanel.res"
 {
 	"store_panel"
@@ -22,7 +24,7 @@
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
-		"titletextinsetY"	"56"
+		"titletextinsetY"	"-5"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
@@ -128,19 +130,18 @@
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
-		
 		"tabskv"
 		{
-			"textinsetx"				"12"
-			"textAlignment"				"center"
-			"font"						"HudFontSmallBold"
-			"selectedcolor"				"menutext"
-			"unselectedcolor"			"255 255 255 16"	
-			"defaultBgColor_override"	"0 0 0 165"
-			"armedBgColor_override"		"0 0 0 165"
-			"paintbackground"	"1"
-			"activeborder_override"		"noborder"
-			"normalborder_override" 	"noborder"
+			"textinsetx"		"0"
+			"textinsety"		"-2"
+			"font"				"product16"
+			"selectedcolor"		"White"
+			"unselectedcolor"	"62 62 62 255"	
+			"defaultBgColor_override"	"Blank"
+			"paintbackground"	"0"
+			"AllCaps"					"1"
+			"activeborder_override"	"NoBorder"
+			"normalborder_override" "NoBorder"
 		}
 	}
 	
@@ -198,11 +199,11 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
-		"xpos"			"c275"
-		"ypos"			"437"
+		"xpos"				"r20"
+		"ypos"				"23"
 		"zpos"			"5"
 		"wide"			"25"
-		"tall"			"25"
+		"tall"			"20"
 		"font"			"HudFontSmall"
 		"labelText"		""
 		"visible"		"0"
@@ -212,14 +213,16 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
-		"textAlignment"		"north-west"
-		"xpos"				"c304"
-		"ypos"				"440"
+		"textAlignment"		"east"
+		"xpos"				"r250"
+		"ypos"				"23"
 		"zpos"				"5"
 		"wide"				"70"
-		"tall"				"100"
-		"font"				"HudFontSmallest"
-		"wrap"				"1"
+		"tall"				"20"
+		"AllCaps"		"1"
+		"auto_wide_tocontents"	"1"
+		"font"				"Product16"
+		"wrap"				"0"
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
