@@ -87,7 +87,7 @@ Scheme
 	{
 		"83"
 		{
-			"font" "resource/fonts/NovecentoSemi-Bold6.ttf"
+			"font" "resource/fonts/NovecentoSemi-Bold10.ttf"
 			"name" "Novecento-Semi-Bold"  
 		}
 	}
