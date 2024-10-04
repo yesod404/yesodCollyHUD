@@ -13,13 +13,15 @@
 		"delta_item_font_big"	"Damage18OutlineProductBold"
 	}
 }
-
 //Damage20OutlineAcre
 //Damage20OutlineAcreBold
 //Damage18OutlineAvenir
 //Damage20OutlineCatamaran
+//Damage18OutlineCodeNext
 //Damage20OutlineCodePro
+//Damage18OutlineDays
 //Damage18OutlineHandel
+//Damage18OutlineHarabara
 //Damage23OutlineLexend
 //Damage18OutlineNovecento
 //Damage18OutlineNovecentoSemiBold
@@ -29,6 +31,7 @@
 //Damage18OutlineProductBold
 //Damage20OutlineRenogare
 //Damage18OutlineRoboto
+//Damage18OutlineSolomon
 //Damage20OutlineSurface
 //Damage18OutlineSharpened
 //Damage18OutlineTF2Build

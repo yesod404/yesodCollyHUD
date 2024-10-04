@@ -2701,6 +2701,46 @@
 				"outline"	"1"
 			}
 		}
+		"Damage18OutlineCodeNext"
+		{
+			"1"
+			{
+				"name"		"Code Next-Trial SemiBold"
+				"tall"		"18"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage18OutlineHarabara"
+		{
+			"1"
+			{
+				"name"		"Harabara Bold"
+				"tall"		"18"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage18OutlineSolomon"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"18"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"Damage18OutlineDays"
+		{
+			"1"
+			{
+				"name"		"Days"
+				"tall"		"18"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"Damage20OutlineCatamaran"
 		{
 			"1"
@@ -4709,19 +4749,37 @@
 			"font" 		"resource/fonts/BoldNumbers.ttf"
 			"name" 		"BoldNumbers"
 		}
-		//NovecentoYesod10
-		//NovecentoSemiBold
 		"26"
 		{
-			"font" "resource/fonts/NovecentoSemiBold.ttf"
-			"name" "Novecento sans wide Medium"  
+			"font" "resource/fonts/NovecentoSemi-Bold12.ttf"
+			"name" "Novecento-Semi-Bold"  
 		}
 		"27"
+		{
+			"font" 		"resource/fonts/CodeNext-Trial-SemiBold.ttf"
+			"name" 		"Code Next-Trial SemiBold"
+		}
+		"28"
+		{
+			"font" "resource/fonts/harabara.ttf"
+			"name" "Harabara Bold"  
+		}
+		"29"
+		{
+			"font" "resource/fonts/solomon.ttf"
+			"name" "Solomon Heavy"  
+		}
+		"30"
+		{
+			"font" "resource/fonts/days.ttf"
+			"name" "Days"
+		}
+		"31"
 		{
 			"font" "resource/fonts/HeeboFixedNumbers-Edit.ttf"
 			"name" "HeeboFixedNumbers Edit"  
 		}
-		"28"
+		"32"
 		{
 			"font" "resource/fonts/HeeboIconsRegular.ttf"
 			"name" "Heebo Icons V2"

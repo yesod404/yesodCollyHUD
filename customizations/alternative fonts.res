@@ -10,8 +10,11 @@
 //#base "../resource/alternatives/fonts/avenir.res"										// AVENIR
 //#base "../resource/alternatives/fonts/catamaran.res"							// CATAMARAN
 //#base "../resource/alternatives/fonts/cerbetica.res"							// CERBETICA
+//#base "../resource/alternatives/fonts/code_next.res"								// CODE NEXT
 //#base "../resource/alternatives/fonts/code_pro.res"								// CODE PRO
+//#base "../resource/alternatives/fonts/days.res"								// DAYS
 //#base "../resource/alternatives/fonts/handel.res"							// HANDEL
+//#base "../resource/alternatives/fonts/harabara.res"							// HARABARA
 //#base "../resource/alternatives/fonts/lexend.res"							// LEXEND
 //#base "../resource/alternatives/fonts/novecento.res"							// NOVECENTO
 #base "../resource/alternatives/fonts/novecento_semibold.res"							// NOVECENTO SEMIBOLD
@@ -21,6 +24,7 @@
 //#base "../resource/alternatives/fonts/product_bold.res"						// PRODUCT BOLD
 //#base "../resource/alternatives/fonts/renogare.res"							// RENOGARE
 //#base "../resource/alternatives/fonts/roboto.res"							// ROBOTO
+//#base "../resource/alternatives/fonts/solomon.res"									// SOLOMON
 //#base "../resource/alternatives/fonts/surface.res"									// SURFACE
 //#base "../resource/alternatives/fonts/surface_sharpened.res"									// SURFACE SHARPENED
 //#base "../resource/alternatives/fonts/tf2.res"											// TF2
