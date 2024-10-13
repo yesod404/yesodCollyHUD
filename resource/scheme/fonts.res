@@ -86,7 +86,7 @@
 			"5"
 			{
 				"name"		"product sans"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"		"1200 6000"
@@ -141,7 +141,7 @@
 			"5"
 			{
 				"name"		"product sans"
-				"tall"		"16"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
@@ -187,7 +187,7 @@
 			"5"
 			{
 				"name"		"product sans"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
@@ -266,9 +266,9 @@
 			"5"
 			{
 				"name"		"product sans"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"		"1200 10000"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontGiant"
@@ -314,11 +314,10 @@
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -352,7 +351,8 @@
 			"1"
 			{
 				"name"		"product sans"
-				"tall"		"8"
+				"tall"		"12"
+				"tall_hidef"	"12"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -386,6 +386,7 @@
 			{
 				"name"		"product sans"
 				"tall"		"8"
+				"tall_lodef"	"8"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -397,9 +398,18 @@
 			{
 				"name"		"product sans"
 				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"yres"			"1 1199"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"			"product sans"
+				"tall"			"10"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontMediumBold"
@@ -430,6 +440,8 @@
 			{
 				"name"		"product sans"
 				"tall"		"8"
+				"tall_hidef"	"8"
+				"tall_lodef"	"8"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -441,6 +453,8 @@
 			{
 				"name"		"product sans"
 				"tall"		"8"
+				"tall_hidef"	"8"
+				"tall_lodef"	"8"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -452,6 +466,7 @@
 			{
 				"name"		"product sans"
 				"tall"		"8"
+				"tall_lodef"	"8"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -1854,7 +1869,8 @@
 			"1"
 			{
 				"name"		"product sans"
-				"tall"		"7"
+				"tall"			"7" [!$POSIX]
+				"tall"			"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" "1"
@@ -1865,7 +1881,8 @@
 			"1"
 			{
 				"name"		"product sans"
-				"tall"		"7"
+				"tall"			"7" [!$POSIX]
+				"tall"			"8" [$POSIX]
 				"weight"	"0"
 				"antialias" "1"
 			}
@@ -1875,7 +1892,8 @@
 			"1"
 			{
 				"name"		"product sans"
-				"tall"		"7"
+				"tall"			"7" [!$POSIX]
+				"tall"			"8" [$POSIX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"

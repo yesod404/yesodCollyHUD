@@ -115,7 +115,7 @@
 		"tabwidth"		"150"
 		"tabheight"		"20"
 		"transition_time" "0"
-		"yoffset"		"20"
+		"yoffset"		"30"
 		"zpos"			"1"
 		
 		"HeaderLine"
@@ -136,7 +136,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"0"
-			"textinsety"		"-2"
+			"textinsety"		"9"
 			"font"				"product16"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"62 62 62 255"	
@@ -155,7 +155,7 @@
 		"ypos"			"0"
 		"zpos"			"-3"
 		"wide"			"f0"
-		"tall"			"42"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 200"

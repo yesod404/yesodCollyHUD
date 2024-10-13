@@ -13,9 +13,9 @@
 		"mouseinputenabled"		"1"
 		"border"				"NoBorder"
 
-		"log_font_small"			"product18"
-		"log_font_medium"			"product18"
-		"log_font_large"			"product18"
+		"log_font_small"			"product10"
+		"log_font_medium"			"product10"
+		"log_font_large"			"product10"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"

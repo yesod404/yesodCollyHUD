@@ -119,6 +119,20 @@
 		}
 	}
 
+	"Header"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Header"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-3"
+		"wide"			"f0"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
+
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"

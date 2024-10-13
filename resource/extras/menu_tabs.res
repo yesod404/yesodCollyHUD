@@ -9,7 +9,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"42"
+		"tall"			"46"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 200"
