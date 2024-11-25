@@ -4704,7 +4704,7 @@
 		}
 		"13"
 		{
-			"font" "resource/fonts/ProductSans-Regular4.ttf"
+			"font" "resource/fonts/ProductSans-Regular-Edited.ttf"
 			"name" "Product Sans Regular"
 		}
 		"14"
