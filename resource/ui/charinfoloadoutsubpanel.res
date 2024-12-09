@@ -352,7 +352,7 @@
 		"labelText"						"D"
 		"font"							"Class Symbols 56"
 		"textAlignment"					"center"
-		"textinsety"					"0"
+		"textinsety"					"-1"
 		"use_proportional_insets" 		"1"
 		"dulltext"						"0"
 		"brighttext"					"0"
@@ -986,6 +986,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"AllCaps"		"1"
 		"fgcolor_override"		"White"
 
 		"pin_to_sibling"               "CustomBackpack"
@@ -1008,6 +1009,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"AllCaps"		"1"
 		"enabled"		"1"
 		"fgcolor_override"		"White"
 
@@ -1037,6 +1039,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"AllCaps"		"1"
 		"enabled"		"1"
 		"fgcolor_override"		"White"
 
@@ -1068,6 +1071,7 @@
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
+		"AllCaps"		"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1102,6 +1106,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"		"White"
+		"AllCaps"		"1"
 
 		"pin_to_sibling"               "CustomPaintkits"
 		"pin_corner_to_sibling"        "4"          

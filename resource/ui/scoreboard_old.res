@@ -16,7 +16,8 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"medal_width"				"20"
-		"avatar_width"				"65"
+		"medal_column_width" "18"
+		"avatar_width"				"30"
 		"spacer"					"4"
 		"name_width"				"25"
 		"nemesis_width"				"15"
@@ -152,7 +153,7 @@
 		"wide"			"254"
 		"tall"			"18"
 		"zpos"			"11"
-		"alpha"			"255"
+		"alpha"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
@@ -167,248 +168,6 @@
 			"tall"			"2"
 		}
 	}
-	"BluePlayerGap"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap"
-		"xpos"			"c-266"
-		"ypos"			"c-75"
-		"ypos_minmode"			"c-21"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap2"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap2"
-		"xpos"			"c-266"
-		"ypos"			"c-57"
-		"ypos_minmode"	"c-3"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap3"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap3"
-		"xpos"			"c-266"
-		"ypos"			"c-39"
-		"ypos_minmode"			"c15"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap4"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap4"
-		"xpos"			"c-266"
-		"ypos"			"c-21"
-		"ypos_minmode"	"c33"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap5"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap5"
-		"xpos"			"c-266"
-		"ypos"			"c-4"
-		"ypos_minmode"			"c51"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap6"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap6"
-		"xpos"			"c-266"
-		"ypos"			"c14"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap7"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap7"
-		"xpos"			"c-266"
-		"ypos"			"c32"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap8"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap8"
-		"xpos"			"c-266"
-		"ypos"			"c50"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap9"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap9"
-		"xpos"			"c-266"
-		"ypos"			"c68"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap10"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap10"
-		"xpos"			"c-266"
-		"ypos"			"c86"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BluePlayerGap11"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"BluePlayerGap11"
-		"xpos"			"c-266"
-		"ypos"			"c103"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 	"RedTeamPlayerCover"
 	{
 		"ControlName"		"ctfImagePanel"
@@ -419,7 +178,7 @@
 		"wide"			"254"
 		"tall"			"18"
 		"zpos"			"11"
-		"alpha"			"255"
+		"alpha"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
@@ -431,248 +190,6 @@
 			"visible"		"0"
 		}
 	}
-	"RedPlayerGap"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap"
-		"xpos"			"c12"
-		"ypos"			"c-75"
-		"ypos_minmode"	"c-21"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap2"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap2"
-		"xpos"			"c12"
-		"ypos"			"c-57"
-		"ypos_minmode"	"c-3"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap3"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap3"
-		"xpos"			"c12"
-		"ypos"			"c-39"
-		"ypos_minmode"			"c15"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap4"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap4"
-		"xpos"			"c12"
-		"ypos"			"c-21"
-		"ypos_minmode"	"c33"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap5"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap5"
-		"xpos"			"c12"
-		"ypos"			"c-4"
-		"ypos_minmode"			"c51"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap6"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap6"
-		"xpos"			"c12"
-		"ypos"			"c14"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap7"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap7"
-		"xpos"			"c12"
-		"ypos"			"c32"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap8"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap8"
-		"xpos"			"c12"
-		"ypos"			"c50"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap9"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap9"
-		"xpos"			"c12"
-		"ypos"			"c68"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap10"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap10"
-		"xpos"			"c12"
-		"ypos"			"c86"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedPlayerGap11"
-	{
-		"ControlName"		"ctfImagePanel"
-		"fieldName"		"RedPlayerGap11"
-		"xpos"			"c12"
-		"ypos"			"c103"
-		"ypos_minmode"			"9999"
-		"wide"			"254"
-		"tall"			"3"
-		"zpos"			"11"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"border"		"noborder"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
 	"BlueTeamPlayerLineCover"
 	{
 		"ControlName"		"ImagePanel"
@@ -683,7 +200,7 @@
 		"wide"			"246"
 		"tall"			"1"
 		"zpos"			"12"
-		"alpha"			"255"
+		"alpha"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
@@ -705,7 +222,7 @@
 		"wide"			"246"
 		"tall"			"1"
 		"zpos"			"12"
-		"alpha"			"255"
+		"alpha"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"

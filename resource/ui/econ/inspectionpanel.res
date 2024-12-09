@@ -27,6 +27,36 @@
 		}
 	}
 
+	"FakeBG"
+	{
+		"ControlName"						"ImagePanel"
+		"fieldName"							"FakeBG"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"0"
+		"wide"								"f0"
+		"tall"								"3"
+		"visible"							"1"
+		"enabled"							"1"
+		"fillcolor"							"CollyHudDarkGray"
+		"scaleImage"						"1"
+	}
+	
+		"FakeBG2"
+	{
+		"ControlName"						"ImagePanel"
+		"fieldName"							"FakeBG2"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"1"
+		"wide"								"f0"
+		"tall"								"3"
+		"visible"							"1"
+		"enabled"							"1"
+		"fillcolor"							"0 0 0 200"
+		"scaleImage"						"1"
+	}
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
