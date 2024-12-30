@@ -158,7 +158,7 @@
 		"labelText"		"Crafting"
 		"textAlignment"	"center"
 		"xpos"			"c-290"
-		"ypos"			"10"
+		"ypos"			"14"
 		"zpos"			"1"
 		"wide"			"580"
 		"tall"			"32"

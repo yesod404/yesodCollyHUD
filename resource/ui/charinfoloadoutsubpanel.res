@@ -752,7 +752,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"L"
+		"labelText"									""
 		"textAlignment"								"center"
 		"Command"									"backpack"
 		"Default"									"0"
@@ -776,6 +776,22 @@
 		"pin_to_sibling" 							"CustomCrafting"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"45"
+				"tall"			"45"
+				"proportionaltoparent"			"1"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/backpack"
+				"scaleImage"	"1"
+			}
 	}	
 
 	"CustomCrafting"
@@ -792,7 +808,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"z"
+		"labelText"									""
 		"textAlignment"								"center"
 		"Command"									"crafting"
 		"Default"									"0"
@@ -816,6 +832,22 @@
 		"pin_to_sibling" 							"CustomArmory"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"45"
+				"tall"			"45"
+				"proportionaltoparent"			"1"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/tools"
+				"scaleImage"	"1"
+			}
 	}
 	
 	"CustomArmory"
@@ -832,7 +864,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									";"
+		"labelText"									""
 		"textAlignment"								"center"
 		"Command"									"armory"
 		"Default"									"0"
@@ -851,6 +883,22 @@
 		"depressedFgColor_override" "White"
 		"selectedFgColor_override" 	"softgreen"
 		"armedbgcolor_override"		"softgreen"
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"45"
+				"tall"			"45"
+				"proportionaltoparent"			"1"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/book"
+				"scaleImage"	"1"
+			}
 	}
 	
 	"CustomTrade"
@@ -867,7 +915,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"5"
+		"labelText"									""
 		"textAlignment"								"center"
 		"Command"									"trading"
 		"Default"									"0"
@@ -891,6 +939,22 @@
 		"pin_to_sibling" 							"CustomArmory"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"45"
+				"tall"			"45"
+				"proportionaltoparent"			"1"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/trading"
+				"scaleImage"	"1"
+			}
 	}
 	
 	"CustomPaintkits"
@@ -907,7 +971,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"labelText"									"C"
+		"labelText"									""
 		"textAlignment"								"center"
 		"Command"									"paintkit_preview"
 		"Default"									"0"
@@ -931,6 +995,22 @@
 		"pin_to_sibling" 							"CustomTrade"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"45"
+				"tall"			"45"
+				"proportionaltoparent"			"1"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/paint"
+				"scaleImage"	"1"
+			}
 	}
 
 	"BottomBar"

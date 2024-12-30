@@ -37,7 +37,7 @@
 		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"f0"
-		"alpha"			"255"
+		"alpha"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
@@ -53,7 +53,7 @@
 		"zpos"			"0"
 		"wide"			"2"
 		"tall"			"30"
-		"alpha"			"255"
+		"alpha"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
@@ -69,7 +69,7 @@
 		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"f0"
-		"alpha"			"255"
+		"alpha"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
@@ -85,7 +85,7 @@
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"10"
-		"alpha"			"255"
+		"alpha"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
@@ -95,7 +95,7 @@
 	
 	"BlueTeamBG"
 	{
-		"ControlName"	"ctfImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueTeamBG"
 		"xpos"			"c-266"
 		"ypos"			"c-124"
@@ -105,7 +105,7 @@
 		"tall_minmode"	"143"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"border"		"noborder"
+		"border"		"BlackBorder165"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -123,7 +123,7 @@
 	
 	"RedTeamBG"
 	{
-		"ControlName"		"ctfImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"RedTeamBG"
 		"xpos"			"c12"
 		"ypos"			"c-124"
@@ -133,7 +133,7 @@
 		"tall"			"250"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"border"		"noborder"
+		"border"		"BlackBorder165"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -755,7 +755,8 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"autoresize"		"3"
-		"linespacing"		"18"
+		"linespacing"	"16"
+		"linegap"			"2"
 		"paintbackground"	"0"
 		//"show_columns"	"1"
 
@@ -780,7 +781,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"18"
+		"linespacing"	"16"
+		"linegap"			"2"
 		"textcolor"		"red"
 		//"show_columns"	"1"
 
