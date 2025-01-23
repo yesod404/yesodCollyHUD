@@ -291,26 +291,18 @@
 		}
 		"MoveableKeyLabel2"
 		{
-			"ControlName"		"Label"
+			"ControlName"		"ImagePanel"
 			"fieldName"			"MoveableKeyLabel2"
 			"font"				"Symbols 14"
-			"xpos"				"16"
+			"xpos"				"23"
 			"ypos"				"12"
-			"bgcolor_override"				"0 0 0 0"
-			"textinsetx"				"0"
-			"auto_wide_tocontents"				"0"
 			"zpos"				"1"
-			"wide"				"30"
-			"tall"				"17"
-			"autoResize"		"0"
-			"pinCorner"			"0"
+			"wide"				"15"
+			"tall"				"15"
 			"visible"			"1"
 			"enabled"			"1"
-			"labelText"			"e"
-			"fgcolor_override"			"tanlight"
-			"textAlignment"		"CENTER"
-			"dulltext"			"0"
-			"brighttext"		"0"
+			"image"			"replay/thumbnails/softicons/upload"
+			"scaleImage"	"1"
 		}
 
 
