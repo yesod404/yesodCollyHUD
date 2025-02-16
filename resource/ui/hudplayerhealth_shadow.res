@@ -37,13 +37,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"		"c-168"
-		"ypos"		"c93"
+		"ypos"		"c93"//c93
 		"zpos"		"-4"
 		"wide"		"40"
 		"tall"		"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"		"../hud/health_over_bg"
+		"image"		"replay/thumbnails/overheal/health_over_bg_white"
 		"scaleImage"	"1"	
 	}
 	
