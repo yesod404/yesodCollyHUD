@@ -409,8 +409,8 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"								""
-				"fillcolor"							"255 255 0 255"
-				"drawcolor"							"255 255 0 255"
+				"fillcolor"							"255 255 255 255"
+				"drawcolor"							"255 255 255 255"
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"	
 			}

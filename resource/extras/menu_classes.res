@@ -5,7 +5,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SubHeader"
 		"xpos"			"0"
-		"ypos"			"3"
+		"ypos"			"5"
 		"zpos"			"598"
 		"wide"			"f0"
 		"tall"			"14"
@@ -14,12 +14,26 @@
 		"fillcolor"		"0 0 0 165"
 	}
 	
+	"SubFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SubFooter"
+		"xpos"			"0"
+		"ypos"			"362"
+		"zpos"			"598"
+		"wide"			"f0"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 130"
+	}
+	
 	"CustomNavScout"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CustomNavScout"
-		"xpos"			"22"
-		"ypos"			"3"
+		"xpos"			"c-160"
+		"ypos"			"5"
 		"zpos"			"601"
 		"wide"			"52"
 		"tall"			"14"
@@ -401,8 +415,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RightsideAnchor"
-		"xpos"			"r10"
-		"ypos"			"0"
+		"xpos"			"c10"
+		"ypos"			"361"
 		"zpos"			"600"
 		"wide"			"10"
 		"tall"			"14"
@@ -414,7 +428,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CustomNavCraft"
-		"xpos"			"-6"
+		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"601"
 		"wide"			"52"
@@ -449,7 +463,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"&c"
-		"font"			"Product12"
+		"font"			"Product8"
 		"Command"		"crafting"
 	}
 	

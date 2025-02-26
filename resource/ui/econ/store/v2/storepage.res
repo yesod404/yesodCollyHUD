@@ -733,7 +733,7 @@
 		"labelText"		"View Cart"
 		"textAlignment"	"center"
 		"xpos"			"3"
-		"ypos"			"-5"
+		"ypos"			"-3"
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"

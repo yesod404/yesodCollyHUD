@@ -493,7 +493,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MarketPlaceButton"
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"12"
 		"wide"			"170"
 		"tall"			"14"

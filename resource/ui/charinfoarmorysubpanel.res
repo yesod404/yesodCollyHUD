@@ -13,9 +13,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"					"CollyHudDarkGray"
-		"infocus_bgcolor_override" 			"CollyHudDarkGray"
-		"outoffocus_bgcolor_override"		"CollyHudDarkGray"
+		"bgcolor_override"					"blank"
+		"infocus_bgcolor_override" 			"blank"
+		"outoffocus_bgcolor_override"		"blank"
 
 		"thumbnail_bgcolor"					"0 0 0 165"
 		"thumbnail_bgcolor_mouseover"		"255 255 255 16"
@@ -25,7 +25,7 @@
 		"thumbnails_columns"				"4"
 
 		"thumbnails_x"			"c-300"
-		"thumbnails_y"			"120"
+		"thumbnails_y"			"100"
 		"thumbnails_delta_x"	"8"
 		"thumbnails_delta_y"	"8"
 
@@ -79,33 +79,18 @@
 		"fgcolor_override" "200 80 60 255"
 	}
 	
-		"FakeBG"
+	"FakeBG"
 	{
 		"ControlName"						"ImagePanel"
 		"fieldName"							"FakeBG"
 		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"0"
+		"ypos"								"50"
+		"zpos"								"-1000"
 		"wide"								"f0"
-		"tall"								"3"
+		"tall"								"f0"
 		"visible"							"1"
 		"enabled"							"1"
 		"fillcolor"							"CollyHudDarkGray"
-		"scaleImage"						"1"
-	}
-	
-		"FakeBG2"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"FakeBG2"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"1"
-		"wide"								"f0"
-		"tall"								"3"
-		"visible"							"1"
-		"enabled"							"1"
-		"fillcolor"							"0 0 0 200"
 		"scaleImage"						"1"
 	}
 	
@@ -123,7 +108,7 @@
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
 	}
@@ -152,7 +137,7 @@
 		"fieldName"							"FilterComboBox"
 		"Font"								"HudFontSmallestBold"
 		"xpos"				"c-300"
-		"ypos"				"97"
+		"ypos"				"80"
 		"zpos"				"1"
 		"wide"				"150"
 		"tall"				"15"

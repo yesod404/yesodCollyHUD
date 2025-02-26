@@ -17,7 +17,7 @@
 		"settitlebarvisible"	"0"
 		"bgcolor_override"	"CollyHudDarkGray"
 		
-		"item_ypos"		"90"
+		"item_ypos"		"60"
 		"item_ydelta"	"80"
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
@@ -106,36 +106,7 @@
 			"fgcolor"		"153 204 255 255"
 		}
 	}
-	
-	"FakeBG"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"FakeBG"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"0"
-		"wide"								"f0"
-		"tall"								"3"
-		"visible"							"1"
-		"enabled"							"1"
-		"fillcolor"							"CollyHudDarkGray"
-		"scaleImage"						"1"
-	}
-	
-		"FakeBG2"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"FakeBG2"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"1"
-		"wide"								"f0"
-		"tall"								"3"
-		"visible"							"1"
-		"enabled"							"1"
-		"fillcolor"							"0 0 0 200"
-		"scaleImage"						"1"
-	}
+
 	
 	"CaratLabel"
 	{
@@ -161,7 +132,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
 		"font"			"ProductBold30"
-		"labelText"		"#ClassBeingEquipped"
+		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"c-175"
 		"ypos"			"30"
@@ -170,7 +141,7 @@
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
 	}
@@ -179,7 +150,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabelShadow"
 		"font"			"ProductBold30"
-		"labelText"		"#ClassBeingEquipped"
+		"labelText"		"0"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"-1"
@@ -188,7 +159,7 @@
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override"	"0 0 0 255"
 
@@ -305,7 +276,7 @@
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"center"
 		"xpos"			"c-185"
-		"ypos"			"60"
+		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"370"
 		"tall"			"16"

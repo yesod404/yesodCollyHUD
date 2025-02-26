@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"CollyHudDarkGray"
-		"infocus_bgcolor_override" "CollyHudDarkGray"
-		"outoffocus_bgcolor_override" "CollyHudDarkGray"
+		"bgcolor_override"	"blank"
+		"infocus_bgcolor_override" "blank"
+		"outoffocus_bgcolor_override" "blank"
 
 		"item_ypos"						"92"
 		"output_item_ypos"				"262"		
@@ -102,6 +102,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
+					"All Caps"		"1"
 					"fgcolor"		"235 226 202 255"
 					"wrap"			"1"
 					"centerwrap"	"1"
@@ -164,38 +165,23 @@
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
 	}
 	
-		"FakeBG"
+	"FakeBG"
 	{
 		"ControlName"						"ImagePanel"
 		"fieldName"							"FakeBG"
 		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"0"
+		"ypos"								"50"
+		"zpos"								"-1000"
 		"wide"								"f0"
-		"tall"								"3"
+		"tall"								"f0"
 		"visible"							"1"
 		"enabled"							"1"
 		"fillcolor"							"CollyHudDarkGray"
-		"scaleImage"						"1"
-	}
-	
-		"FakeBG2"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"FakeBG2"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"1"
-		"wide"								"f0"
-		"tall"								"3"
-		"visible"							"1"
-		"enabled"							"1"
-		"fillcolor"							"0 0 0 200"
 		"scaleImage"						"1"
 	}
 	
@@ -204,7 +190,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
 		"font"			"ProductBold16"
-		"labelText"		"#CraftStep1"
+		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"c-285"
 		"ypos"			"50"
@@ -213,7 +199,7 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "White"
 	}
@@ -227,8 +213,8 @@
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"350"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"200 187 161 0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"blank"
 
 		"RecipeTitle"
 		{
@@ -311,8 +297,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"CraftButton"
-			"xpos"			"0"
-			"ypos"			"325"
+			"xpos"			"100"
+			"ypos"			"270"
 			"zpos"			"20"
 			"wide"			"200"
 			"tall"			"25"
@@ -391,9 +377,9 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"263"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"200 187 161 0"
+		"bgcolor_override"	"blank"
 		"autohide_buttons" "1"
 	}
 	"recipecontainer"
@@ -405,8 +391,8 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"260"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"200 187 161 0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"blank"
 	}
 	
 	"mouseoveritempanel"

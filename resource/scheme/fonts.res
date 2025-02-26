@@ -530,7 +530,7 @@
 			"1"
 			{
 				"name"		"product sans"
-				"tall"		"8"
+				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -2842,6 +2842,36 @@
 				"antialias" "1"
 			}
 		}
+		"Blocks96"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"96"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Blocks48"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Blocks24"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
 		"product8"
 		{
 			"1"
@@ -3111,6 +3141,17 @@
 				"antialias" "1"
 			}
 		}
+		"product12real"
+		{
+			"1"
+			{
+				"name"		"Product Sans Regular"
+				"tall"		"12"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"product13"
 		{
 			"1"
@@ -3139,6 +3180,17 @@
 			{
 				"name"		"Product Sans Regular"
 				"tall"		"16"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"product19"
+		{
+			"1"
+			{
+				"name"		"Product Sans Regular"
+				"tall"		"19"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"
@@ -4171,6 +4223,16 @@
 				"antialias" "1"
 		  }
 		}
+		
+		"Class Symbols 8"
+		{
+			"1"
+			{
+				"name"										"TF2 Class Icons V3"
+				"tall"										"8"
+				"antialias"									"1"
+			}
+		}
 		"Class Symbols 10"
 		{
 			"1"
@@ -4180,7 +4242,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Class Symbols 12"
+		"Class Symbols 28"
 		{
 			"1"
 			{
@@ -4369,6 +4431,33 @@
 				"antialias"									"1"
 			}
 		}
+		"Class Symbols 38"
+		{
+			"1"
+			{
+				"name"										"TF2 Class Icons V3"
+				"tall"										"38"
+				"antialias"									"1"
+			}
+		}
+		"Class Symbols 40"
+		{
+			"1"
+			{
+				"name"										"TF2 Class Icons V3"
+				"tall"										"40"
+				"antialias"									"1"
+			}
+		}
+		"Class Symbols 45"
+		{
+			"1"
+			{
+				"name"										"TF2 Class Icons V3"
+				"tall"										"45"
+				"antialias"									"1"
+			}
+		}
 		"Class Symbols 48"
 		{
 			"1"
@@ -4548,6 +4637,15 @@
 				"antialias"									"1"
 			}
 		}
+		"Symbols 38"
+		{
+			"1"
+			{
+				"name"										"Hypnotize Icons V7"
+				"tall"										"38"
+				"antialias"									"1"
+			}
+		}
 		"Symbols 46"
 		{
 			"1"
@@ -4704,7 +4802,7 @@
 		}
 		"13"
 		{
-			"font" "resource/fonts/ProductSans-Regular-Edited.ttf"
+			"font" "resource/fonts/ProductSans-Regular4.ttf"
 			"name" "Product Sans Regular"
 		}
 		"14"
@@ -4774,7 +4872,7 @@
 		}
 		"27"
 		{
-			"font" 		"resource/fonts/CodeNext-Trial-SemiBold.ttf"
+			"font" 		"resource/fonts/CodeNext-Trial-SemiBold4.ttf"
 			"name" 		"Code Next-Trial SemiBold"
 		}
 		"28"

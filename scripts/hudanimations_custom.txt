@@ -34,8 +34,11 @@ event ActiveTimerDim
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"110"					Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"110"					Linear 0.125 0.075
+	Animate	Health_Spectator_Bar_Buff 							Alpha		"255"					Linear 0.0 0.0
+	Animate	Health_Spectator 							BgColor		"softgreen"					Linear 0.0 0.0
+
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"50"					Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"50"					Linear 0.125 0.075
 	Animate	HPReal 							FgColor		"47 185 123 240"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"softgreen"		Linear 0.0 0.0
 	
@@ -81,6 +84,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 			0.0
 	StopEvent HudHealthBonusPulseLoop 		0.0
 	Animate	BuffBG 							Alpha		"0"					Linear 0.0 0.0
+	Animate	Health_Spectator_Bar_Buff 							Alpha		"0"					Linear 0.0 0.0
+	Animate	Health_Spectator 							BgColor		"0 0 0 165"					Linear 0.0 0.0
 	Animate	BuffBG2 						Alpha		"0"					Linear 0.0 0.0
 	Animate	HPReal 							FgColor		"220 220 220 250"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"0 0 0 200"		Linear 0.0 0.0
@@ -116,8 +121,11 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
+	Animate	Health_Spectator_Bar_Hurt 							Alpha		"255"					Linear 0.0 0.0
+	Animate	Health_Spectator 							BgColor		"softred"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"softred"			Linear 0.0 0.0
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"				Linear 0.0 0.0
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"160"				Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage			Alpha		"0"									Linear	0.125	0.075
 	Animate	HurtBG 							Alpha		"255"				Linear 0.0 0.0
 
 	//STANDARD STYLE
@@ -156,6 +164,8 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse			0.0
 	StopEvent HudHealthDyingPulseLoop 		0.0
+	Animate	Health_Spectator 							FgColor		"White"					Linear 0.0 0.0
+	Animate	Health_Spectator 							BgColor		"0 0 0 165"					Linear 0.0 0.0
 	Animate	HurtBG 							Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"White"			Linear 0.0 0.0
@@ -185,14 +195,20 @@ event HudHealthDyingPulseStop
 
 //===========================================
 
+//===========================================
+
 event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage			Alpha		"80"				Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage			Alpha		"255"				Linear 0.125 0.075
+	Animate	AmmoInClip								FgColor		"softred"					Linear	0.0		0.075
+	Animate	AmmoInClip								FgColor		"White"					Linear	0.125	0.075
 
-	Animate	AmmoInReserve							FgColor		"softred"					Linear 0.0 0.3
+	Animate	AmmoInReserve							FgColor		"softred"					Linear	0.0		0.075
+	Animate	AmmoInReserve							FgColor		"White"					Linear	0.125	0.075
 
-	Animate	AmmoNoClip								FgColor		"softred"					Linear 0.0 0.3
+	Animate	AmmoNoClip								FgColor		"softred"					Linear	0.0		0.075
+	Animate	AmmoNoClip								FgColor		"White"					Linear	0.125	0.075
 
 	RunEvent HudLowAmmoPulseLoop			0.25
 }
@@ -208,11 +224,10 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 				0.0
 	StopEvent HudLowAmmoPulseLoop 			0.0
 	Animate	HudWeaponAmmoBGLow				Alpha		"0"					Linear 0.0 0.0
-	
-	Animate	AmmoInReserve					FgColor		"softgreen"	Linear 0.0 0.0
+	Animate	AmmoInReserve					FgColor		"White"	Linear 0.0 0.0
+	Animate	AmmoInClip						FgColor		"White"			Linear 0.0 0.0
 	Animate	AmmoNoClip						FgColor		"White"			Linear 0.0 0.0
 }
-
 
 //====================================
 
@@ -297,24 +312,12 @@ event MenuClose
 
 event TeamStatus_PlayerDead
 {
-	SetVisible DeathPanel  0 0
-	SetVisible SkullPanel  0 0
-	SetVisible respawntime  1 0
-
-	Animate DeathPanel ypos 0 Accel 0 0.2
-	Animate SkullPanel ypos 0 Accel 0 0.2
-	Animate respawntime ypos 0 Accel 0 0.2
+	SetVisible 	SkullPanel  																				1 0
+	Animate 	SkullPanel 							ypos 		"24" 								Accel 	0.1 	0.4
 }
-
 event TeamStatus_PlayerAlive
 {
-	Animate DeathPanel ypos 0 Accel 0 0.2
-	Animate SkullPanel ypos 0 Accel 0 0.2
-	Animate respawntime ypos 0 Accel 0 0.2
-
-	SetVisible DeathPanel  0 0.2
-	SetVisible SkullPanel  0 0.2
-	SetVisible respawntime 0 0.2
+	Animate 	SkullPanel 							ypos 		"-30" 								Accel 	0.1		0.2
 }
 
 // Spy Disguise
