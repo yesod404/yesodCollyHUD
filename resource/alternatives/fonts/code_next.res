@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code Next-Trial SemiBold"
+				"name"										"code_next_semi_bold"
 				"tall"										"39"
 			}
 		}
@@ -18,7 +18,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code Next-Trial SemiBold"
+				"name"										"code_next_semi_bold"
 				"tall"										"39"
 			}
 		}
@@ -26,7 +26,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code Next-Trial SemiBold"
+				"name"										"code_next_semi_bold"
 				"tall"										"39"
 			}
 		}
@@ -34,7 +34,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code Next-Trial SemiBold"
+				"name"										"code_next_semi_bold"
 				"tall"										"39"
 			}
 		}
@@ -42,7 +42,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code Next-Trial SemiBold"
+				"name"										"code_next_semi_bold"
 				"tall"										"39"
 			}
 		}
@@ -55,7 +55,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code Next-Trial SemiBold"
+				"name"										"code_next_semi_bold"
 				"tall"										"20"
 			}
 		}
@@ -63,7 +63,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code Next-Trial SemiBold"
+				"name"										"code_next_semi_bold"
 				"tall"										"20"
 			}
 		}
@@ -76,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code Next-Trial SemiBold"
+				"name"										"code_next_semi_bold"
 				"tall"										"39"
 			}
 		}
@@ -86,8 +86,8 @@ Scheme
 	{
 		"82"
 		{
-			"font" 		"resource/fonts/CodeNext-Trial-SemiBold.ttf"
-			"name" 		"Code Next-Trial SemiBold"
+			"font" 		"resource/fonts/code_next_semi_bold.ttf"
+			"name" 		"code_next_semi_bold"
 		}
 	}
 }

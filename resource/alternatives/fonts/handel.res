@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Handel Gothic BT"
+				"name"										"handel_gothic"
 				"tall"										"32"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Handel Gothic BT"
+				"name"										"handel_gothic"
 				"tall"										"32"
 			}
 		}
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Handel Gothic BT"
+				"name"										"handel_gothic"
 				"tall"										"32"
 			}
 		}
@@ -35,7 +35,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Handel Gothic BT"
+				"name"										"handel_gothic"
 				"tall"										"32"
 			}
 		}
@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Handel Gothic BT"
+				"name"										"handel_gothic"
 				"tall"										"32"
 			}
 		}
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Handel Gothic BT"
+				"name"										"handel_gothic"
 				"tall"										"18"
 			}
 		}
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Handel Gothic BT"
+				"name"										"handel_gothic"
 				"tall"										"18"
 			}
 		}
@@ -77,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Handel Gothic BT"
+				"name"										"handel_gothic"
 				"tall"										"32"
 			}
 		}
@@ -87,8 +87,8 @@ Scheme
 	{
 		"83"
 		{
-			"font" "resource/fonts/handel gothic.TTF"
-			"name" "Handel Gothic BT"  
+			"font" "resource/fonts/handel_gothic.ttf"
+			"name" "handel_gothic"  
 		}
 	}
 }

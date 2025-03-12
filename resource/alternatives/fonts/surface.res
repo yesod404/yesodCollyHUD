@@ -10,7 +10,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"tall"										"40"
 			}
 		}
@@ -19,7 +19,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"tall"										"40"
 			}
 		}
@@ -27,7 +27,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"tall"										"40"
 			}
 		}
@@ -35,7 +35,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"tall"										"40"
 			}
 		}
@@ -43,7 +43,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"tall"										"40"
 			}
 		}
@@ -55,7 +55,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"tall"										"22"
 			}
 		}
@@ -63,7 +63,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"tall"										"22"
 			}
 		}
@@ -76,7 +76,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"tall"										"40"
 			}
 		}
@@ -86,8 +86,8 @@
 	{
 		"83"
 		{
-			"font" "resource/fonts/Surface_Medium.otf"
-			"name" "Surface-Medium"  
+			"font" "resource/fonts/surface_medium.ttf"
+			"name" "surface_medium"  
 		}
 	}
 }

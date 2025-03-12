@@ -1082,7 +1082,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans bold"
+				"name"		"product_sans_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1160,7 +1160,7 @@
 		{
 			"1"
 			{
-				"name"			"Product Sans Regular"
+				"name"			"product_sans_regular"
 				"tall"			"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1556,7 +1556,7 @@
 		{
 			"1"
 			{
-				"name"			"Product Sans Regular"
+				"name"			"product_sans_regular"
 				"tall"			"28"
 				"tall_lodef"	"24"
 				"weight"		"500"
@@ -1584,7 +1584,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1593,7 +1593,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1643,7 +1643,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -1654,7 +1654,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -1740,7 +1740,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans bold"
+				"name"		"product_sans_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1751,7 +1751,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans bold"
+				"name"		"product_sans_bold"
 				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
@@ -1762,7 +1762,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans bold"
+				"name"		"product_sans_bold"
 				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
@@ -1773,7 +1773,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans bold"
+				"name"		"product_sans_bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2001,7 +2001,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2010,7 +2010,7 @@
 			}
 			"2"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2019,7 +2019,7 @@
 			}
 			"3"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2032,7 +2032,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2042,7 +2042,7 @@
 			}
 			"2"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2052,7 +2052,7 @@
 			}
 			"3"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2066,7 +2066,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2075,7 +2075,7 @@
 			}
 			"2"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2084,7 +2084,7 @@
 			}
 			"3"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2097,7 +2097,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2109,7 +2109,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2121,7 +2121,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2229,7 +2229,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2375,7 +2375,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2388,7 +2388,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2496,7 +2496,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -2505,7 +2505,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2515,7 +2515,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2525,7 +2525,7 @@
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"code_pro"
 				"tall"		"20"
 				"antialias" "1"
 				"outline"	"1"
@@ -2535,7 +2535,7 @@
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"avenir_black"
 				"tall"		"16"
 				"antialias" "1"
 				"outline"	"1"
@@ -2583,7 +2583,7 @@
 		{
 			"1"
 			{
-				"name"		"Lexend Medium"
+				"name"		"lexend_medium"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2593,7 +2593,7 @@
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
+				"name"		"surface_medium"
 				"tall"		"20"
 				"antialias" "1"
 				"outline"	"1"
@@ -2613,7 +2613,7 @@
 		{
 			"1"
 			{
-				"name"		"Novecento-Semi-Bold"
+				"name"		"novecento_semi_bold"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2633,7 +2633,7 @@
 		{
 			"1"
 			{
-				"name"		"HeeboFixedNumbers Edit"
+				"name"		"roboto_medium"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2683,7 +2683,7 @@
 		{
 			"1"
 			{
-				"name"		"BoldNumbers"
+				"name"		"novecento_bold"
 				"tall"		"16"
 				"antialias" "1"
 				"outline"	"1"
@@ -2693,7 +2693,7 @@
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"code_pro"
 				"tall"		"16"
 				"antialias" "1"
 				"outline"	"1"
@@ -2713,7 +2713,7 @@
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
+				"name"		"surface_sharpened"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2723,7 +2723,7 @@
 		{
 			"1"
 			{
-				"name"		"Code Next-Trial SemiBold"
+				"name"		"code_next_semi_bold"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2733,7 +2733,7 @@
 		{
 			"1"
 			{
-				"name"		"Harabara Bold"
+				"name"		"harabara_bold"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2743,7 +2743,7 @@
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"solomon"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2753,7 +2753,7 @@
 		{
 			"1"
 			{
-				"name"		"Days"
+				"name"		"days"
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
@@ -2763,7 +2763,7 @@
 		{
 			"1"
 			{
-				"name"		"Catamaran SemiBold"
+				"name"		"catamaran_semi_bold"
 				"tall"		"20"
 				"antialias" "1"
 				"outline"	"1"
@@ -2773,7 +2773,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"19"
 				"antialias" "1"
 				"outline"	"1"
@@ -2783,7 +2783,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"20"
 				"antialias" "1"
 				"outline"	"1"
@@ -2793,7 +2793,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"21"
 				"antialias" "1"
 				"outline"	"1"
@@ -2803,7 +2803,7 @@
 		{
 			"1"
 			{
-				"name"		"Lexend Medium"
+				"name"		"lexend_medium"
 				"tall"		"22"
 				"antialias" "1"
 				"outline"	"1"
@@ -2813,7 +2813,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"23"
 				"antialias" "1"
 				"outline"	"1"
@@ -2824,7 +2824,7 @@
 		{
 			"1"
 			{
-				"name"		"BlankSerif"
+				"name"		"blankserif"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2876,7 +2876,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2887,7 +2887,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"6"
 				"antialias" "1"
 				"additive"	"0"
@@ -2898,7 +2898,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"7"
 				"antialias" "1"
 				"additive"	"0"
@@ -2909,7 +2909,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2920,7 +2920,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -2931,7 +2931,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2942,7 +2942,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -2953,7 +2953,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -2964,7 +2964,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -2977,7 +2977,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"7"
 				"antialias" "1"
 				"additive"	"0"
@@ -2988,7 +2988,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2999,7 +2999,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -3010,7 +3010,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -3021,7 +3021,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -3032,7 +3032,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
@@ -3043,7 +3043,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -3054,7 +3054,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -3065,7 +3065,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3076,7 +3076,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3087,7 +3087,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3098,7 +3098,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
@@ -3109,7 +3109,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3122,7 +3122,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -3133,7 +3133,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"blur" 		"1"
@@ -3145,7 +3145,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
@@ -3156,7 +3156,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -3167,7 +3167,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -3178,7 +3178,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3189,7 +3189,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"19"
 				"antialias" "1"
 				"additive"	"0"
@@ -3200,7 +3200,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3211,7 +3211,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3222,7 +3222,7 @@
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"code_pro"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3233,7 +3233,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3244,7 +3244,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
@@ -3255,7 +3255,7 @@
 		{
 			"1"
 			{
-				"name"			"Product Sans Regular"
+				"name"			"product_sans_regular"
 				"tall"			"26"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -3266,7 +3266,7 @@
 		{
 			"1"
 			{
-				"name"			"Product Sans Bold"
+				"name"			"product_sans_bold"
 				"tall"			"24"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -3277,7 +3277,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
@@ -3288,7 +3288,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"29"
 				"antialias" "1"
 				"additive"	"0"
@@ -3299,7 +3299,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"30"
 				"antialias" "1"
 				"additive"	"0"
@@ -3310,7 +3310,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"31"
 				"antialias" "1"
 				"additive"	"0"
@@ -3321,7 +3321,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"32"
 				"antialias" "1"
 				"additive"	"0"
@@ -3332,7 +3332,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"33"
 				"antialias" "1"
 				"additive"	"0"
@@ -3343,7 +3343,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"34"
 				"antialias" "1"
 				"additive"	"0"
@@ -3354,7 +3354,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"35"
 				"antialias" "1"
 				"additive"	"0"
@@ -3365,7 +3365,7 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"36"
 				"antialias" "1"
 				"additive"	"0"
@@ -3376,7 +3376,7 @@
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"code_pro"
 				"tall"		"40"
 				"antialias" "1"
 				"additive"	"0"
@@ -3387,7 +3387,7 @@
 		{
 			"1"
 			{
-				"name"		"HeeboFixedNumbers Edit"
+				"name"		"roboto_medium"
 				"tall"		"35"
 				"antialias" "1"
 				"additive"	"0"
@@ -3399,7 +3399,7 @@
 		{
 			"1"
 			{
-				"name"		"HeeboFixedNumbers Edit"
+				"name"		"roboto_medium"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3411,7 +3411,7 @@
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"code_pro"
 				"tall"		"40"
 				"antialias" "1"
 				"additive"	"0"
@@ -3422,7 +3422,7 @@
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"code_pro"
 				"tall"		"40"
 				"antialias" "1"
 				"additive"	"0"
@@ -3433,7 +3433,7 @@
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"code_pro"
 				"tall"		"40"
 				"antialias" "1"
 				"additive"	"0"
@@ -3444,7 +3444,7 @@
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"code_pro"
 				"tall"		"40"
 				"antialias" "1"
 				"additive"	"0"
@@ -3456,7 +3456,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -3468,7 +3468,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -3480,7 +3480,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -3492,7 +3492,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"8"
 				"antialias" "1"
 				"blur"		"1"
@@ -3504,7 +3504,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"8"
 				"antialias" "1"
 				"blur"		"2"
@@ -3516,7 +3516,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -3527,7 +3527,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -3539,7 +3539,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Regular"
+				"name"		"product_sans_regular"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -3552,7 +3552,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -3564,7 +3564,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -3577,7 +3577,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"10"
 				"antialias" "1"
 				"blur" 		"1"
@@ -3590,7 +3590,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -3602,7 +3602,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
@@ -3613,7 +3613,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -3625,7 +3625,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -3637,7 +3637,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"15"
 				"antialias" "1"
 				"additive"	"0"
@@ -3648,7 +3648,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3660,7 +3660,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3672,7 +3672,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3683,7 +3683,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3695,7 +3695,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3706,7 +3706,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3718,7 +3718,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
@@ -3729,7 +3729,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
@@ -3741,7 +3741,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3753,7 +3753,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3764,7 +3764,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
@@ -3775,7 +3775,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
@@ -3787,7 +3787,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
@@ -3798,7 +3798,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"30"
 				"antialias" "1"
 				"additive"	"0"
@@ -3809,7 +3809,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"32"
 				"antialias" "1"
 				"additive"	"0"
@@ -3820,7 +3820,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"32"
 				"antialias" "1"
 				"blur"		"1"
@@ -3831,7 +3831,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"34"
 				"antialias" "1"
 				"additive"	"0"
@@ -3842,7 +3842,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"34"
 				"antialias" "1"
 				"blur"		"1"
@@ -3853,7 +3853,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"36"
 				"antialias" "1"
 				"additive"	"0"
@@ -3864,7 +3864,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"36"
 				"antialias" "1"
 				"blur"		"1"
@@ -3875,7 +3875,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"38"
 				"antialias" "1"
 				"additive"	"0"
@@ -3886,7 +3886,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"38"
 				"antialias" "1"
 				"blur"		"1"
@@ -3897,7 +3897,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"40"
 				"antialias" "1"
 				"additive"	"0"
@@ -3908,7 +3908,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"40"
 				"antialias" "1"
 				"blur"		"1"
@@ -3919,7 +3919,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"42"
 				"antialias" "1"
 				"additive"	"0"
@@ -3930,7 +3930,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"42"
 				"antialias" "1"
 				"blur"		"1"
@@ -3941,7 +3941,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"44"
 				"antialias" "1"
 				"additive"	"0"
@@ -3952,7 +3952,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"44"
 				"antialias" "1"
 				"blur"		"1"
@@ -3963,7 +3963,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"46"
 				"antialias" "1"
 				"additive"	"0"
@@ -3974,7 +3974,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"46"
 				"antialias" "1"
 				"blur"		"1"
@@ -3985,7 +3985,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"48"
 				"antialias" "1"
 				"additive"	"0"
@@ -3996,7 +3996,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"48"
 				"antialias" "1"
 				"blur"		"1"
@@ -4007,7 +4007,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"50"
 				"antialias" "1"
 				"additive"	"0"
@@ -4018,7 +4018,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"50"
 				"antialias" "1"
 				"blur"		"1"
@@ -4029,7 +4029,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"52"
 				"antialias" "1"
 				"additive"	"0"
@@ -4040,7 +4040,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"52"
 				"antialias" "1"
 				"blur"		"1"
@@ -4051,7 +4051,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"54"
 				"antialias" "1"
 				"additive"	"0"
@@ -4062,7 +4062,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"54"
 				"antialias" "1"
 				"blur"		"1"
@@ -4073,7 +4073,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"56"
 				"antialias" "1"
 				"additive"	"0"
@@ -4084,7 +4084,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"56"
 				"antialias" "1"
 				"blur"		"1"
@@ -4095,7 +4095,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"58"
 				"antialias" "1"
 				"additive"	"0"
@@ -4106,7 +4106,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"58"
 				"antialias" "1"
 				"blur"		"1"
@@ -4117,7 +4117,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"60"
 				"antialias" "1"
 				"additive"	"0"
@@ -4128,7 +4128,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"60"
 				"antialias" "1"
 				"blur"		"1"
@@ -4139,7 +4139,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"57"
 				"antialias" "1"
 				"additive"	"0"
@@ -4150,7 +4150,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"62"
 				"antialias" "1"
 				"blur"		"1"
@@ -4161,7 +4161,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"64"
 				"antialias" "1"
 				"additive"	"0"
@@ -4172,7 +4172,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"64"
 				"antialias" "1"
 				"blur"		"1"
@@ -4183,7 +4183,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"66"
 				"antialias" "1"
 				"additive"	"0"
@@ -4194,7 +4194,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"66"
 				"antialias" "1"
 				"blur"		"1"
@@ -4205,7 +4205,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"68"
 				"antialias" "1"
 				"additive"	"0"
@@ -4216,7 +4216,7 @@
 		{
 		  "1"
 		  {
-				"name"		"Product Sans Bold"
+				"name"		"product_sans_bold"
 				"tall"		"68"
 				"antialias" "1"
 				"blur"		"1"
@@ -4228,7 +4228,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"8"
 				"antialias"									"1"
 			}
@@ -4237,7 +4237,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -4246,7 +4246,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -4255,7 +4255,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -4264,7 +4264,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"14"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4274,7 +4274,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -4283,7 +4283,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"16"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4293,7 +4293,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -4302,7 +4302,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"18"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4312,7 +4312,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -4321,7 +4321,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"20"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4331,7 +4331,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -4340,7 +4340,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"22"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4350,7 +4350,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -4359,7 +4359,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"24"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4369,7 +4369,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"26"
 				"antialias"									"1"
 			}
@@ -4379,7 +4379,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"30"
 				"antialias"									"1"
 			}
@@ -4389,7 +4389,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"34"
 				"antialias"									"1"
 			}
@@ -4398,7 +4398,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"46"
 				"antialias"									"1"
 			}
@@ -4407,7 +4407,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"50"
 				"antialias"									"1"
 			}
@@ -4417,7 +4417,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -4426,7 +4426,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"28"
 				"antialias"									"1"
 			}
@@ -4435,7 +4435,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"38"
 				"antialias"									"1"
 			}
@@ -4444,7 +4444,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"40"
 				"antialias"									"1"
 			}
@@ -4453,7 +4453,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"45"
 				"antialias"									"1"
 			}
@@ -4462,7 +4462,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"48"
 				"antialias"									"1"
 			}
@@ -4471,7 +4471,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Class Icons V3"
+				"name"										"tf2_class_icons"
 				"tall"										"56"
 				"antialias"									"1"
 			}
@@ -4480,7 +4480,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -4489,7 +4489,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -4498,7 +4498,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -4507,7 +4507,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"14"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4517,7 +4517,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -4526,7 +4526,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"16"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4536,7 +4536,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -4545,7 +4545,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"18"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4555,7 +4555,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -4564,7 +4564,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"20"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4574,7 +4574,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -4583,7 +4583,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"22"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4593,7 +4593,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -4602,7 +4602,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"24"
 				"antialias"									"1"
 				"blur"										"1"
@@ -4612,7 +4612,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"26"
 				"antialias"									"1"
 			}
@@ -4622,7 +4622,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"30"
 				"antialias"									"1"
 			}
@@ -4632,7 +4632,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"34"
 				"antialias"									"1"
 			}
@@ -4641,7 +4641,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"38"
 				"antialias"									"1"
 			}
@@ -4650,7 +4650,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"46"
 				"antialias"									"1"
 			}
@@ -4659,7 +4659,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"50"
 				"antialias"									"1"
 			}
@@ -4669,7 +4669,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -4678,7 +4678,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"28"
 				"antialias"									"1"
 			}
@@ -4687,7 +4687,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"48"
 				"antialias"									"1"
 			}
@@ -4696,7 +4696,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons V7"
+				"name"										"hypnotize_icons"
 				"tall"										"56"
 				"antialias"									"1"
 			}
@@ -4704,27 +4704,27 @@
 		//Bold
 		"TargetIDHypnotize10dsBold"
 		{
-			"1" { "name" "Heebo Icons V2" "tall" "10" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
+			"1" { "name" "uber_numbers" "tall" "10" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
 		}
 		"TargetIDHypnotize9dsBold"
 		{
-			"1" { "name" "Heebo Icons V2" "tall" "9" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
+			"1" { "name" "uber_numbers" "tall" "9" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
 		}
 		"TargetIDHypnotize8dsBold"
 		{
-			"1" { "name" "Heebo Icons V2" "tall" "8" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
+			"1" { "name" "uber_numbers" "tall" "8" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
 		}
 		"TargetIDHypnotize10Bold"
 		{
-			"1" { "name" "Heebo Icons V2" "tall" "10" "antialias" "1" "range" "0x000 0xFFFF" }
+			"1" { "name" "uber_numbers" "tall" "10" "antialias" "1" "range" "0x000 0xFFFF" }
 		}
 		"TargetIDHypnotize9Bold"
 		{
-			"1" { "name" "Heebo Icons V2" "tall" "9" "antialias" "1" "range" "0x000 0xFFFF" }
+			"1" { "name" "uber_numbers" "tall" "9" "antialias" "1" "range" "0x000 0xFFFF" }
 		}
 		"TargetIDHypnotize8Bold"
 		{
-			"1" { "name" "Heebo Icons V2" "tall" "8" "antialias" "1" "range" "0x000 0xFFFF" }
+			"1" { "name" "uber_numbers" "tall" "8" "antialias" "1" "range" "0x000 0xFFFF" }
 		}
 	}
 
@@ -4797,108 +4797,108 @@
 		"7" "resource/ocra.ttf"
 		"12"
 		{
-			"font" "resource/fonts/Blank.ttf"
-			"name" "BlankSerif"
+			"font" "resource/fonts/blankserif.ttf"
+			"name" "blankserif"
 		}
 		"13"
 		{
-			"font" "resource/fonts/ProductSans-Regular4.ttf"
-			"name" "Product Sans Regular"
+			"font" "resource/fonts/product_sans_regular.ttf"
+			"name" "product_sans_regular"
 		}
 		"14"
 		{
-			"font" "resource/fonts/ProductSansBold3.ttf"
-			"name" "Product Sans Bold"
+			"font" "resource/fonts/product_sans_bold.ttf"
+			"name" "product_sans_bold"
 		}
 		"15"
 		{
-			"font" "resource/fonts/tf2 class icons.ttf"
-			"name" "TF2 Class Icons V3"
+			"font" "resource/fonts/tf2_class_icons.ttf"
+			"name" "tf2_class_icons"
 		}
 		"16"
 		{
-			"font" "resource/fonts/Lexend-Medium.ttf"
-			"name"	"Lexend Medium"
+			"font" "resource/fonts/lexend_medium.ttf"
+			"name"	"lexend_medium"
 		}
 		"17"
 		{
-			"font" "resource/fonts/NovecentoMedium.ttf"
-			"name" "NovecentoMedium"  
+			"font" "resource/fonts/novecento_medium.ttf"
+			"name" "novecento_medium"  
 		}
 		"18"
 		{
-			"font" "resource/fonts/Surface_Medium.otf"
-			"name" "Surface-Medium"  
+			"font" "resource/fonts/surface_medium.ttf"
+			"name" "surface_medium"  
 		}
 		"19"
 		{
-			"font" 		"resource/fonts/ProductSans-SemiBold9.ttf"
-			"name" 		"Product Sans SemiBold Edited"
+			"font" 		"resource/fonts/product_sans_semi_bold.ttf"
+			"name" 		"product_sans_semi_bold"
 		}
 		"20"
 		{
 			"font" 		"resource/fonts/surface_sharpened.ttf"
-			"name" 		"SurfaceSharpened-Medium"
+			"name" 		"surface_sharpened"
 		}
 		"21"
 		{
-			"font" 		"resource/fonts/Catamaran-SemiBold.ttf"
-			"name" 		"Catamaran SemiBold"
+			"font" 		"resource/fonts/catamaran_semi_bold.ttf"
+			"name" 		"catamaran_semi_bold"
 		}
 		"22"
 		{
-			"font" 		"resource/fonts/hypnotize icons.ttf"
-			"name" 		"Hypnotize Icons V7"
+			"font" 		"resource/fonts/hypnotize_icons.ttf"
+			"name" 		"hypnotize_icons"
 		}
 		"23"
 		{
-			"font" 		"resource/fonts/CodeProLC.otf"
-			"name" 		"Code-Pro-LC"
+			"font" 		"resource/fonts/code_pro.ttf"
+			"name" 		"code_pro"
 		}
 		"24"
 		{
-			"font" 		"resource/fonts/AvenirLTStd-Black.ttf"
-			"name" 		"AvenirLTStd-Black"
+			"font" 		"resource/fonts/avenir_black.ttf"
+			"name" 		"avenir_black"
 		}
 		"25"
 		{
-			"font" 		"resource/fonts/BoldNumbers.ttf"
-			"name" 		"BoldNumbers"
+			"font" 		"resource/fonts/novecento_bold.ttf"
+			"name" 		"novecento_bold"
 		}
 		"26"
 		{
-			"font" "resource/fonts/NovecentoSemi-Bold12.ttf"
-			"name" "Novecento-Semi-Bold"  
+			"font" "resource/fonts/novecento_semi_bold.ttf"
+			"name" "novecento_semi_bold"  
 		}
 		"27"
 		{
-			"font" 		"resource/fonts/CodeNext-Trial-SemiBold4.ttf"
-			"name" 		"Code Next-Trial SemiBold"
+			"font" 		"resource/fonts/code_next_semi_bold.ttf"
+			"name" 		"code_next_semi_bold"
 		}
 		"28"
 		{
-			"font" "resource/fonts/harabara.ttf"
-			"name" "Harabara Bold"  
+			"font" "resource/fonts/harabara_bold.ttf"
+			"name" "harabara_bold"  
 		}
 		"29"
 		{
 			"font" "resource/fonts/solomon.ttf"
-			"name" "Solomon Heavy"  
+			"name" "solomon"  
 		}
 		"30"
 		{
 			"font" "resource/fonts/days.ttf"
-			"name" "Days"
+			"name" "days"
 		}
 		"31"
 		{
-			"font" "resource/fonts/HeeboFixedNumbers-Edit.ttf"
-			"name" "HeeboFixedNumbers Edit"  
+			"font" "resource/fonts/roboto_medium.ttf"
+			"name" "roboto_medium"  
 		}
 		"32"
 		{
-			"font" "resource/fonts/HeeboIconsRegular.ttf"
-			"name" "Heebo Icons V2"
+			"font" "resource/fonts/uber_numbers.ttf"
+			"name" "uber_numbers"
 
 			"english"		{ "range" "0x000 0xFFFF" }
 			"arabic"		{ "range" "0x000 0xFFFF" }

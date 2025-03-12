@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Lexend SemiBold Edit"
+				"name"										"lexend_medium"
 				"tall"										"45"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Lexend SemiBold Edit"
+				"name"										"lexend_medium"
 				"tall"										"45"
 			}
 		}
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Lexend SemiBold Edit"
+				"name"										"lexend_medium"
 				"tall"										"45"
 			}
 		}
@@ -35,7 +35,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Lexend SemiBold Edit"
+				"name"										"lexend_medium"
 				"tall"										"45"
 			}
 		}
@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Lexend SemiBold Edit"
+				"name"										"lexend_medium"
 				"tall"										"45"
 			}
 		}
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Lexend SemiBold Edit"
+				"name"										"lexend_medium"
 				"tall"										"22"
 			}
 		}
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Lexend SemiBold Edit"
+				"name"										"lexend_medium"
 				"tall"										"18"
 			}
 		}
@@ -77,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Lexend SemiBold Edit"
+				"name"										"lexend_medium"
 				"tall"										"45"
 			}
 		}
@@ -87,8 +87,8 @@ Scheme
 	{
 		"83"
 		{
-			"font" "resource/fonts/lexend semibold edited.ttf"
-			"name" "Lexend SemiBold Edit"  
+			"font" "resource/fonts/lexend_medium.ttf"
+			"name" "lexend_medium"  
 		}
 	}
 }

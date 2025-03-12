@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"tall"										"32"
 			}
 		}
@@ -18,7 +18,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"tall"										"32"
 			}
 		}
@@ -26,7 +26,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"tall"										"32"
 			}
 		}
@@ -34,7 +34,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"tall"										"32"
 			}
 		}
@@ -42,7 +42,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"tall"										"32"
 			}
 		}
@@ -55,7 +55,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"tall"										"18"
 			}
 		}
@@ -63,7 +63,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"tall"										"18"
 			}
 		}
@@ -76,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"avenir_black"
 				"tall"										"32"
 			}
 		}
@@ -86,8 +86,8 @@ Scheme
 	{
 		"81"
 		{
-			"font" 		"resource/fonts/AvenirLTStd-Black.ttf"
-			"name" 		"AvenirLTStd-Black"
+			"font" 		"resource/fonts/avenir_black.ttf"
+			"name" 		"avenir_black"
 		}
 	}
 }

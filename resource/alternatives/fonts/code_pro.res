@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro"
 				"tall"										"35"
 			}
 		}
@@ -18,7 +18,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro"
 				"tall"										"35"
 			}
 		}
@@ -26,7 +26,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro"
 				"tall"										"35"
 			}
 		}
@@ -34,7 +34,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro"
 				"tall"										"35"
 			}
 		}
@@ -42,7 +42,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro"
 				"tall"										"35"
 			}
 		}
@@ -55,7 +55,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro"
 				"tall"										"18"
 			}
 		}
@@ -63,7 +63,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro"
 				"tall"										"18"
 			}
 		}
@@ -76,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Code-Pro-LC"
+				"name"										"code_pro"
 				"tall"										"35"
 			}
 		}
@@ -86,8 +86,8 @@ Scheme
 	{
 		"82"
 		{
-			"font" 		"resource/fonts/CodeProLC.otf"
-			"name" 		"Code-Pro-LC"
+			"font" 		"resource/fonts/code_pro.ttf"
+			"name" 		"code_pro"
 		}
 	}
 }

@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon"
 				"tall"										"34"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon"
 				"tall"										"34"
 			}
 		}
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon"
 				"tall"										"34"
 			}
 		}
@@ -35,7 +35,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon"
 				"tall"										"34"
 			}
 		}
@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon"
 				"tall"										"34"
 			}
 		}
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon"
 				"tall"										"18"
 			}
 		}
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon"
 				"tall"										"18"
 			}
 		}
@@ -77,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Solomon Heavy"
+				"name"										"solomon"
 				"tall"										"34"
 			}
 		}
@@ -88,7 +88,7 @@ Scheme
 		"83"
 		{
 			"font" "resource/fonts/solomon.ttf"
-			"name" "Solomon Heavy"  
+			"name" "solomon"  
 		}
 	}
 }

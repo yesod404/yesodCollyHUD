@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
+				"name"										"catamaran_semi_bold"
 				"tall"										"65"
 			}
 		}
@@ -18,7 +18,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
+				"name"										"catamaran_semi_bold"
 				"tall"										"65"
 			}
 		}
@@ -26,7 +26,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
+				"name"										"catamaran_semi_bold"
 				"tall"										"65"
 			}
 		}
@@ -34,7 +34,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
+				"name"										"catamaran_semi_bold"
 				"tall"										"65"
 			}
 		}
@@ -42,7 +42,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
+				"name"										"catamaran_semi_bold"
 				"tall"										"65"
 			}
 		}
@@ -54,7 +54,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
+				"name"										"catamaran_semi_bold"
 				"tall"										"25"
 			}
 		}
@@ -63,7 +63,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
+				"name"										"catamaran_semi_bold"
 				"tall"										"25"
 			}
 		}
@@ -75,7 +75,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Catamaran SemiBold"
+				"name"										"catamaran_semi_bold"
 				"tall"										"65"
 			}
 		}
@@ -85,8 +85,8 @@ Scheme
 	{
 		"83"
 		{
-			"font" 		"resource/fonts/Catamaran-SemiBold.ttf"
-			"name" 		"Catamaran SemiBold"
+			"font" 		"resource/fonts/catamaran_semi_bold.ttf"
+			"name" 		"catamaran_semi_bold"
 		}
 	}
 }

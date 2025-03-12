@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"HeeboFixedNumbers Edit"
+				"name"										"roboto_medium"
 				"tall"										"35"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"HeeboFixedNumbers Edit"
+				"name"										"roboto_medium"
 				"tall"										"35"
 			}
 		}
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"HeeboFixedNumbers Edit"
+				"name"										"roboto_medium"
 				"tall"										"35"
 			}
 		}
@@ -35,7 +35,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"HeeboFixedNumbers Edit"
+				"name"										"roboto_medium"
 				"tall"										"35"
 			}
 		}
@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"HeeboFixedNumbers Edit"
+				"name"										"roboto_medium"
 				"tall"										"35"
 			}
 		}
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"HeeboFixedNumbers Edit"
+				"name"										"roboto_medium"
 				"tall"										"18"
 			}
 		}
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"HeeboFixedNumbers Edit"
+				"name"										"roboto_medium"
 				"tall"										"18"
 			}
 		}
@@ -77,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"HeeboFixedNumbers Edit"
+				"name"										"roboto_medium"
 				"tall"										"35"
 			}
 		}
@@ -87,8 +87,8 @@ Scheme
 	{
 		"83"
 		{
-			"font" "resource/fonts/HeeboFixedNumbers-Edit.ttf"
-			"name" "HeeboFixedNumbers Edit"  
+			"font" "resource/fonts/roboto_medium.ttf"
+			"name" "roboto_medium"  
 		}
 	}
 }

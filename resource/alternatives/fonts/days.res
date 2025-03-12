@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Days"
+				"name"										"days"
 				"tall"										"31"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Days"
+				"name"										"days"
 				"tall"										"31"
 			}
 		}
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Days"
+				"name"										"days"
 				"tall"										"31"
 			}
 		}
@@ -35,7 +35,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Days"
+				"name"										"days"
 				"tall"										"31"
 			}
 		}
@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Days"
+				"name"										"days"
 				"tall"										"31"
 			}
 		}
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Days"
+				"name"										"days"
 				"tall"										"18"
 			}
 		}
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Days"
+				"name"										"days"
 				"tall"										"18"
 			}
 		}
@@ -77,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Days"
+				"name"										"days"
 				"tall"										"31"
 			}
 		}
@@ -88,7 +88,7 @@ Scheme
 		"83"
 		{
 			"font" "resource/fonts/days.ttf"
-			"name" "Days"  
+			"name" "days"  
 		}
 	}
 }

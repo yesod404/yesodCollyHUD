@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Cerbetica"
+				"name"										"cerbetica_bold"
 				"tall"										"37"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Cerbetica"
+				"name"										"cerbetica_bold"
 				"tall"										"37"
 			}
 		}
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Cerbetica"
+				"name"										"cerbetica_bold"
 				"tall"										"37"
 			}
 		}
@@ -35,7 +35,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Cerbetica"
+				"name"										"cerbetica_bold"
 				"tall"										"37"
 			}
 		}
@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Cerbetica"
+				"name"										"cerbetica_bold"
 				"tall"										"37"
 			}
 		}
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Cerbetica"
+				"name"										"cerbetica_bold"
 				"tall"										"22"
 			}
 		}
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Cerbetica"
+				"name"										"cerbetica_bold"
 				"tall"										"22"
 			}
 		}
@@ -77,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Cerbetica"
+				"name"										"cerbetica_bold"
 				"tall"										"37"
 			}
 		}
@@ -87,8 +87,8 @@ Scheme
 	{
 		"83"
 		{
-			"font" "resource/fonts/Cerbetica-Bold.ttf"
-			"name" "Cerbetica"  
+			"font" "resource/fonts/cerbetica_bold.ttf"
+			"name" "cerbetica_bold"  
 		}
 	}
 }

@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans SemiBold Edited"
+				"name"										"product_sans_semi_bold"
 				"tall"										"37"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans SemiBold Edited"
+				"name"										"product_sans_semi_bold"
 				"tall"										"37"
 			}
 		}
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans SemiBold Edited"
+				"name"										"product_sans_semi_bold"
 				"tall"										"37"
 			}
 		}
@@ -35,7 +35,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans SemiBold Edited"
+				"name"										"product_sans_semi_bold"
 				"tall"										"37"
 			}
 		}
@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans SemiBold Edited"
+				"name"										"product_sans_semi_bold"
 				"tall"										"37"
 			}
 		}
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans SemiBold Edited"
+				"name"										"product_sans_semi_bold"
 				"tall"										"18"
 			}
 		}
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans SemiBold Edited"
+				"name"										"product_sans_semi_bold"
 				"tall"										"18"
 			}
 		}
@@ -77,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans SemiBold Edited"
+				"name"										"product_sans_semi_bold"
 				"tall"										"37"
 			}
 		}
@@ -87,8 +87,8 @@ Scheme
 	{
 		"83"
 		{
-			"font" 		"resource/fonts/Product Sans SemiBold Edited9.ttf"
-			"name" 		"Product Sans SemiBold Edited"
+			"font" 		"resource/fonts/product_sans_semi_bold.ttf"
+			"name" 		"product_sans_semi_bold"
 		}
 	}
 }

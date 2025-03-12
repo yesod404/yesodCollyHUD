@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"SurfaceSharpened-Medium"
+				"name"										"surface_sharpened"
 				"tall"										"38"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"SurfaceSharpened-Medium"
+				"name"										"surface_sharpened"
 				"tall"										"38"
 			}
 		}
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"SurfaceSharpened-Medium"
+				"name"										"surface_sharpened"
 				"tall"										"38"
 			}
 		}
@@ -35,7 +35,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"SurfaceSharpened-Medium"
+				"name"										"surface_sharpened"
 				"tall"										"38"
 			}
 		}
@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"SurfaceSharpened-Medium"
+				"name"										"surface_sharpened"
 				"tall"										"38"
 			}
 		}
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"surface_medium"
 				"tall"										"20"
 			}
 		}
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"AvenirLTStd-Black"
+				"name"										"surface_medium"
 				"tall"										"20"
 			}
 		}
@@ -77,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"SurfaceSharpened-Medium"
+				"name"										"surface_sharpened"
 				"tall"										"38"
 			}
 		}
@@ -88,12 +88,12 @@ Scheme
 		"83"
 		{
 			"font" 		"resource/fonts/surface_sharpened.ttf"
-			"name" 		"SurfaceSharpened-Medium"
+			"name" 		"surface_sharpened"
 		}
 		"84"
 		{
-			"font" "resource/fonts/Surface_Medium.otf"
-			"name" "Surface-Medium"  
+			"font" "resource/fonts/surface_medium.ttf"
+			"name" "surface_medium"  
 		}
 	}
 }
