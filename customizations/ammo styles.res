@@ -11,5 +11,5 @@
 //==============================================================================================
 // TUTORIAL CHANGE
 //==============================================================================================
-// Go to customization/Ammo, pick one of the folders and copy/paste the hudanimations file into scripts
+// Go to customization/Ammo, pick one of the folders and copy/paste the text and replace those lines in scripts/hud_animations
 //==============================================================================================
