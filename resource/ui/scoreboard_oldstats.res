@@ -523,8 +523,8 @@
 		"labelText"		"%redteamplayercount%"
 		"font"			"product8"
 		"fgcolor"		"TANLIGHT120"
-		"textAlignment"		"center"
-		"xpos"			"r190"
+		"textAlignment"		"east"
+		"xpos"			"r204"
 		"textinsetx"			"0"
 		"ypos"			"c-112"
 		"ypos_minmode"			"c-58"
@@ -647,7 +647,7 @@
 		"fgcolor"				"TANLIGHT120"
 		"textAlignment"			"east"
 		"auto_wide_tocontents"	"1"
-		"xpos"					"87"
+		"xpos"					"94"
 		"textinsetx"			"14"
 		"textinsety"			"0"
 		"ypos"					"30"
@@ -669,7 +669,7 @@
 		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
 		"textAlignment"		"WEST"
-		"wide" 				"81"
+		"wide" 				"88"
 		"xpos"				"6"
 		"textinsetx"		"14"
 		"textinsety"		"0"
@@ -692,6 +692,7 @@
 		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
 		"textAlignment"		"WEST"
+		"auto_wide_tocontents"	"1"
 		"wide" 				"48"
 		"xpos"				"6"
 		"textinsetx"		"14"
@@ -720,7 +721,7 @@
 		"fgcolor"				"TANLIGHT120"
 		"textAlignment"			"east"
 		"auto_wide_tocontents" 	"1"
-		"xpos"					"54"
+		"xpos"					"58"
 		"tall"					"20"
 		"ypos"					"78"
 		"textinsetx"			"14"
@@ -1328,7 +1329,7 @@
 			"enabled"		"1"
 			if_mvm
 			{
-				"visible"	"1"
+				"visible"	"0"
 			}
 		}		
 		"Kills"
@@ -1411,7 +1412,7 @@
 			"enabled"		"1"
 			if_mvm
 			{
-				"visible"	"1"
+				"visible"	"0"
 			}
 		}
 		"Deaths"

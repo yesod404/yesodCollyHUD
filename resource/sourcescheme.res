@@ -306,6 +306,38 @@ Scheme
 
 	Fonts
 	{
+		"DebugFixed"
+		{
+			"1"
+			{
+				"name"			"Courier New"
+				"tall"			"10"
+				"weight"		"500"
+				"antialias" 	"1"
+			}
+		}
+		// fonts are used in order that they are listed
+		"DebugFixedSmall"
+		{
+			"1"
+			{
+				"name"			"Courier New"
+				"tall"			"7"
+				"weight"		"500"
+				"antialias" 	"0"
+			}
+		}
+		"DefaultFixedOutline"
+		{
+		"1"
+			{
+				"name"			"Lucida Console"
+				"tall"			"7"
+				"weight"		"500"
+				"antialias"		"0"
+				"outline"	"1"
+			}
+		}
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]

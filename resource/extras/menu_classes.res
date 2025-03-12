@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CustomNavScout"
-		"xpos"			"c-160"
+		"xpos"			"c-195"
 		"ypos"			"5"
 		"zpos"			"601"
 		"wide"			"52"
@@ -415,7 +415,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RightsideAnchor"
-		"xpos"			"c10"
+		"xpos"			"c20"
 		"ypos"			"361"
 		"zpos"			"600"
 		"wide"			"10"

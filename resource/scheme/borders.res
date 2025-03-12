@@ -798,27 +798,7 @@
 			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-			TFFatLineBorder
-		{
-			"inset" "0 0 0 0"
-            Left
-            {
-                "1"
-                {
-                    "color" "blank"
-                    "offset" "0 0"
-                }
-            }
-			
-			//"bordertype"			"scalable_image"
-			//"backgroundtype"		"2"
-			
-			//"image"					"replay/thumbnails/quik_spec_bg"
-			//"src_corner_height"		"23"				// pixels inside the image
-			//"src_corner_width"		"23"
-			//"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			//"draw_corner_height" 	"5"	
-		}
+
 
 		TFFatLineBorderRedBGOpaque
 		{
@@ -843,47 +823,37 @@
 			"draw_corner_height" 	"0"	
 		}
 
-		TFFatLineBorderRedBG
-		{	
-			"inset" "0 0 0 0"
-            Left
-            {
-                "1"
-                {
-                    "color" "blank"
-                    "offset" "0 0"
-                }
-            }
-			
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			//"image"					"../hud/tournament_panel_red"
-			//"src_corner_height"		"23"				// pixels inside the image
-			//"src_corner_width"		"23"
-			//"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			//"draw_corner_height" 	"5"	
-		}
-		TFFatLineBorderBlueBG
-		{	
-			"inset" "0 0 0 0"
-            Left
-            {
-                "1"
-                {
-                    "color" "blank"
-                    "offset" "0 0"
-                }
-            }
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			//"image"					"../hud/tournament_panel_blu"
-			//"src_corner_height"		"23"				// pixels inside the image
-			//"src_corner_width"		"23"
-			//"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			//"draw_corner_height" 	"5"	
-		}
+	"TFFatLineBorderRedBG"
+	{
+		"bordertype"                "scalable_image"
+		"backgroundtype"            "0"
+		"image"                     "replay/thumbnails/panels/gradient_red"
+		"src_corner_height"         "5"
+		"src_corner_width"          "8"
+		"draw_corner_width"         "8"
+		"draw_corner_height"        "5"
+	}
+	"TFFatLineBorderBlueBG"
+	{
+		"bordertype"                "scalable_image"
+		"backgroundtype"            "0"
+		"image"                     "replay/thumbnails/panels/gradient_blue"
+		"src_corner_height"         "5"
+		"src_corner_width"          "8"
+		"draw_corner_width"         "8"
+		"draw_corner_height"        "5"
+	}
+	
+	"TFFatLineBorder"
+	{
+		"bordertype"                "scalable_image"
+		"backgroundtype"            "0"
+		"image"                     "replay/thumbnails/panels/gradient_dead"
+		"src_corner_height"         "5"
+		"src_corner_width"          "8"
+		"draw_corner_width"         "8"
+		"draw_corner_height"        "5"
+	}
 
 		ToolTipBorder
 		{

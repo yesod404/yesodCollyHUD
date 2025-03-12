@@ -210,7 +210,7 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"Close (&E)"
-		"font"						"HudFontSmallBold"
+		"font"						"product8"
 		"textAlignment"				"center"
 		"dulltext"					"0"
 		"brighttext"				"0"

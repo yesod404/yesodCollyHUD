@@ -130,7 +130,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"productbold14"
+			"font"			"productbold13"
 			"fgcolor"		"tanlight"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -166,11 +166,11 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-48"
-		"team1_max_expand"	"140"
+		"team1_max_expand"	"170"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c48"
-		"team2_max_expand"	"140"
+		"team2_max_expand"	"170"
 		
 
 		"playerpanels_kv"
@@ -228,8 +228,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"

@@ -262,7 +262,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"product8"
+		"font"			"product7"
 		"fgcolor"		"tanlight120"
 		"bgcolor"		"0 0 0 200"
 		"bgcolor_override"		"0 0 0 200"

@@ -49,7 +49,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"alivecounter"
 		"xpos"			"c-30"
-		"ypos"			"r80"
+		"ypos"			"r79"
 		"zpos"			"-10"
 		"wide"			"60"
 		"tall"			"30"
@@ -66,11 +66,11 @@
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-		"visible"       "1"           
-		"enabled"       "1"
-		"paintbackground"      "1"
-		 "paintbackgroundtype"  "0"
-		"bgcolor_override"     "0 0 0 200"
+			"visible"       "1"           
+			"enabled"       "1"
+			"paintbackground"      "1"
+			 "paintbackgroundtype"  "0"
+			"bgcolor_override"     "0 0 0 200"
 		}	
 	"StripRed"
 	{
@@ -114,6 +114,7 @@
 		"wide"			"80"
 		"tall"			"30"
 		"visible"		"1"
+		"fgcolor_override"		"255 255 255 255"
 	
 		"background"
 		{
@@ -126,11 +127,11 @@
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-		"visible"       "1"           
-		"enabled"       "1"
-		"paintbackground"      "1"
-		 "paintbackgroundtype"  "0"
-		"bgcolor_override"     "0 0 0 200"
+			"visible"       "1"           
+			"enabled"       "1"
+			"paintbackground"      "1"
+			"paintbackgroundtype"  "0"
+			"bgcolor_override"     "0 0 0 200"
 		}	
 		
 	"StripYellow"
@@ -185,16 +186,16 @@
 			"xpos"			"c-91"
 			"ypos"			"52"
 			"zpos"			"0"
-		"wide"			"210"
-		"tall"			"20"
+			"wide"			"210"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-		"visible"       "1"           
-		"enabled"       "1"
-		"paintbackground"      "1"
-		 "paintbackgroundtype"  "0"
-		"bgcolor_override"     "0 0 0 165"			
-		}
+			"visible"       "1"           
+			"enabled"       "1"
+			"paintbackground"      "1"
+			 "paintbackgroundtype"  "0"
+			"bgcolor_override"     "0 0 0 165"			
+			}
 		
 		
 		"ProgressBarContainer" //Healthbar

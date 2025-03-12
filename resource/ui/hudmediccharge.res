@@ -1,1 +1,1 @@
-#base 	"../../customizations/chargemeter.res"
+#base 	"../../customizations/medigun label.res"

@@ -27,9 +27,10 @@
 		"tall"										"20"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"radius"									"8"
+		"radius"									"10"
 		"velocity"									"100"
-		"fgcolor_override"							"CollyHudDarkGray"
+		"alpha"										"255"
+		"fgcolor_override"							"White"
 	}
 
 	"QueueText"

@@ -158,9 +158,11 @@
 		"textinsetx"		"40"
 		"border_armed"		"noborder"
 		"border"		"noborder"
-		"fgcolor_override"		"White"
-		"defaultfgcolor_override"		"White"
+		
+		"fgcolor_override"		"255 255 255 70"
+		"defaultfgcolor_override"		"255 255 255 70"
 		"armedfgcolor_override"		"White"
+		
 		"paintborder"		"1"
 		"pin_to_sibling" "Anchor"
 		"pin_corner_to_sibling" "3"

@@ -354,47 +354,48 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Product Sans Regular"
-				"tall"			"14"
-				"yres"			"480 599"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"700"
+				"yres"		"480 599"
 				"dropshadow"	"1"
-				"antialias"		"1"
+				"antialias"			"1"
 			}
-
 			"2"
 			{
-				"name"			"Product Sans Regular"
-				"tall"			"16"
-				"yres"			"600 767"
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"		"600 767"
 				"dropshadow"	"1"
-				"antialias"		"1"
+				"antialias"			"1"
 			}
-
 			"3"
 			{
-				"name"			"Product Sans Regular"
-				"tall"			"18"
-				"yres"			"768 1023"
+				"name"		"Verdana"
+				"tall"		"15"
+				"weight"	"700"
+				"yres"		"768 1023"
 				"dropshadow"	"1"
-				"antialias"		"1"
+				"antialias"			"1"
 			}
-
 			"4"
 			{
-				"name"			"Product Sans Regular"
-				"tall"			"18"
-				"yres"			"1024 1199"
+				"name"		"Verdana"
+				"tall"		"17"
+				"weight"	"700"
+				"yres"		"1024 1199"
 				"dropshadow"	"1"
-				"antialias"		"1"
+				"antialias"			"1"
 			}
-
 			"5"
 			{
-				"name"			"Product Sans Regular"
-				"tall"			"22"
-				"yres"			"1200 10000"
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"700"
+				"yres"		"1200 10000"
 				"dropshadow"	"1"
-				"antialias"		"1"
+				"antialias"			"1"
 			}
 		}
 

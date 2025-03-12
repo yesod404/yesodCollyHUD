@@ -523,9 +523,9 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"1"
-		"bgcolor_override"							"Background_Secondary"
+		"bgcolor_override"							"Blank"
 		"paintborder"								"1"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Blank"
 
 		"header_font"								"Product11"
 		"header_fgcolor"							"White"
@@ -551,7 +551,7 @@
 			"proportionaltoparent"					"1"
 			"paintBackground"						"1"
 			"paintBackgroundtype"					"0"
-			"bgcolor_override"						"30 30 30 255"
+			"bgcolor_override"						"0 0 0 165"
 		}
 
 		"TitleLabel"
@@ -601,7 +601,7 @@
 			"proportionaltoparent"					"1"
 			"paintBackground"						"1"
 			"paintBackgroundtype"					"0"
-			"bgcolor_override"						"CollyHudDarkGray"
+			"bgcolor_override"						"0 0 0 165"
 
 			"pin_to_sibling" 						"VoteSetupList"
 			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
@@ -636,7 +636,7 @@
 			"proportionaltoparent"					"1"
 			"paintBackground"						"1"
 			"paintBackgroundtype"					"0"
-			"bgcolor_override"						"CollyHudDarkGray"
+			"bgcolor_override"						"0 0 0 165"
 
 			"pin_to_sibling" 						"VoteParameterList"
 			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
@@ -701,7 +701,7 @@
 			"proportionaltoparent"					"1"
 			"paintBackground"						"1"
 			"paintBackgroundtype"					"0"
-			"bgcolor_override"						"CollyHudDarkGray"
+			"bgcolor_override"						"0 0 0 165"
 
 			"pin_to_sibling" 						"ComboBox"
 			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
@@ -733,9 +733,9 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 
-			"defaultBgColor_override"				"softgreen"
-			"armedBgColor_override"					"softgreen160"
-			"depressedBgColor_override"				"softgreen160"
+			"defaultBgColor_override"				"0 0 0 165"
+			"armedBgColor_override"					"softgreen"
+			"depressedBgColor_override"				"softgreen"
 		}
 
 		"Button1"

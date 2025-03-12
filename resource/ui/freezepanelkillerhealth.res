@@ -41,7 +41,7 @@
 		"ypos"			"0"//11
 		"zpos"			"28"
 		"wide"			"200"
-		"tall"			"42"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
@@ -57,7 +57,7 @@
 		"ypos"			"1"//11
 		"zpos"			"20"
 		"wide"			"200"
-		"tall"			"42"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"

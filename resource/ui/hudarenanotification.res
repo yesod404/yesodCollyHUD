@@ -74,14 +74,11 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"ProductBold20"
-		"xpos"			"75"
+		"font"			"ProductBold13"
+		"xpos"			"65"
 		"ypos"			"30"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
 		"zpos"			"1"
-		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"200"
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -96,8 +93,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"Product12"
-		"xpos"			"75"
+		"font"			"Product8"
+		"xpos"			"65"
 		"ypos"			"75"
 		"ypos_hidef"	"23"
 		"ypos_lodef"	"20"

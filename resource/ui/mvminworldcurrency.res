@@ -9,7 +9,7 @@
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"0 0 0 165"
@@ -27,7 +27,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"softred"	
+		"bgcolor_override"		"softred"
 	}
 	
 	"MoneyImagePanel"
@@ -50,16 +50,19 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
 		"font"			"Productbold11"
-		"fgcolor"		"softgreen"
-		"xpos"			"rs0.79"
-		"ypos"			"c76"
+		"xpos"			"rs1.12"
+		"ypos"			"c86"
 		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"40"
+		"wide"			"45"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
+		
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"softgreen"
+		
 	}
 	
 	"CurrencyBad"
@@ -67,16 +70,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
 		"font"			"Productbold11"
-		"fgcolor"		"softred"
-		"xpos"			"rs0.79"
-		"ypos"			"c76"
+		"xpos"			"rs1.12"
+		"ypos"			"c86"
 		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"40"
+		"wide"			"45"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
+		
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"softred"
 	}
 	
 	"CurrencyShadow"

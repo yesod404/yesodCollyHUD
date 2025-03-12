@@ -87,7 +87,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"PlayerStatusHealthValueMain2"
 		"xpos"			"0"//-9
-		"ypos"			"0"//11
+		"ypos"			"-1"//11
 		"zpos"			"8"
 		"wide"			"32"
 		"tall"			"17"

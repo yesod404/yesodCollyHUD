@@ -133,7 +133,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"0"
-			"textinsety"		"9"
+			"textinsety"		"5"
 			"AllCaps"			"1"
 			"font"				"product16"
 			"selectedcolor"		"White"
@@ -164,7 +164,7 @@
 		"default"					"0"
 		"Command"					"close"
 		
-		"AllCaps"					"0"
+		"AllCaps"					"1"
 		
 		"paintbackground"			"1"
 		
@@ -227,7 +227,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
 		"textAlignment"		"east"
-		"xpos"				"r250"
+		"xpos"				"r270"
 		"ypos"				"27"
 		"zpos"				"5"
 		"wide"				"70"
@@ -264,7 +264,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"AllCaps"					"0"
+		"AllCaps"					"1"
 		
 		"paintbackground"			"1"
 		

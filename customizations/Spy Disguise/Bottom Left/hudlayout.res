@@ -1,4 +1,4 @@
-//Replace the current DisguiseStatus in scrips/hudlayout.res with this.
+//PUT THIS IN SCRIPTS/HUDLAYOUT
 
 	"DisguiseStatus"
 	{

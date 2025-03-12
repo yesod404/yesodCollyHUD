@@ -197,7 +197,7 @@
 			"fieldName"								"NameLabel"
 			"xpos"			"4"
 			"ypos"			"3"
-			"wide"			"278"
+			"wide"			"35"
 			"zpos"			"80"
 			"tall"			"10"
 			"visible"		"1"
@@ -240,7 +240,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"48"
+			"xpos"			"40"
 			"ypos"			"3"
 			"wide"			"278"
 			"zpos"			"80"

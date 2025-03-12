@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MapName"
-		"xpos"			"-33"
+		"xpos"			"-44"
 		"ypos"			"22"
 		"zpos"			"1"
 		"wide"			"0"
@@ -41,8 +41,8 @@
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"Fight"
-		"xpos"			"c-85"
-		"ypos"			"c-105"
+			"xpos"			"c-85"
+			"ypos"			"c-105"
 			"wide"										"180"
 			"tall"										"180"
 			"autoResize"	"0"
@@ -114,9 +114,11 @@
 			"paintbackground"						"1"
 			"paintborder"							"0"
 
-			"defaultBgColor_override"				"0 0 0 165"
-			"armedBgColor_override"					"255 255 255 16"
-			"depressedBgColor_override"				"0 0 0 165"
+			"defaultbgcolor"		"0 0 0 165"
+			"armedbgcolor_override"		"White"
+			
+			"defaultfgcolor_override"		"245 245 245 100"
+			"armedfgcolor_override"		"0 0 0 255"
 		}
 	}
 

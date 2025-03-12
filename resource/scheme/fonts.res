@@ -22,7 +22,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"10"
 				"weight"	"0"
 				"antialias"	"1"
@@ -51,7 +51,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -59,7 +59,7 @@
 			}
 			"2"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -67,7 +67,7 @@
 			}
 			"3"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -76,7 +76,7 @@
 			}
 			"4"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -85,7 +85,7 @@
 			}
 			"5"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -106,7 +106,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -114,7 +114,7 @@
 			}
 			"2"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -122,7 +122,7 @@
 			}
 			"3"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -131,7 +131,7 @@
 			}
 			"4"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -140,7 +140,7 @@
 			}
 			"5"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -152,7 +152,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -160,7 +160,7 @@
 			}
 			"2"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -168,7 +168,7 @@
 			}
 			"3"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -177,7 +177,7 @@
 			}
 			"4"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -186,7 +186,7 @@
 			}
 			"5"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -195,7 +195,7 @@
 			}
 			"6"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"20"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
@@ -213,7 +213,7 @@
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"product sans" 
+				"name"		"code_next_semi_bold" 
 				"tall"		"13"
 				"weight"	"250"
 				"antialias" "1"
@@ -225,7 +225,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -236,14 +236,14 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
@@ -251,21 +251,21 @@
 			}
 			"3"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
 			}
 			"4"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
 			}
 			"5"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -350,7 +350,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"tall_hidef"	"12"
 				"weight"	"0"
@@ -362,7 +362,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -373,7 +373,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -384,7 +384,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"tall_lodef"	"8"
 				"weight"	"0"
@@ -396,7 +396,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"24"
 				"weight"		"500"
 				"yres"			"1 1199"
@@ -405,7 +405,7 @@
 			}
 			"2"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -416,7 +416,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -427,7 +427,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -438,7 +438,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"tall_hidef"	"8"
 				"tall_lodef"	"8"
@@ -451,7 +451,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"tall_hidef"	"8"
 				"tall_lodef"	"8"
@@ -464,7 +464,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"tall_lodef"	"8"
 				"weight"	"0"
@@ -476,7 +476,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -487,7 +487,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -498,7 +498,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -509,7 +509,7 @@
 		{
 			"1"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"8"
 				"antialias" 	"1"
 			}
@@ -518,7 +518,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -529,7 +529,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
@@ -551,7 +551,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -562,7 +562,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -573,7 +573,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -584,7 +584,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -606,7 +606,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -617,7 +617,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -692,7 +692,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -716,7 +716,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -727,7 +727,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -738,7 +738,7 @@
 		{
 			"1"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -751,7 +751,7 @@
 		{
 			"1"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"8"
 				"tall_hidef"	"7"
 				"weight"		"500"
@@ -876,7 +876,7 @@
 			}
 			"2"
 			{
-				"name"  	"product sans"
+				"name"  	"code_next_semi_bold"
 				"tall"  	"28"
 				"weight" 	"0"
 				"additive" 	"1"
@@ -980,7 +980,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1002,7 +1002,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"0"
@@ -1071,7 +1071,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1082,7 +1082,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1093,7 +1093,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1116,7 +1116,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"20"
 				"weight"	"0"
 				"additive"	"0"
@@ -1127,7 +1127,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1138,7 +1138,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1149,7 +1149,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1160,7 +1160,7 @@
 		{
 			"1"
 			{
-				"name"			"product_sans_regular"
+				"name"			"novecento_medium"
 				"tall"			"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1249,7 +1249,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1260,7 +1260,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1271,7 +1271,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1282,7 +1282,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1293,7 +1293,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1305,7 +1305,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"300"
 				"additive"	"0"
@@ -1317,7 +1317,7 @@
 		{
 			"1"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"12"
 				"weight"		"700"
 				"yres"			"480 599"
@@ -1325,7 +1325,7 @@
 			}
 			"2"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"13"
 				"weight"		"700"
 				"yres"			"600 767"
@@ -1333,7 +1333,7 @@
 			}
 			"3"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"14"
 				"weight"		"700"
 				"yres"			"768 1023"
@@ -1341,7 +1341,7 @@
 			}
 			"4"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"20"
 				"weight"		"700"
 				"yres"			"1024 1199"
@@ -1349,7 +1349,7 @@
 			}
 			"5"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"24"
 				"weight"		"700"
 				"yres"			"1200 10000"
@@ -1368,7 +1368,7 @@
 			}
 			"2"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"13"
 				"weight"		"700"
 				"yres"			"600 767"
@@ -1376,7 +1376,7 @@
 			}
 			"3"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"14"
 				"weight"		"700"
 				"yres"			"768 1023"
@@ -1384,7 +1384,7 @@
 			}
 			"4"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"20"
 				"weight"		"700"
 				"yres"			"1024 1199"
@@ -1392,7 +1392,7 @@
 			}
 			"5"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"24"
 				"weight"		"700"
 				"yres"			"1200 10000"
@@ -1403,7 +1403,7 @@
 		{
 			"1"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"10"
 				"weight"		"700"
 				"yres"			"480 599"
@@ -1411,7 +1411,7 @@
 			}
 			"2"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"10"
 				"weight"		"700"
 				"yres"			"600 767"
@@ -1419,7 +1419,7 @@
 			}
 			"3"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"13"
 				"weight"		"700"
 				"yres"			"768 1023"
@@ -1427,7 +1427,7 @@
 			}
 			"4"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"14"
 				"weight"		"700"
 				"yres"			"1024 1199"
@@ -1435,7 +1435,7 @@
 			}
 			"5"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"15"
 				"weight"		"700"
 				"yres"			"1200 10000"
@@ -1498,7 +1498,7 @@
 		{
 			"1"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -1511,7 +1511,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1523,7 +1523,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -1556,7 +1556,7 @@
 		{
 			"1"
 			{
-				"name"			"product_sans_regular"
+				"name"			"novecento_medium"
 				"tall"			"28"
 				"tall_lodef"	"24"
 				"weight"		"500"
@@ -1584,7 +1584,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1593,7 +1593,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1602,7 +1602,7 @@
 		{
 			"1"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"22"
 				"tall_lodef"	"18"
 				"weight"		"900"
@@ -1612,7 +1612,7 @@
 		{
 			"1"
 			{
-				"name"			"product sans"
+				"name"			"code_next_semi_bold"
 				"tall"			"18"
 				"tall_lodef"	"18"
 				"weight"		"900"
@@ -1622,7 +1622,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -1643,7 +1643,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -1654,7 +1654,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -1675,7 +1675,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -1686,7 +1686,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1697,7 +1697,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1709,7 +1709,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1718,7 +1718,7 @@
 			}
 			"2"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1727,7 +1727,7 @@
 			}
 			"3"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1740,7 +1740,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1751,7 +1751,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
@@ -1762,7 +1762,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
@@ -1773,7 +1773,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1784,7 +1784,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1794,7 +1794,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1804,7 +1804,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1814,7 +1814,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1824,7 +1824,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1835,7 +1835,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1846,7 +1846,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1857,7 +1857,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -1868,7 +1868,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"			"7" [!$POSIX]
 				"tall"			"8" [$POSIX]
 				"weight"	"0"
@@ -1880,7 +1880,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"			"7" [!$POSIX]
 				"tall"			"8" [$POSIX]
 				"weight"	"0"
@@ -1891,7 +1891,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"			"7" [!$POSIX]
 				"tall"			"8" [$POSIX]
 				"weight"	"0"
@@ -1904,7 +1904,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" "1"
@@ -2001,7 +2001,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2010,7 +2010,7 @@
 			}
 			"2"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2019,7 +2019,7 @@
 			}
 			"3"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2032,7 +2032,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2042,7 +2042,7 @@
 			}
 			"2"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2052,7 +2052,7 @@
 			}
 			"3"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2066,7 +2066,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2075,7 +2075,7 @@
 			}
 			"2"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2084,7 +2084,7 @@
 			}
 			"3"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2097,7 +2097,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2109,7 +2109,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2121,7 +2121,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2133,7 +2133,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2144,7 +2144,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" "1"
@@ -2155,7 +2155,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2183,7 +2183,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2191,7 +2191,7 @@
 			}
 			"2"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2199,7 +2199,7 @@
 			}
 			"3"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2208,7 +2208,7 @@
 			}
 			"4"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2217,7 +2217,7 @@
 			}
 			"5"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2229,7 +2229,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2240,7 +2240,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2248,7 +2248,7 @@
 			}
 			"2"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2256,7 +2256,7 @@
 			}
 			"3"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2265,7 +2265,7 @@
 			}
 			"4"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2274,7 +2274,7 @@
 			}
 			"5"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2293,7 +2293,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2304,7 +2304,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2315,7 +2315,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2326,7 +2326,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2337,7 +2337,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2352,7 +2352,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2363,7 +2363,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2375,7 +2375,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2388,7 +2388,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2400,7 +2400,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2412,7 +2412,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2424,7 +2424,7 @@
 		{
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -2496,275 +2496,37 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"18"
 				"antialias" "1"
 			}
 		}
-		"Damage18OutlineProductBold"
-		{
-			"1"
-			{
-				"name"		"product_sans_bold"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineProduct"
-		{
-			"1"
-			{
-				"name"		"product_sans_regular"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage20OutlineCodePro"
-		{
-			"1"
-			{
-				"name"		"code_pro"
-				"tall"		"20"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineAvenir"
-		{
-			"1"
-			{
-				"name"		"avenir_black"
-				"tall"		"16"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18TF2"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"16"
-				"antialias" "1"
-			}
-		}
-		"Damage18OutlineTF2"
-		{
-			"1"
-			{
-				"name"		"TF2"
-				"tall"		"16"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18TF2Build"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"16"
-				"antialias" "1"
-			}
-		}
-		"Damage18OutlineTF2Build"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"16"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineLexend"
-		{
-			"1"
-			{
-				"name"		"lexend_medium"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage20OutlineSurface"
-		{
-			"1"
-			{
-				"name"		"surface_medium"
-				"tall"		"20"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineNovecento"
-		{
-			"1"
-			{
-				"name"		"Novecento-Medium-Edit"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineNovecentoSemiBold"
-		{
-			"1"
-			{
-				"name"		"novecento_semi_bold"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage20OutlineRenogare"
-		{
-			"1"
-			{
-				"name"		"RenogareSoft-Regular"
-				"tall"		"20"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineRoboto"
-		{
-			"1"
-			{
-				"name"		"roboto_medium"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineHandel"
-		{
-			"1"
-			{
-				"name"		"Handel Gothic BT"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage23OutlineLexend"
-		{
-			"1"
-			{
-				"name"		"Lexend SemiBold Edit"
-				"tall"		"23"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage20OutlineAcre"
-		{
-			"1"
-			{
-				"name"		"Acre-Medium"
-				"tall"		"20"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage20OutlineAcreBold"
-		{
-			"1"
-			{
-				"name"		"Acre Bold"
-				"tall"		"20"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineNovecentoBold"
+		"DamageOutline"
 		{
 			"1"
 			{
 				"name"		"novecento_bold"
-				"tall"		"16"
+				"tall"		"19"
 				"antialias" "1"
 				"outline"	"1"
 			}
 		}
-		"Damage18OutlineCodePro"
+		"DamageShadow"
 		{
 			"1"
 			{
-				"name"		"code_pro"
-				"tall"		"16"
+				"name"		"novecento_bold"
+				"tall"		"19"
 				"antialias" "1"
-				"outline"	"1"
+				"dropshadow"	"1"
 			}
 		}
-		"Damage18OutlineProductSemiBold"
+		"Damage18Outline"
 		{
 			"1"
 			{
-				"name"		"ProductSans-SemiBold"
+				"name"		"novecento_bold"
 				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineSharpened"
-		{
-			"1"
-			{
-				"name"		"surface_sharpened"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineCodeNext"
-		{
-			"1"
-			{
-				"name"		"code_next_semi_bold"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineHarabara"
-		{
-			"1"
-			{
-				"name"		"harabara_bold"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineSolomon"
-		{
-			"1"
-			{
-				"name"		"solomon"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage18OutlineDays"
-		{
-			"1"
-			{
-				"name"		"days"
-				"tall"		"18"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
-		"Damage20OutlineCatamaran"
-		{
-			"1"
-			{
-				"name"		"catamaran_semi_bold"
-				"tall"		"20"
 				"antialias" "1"
 				"outline"	"1"
 			}
@@ -2773,7 +2535,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"19"
 				"antialias" "1"
 				"outline"	"1"
@@ -2783,7 +2545,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"20"
 				"antialias" "1"
 				"outline"	"1"
@@ -2793,7 +2555,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"21"
 				"antialias" "1"
 				"outline"	"1"
@@ -2813,7 +2575,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"23"
 				"antialias" "1"
 				"outline"	"1"
@@ -2872,11 +2634,33 @@
 				"antialias"	"1"
 			}
 		}
+		"product4"
+		{
+			"1"
+			{
+				"name"		"novecento_medium"
+				"tall"		"4"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"product5"
+		{
+			"1"
+			{
+				"name"		"novecento_medium"
+				"tall"		"5"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"product8"
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2887,7 +2671,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"6"
 				"antialias" "1"
 				"additive"	"0"
@@ -2898,18 +2682,29 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"7"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
+		"product7ds"
+		{
+			"1"
+			{
+				"name"		"novecento_medium"
+				"tall"		"7"
+				"antialias" "1"
+				"additive"	"0"
+				"dropshadow" "1"
+			}
+		}
 		"product8ds"
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2920,7 +2715,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -2931,7 +2726,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2942,7 +2737,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -2953,7 +2748,18 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
+				"tall"		"10"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"product10spec"
+		{
+			"1"
+			{
+				"name"		"code_next_semi_bold"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -2964,7 +2770,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -2977,7 +2783,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"7"
 				"antialias" "1"
 				"additive"	"0"
@@ -2988,7 +2794,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2999,7 +2805,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -3010,7 +2816,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -3021,7 +2827,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -3032,7 +2838,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
@@ -3043,7 +2849,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -3054,7 +2860,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -3065,7 +2871,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3076,7 +2882,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3087,7 +2893,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3098,7 +2904,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
@@ -3109,7 +2915,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3122,7 +2928,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -3133,7 +2939,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"10"
 				"antialias" "1"
 				"blur" 		"1"
@@ -3145,7 +2951,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
@@ -3156,7 +2962,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -3167,7 +2973,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -3178,7 +2984,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3189,7 +2995,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"19"
 				"antialias" "1"
 				"additive"	"0"
@@ -3200,7 +3006,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3211,7 +3017,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3233,7 +3039,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3244,7 +3050,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
@@ -3255,7 +3061,7 @@
 		{
 			"1"
 			{
-				"name"			"product_sans_regular"
+				"name"			"novecento_medium"
 				"tall"			"26"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -3266,7 +3072,7 @@
 		{
 			"1"
 			{
-				"name"			"product_sans_bold"
+				"name"			"novecento_bold"
 				"tall"			"24"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -3277,7 +3083,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
@@ -3288,7 +3094,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"29"
 				"antialias" "1"
 				"additive"	"0"
@@ -3299,7 +3105,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"30"
 				"antialias" "1"
 				"additive"	"0"
@@ -3310,7 +3116,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"31"
 				"antialias" "1"
 				"additive"	"0"
@@ -3321,7 +3127,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"32"
 				"antialias" "1"
 				"additive"	"0"
@@ -3332,7 +3138,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"33"
 				"antialias" "1"
 				"additive"	"0"
@@ -3343,7 +3149,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"34"
 				"antialias" "1"
 				"additive"	"0"
@@ -3354,7 +3160,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"35"
 				"antialias" "1"
 				"additive"	"0"
@@ -3365,7 +3171,7 @@
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"36"
 				"antialias" "1"
 				"additive"	"0"
@@ -3456,7 +3262,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -3468,7 +3274,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -3480,7 +3286,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -3492,7 +3298,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"8"
 				"antialias" "1"
 				"blur"		"1"
@@ -3504,7 +3310,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"8"
 				"antialias" "1"
 				"blur"		"2"
@@ -3516,7 +3322,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -3527,7 +3333,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -3539,7 +3345,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_regular"
+				"name"		"novecento_medium"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -3552,7 +3358,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -3564,7 +3370,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -3577,7 +3383,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"10"
 				"antialias" "1"
 				"blur" 		"1"
@@ -3590,7 +3396,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -3602,7 +3408,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
@@ -3613,7 +3419,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -3625,7 +3431,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -3637,7 +3443,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"15"
 				"antialias" "1"
 				"additive"	"0"
@@ -3648,7 +3454,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3660,7 +3466,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3672,7 +3478,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3683,7 +3489,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3695,7 +3501,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3706,7 +3512,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3718,7 +3524,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
@@ -3729,7 +3535,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
@@ -3741,7 +3547,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3753,7 +3559,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3764,7 +3570,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
@@ -3775,7 +3581,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
@@ -3787,7 +3593,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
@@ -3798,7 +3604,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"30"
 				"antialias" "1"
 				"additive"	"0"
@@ -3809,7 +3615,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"32"
 				"antialias" "1"
 				"additive"	"0"
@@ -3820,7 +3626,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"32"
 				"antialias" "1"
 				"blur"		"1"
@@ -3831,7 +3637,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"34"
 				"antialias" "1"
 				"additive"	"0"
@@ -3842,7 +3648,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"34"
 				"antialias" "1"
 				"blur"		"1"
@@ -3853,7 +3659,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"36"
 				"antialias" "1"
 				"additive"	"0"
@@ -3864,7 +3670,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"36"
 				"antialias" "1"
 				"blur"		"1"
@@ -3875,7 +3681,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"38"
 				"antialias" "1"
 				"additive"	"0"
@@ -3886,7 +3692,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"38"
 				"antialias" "1"
 				"blur"		"1"
@@ -3897,7 +3703,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"40"
 				"antialias" "1"
 				"additive"	"0"
@@ -3908,7 +3714,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"40"
 				"antialias" "1"
 				"blur"		"1"
@@ -3919,7 +3725,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"42"
 				"antialias" "1"
 				"additive"	"0"
@@ -3930,7 +3736,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"42"
 				"antialias" "1"
 				"blur"		"1"
@@ -3941,7 +3747,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"44"
 				"antialias" "1"
 				"additive"	"0"
@@ -3952,7 +3758,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"44"
 				"antialias" "1"
 				"blur"		"1"
@@ -3963,7 +3769,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"46"
 				"antialias" "1"
 				"additive"	"0"
@@ -3974,7 +3780,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"46"
 				"antialias" "1"
 				"blur"		"1"
@@ -3985,7 +3791,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"48"
 				"antialias" "1"
 				"additive"	"0"
@@ -3996,7 +3802,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"48"
 				"antialias" "1"
 				"blur"		"1"
@@ -4007,7 +3813,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"50"
 				"antialias" "1"
 				"additive"	"0"
@@ -4018,7 +3824,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"50"
 				"antialias" "1"
 				"blur"		"1"
@@ -4029,7 +3835,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"52"
 				"antialias" "1"
 				"additive"	"0"
@@ -4040,7 +3846,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"52"
 				"antialias" "1"
 				"blur"		"1"
@@ -4051,7 +3857,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"54"
 				"antialias" "1"
 				"additive"	"0"
@@ -4062,7 +3868,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"54"
 				"antialias" "1"
 				"blur"		"1"
@@ -4073,7 +3879,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"56"
 				"antialias" "1"
 				"additive"	"0"
@@ -4084,7 +3890,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"56"
 				"antialias" "1"
 				"blur"		"1"
@@ -4095,7 +3901,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"58"
 				"antialias" "1"
 				"additive"	"0"
@@ -4106,7 +3912,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"58"
 				"antialias" "1"
 				"blur"		"1"
@@ -4117,7 +3923,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"60"
 				"antialias" "1"
 				"additive"	"0"
@@ -4128,7 +3934,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"60"
 				"antialias" "1"
 				"blur"		"1"
@@ -4139,7 +3945,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"57"
 				"antialias" "1"
 				"additive"	"0"
@@ -4150,7 +3956,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"62"
 				"antialias" "1"
 				"blur"		"1"
@@ -4161,7 +3967,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"64"
 				"antialias" "1"
 				"additive"	"0"
@@ -4172,7 +3978,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"64"
 				"antialias" "1"
 				"blur"		"1"
@@ -4183,7 +3989,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"66"
 				"antialias" "1"
 				"additive"	"0"
@@ -4194,7 +4000,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"66"
 				"antialias" "1"
 				"blur"		"1"
@@ -4205,7 +4011,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"68"
 				"antialias" "1"
 				"additive"	"0"
@@ -4216,7 +4022,7 @@
 		{
 		  "1"
 		  {
-				"name"		"product_sans_bold"
+				"name"		"novecento_bold"
 				"tall"		"68"
 				"antialias" "1"
 				"blur"		"1"
@@ -4702,6 +4508,19 @@
 			}
 		}
 		//Bold
+		
+		"TargetIDHypnotize13dsBold"
+		{
+			"1" { "name" "uber_numbers" "tall" "13" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
+		}
+		"TargetIDHypnotize12dsBold"
+		{
+			"1" { "name" "uber_numbers" "tall" "12" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
+		}
+		"TargetIDHypnotize11dsBold"
+		{
+			"1" { "name" "uber_numbers" "tall" "11" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
+		}
 		"TargetIDHypnotize10dsBold"
 		{
 			"1" { "name" "uber_numbers" "tall" "10" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }

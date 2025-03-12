@@ -1,8 +1,15 @@
 "UnlitGeneric"
 {
-	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/cp_icons/icon_obj_cap_blu"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
+	"$translucent"		"1"
+	"$baseTexture"		"vgui\replay\thumbnails\obj_icons\cp_cap"
+	"$alpha"			"1"
+	"$vertexalpha"		"1"
+	"$vertexcolor"		"1"
+	"$no_fullbright"	"1"
+	"$ignorez"			"1"
+	"$color"			"{86 133 181}"
+	"$detail"			"vgui\replay\thumbnails\obj_icons\cp_mask"
+	"$detailblendmode"	"9"
+	"$separatedetailuvs""1"
+	"%keywords"			"tf"
 }

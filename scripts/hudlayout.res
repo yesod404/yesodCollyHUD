@@ -201,11 +201,11 @@
 		"fieldName"		"DisguiseStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"35" [$WIN32]
-		"ypos"			"426" [$WIN32]
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"		"374"				
+		"ypos"		"c130"				
+		"zpos"		"-1"	
+		"wide"		"248"
+		"tall"		"453"
 	}
 	"CMainTargetID"
 	{
@@ -410,7 +410,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"r606" [$WIN32]
-		"ypos"						"40" [$WIN32]
+		"ypos"						"30" [$WIN32]
 		"wide"						"600"
 		"tall"						"600"
 		"MaxDeathNotices"			"10"

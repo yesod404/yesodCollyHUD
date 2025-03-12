@@ -115,7 +115,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetDataLabel"
-		"font"				"product8ds"
+		"font"				"TargetIDHypnotize12dsBold"
 		"xpos"				"55"
 		"ypos"				"2"
 		"zpos"				"1"

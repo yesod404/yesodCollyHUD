@@ -57,10 +57,10 @@
 		"tall"					"10"
 		"visible"				"1"
 		"enabled"				"1"
-		"font"					"product8"
+		"font"					"product7"
 		"fgcolor_override"		"TanLight"
 		"textAlignment"			"west"
-		"labelText"				"Boss"
+		"labelText"				"Boss:"
 		"proportionaltoparent"	"1"
 	}
 

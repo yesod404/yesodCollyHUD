@@ -466,7 +466,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"product8"
+		"font"			"product7"
 		"xpos"			"c-43"
 		"ypos"			"6"
 		"zpos"			"1"
@@ -558,7 +558,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"product8"
+		"font"			"product7"
 		"xpos"			"c3"
 		"ypos"			"6"
 		"zpos"			"1"

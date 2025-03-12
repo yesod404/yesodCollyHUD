@@ -34,9 +34,7 @@ event ActiveTimerDim
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	Health_Spectator_Bar_Buff 							Alpha		"255"					Linear 0.0 0.0
-	Animate	Health_Spectator 							BgColor		"softgreen"					Linear 0.0 0.0
-
+	Animate	PlayerStatusHealthValueSpectator 							BgColor		"softgreen"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"50"					Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"50"					Linear 0.125 0.075
 	Animate	HPReal 							FgColor		"47 185 123 240"	Linear 0.0 0.0
@@ -84,8 +82,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 			0.0
 	StopEvent HudHealthBonusPulseLoop 		0.0
 	Animate	BuffBG 							Alpha		"0"					Linear 0.0 0.0
-	Animate	Health_Spectator_Bar_Buff 							Alpha		"0"					Linear 0.0 0.0
-	Animate	Health_Spectator 							BgColor		"0 0 0 165"					Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpectator 							BgColor		"0 0 0 165"					Linear 0.0 0.0
 	Animate	BuffBG2 						Alpha		"0"					Linear 0.0 0.0
 	Animate	HPReal 							FgColor		"220 220 220 250"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"0 0 0 200"		Linear 0.0 0.0
@@ -121,8 +118,7 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	Health_Spectator_Bar_Hurt 							Alpha		"255"					Linear 0.0 0.0
-	Animate	Health_Spectator 							BgColor		"softred"					Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpectator 							BgColor		"softred"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"softred"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"160"				Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage			Alpha		"0"									Linear	0.125	0.075
@@ -164,8 +160,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse			0.0
 	StopEvent HudHealthDyingPulseLoop 		0.0
-	Animate	Health_Spectator 							FgColor		"White"					Linear 0.0 0.0
-	Animate	Health_Spectator 							BgColor		"0 0 0 165"					Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpectator 							BgColor		"0 0 0 165"					Linear 0.0 0.0
 	Animate	HurtBG 							Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"White"			Linear 0.0 0.0
@@ -201,14 +196,10 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage			Alpha		"80"				Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage			Alpha		"255"				Linear 0.125 0.075
-	Animate	AmmoInClip								FgColor		"softred"					Linear	0.0		0.075
-	Animate	AmmoInClip								FgColor		"White"					Linear	0.125	0.075
 
-	Animate	AmmoInReserve							FgColor		"softred"					Linear	0.0		0.075
-	Animate	AmmoInReserve							FgColor		"White"					Linear	0.125	0.075
+	Animate	AmmoInReserve							FgColor		"softred"					Linear 0.0 0.3
 
-	Animate	AmmoNoClip								FgColor		"softred"					Linear	0.0		0.075
-	Animate	AmmoNoClip								FgColor		"White"					Linear	0.125	0.075
+	Animate	AmmoNoClip								FgColor		"softred"					Linear 0.0 0.3
 
 	RunEvent HudLowAmmoPulseLoop			0.25
 }
@@ -224,10 +215,11 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 				0.0
 	StopEvent HudLowAmmoPulseLoop 			0.0
 	Animate	HudWeaponAmmoBGLow				Alpha		"0"					Linear 0.0 0.0
-	Animate	AmmoInReserve					FgColor		"White"	Linear 0.0 0.0
-	Animate	AmmoInClip						FgColor		"White"			Linear 0.0 0.0
+	
+	Animate	AmmoInReserve					FgColor		"softgreen"	Linear 0.0 0.0
 	Animate	AmmoNoClip						FgColor		"White"			Linear 0.0 0.0
 }
+
 
 //====================================
 
@@ -238,19 +230,13 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
- //   Animate              ChargeLabel                    fgcolor            softgreen            Linear            0              0.3
- //   Animate              ChargeLabel                    fgcolor            "80 216 153 255"            Linear            0.3            0.4
+    Animate              ChargeLabel                    fgcolor            softgreen            Linear            0              0.3
+    Animate              ChargeLabel                    fgcolor            "80 216 153 255"            Linear            0.3            0.4
     Animate              ChargeMeter                    fgcolor            softgreen            Linear            0              0.3
     Animate              ChargeMeter                    fgcolor            "80 216 153 255"            Linear            0.3            0.4
 
-	Animate Health_Shadow						Alpha 		"255" 								Linear 	0.0		0.0
-	Animate Health_Shadow_Buff					FgColor 	"softgreen" 						Linear 	0.0		0.0
-	Animate Health_Shadow_Buff					Position 	"-1 -1" 						Linear 	0.0		0.0
-	Animate Health_Shadow_Extra					FgColor 		"0 0 0 255" 								Linear 	0.0		0.0
 
-
-
-    Animate              ChargeLabel                    fgcolor            White            Linear            0              0.0
+    Animate              ChargeLabel2                    fgcolor            White            Linear            0              0.0
     Animate              ChargeLabelShadow                    fgcolor            "softgreen"            Linear            0.0           0.0
     Animate              ChargeLabelShadow                    Position 	"-1 -1"            Linear            0.0          0.0
     Animate              ChargeLabelShadowExtra                    fgcolor            "0 0 0 255"            Linear            0.0            0.0
@@ -268,6 +254,7 @@ event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 				0.0
 	StopEvent HudMedicChargedLoop 			0.0
+
 
 	Animate	ChargeLabel 					FgColor		"White"	Linear 0.0 0.0
     Animate              ChargeLabelShadow                    fgcolor            "0 0 0 255"            Linear            0.0           0.0

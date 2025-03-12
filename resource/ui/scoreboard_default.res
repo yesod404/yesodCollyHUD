@@ -16,7 +16,8 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"medal_width"				"20"
-		"avatar_width"				"65"
+		"medal_column_width" "18"
+		"avatar_width"				"30"
 		"spacer"					"4"
 		"name_width"				"25"
 		"nemesis_width"				"15"
@@ -565,7 +566,7 @@
 		"fgcolor"				"TANLIGHT120"
 		"textAlignment"			"east"
 		"auto_wide_tocontents"	"1"
-		"xpos"					"87"
+		"xpos"					"94"
 		"textinsetx"			"14"
 		"textinsety"			"0"
 		"ypos"					"30"
@@ -587,6 +588,7 @@
 		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
 		"textAlignment"		"WEST"
+		"wide" 				"88"
 		"wide" 				"81"
 		"xpos"				"6"
 		"textinsetx"		"14"
@@ -610,6 +612,7 @@
 		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
 		"textAlignment"		"WEST"
+		"auto_wide_tocontents"	"1"
 		"wide" 				"48"
 		"xpos"				"6"
 		"textinsetx"		"14"
@@ -638,7 +641,7 @@
 		"fgcolor"				"TANLIGHT120"
 		"textAlignment"			"east"
 		"auto_wide_tocontents" 	"1"
-		"xpos"					"54"
+		"xpos"					"58"
 		"tall"					"20"
 		"ypos"					"78"
 		"textinsetx"			"14"
@@ -1163,7 +1166,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"
@@ -1214,7 +1217,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
 			"xpos"			"64"
@@ -1232,7 +1235,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills2"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
 			"xpos"			"64"
@@ -1262,7 +1265,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"
@@ -1313,7 +1316,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"64"
@@ -1330,7 +1333,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths2"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"64"
@@ -1361,7 +1364,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"			"100"	[$WIN32]
@@ -1385,7 +1388,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"xpos"			"179"	[$WIN32]
@@ -1436,7 +1439,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists2"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"xpos"			"179"	[$WIN32]
@@ -1466,7 +1469,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
 			"xpos"			"100"	[$WIN32]
@@ -1514,7 +1517,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"		[$WIN32]
 			"xpos"			"179"	[$WIN32]
@@ -1540,7 +1543,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Dam2"
-			"font"			"product18"
+			"font"			"product16"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"		[$WIN32]
 			"xpos"			"179"	[$WIN32]
