@@ -201,11 +201,11 @@
 		"fieldName"		"DisguiseStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"		"374"				
-		"ypos"		"c130"				
-		"zpos"		"-1"	
-		"wide"		"248"
-		"tall"		"453"
+		"xpos"			"35" [$WIN32]
+		"ypos"			"426" [$WIN32]
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 	"CMainTargetID"
 	{
@@ -419,7 +419,7 @@
 		"LineSpacing"				"1"
 		"CornerRadius"				"0"
 		"RightJustify"				"1"
-		"TextFont"					"product8"
+		"TextFont"					"product8lowercase"
 		"TeamBlue"					"softblue"
 		"TeamRed"					"softred"
 		"IconColor"					"255 255 255 255"

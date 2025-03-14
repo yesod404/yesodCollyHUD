@@ -2656,6 +2656,17 @@
 				"antialias" "1"
 			}
 		}
+		"product8lowercase"
+		{
+			"1"
+			{
+				"name"		"code_next_semi_bold"
+				"tall"		"8"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"product8"
 		{
 			"1"
