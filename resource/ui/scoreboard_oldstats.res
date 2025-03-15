@@ -717,7 +717,7 @@
 		"auto_wide_tocontents" 	"1"
 		"textinsetx"			"12"
 		"zpos"					"5"
-		"font"					"product8"
+		"font"					"product8lowercase"
 		"fgcolor"				"TANLIGHT120"
 		"textAlignment"			"east"
 		"auto_wide_tocontents" 	"1"

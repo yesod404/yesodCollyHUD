@@ -202,7 +202,7 @@
 			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"product8"
+			"font"			"product8lowercase"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"west"
 			"labelText"		"%name%"

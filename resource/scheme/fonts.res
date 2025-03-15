@@ -1740,7 +1740,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_bold"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1751,7 +1751,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_bold"
+				"name"		"code_next_semi_bold"
 				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
@@ -1762,7 +1762,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_bold"
+				"name"		"code_next_semi_bold"
 				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
@@ -1773,7 +1773,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_bold"
+				"name"		"code_next_semi_bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2662,6 +2662,17 @@
 			{
 				"name"		"code_next_semi_bold"
 				"tall"		"8"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"product10lowercase"
+		{
+			"1"
+			{
+				"name"		"code_next_semi_bold"
+				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"
