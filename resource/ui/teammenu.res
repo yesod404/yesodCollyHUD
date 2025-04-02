@@ -36,11 +36,10 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
-		"xpos"			"c-27"
+		"xpos"			"c-68"
 		"ypos"			"c32"
 		"zpos"			"400"		
-		"auto_wide_tocontents"			"0" 
-		"wide"			"25"
+		"auto_wide_tocontents"			"1" 
 		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -56,8 +55,8 @@
 
 		
 		"pin_to_sibling"			"bluebutton"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
 	}
 
 	"bluebutton"
@@ -98,10 +97,10 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
-		"xpos"			"c2"
+		"xpos"			"c40"
 		"ypos"			"c32"
 		"zpos"			"400"		
-		"wide"			"25"
+		"auto_wide_tocontents"			"1" 
 		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -115,8 +114,8 @@
 		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"			"redbutton"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "4"
 
 	}
 
@@ -159,10 +158,8 @@
 		"xpos"			"0"
 		"ypos"			"24"
 		"zpos"			"12"
+		"tall"			"0"
 		"textinsetx"			"14" 
-		"auto_wide_tocontents"			"1" 
-		"use_proportional_insets"	"1"
-		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -170,27 +167,48 @@
 		"tabPosition"	"2"
 		"labelText"		"RANDOM"	[$WIN32]
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"paintborder"	"0"
-		"paintbackground"	"1"
 		"command"		"jointeam auto"
-		"associated_model"	"RANDOM"	
-		"defaultbgcolor"		"0 0 0 165"
-		"defaultbgcolor_override"		"0 0 0 165"
-		"bgcolor"		"0 0 0 165"
-		"bgcolor_override"		"0 0 0 165"
+		"font"			"product8"
+		"mouseinputenabled"							"0"
+	}
+	
+	"randombutton"
+	{
+		"controlname"		"cexbutton"
+		"fieldname"			"randombutton"
+		"command"			"jointeam auto"
+		"zpos"				"400"
+		"xpos"			"0"
+		"ypos"			"24"
+		"tall"			"20"
+		"auto_wide_tocontents"	"1"
+		"labeltext"			"RANDOM"
+		"textinsetx"			"14" 
+		"textalignment"		"center"
+		"font"				"product8"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"use_proportional_insets"	"1"
+
+
+		"defaultfgcolor_override" 	"tanlight120"
+		"armedfgcolor_override"		"White"
+		"defaultbgcolor_override"	"0 0 0 165"
 		"armedbgcolor_override"		"softorange"
-		"fgcolor_override"		"245 245 245 70"
-		"fgcolor"		"245 245 245 70"
-		"defaultfgcolor_override"		"245 245 245 70"
-		"defaultfgcolor"		"245 245 245 70"
-		"font"			"productbold8"
+		
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"
+		"default"				"1"
 		
 		"pin_to_sibling" "bluebutton"
 		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "2"
-	}
+	}	
 	
 	"teambutton3"
 	{
@@ -199,9 +217,8 @@
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"12"
-		"textinsetx"			"28" 
-		"wide"			"113"
-		"tall"			"20"
+		"tall"			"0"
+		"textinsetx"			"14" 
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -209,27 +226,47 @@
 		"tabPosition"	"2"
 		"labelText"		"SPECTATE"	[$WIN32]
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"paintborder"	"0"
-		"paintbackground"	"1"
 		"command"		"jointeam spectate"
-		"associated_model"	"spectate"	
-		"defaultbgcolor"		"0 0 0 165"
-		"defaultbgcolor_override"		"0 0 0 165"
-		"bgcolor"		"0 0 0 165"
-		"bgcolor_override"		"0 0 0 165"
-		"fgcolor_override"		"245 245 245 70"
-		"fgcolor"			"245 245 245 70"
-		"armedbgcolor_override"		"White"
-		"defaultfgcolor_override"		"245 245 245 70"
-		"armedfgcolor_override"		"0 0 0 255"
-		"font"			"productbold8"
-		
-		"pin_to_sibling"			"teambutton2"
-		"pin_corner_to_sibling" "2"
-		"pin_to_sibling_corner" "3"
+		"font"			"product8"
+		"mouseinputenabled"							"0"
 	}
+
+	"spectatebutton"
+	{
+		"controlname"		"cexbutton"
+		"fieldname"			"spectatebutton"
+		"command"			"jointeam spectate"
+		"zpos"				"400"
+		"xpos"			"-49"
+		"ypos"			"0"
+		"tall"			"20"
+		"wide"			"113"
+		"labeltext"			";"
+		"textinsetx"			"28" 
+		"textalignment"		"center"
+		"font"				"Ace Icons 20"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"use_proportional_insets"	"1"
+
+		"defaultfgcolor_override" 	"tanlight120"
+		"armedfgcolor_override"		"0 0 0 255"
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"White"
+		
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"
+		"default"				"1"
+		
+		"pin_to_sibling" "randombutton"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}	
 	"SpecButtonShowInvis"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -259,32 +296,34 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
+		"command"			"cancelmenu"
+		"zpos"				"400"
 		"xpos"			"0"
 		"ypos"			"24"
-		"zpos"			"6"
-		"AUTO_WIDE_TOCONTENTS"			"1"
-		"TEXTINSETX"			"14"
-		"use_proportional_insets"	"1"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"CANCEL"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"cancelmenu"
-		"font"			"productbold8"
-		"defaultbgcolor"		"0 0 0 165"
-		"defaultbgcolor_override"		"0 0 0 165"
-		"bgcolor"		"0 0 0 165"
-		"bgcolor_override"		"0 0 0 165"
+		"auto_wide_tocontents"	"1"
+		"labeltext"			"CANCEL"
+		"textinsetx"			"14" 
+		"textalignment"		"center"
+		"font"				"product8"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"use_proportional_insets"	"1"
+
+
+		"defaultfgcolor_override" 	"tanlight120"
+		"armedfgcolor_override"		"White"
+		"defaultbgcolor_override"	"0 0 0 165"
 		"armedbgcolor_override"		"softred"
-		"fgcolor_override"		"245 245 245 70"
-		"fgcolor"						"245 245 245 70"
-		"defaultfgcolor_override"		"245 245 245 70"
+		
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"
+		"default"				"1"
 
 		"pin_to_sibling" "redbutton"
 		"pin_corner_to_sibling" "3"

@@ -3482,7 +3482,17 @@
 				"additive"	"0"
 				"antialias" "1"
 		  }
-
+		}
+		"ProductSemiBold16"
+		{
+		  "1"
+		  {
+				"name"		"novecento_semi_bold"
+				"tall"		"16"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
 		}
 		"ProductBold16blur"
 		{
@@ -4529,7 +4539,437 @@
 				"antialias"									"1"
 			}
 		}
-		//Bold
+		"Icon Master 7"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"7"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 8"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"8"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 9"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"9"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 10"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"10"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 12"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"12"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 14"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"14"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 14 Blur"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"14"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Icon Master 16"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"16"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 16 Blur"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"16"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Icon Master 18"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"18"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 18 Blur"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"18"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Icon Master 20"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"20"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 20 Blur"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"20"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Icon Master 22"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"22"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 22 Blur"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"22"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Icon Master 24"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"24"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 24 Blur"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"24"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Icon Master 26"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"26"
+				"antialias"									"1"
+			}
+		}
+
+		"Icon Master 30"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"30"
+				"antialias"									"1"
+			}
+		}
+
+		"Icon Master 34"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"34"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 38"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"38"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 46"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"46"
+				"antialias"									"1"
+			}
+		}
+		"Icon Master 50"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons_master"
+				"tall"										"50"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 7"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"7"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 8"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"8"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 9"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"9"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 10"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"10"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 12"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"12"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 14"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"14"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 14 Blur"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"14"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Ace Icons 16"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"16"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 16 Blur"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"16"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Ace Icons 18"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"18"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 18 Blur"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"18"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Ace Icons 20"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"20"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 20 Blur"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"20"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Ace Icons 22"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"22"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 22 Blur"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"22"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Ace Icons 24"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"24"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 24 Blur"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"24"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
+		"Ace Icons 26"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"26"
+				"antialias"									"1"
+			}
+		}
+
+		"Ace Icons 30"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"30"
+				"antialias"									"1"
+			}
+		}
+
+		"Ace Icons 34"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"34"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 38"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"38"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 46"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"46"
+				"antialias"									"1"
+			}
+		}
+		"Ace Icons 50"
+		{
+			"1"
+			{
+				"name"										"ace_icons"
+				"tall"										"50"
+				"antialias"									"1"
+			}
+		}
+
 		
 		"TargetIDHypnotize13dsBold"
 		{
@@ -4737,6 +5177,49 @@
 			"name" "roboto_medium"  
 		}
 		"32"
+		{
+			"font" "resource/fonts/hypnotize_icons_master.ttf"
+			"name" "hypnotize_icons_master"  
+			"english"		{"range" "0x000 0xFFFF"}
+			"arabic"		{"range" "0x000 0xFFFF"}
+			"brazilian"		{"range" "0x000 0xFFFF"}
+			"bulgarian"		{"range" "0x000 0xFFFF"}
+			"czech"			{"range" "0x000 0xFFFF"}
+			"danish"		{"range" "0x000 0xFFFF"}
+			"dutch"			{"range" "0x000 0xFFFF"}
+			"finnish"		{"range" "0x000 0xFFFF"}
+			"french"		{"range" "0x000 0xFFFF"}
+			"german"		{"range" "0x000 0xFFFF"}
+			"greek"			{"range" "0x000 0xFFFF"}
+			"hebrew"		{"range" "0x000 0xFFFF"}
+			"hungarian"		{"range" "0x000 0xFFFF"}
+			"italian"		{"range" "0x000 0xFFFF"}
+			"japanese"		{"range" "0x000 0xFFFF"}
+			"korean"		{"range" "0x000 0xFFFF"}
+			"koreana"		{"range" "0x000 0xFFFF"}
+			"latvian"		{"range" "0x000 0xFFFF"}
+			"lithuanian"	{"range" "0x000 0xFFFF"}
+			"norwegian"		{"range" "0x000 0xFFFF"}
+			"pirate"		{"range" "0x000 0xFFFF"}
+			"polish"		{"range" "0x000 0xFFFF"}
+			"portuguese"	{"range" "0x000 0xFFFF"}
+			"romanian"		{"range" "0x000 0xFFFF"}
+			"russian"		{"range" "0x000 0xFFFF"}
+			"schinese"		{"range" "0x000 0xFFFF"}
+			"slovak"		{"range" "0x000 0xFFFF"}
+			"spanish"		{"range" "0x000 0xFFFF"}
+			"swedish"		{"range" "0x000 0xFFFF"}
+			"tchinese"		{"range" "0x000 0xFFFF"}
+			"thai"			{"range" "0x000 0xFFFF"}
+			"turkish"		{"range" "0x000 0xFFFF"}
+			"ukrainian"		{"range" "0x000 0xFFFF"}
+		}
+		"33"
+		{
+			"font" "resource/fonts/ace_icons.ttf"
+			"name" "ace_icons"  
+		}
+		"34"
 		{
 			"font" "resource/fonts/uber_numbers.ttf"
 			"name" "uber_numbers"

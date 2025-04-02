@@ -153,7 +153,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"productbold8"
+		"font"			"product8"
 		"auto_wide_tocontents"		"1"
 		"textinsetx"		"40"
 		"border_armed"		"noborder"

@@ -94,7 +94,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
-		"font"			"productbold16"
+		"font"			"ProductSemiBold16"
 		"textAlignment"		"center"
 		"fgcolor_override"		"220 220 220 255"
 	}

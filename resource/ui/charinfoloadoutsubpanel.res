@@ -137,10 +137,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Scout"
+			"labelText"								""
 			"Command"								"loadout scout"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -158,9 +158,28 @@
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
 			"proportionaltoparent"					"1"
-
-
 		}
+
+			"ScoutLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"ScoutLabel"
+				"font"				"Product8"
+				"xpos"				"12"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Scout"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"ScoutImage"
 		{
@@ -227,10 +246,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Soldier"
+			"labelText"								""
 			"Command"								"loadout soldier"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -248,9 +267,28 @@
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
 			"proportionaltoparent"					"1"
-
-
 		}
+
+			"SoldierLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"SoldierLabel"
+				"font"				"Product8"
+				"xpos"				"9"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Soldier"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"SoldierImage"
 		{
@@ -318,10 +356,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Pyro"
+			"labelText"								""
 			"Command"								"loadout pyro"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -339,9 +377,28 @@
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
 			"proportionaltoparent"					"1"
-
-
 		}
+		
+			"PyroLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"PyroLabel"
+				"font"				"Product8"
+				"xpos"				"14"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Pyro"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"PyroImage"
 		{
@@ -411,10 +468,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Demoman"
+			"labelText"								""
 			"Command"								"loadout demoman"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -432,9 +489,28 @@
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
 			"proportionaltoparent"					"1"
-
-
 		}
+
+			"DemomanLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"DemomanLabel"
+				"font"				"Product8"
+				"xpos"				"5"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Demoman"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"DemomanImage"
 		{
@@ -506,10 +582,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Heavy"
+			"labelText"								""
 			"Command"								"loadout heavy"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -527,9 +603,28 @@
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
 			"proportionaltoparent"					"1"
-
-
 		}
+
+			"HeavyLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"HeavyLabel"
+				"font"				"Product8"
+				"xpos"				"11"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Heavy"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"HeavyImage"
 		{
@@ -600,10 +695,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Engineer"
+			"labelText"								""
 			"Command"								"loadout engineer"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -621,9 +716,28 @@
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
 			"proportionaltoparent"					"1"
-
-
 		}
+
+			"EngineerLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"EngineerLabel"
+				"font"				"Product8"
+				"xpos"				"6"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Engineer"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"EngineerImage"
 		{
@@ -704,10 +818,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Medic"
+			"labelText"								""
 			"Command"								"loadout medic"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -725,9 +839,28 @@
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
 			"proportionaltoparent"					"1"
-
-
 		}
+
+			"MedicLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"MedicLabel"
+				"font"				"Product8"
+				"xpos"				"12"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Medic"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"MedicImage"
 		{
@@ -798,10 +931,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Sniper"
+			"labelText"								""
 			"Command"								"loadout sniper"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -819,9 +952,28 @@
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
 			"proportionaltoparent"					"1"
-
-
 		}
+
+			"SniperLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"SniperLabel"
+				"font"				"Product8"
+				"xpos"				"12"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Sniper"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"SniperImage"
 		{
@@ -891,10 +1043,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Spy"
+			"labelText"								""
 			"Command"								"loadout spy"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -912,9 +1064,28 @@
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
 			"proportionaltoparent"					"1"
-
-
 		}
+
+			"SpyLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"SpyLabel"
+				"font"				"Product8"
+				"xpos"				"17"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Spy"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"SpyImage"
 		{
@@ -985,10 +1156,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Backpack"
+			"labelText"								"˳"
 			"Command"								"backpack"
-			"textAlignment"							"south"
-			"font"									"Product8"
+			"textAlignment"							"center"
+			"textinsety"			"-15" 
+			"font"									"Icon Master 46"
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -1002,25 +1174,28 @@
 			"selectedFgColor_override" 	"White"
 			"defaultbgColor_override" 	"blank"
 			"armedbgcolor_override"		"softgreen"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"37"
-				"tall"			"37"
-				"proportionaltoparent"			"1"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/softicons/backpack"
-				"scaleImage"	"1"
-			}
-
-
 		}
+		
+			"BackpackLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"BackpackLabel"
+				"font"				"Product8"
+				"xpos"				"6"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Backpack"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"BackpackLine"
 		{
@@ -1075,10 +1250,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Crafting"
+			"labelText"								"Ի"
 			"Command"								"crafting"
-			"textAlignment"							"south"
-			"font"									"Product8"
+			"textAlignment"							"center"
+			"textinsety"			"-15" 
+			"font"									"Icon Master 46"
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -1092,25 +1268,28 @@
 			"selectedFgColor_override" 	"White"
 			"defaultbgColor_override" 	"blank"
 			"armedbgcolor_override"		"softgreen"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"1"
-				"zpos"			"1"
-				"wide"			"37"
-				"tall"			"37"
-				"proportionaltoparent"			"1"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/softicons/tools"
-				"scaleImage"	"1"
-			}
-
-
 		}
+		
+			"CraftingLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"CraftingLabel"
+				"font"				"Product8"
+				"xpos"				"7"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Crafting"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"CraftingLine"
 		{
@@ -1158,10 +1337,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Catalog"
+			"labelText"								"ȳ"
 			"Command"								"armory"
-			"textAlignment"							"south"
-			"font"									"Product8"
+			"textAlignment"							"center"
+			"textinsety"			"-15" 
+			"font"									"Icon Master 46"
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -1175,25 +1355,28 @@
 			"selectedFgColor_override" 	"White"
 			"defaultbgColor_override" 	"blank"
 			"armedbgcolor_override"		"softgreen"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"37"
-				"tall"			"37"
-				"proportionaltoparent"			"1"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/softicons/book"
-				"scaleImage"	"1"
-			}
-
-
 		}
+		
+			"CatalogLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"CatalogLabel"
+				"font"				"Product8"
+				"xpos"				"7"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Catalog"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"CatalogLine"
 		{
@@ -1241,10 +1424,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Trading"
+			"labelText"								""
 			"Command"								"trading"
 			"textAlignment"							"south"
-			"font"									"Product8"
+			"font"									""
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -1274,9 +1457,28 @@
 				"image"			"replay/thumbnails/softicons/trading"
 				"scaleImage"	"1"
 			}
-
-
 		}
+		
+			"TradingLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"TradingLabel"
+				"font"				"Product8"
+				"xpos"				"7"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"Trading"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"TradingLine"
 		{
@@ -1324,10 +1526,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"labelText"								"Skins"
+			"labelText"								"ʇ"
 			"Command"								"paintkit_preview"
-			"textAlignment"							"south"
-			"font"									"Product8"
+			"textAlignment"							"center"
+			"textinsety"			"-15" 
+			"font"									"Icon Master 46"
 			"AllCaps"								"1"
 			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -1341,23 +1544,28 @@
 			"selectedFgColor_override" 	"White"
 			"defaultbgColor_override" 	"blank"
 			"armedbgcolor_override"		"softgreen"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"37"
-				"tall"			"37"
-				"proportionaltoparent"			"1"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/softicons/paint"
-				"scaleImage"	"1"
-			}
 		}
+
+			"WarPaintsLabel"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"WarPaintsLabel"
+				"font"				"Product8"
+				"xpos"				"3"
+				"ypos"				"20"
+				"zpos"				"0"
+				"auto_wide_tocontents"	"1"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"labelText"			"War Paints"
+				"AllCaps"				"1"
+				"textAlignment"		"south"
+				"fgcolor_override"			"White"
+				"mouseinputenabled"							"0"
+			}
 
 		"WarPaintsLine"
 		{
