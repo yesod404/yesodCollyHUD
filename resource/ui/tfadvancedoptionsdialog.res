@@ -18,10 +18,10 @@
 		"settitlebarvisible"	""
 		"paintbackground"		"1"
 		
-		"control_w"			"500"
-		"control_h"			"25"
-		"slider_w"			"500"
-		"slider_h"			"25"
+		"control_w"									"500"
+		"control_h"									"25"
+		"slider_w"									"500"
+		"slider_h"									"30"
 	}
 	"TitleLabel"
 	{
@@ -31,7 +31,7 @@
 		"labelText"		"SETTINGS+"
 		"textAlignment"	"center"
 		"xpos"			"20"
-		"ypos"			"395"
+		"ypos"			"400"
 		"zpos"			"1"
 		"wide"			"120"
 		"tall"			"21"

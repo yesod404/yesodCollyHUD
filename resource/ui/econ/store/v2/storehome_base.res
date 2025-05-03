@@ -327,7 +327,7 @@
 		
 		"ButtonSettings"
 		{
-			"wide"				"195"
+			"wide"				"200"
 			"tall"				"30"
 			"textinsety"		"0"
 			"autoResize"		"0"

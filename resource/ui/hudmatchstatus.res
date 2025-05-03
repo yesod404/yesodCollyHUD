@@ -130,7 +130,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"productbold13"
+			"font"			"productbold14"
 			"fgcolor"		"tanlight"
 			"xpos"			"0"
 			"ypos"			"0"

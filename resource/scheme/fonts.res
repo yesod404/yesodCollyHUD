@@ -1082,7 +1082,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_bold"
+				"name"		"code_next_semi_bold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -1160,7 +1160,7 @@
 		{
 			"1"
 			{
-				"name"			"novecento_medium"
+				"name"			"code_next_regular"
 				"tall"			"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1556,7 +1556,7 @@
 		{
 			"1"
 			{
-				"name"			"novecento_medium"
+				"name"			"code_next_regular"
 				"tall"			"28"
 				"tall_lodef"	"24"
 				"weight"		"500"
@@ -1584,7 +1584,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1593,7 +1593,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1643,7 +1643,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -1654,7 +1654,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2001,7 +2001,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2010,7 +2010,7 @@
 			}
 			"2"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2019,7 +2019,7 @@
 			}
 			"3"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2032,7 +2032,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2042,7 +2042,7 @@
 			}
 			"2"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2052,7 +2052,7 @@
 			}
 			"3"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2066,7 +2066,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2075,7 +2075,7 @@
 			}
 			"2"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2084,7 +2084,7 @@
 			}
 			"3"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2097,7 +2097,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2109,7 +2109,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2121,7 +2121,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2229,7 +2229,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2375,7 +2375,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2388,7 +2388,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2634,11 +2634,12 @@
 				"antialias"	"1"
 			}
 		}
+
 		"product4"
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"4"
 				"antialias" "1"
 				"additive"	"0"
@@ -2649,7 +2650,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"5"
 				"antialias" "1"
 				"additive"	"0"
@@ -2660,7 +2661,7 @@
 		{
 			"1"
 			{
-				"name"		"code_next_semi_bold"
+				"name"		"code_next_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2671,7 +2672,7 @@
 		{
 			"1"
 			{
-				"name"		"code_next_semi_bold"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -2682,7 +2683,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2693,7 +2694,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"6"
 				"antialias" "1"
 				"additive"	"0"
@@ -2704,7 +2705,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"7"
 				"antialias" "1"
 				"additive"	"0"
@@ -2715,7 +2716,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"7"
 				"antialias" "1"
 				"additive"	"0"
@@ -2726,7 +2727,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2737,7 +2738,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -2748,7 +2749,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2759,7 +2760,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -2770,7 +2771,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -2781,7 +2782,7 @@
 		{
 			"1"
 			{
-				"name"		"code_next_semi_bold"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -2792,7 +2793,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -2805,7 +2806,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"7"
 				"antialias" "1"
 				"additive"	"0"
@@ -2816,7 +2817,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"additive"	"0"
@@ -2827,7 +2828,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"9"
 				"antialias" "1"
 				"additive"	"0"
@@ -2838,7 +2839,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -2849,7 +2850,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
@@ -2860,7 +2861,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
@@ -2871,7 +2872,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -2882,7 +2883,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -2893,7 +2894,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -2904,7 +2905,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -2915,7 +2916,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -2926,7 +2927,7 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
@@ -2937,20 +2938,18 @@
 		{
 		  "1"
 		  {
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"
 		  }
 		}
-
-
 		"product12"
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
@@ -2961,7 +2960,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"10"
 				"antialias" "1"
 				"blur" 		"1"
@@ -2973,7 +2972,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
@@ -2984,7 +2983,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
@@ -2995,7 +2994,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -3006,7 +3005,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
@@ -3017,7 +3016,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"19"
 				"antialias" "1"
 				"additive"	"0"
@@ -3028,7 +3027,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
@@ -3039,7 +3038,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3061,7 +3060,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
@@ -3072,7 +3071,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
@@ -3083,7 +3082,7 @@
 		{
 			"1"
 			{
-				"name"			"novecento_medium"
+				"name"			"code_next_regular"
 				"tall"			"26"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -3105,7 +3104,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
@@ -3116,7 +3115,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"29"
 				"antialias" "1"
 				"additive"	"0"
@@ -3127,7 +3126,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"30"
 				"antialias" "1"
 				"additive"	"0"
@@ -3138,7 +3137,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"31"
 				"antialias" "1"
 				"additive"	"0"
@@ -3149,7 +3148,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"32"
 				"antialias" "1"
 				"additive"	"0"
@@ -3160,7 +3159,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"33"
 				"antialias" "1"
 				"additive"	"0"
@@ -3171,7 +3170,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"34"
 				"antialias" "1"
 				"additive"	"0"
@@ -3182,7 +3181,7 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"35"
 				"antialias" "1"
 				"additive"	"0"
@@ -3193,12 +3192,794 @@
 		{
 			"1"
 			{
-				"name"		"novecento_medium"
+				"name"		"code_next_regular"
 				"tall"		"36"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"
 			}
+		}
+		
+		"ProductBold8"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"8"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+
+		}
+		"ProductBold8Outline"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"8"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"		"1"
+		  }
+		}
+		"Product8Outline"
+		{
+		  "1"
+		  {
+				"name"		"novecento_medium"
+				"tall"		"8"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"		"1"
+		  }
+		}
+		"ProductBold8BLUR"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"8"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+
+		}
+		"ProductBold8BLUR2"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"8"
+				"antialias" "1"
+				"blur"		"2"
+				"antialias" "1"
+		  }
+
+		}
+		"ProductBold9"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"9"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold9Outline"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"9"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"		"1"
+		  }
+		}
+		"Product9Outline"
+		{
+		  "1"
+		  {
+				"name"		"novecento_medium"
+				"tall"		"9"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"		"1"
+		  }
+		}
+		
+		"ProductBold10"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"10"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+
+		}
+		"ProductBold10Outline"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"10"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"		"1"
+		  }
+
+		}
+		"ProductBold10Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"10"
+				"antialias" "1"
+				"blur" 		"1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+
+		}
+		"ProductBold11"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"11"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+
+		}
+		"ProductBold12"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"12"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold13"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"13"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+
+		}
+		"ProductBold14"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"14"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+
+		}
+		"ProductBold15"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"15"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold16"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"16"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductSemiBold16"
+		{
+		  "1"
+		  {
+				"name"		"novecento_semi_bold"
+				"tall"		"16"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold16blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"16"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+		  }
+		}
+		"ProductBold18"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"18"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold18blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"18"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+		  }
+		}
+		"ProductBold20"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"20"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold20blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"20"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+		  }
+		}
+		"ProductBold22"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"22"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold22blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"22"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+		  }
+		}
+		"ProductBold24blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"24"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+		  }
+		}
+		"ProductBold24"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"24"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold26"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"26"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold26blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"26"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+		  }
+		}
+		"ProductBold28"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"28"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold30"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"30"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold32"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"32"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold32Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"32"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold34"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"34"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold34Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"34"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold36"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"36"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold36Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"36"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold38"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"38"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold38Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"38"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold40"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"40"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold40Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"40"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold42"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"42"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold42Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"42"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold44"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"44"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold44Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"44"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold46"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"46"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold46Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"46"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold48"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"48"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold48Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"48"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold50"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"50"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold50Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"50"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold52"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"52"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold52Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"52"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold54"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"54"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold54Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"54"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold56"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"56"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold56Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"56"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold58"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"58"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold58Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"58"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold60"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"60"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold60Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"60"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold62"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"57"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold62Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"62"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold64"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"64"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold64Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"64"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold66"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"66"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold66Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"66"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold68"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"68"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold68Blur"
+		{
+		  "1"
+		  {
+				"name"		"code_next_semi_bold"
+				"tall"		"68"
+				"antialias" "1"
+				"blur"		"1"
+				"antialias" "1"
+		  }
 		}
 		"HealthAmmo"
 		{
@@ -3280,788 +4061,6 @@
 				"dropshadow"	"1"
 			}
 		}
-		"ProductBold8"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"8"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-
-		}
-		"ProductBold8Outline"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"8"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"		"1"
-		  }
-		}
-		"Product8Outline"
-		{
-		  "1"
-		  {
-				"name"		"novecento_medium"
-				"tall"		"8"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"		"1"
-		  }
-		}
-		"ProductBold8BLUR"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"8"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-
-		}
-		"ProductBold8BLUR2"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"8"
-				"antialias" "1"
-				"blur"		"2"
-				"antialias" "1"
-		  }
-
-		}
-		"ProductBold9"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"9"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold9Outline"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"9"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"		"1"
-		  }
-		}
-		"Product9Outline"
-		{
-		  "1"
-		  {
-				"name"		"novecento_medium"
-				"tall"		"9"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"		"1"
-		  }
-		}
-		
-		"ProductBold10"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"10"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-
-		}
-		"ProductBold10Outline"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"10"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"		"1"
-		  }
-
-		}
-		"ProductBold10Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"10"
-				"antialias" "1"
-				"blur" 		"1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-
-		}
-		"ProductBold11"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"11"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-
-		}
-		"ProductBold12"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"12"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold13"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"13"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-
-		}
-		"ProductBold14"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"14"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-
-		}
-		"ProductBold15"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"15"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold16"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"16"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductSemiBold16"
-		{
-		  "1"
-		  {
-				"name"		"novecento_semi_bold"
-				"tall"		"16"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold16blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"16"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"blur"		"1"
-		  }
-		}
-		"ProductBold18"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"18"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold18blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"18"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"blur"		"1"
-		  }
-		}
-		"ProductBold20"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"20"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold20blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"20"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"blur"		"1"
-		  }
-		}
-		"ProductBold22"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"22"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold22blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"22"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"blur"		"1"
-		  }
-		}
-		"ProductBold24blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"24"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"blur"		"1"
-		  }
-		}
-		"ProductBold24"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"24"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold26"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"26"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold26blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"26"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-				"blur"		"1"
-		  }
-		}
-		"ProductBold28"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"28"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold30"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"30"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold32"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"32"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold32Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"32"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold34"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"34"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold34Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"34"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold36"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"36"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold36Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"36"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold38"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"38"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold38Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"38"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold40"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"40"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold40Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"40"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold42"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"42"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold42Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"42"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold44"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"44"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold44Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"44"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold46"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"46"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold46Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"46"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold48"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"48"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold48Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"48"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold50"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"50"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold50Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"50"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold52"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"52"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold52Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"52"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold54"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"54"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold54Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"54"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold56"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"56"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold56Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"56"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold58"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"58"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold58Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"58"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold60"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"60"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold60Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"60"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold62"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"57"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold62Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"62"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold64"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"64"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold64Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"64"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold66"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"66"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold66Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"66"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold68"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"68"
-				"antialias" "1"
-				"additive"	"0"
-				"antialias" "1"
-		  }
-		}
-		"ProductBold68Blur"
-		{
-		  "1"
-		  {
-				"name"		"novecento_bold"
-				"tall"		"68"
-				"antialias" "1"
-				"blur"		"1"
-				"antialias" "1"
-		  }
-		}
-		
 		"Class Symbols 8"
 		{
 			"1"
@@ -5103,8 +5102,8 @@
 		}
 		"17"
 		{
-			"font" "resource/fonts/novecento_medium.ttf"
-			"name" "novecento_medium"  
+			"font" "resource/fonts/code_next_regular.ttf"
+			"name" "code_next_regular"  
 		}
 		"18"
 		{
@@ -5178,6 +5177,16 @@
 		}
 		"32"
 		{
+			"font" "resource/fonts/code_next_bold.ttf"
+			"name" "code_next_bold"  
+		}
+		"33"
+		{
+			"font" "resource/fonts/code_next_regular.ttf"
+			"name" "code_next_regular"  
+		}
+		"34"
+		{
 			"font" "resource/fonts/hypnotize_icons_master.ttf"
 			"name" "hypnotize_icons_master"  
 			"english"		{"range" "0x000 0xFFFF"}
@@ -5214,12 +5223,12 @@
 			"turkish"		{"range" "0x000 0xFFFF"}
 			"ukrainian"		{"range" "0x000 0xFFFF"}
 		}
-		"33"
+		"35"
 		{
 			"font" "resource/fonts/ace_icons.ttf"
 			"name" "ace_icons"  
 		}
-		"34"
+		"36"
 		{
 			"font" "resource/fonts/uber_numbers.ttf"
 			"name" "uber_numbers"

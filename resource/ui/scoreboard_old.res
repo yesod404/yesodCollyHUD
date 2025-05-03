@@ -723,7 +723,7 @@
 		"fgcolor"				"TANLIGHT120"
 		"textAlignment"			"east"
 		"auto_wide_tocontents" 	"1"
-		"xpos"					"58"
+		"xpos"					"54"
 		"tall"					"20"
 		"ypos"					"78"
 		"textinsetx"			"14"

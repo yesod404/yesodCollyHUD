@@ -134,7 +134,7 @@
 		{
 			"textinsetx"		"0"
 			"textinsety"		"5"
-			"AllCaps"			"1"
+			"AllCaps"			"0"
 			"font"				"product16"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"62 62 62 255"	

@@ -164,7 +164,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"ScoutLabel"
-				"font"				"Product8"
+				"font"				"Product9"
 				"xpos"				"12"
 				"ypos"				"20"
 				"zpos"				"1"
@@ -273,7 +273,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"SoldierLabel"
-				"font"				"Product8"
+				"font"				"Product9"
 				"xpos"				"9"
 				"ypos"				"20"
 				"zpos"				"1"
@@ -383,8 +383,8 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"PyroLabel"
-				"font"				"Product8"
-				"xpos"				"14"
+				"font"				"Product9"
+				"xpos"				"15"
 				"ypos"				"20"
 				"zpos"				"1"
 				"auto_wide_tocontents"	"1"
@@ -495,8 +495,8 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"DemomanLabel"
-				"font"				"Product8"
-				"xpos"				"5"
+				"font"				"Product9"
+				"xpos"				"7"
 				"ypos"				"20"
 				"zpos"				"1"
 				"auto_wide_tocontents"	"1"
@@ -609,8 +609,8 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"HeavyLabel"
-				"font"				"Product8"
-				"xpos"				"11"
+				"font"				"Product9"
+				"xpos"				"13"
 				"ypos"				"20"
 				"zpos"				"1"
 				"auto_wide_tocontents"	"1"
@@ -722,8 +722,8 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"EngineerLabel"
-				"font"				"Product8"
-				"xpos"				"6"
+				"font"				"Product9"
+				"xpos"				"7"
 				"ypos"				"20"
 				"zpos"				"1"
 				"auto_wide_tocontents"	"1"
@@ -845,7 +845,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"MedicLabel"
-				"font"				"Product8"
+				"font"				"Product9"
 				"xpos"				"12"
 				"ypos"				"20"
 				"zpos"				"1"
@@ -958,7 +958,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"SniperLabel"
-				"font"				"Product8"
+				"font"				"Product9"
 				"xpos"				"12"
 				"ypos"				"20"
 				"zpos"				"1"
@@ -1070,7 +1070,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"SpyLabel"
-				"font"				"Product8"
+				"font"				"Product9"
 				"xpos"				"17"
 				"ypos"				"20"
 				"zpos"				"1"
@@ -1180,7 +1180,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"BackpackLabel"
-				"font"				"Product8"
+				"font"				"Product9"
 				"xpos"				"6"
 				"ypos"				"20"
 				"zpos"				"1"
@@ -1274,7 +1274,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"CraftingLabel"
-				"font"				"Product8"
+				"font"				"Product9"
 				"xpos"				"7"
 				"ypos"				"20"
 				"zpos"				"1"
@@ -1361,7 +1361,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"CatalogLabel"
-				"font"				"Product8"
+				"font"				"Product9"
 				"xpos"				"7"
 				"ypos"				"20"
 				"zpos"				"1"
@@ -1463,8 +1463,8 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"TradingLabel"
-				"font"				"Product8"
-				"xpos"				"7"
+				"font"				"Product9"
+				"xpos"				"9"
 				"ypos"				"20"
 				"zpos"				"1"
 				"auto_wide_tocontents"	"1"
@@ -1550,8 +1550,8 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"WarPaintsLabel"
-				"font"				"Product8"
-				"xpos"				"3"
+				"font"				"Product9"
+				"xpos"				"4"
 				"ypos"				"20"
 				"zpos"				"1"
 				"auto_wide_tocontents"	"1"

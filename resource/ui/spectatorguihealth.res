@@ -65,7 +65,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"softred"
+		"fillcolor"		"LowColor"
 	}
 	"BuffBG"
 	{
@@ -79,7 +79,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"softgreen" //use softgreen for green buffs
+		"fillcolor"		"HighColor" //use softgreen for green buffs
 	}
 
 	"PlayerStatusHealthValueMain2"

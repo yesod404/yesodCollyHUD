@@ -419,7 +419,7 @@
 		"LineSpacing"				"1"
 		"CornerRadius"				"0"
 		"RightJustify"				"1"
-		"TextFont"					"product8lowercase"
+		"TextFont"					"productbold8"
 		"TeamBlue"					"softblue"
 		"TeamRed"					"softred"
 		"IconColor"					"255 255 255 255"

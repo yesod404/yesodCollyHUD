@@ -166,7 +166,7 @@
 				"alpha"			"255"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"			"0 0 0 165"
+				"fillcolor"			"0 0 0 0"
 			}
 			
 			"classimagebg"
@@ -466,7 +466,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"product7"
+		"font"			"product8"
 		"xpos"			"c-43"
 		"ypos"			"6"
 		"zpos"			"1"
@@ -558,7 +558,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"product7"
+		"font"			"product8"
 		"xpos"			"c3"
 		"ypos"			"6"
 		"zpos"			"1"

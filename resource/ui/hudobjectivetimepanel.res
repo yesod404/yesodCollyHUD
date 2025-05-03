@@ -223,7 +223,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"product8"
+		"font"			"product9"
 	}
 	"ServerTimeLimitLabelBG"
 	{

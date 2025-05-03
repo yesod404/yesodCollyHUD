@@ -35,7 +35,7 @@
 		"controlname"		"cexbutton"
 		"fieldname"			"scout"
 		"command"			"joinclass scout"
-		"labeltext"			"scout"
+		"labeltext"			"Scout"
 		"xpos"				"cs-0.5-60-4"
 		"ypos"				"cs-0.5-60-4"
 		"wide"				"60"
@@ -45,6 +45,7 @@
 		"textinsety"								"50"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -112,18 +113,17 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
-		"fillcolor"		"softgreen160"
 		"alpha"			"165"
 
-		"pin_to_sibling"							"numScout"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"scout"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 
 	//=========================================================================================
@@ -145,6 +145,7 @@
 		"textinsety"								"50"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -210,18 +211,17 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"20"
-		"tall"										"20"
-		"visible"									"0"
+		"wide"										"15"
+		"tall"										"15"
+		"visible"									"1"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
-		"fillcolor"		"softgreen160"
 		"alpha"			"165"
 
-		"pin_to_sibling"							"numSoldier"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"soldier"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 
 	//=========================================================================================
@@ -243,6 +243,7 @@
 		"textinsety"								"50"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 		
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -308,18 +309,17 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"20"
-		"tall"										"20"
-		"visible"									"0"
+		"wide"										"15"
+		"tall"										"15"
+		"visible"									"1"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
-		"fillcolor"		"softgreen160"
 		"alpha"			"165"
 
-		"pin_to_sibling"							"numPyro"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"pyro"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 
 	//=========================================================================================
@@ -341,6 +341,7 @@
 		"textinsety"								"50"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 		
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -406,18 +407,17 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
-		"fillcolor"		"softgreen160"
 		"alpha"			"165"
 
-		"pin_to_sibling"							"numDemoman"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"demoman"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 
 	//=========================================================================================
@@ -439,6 +439,7 @@
 		"textinsety"								"50"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 		
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -504,18 +505,17 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
-		"fillcolor"		"softgreen160"
 		"alpha"			"165"
 
-		"pin_to_sibling"							"numHeavy"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"heavyweapons"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 
 	//=========================================================================================
@@ -537,6 +537,7 @@
 		"textinsety"								"50"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -604,18 +605,17 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
-		"fillcolor"		"softgreen160"
 		"alpha"			"165"
 
-		"pin_to_sibling"							"numEngineer"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"engineer"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 
 	//=========================================================================================
@@ -637,6 +637,7 @@
 		"textinsety"								"50"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -703,18 +704,17 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
-		"fillcolor"		"softgreen160"
 		"alpha"			"165"
 
-		"pin_to_sibling"							"numMedic"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"medic"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 
 	//=========================================================================================
@@ -736,6 +736,7 @@
 		"textinsety"								"50"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -801,18 +802,17 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
-		"fillcolor"		"softgreen160"
 		"alpha"			"165"
 
-		"pin_to_sibling"							"numSniper"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"sniper"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 
 	//=========================================================================================
@@ -834,6 +834,7 @@
 		"textinsety"								"50"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -900,18 +901,17 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
-		"fillcolor"		"softgreen160"
 		"alpha"			"165"
 
-		"pin_to_sibling"							"numSpy"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"spy"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 
 	//=========================================================================================
@@ -921,7 +921,7 @@
 	"random"
 	{
 		"command"			"joinclass random"
-		"labeltext"			"random"
+		"labeltext"			"Random"
 		"xpos"				"0"
 		"ypos"				"25"
 		"textinsetx"			"40" 
@@ -931,7 +931,7 @@
 		"font"				"Product8"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
-
+		"AllCaps"			"1"
 
 		"defaultfgcolor_override" 	"White"
 		"armedfgcolor_override"		"White"
@@ -1009,6 +1009,7 @@
 		"font"				"Product8"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 
 
 		"defaultfgcolor_override" 	"White"
@@ -1067,6 +1068,7 @@
 		"font"				"Product8"
 		"roundedcorners"	"0"
 		"fgcolor"			"White"
+		"AllCaps"			"1"
 
 
 		"defaultfgcolor_override" 	"White"

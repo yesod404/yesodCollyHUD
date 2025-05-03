@@ -111,7 +111,7 @@
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"	"west"
-		"font"			"productbold11"
+		"font"			"product10lowercase"
 	}
 
 	"BuySellBG"

@@ -1,0 +1,1 @@
+Copy & Paste the colors file in the folder of your choice into resource/scheme

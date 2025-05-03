@@ -285,7 +285,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsDescriptionLabel"
-			"font"		"productbold13"
+			"font"		"product10lowercase"
 			"labelText"		"%upgrade_description%"
 			"centerwrap"	"1"
 			"xpos"		"0"
@@ -461,11 +461,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"		"productbold24"
+			"font"		"productbold20"
 			"labelText"		"%credits%"
 			"textAlignment"	"center"
 			"xpos"		"5"
-			"ypos"		"0"
+			"ypos"		"1"
 			"wide"		"158"
 			"tall"		"17"
 			"visible"		"1"

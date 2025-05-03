@@ -6,5 +6,5 @@
 //==============================================================================================
 
 //#base "../resource/ui/scoreboard_old.res"				// OG
-#base "../resource/ui/scoreboard_oldstats.res"				// OG W/FULL STATS
-//#base "../resource/ui/scoreboard_default.res"			// DEFAULT
+//#base "../resource/ui/scoreboard_oldstats.res"				// OG W/FULL STATS
+#base "../resource/ui/scoreboard_default.res"			// DEFAULT

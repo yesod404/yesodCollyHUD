@@ -93,7 +93,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetNameLabel"
-		"font"				"product8lowercase"
+		"font"				"product8"
 		"xpos"				"55"
 		"ypos"				"12"
 		"zpos"				"1"
@@ -115,7 +115,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetDataLabel"
-		"font"				"TargetIDHypnotize12dsBold"
+		"font"				"product7ds"
 		"xpos"				"55"
 		"ypos"				"2"
 		"zpos"				"1"
@@ -168,8 +168,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"KillStreakIconAnchor"
-		"xpos"				"78"
-		"ypos"				"3"
+		"xpos"				"80"
+		"ypos"				"2"
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"1"

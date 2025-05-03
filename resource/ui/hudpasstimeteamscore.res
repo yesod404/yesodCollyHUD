@@ -58,7 +58,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"	
 		"labelText"									"%bluescore%"
-		"font"										"productbold14"
+		"font"										"productbold16"
 		"fgcolor"									"255 255 255 255"
 	}	
 
@@ -75,7 +75,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"	
 		"labelText"									"%redscore%"
-		"font"										"productbold14"
+		"font"										"productbold16"
 		"fgcolor"									"255 255 255 255"	
 	}	
 		
@@ -107,7 +107,7 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"product7"
+			"font"									"product8"
 			"fgcolor"								"255 255 255 255"
 			"bgcolor"		"0 0 0 200"
 			"bgcolor_override"		"0 0 0 200"

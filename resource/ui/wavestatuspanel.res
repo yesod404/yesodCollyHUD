@@ -28,7 +28,7 @@
 		"fieldName"		"WaveProgBG"
 		"xpos"			"c-100"
 		"ypos"			"6"
-		"wide"			"200"
+		"wide"			"210"
 		"tall"			"20"
 		"zpos"			"0"
 		"alpha"			"255"
@@ -87,7 +87,7 @@
 		"draw_corner_height" 	"0"
 		
 		// MINMODE
-		"xpos_minmode"	"c-60"
+		"xpos_minmode"	"c-50"
 		"ypos_minmode"	"12"
 		"wide_minmode"	"154"
 	}
@@ -113,7 +113,7 @@
 		"draw_corner_height" 	"0"	
 		
 		// MINMODE
-		"xpos_minmode"	"c-60"
+		"xpos_minmode"	"c-50"
 		"ypos_minmode"	"12"
 		"wide_minmode"	"154"
 	}

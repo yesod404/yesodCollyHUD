@@ -435,7 +435,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
 		"labelText"		"%blueteamplayercount%"
-		"font"			"product8"
+		"font"			"product8lowercase"
 		"fgcolor"		"TANLIGHT120"
 		"textAlignment"		"west"
 		"xpos"			"c-259"
@@ -521,7 +521,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
 		"labelText"		"%redteamplayercount%"
-		"font"			"product8"
+		"font"			"product8lowercase"
 		"fgcolor"		"TANLIGHT120"
 		"textAlignment"		"east"
 		"xpos"			"r204"
@@ -548,7 +548,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabel"
 		"labelText"		"%server%"
-		"font"			"product8"
+		"font"			"product8lowercase"
 		"fgcolor"		"tanlight"
 		"auto_wide_tocontents"	"1"
 		"xpos"				"6"
@@ -571,7 +571,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabelBg"
 		"labelText"		""
-		"font"			"product8"
+		"font"			"product8lowercase"
 		"fgcolor"		"tanlight"
 		"xpos"				"0"
 		"textinsetx"			"0"
@@ -596,7 +596,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"product8"
+		"font"			"product8lowercase"
 		"fgcolor"		"TANLIGHT120"
 		"labelText"		"%mapname%"
 		"textAlignment"			"east"
@@ -643,7 +643,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ServerTimeLeft"
 		"labelText"				"%servertime%"
-		"font"					"product8"
+		"font"					"product8lowercase"
 		"fgcolor"				"TANLIGHT120"
 		"textAlignment"			"east"
 		"auto_wide_tocontents"	"1"
@@ -721,7 +721,7 @@
 		"fgcolor"				"TANLIGHT120"
 		"textAlignment"			"east"
 		"auto_wide_tocontents" 	"1"
-		"xpos"					"58"
+		"xpos"					"54"
 		"tall"					"20"
 		"ypos"					"78"
 		"textinsetx"			"14"
@@ -1473,7 +1473,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel2"
-			"font"			"product8"
+			"font"			"product8lowercase"
 			"fgcolor"		"tanlight"
 			"labelText"		"ASSISTS:"
 			"textAlignment"		"west"
@@ -1552,7 +1552,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DamLabel2"
-			"font"			"product8"
+			"font"			"product8lowercase"
 			"fgcolor"		"TANLIGHT120"
 			"labelText"		"DAMAGE:"
 			"textAlignment"		"west"
@@ -1610,7 +1610,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"			"175"	[$WIN32]
@@ -1627,7 +1627,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
 			"xpos"			"280"	[$WIN32]
@@ -1645,7 +1645,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
 			"xpos"			"280"	[$WIN32]
@@ -1664,7 +1664,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"			"175"	[$WIN32]
@@ -1682,7 +1682,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
 			"xpos"			"280"	[$WIN32]
@@ -1700,7 +1700,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
 			"xpos"			"280"	[$WIN32]
@@ -1719,7 +1719,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"			"175"	[$WIN32]
@@ -1737,7 +1737,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
 			"xpos"			"280"	[$WIN32]
@@ -1755,7 +1755,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
 			"xpos"			"280"	[$WIN32]
@@ -1774,7 +1774,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"			"175"	[$WIN32]
@@ -1791,7 +1791,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"			"280"	[$WIN32]
@@ -1809,7 +1809,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"			"280"	[$WIN32]
@@ -1829,7 +1829,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"			"271"
@@ -1846,7 +1846,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealLabel2"
-			"font"			"product8"
+			"font"			"product8lowercase"
 			"fgcolor"		"TANLIGHT120"
 			"labelText"		"HEALING:"
 			"textAlignment"		"west"
@@ -1868,7 +1868,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Heal2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
 			"xpos"			"371"
@@ -1887,7 +1887,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
 			"xpos"			"371"
@@ -1905,7 +1905,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"			"271"	[$WIN32]
@@ -1922,7 +1922,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
 			"xpos"			"371"	[$WIN32]
@@ -1940,7 +1940,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
 			"xpos"			"371"	[$WIN32]
@@ -1958,7 +1958,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"			"271"	[$WIN32]
@@ -1975,7 +1975,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
 			"xpos"			"371"	[$WIN32]
@@ -1993,7 +1993,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
 			"xpos"			"371"	[$WIN32]
@@ -2011,7 +2011,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"			"271"	[$WIN32]
@@ -2028,7 +2028,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"		[$WIN32]
 			"xpos"			"371"	[$WIN32]
@@ -2046,7 +2046,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"		[$WIN32]
 			"xpos"			"371"	[$WIN32]
@@ -2066,7 +2066,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"			"370"
@@ -2083,7 +2083,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
 			"xpos"			"470"
@@ -2101,7 +2101,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
 			"xpos"			"470"
@@ -2119,7 +2119,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"			"370"	[$WIN32]
@@ -2136,7 +2136,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
 			"xpos"			"470"	[$WIN32]
@@ -2154,7 +2154,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
 			"xpos"			"470"	[$WIN32]
@@ -2172,7 +2172,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"			"370"	[$WIN32]
@@ -2190,7 +2190,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"		[$WIN32]
 			"xpos"			"470"	[$WIN32]
@@ -2208,7 +2208,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"		[$WIN32]
 			"xpos"			"470"	[$WIN32]
@@ -2226,7 +2226,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"east"
 			"xpos"			"370"	[$WIN32]
@@ -2243,7 +2243,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%support%"
 			"textAlignment"	"west"		[$WIN32]
 			"xpos"			"470"	[$WIN32]
@@ -2262,7 +2262,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support2"
-			"font"			"Product8"
+			"font"			"product8lowercase"
 			"labelText"		"%support%"
 			"textAlignment"	"west"		[$WIN32]
 			"xpos"			"470"	[$WIN32]

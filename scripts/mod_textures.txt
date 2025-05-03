@@ -1759,11 +1759,11 @@
 			
 		"obj_status_icon_sapper"
 		{
-			"file"		"HUD/hud_obj_status_sapper"
-			"x"		"0"
-			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"file"			"vgui/logos/engistuff/hud_obj_status_sapper"
+			"x"				"0"
+			"y"				"0"
+			"width"			"64"
+			"height"		"64"
 		}
 		"progress_bar_blu"
 		{
@@ -2066,11 +2066,11 @@
 		
 		"ico_metal"
 		{	
-			"file"		"hud/ico_metal_mask"
-			"x"		"0"
-			"y"		"0"
-			"width"		"128"
-			"height"	"128"
+			"file"			"vgui\replay\thumbnails\misc\buildingstatus_upgrade"
+			"x"				"0"
+			"y"				"0"
+			"width"			"64"
+			"height"		"16"
 		}
 		
 		"ico_demolish"

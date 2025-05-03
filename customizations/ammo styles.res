@@ -5,8 +5,8 @@
 // IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED AND RESTART THE GAME AFTER THE CHANGES!
 //==============================================================================================
 
-//#base "../resource/ui/hudammoweapons_default.res"				// DEFAULT
-#base "../resource/ui/hudammoweapons_ahud.res"			// AHUD & SAMMYHUD
+#base "../resource/ui/hudammoweapons_default.res"				// DEFAULT
+//#base "../resource/ui/hudammoweapons_ahud.res"			// AHUD & SAMMYHUD
 
 //==============================================================================================
 // TUTORIAL CHANGE

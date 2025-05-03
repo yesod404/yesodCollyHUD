@@ -139,7 +139,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"product7"
+		"font"			"product9"
 		"fgcolor"		"Red"
 	}
 
@@ -162,7 +162,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"product7"
+		"font"			"product9"
 		"fgcolor"		"FooterBGBlack"
 	}
 }

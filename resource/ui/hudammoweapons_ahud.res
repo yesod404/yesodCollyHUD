@@ -78,7 +78,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"AmmoInReserve"
 		"font"					"ReserveAmmo"
-		"fgcolor"				"softgreen"
+		"fgcolor"				"ReserveColor"
 		"xpos"			"3"
 		"ypos"			"-2"
 		"zpos"					"7"
