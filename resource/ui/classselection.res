@@ -213,7 +213,7 @@
 		"zpos"										"10"
 		"wide"										"15"
 		"tall"										"15"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
