@@ -723,9 +723,9 @@
 			"Command"								"CallVote"
 			"Default"								"0"
 			"proportionaltoparent"					"1"
-			"font"									"Product12"
+			"font"									"Product10"
 
-			"AllCaps"								"1"
+			"AllCaps"								"0"
 
 			"paintbackground"						"1"
 

@@ -115,7 +115,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetDataLabel"
-		"font"				"product7ds"
+		"font"				"product10ds"
 		"xpos"				"55"
 		"ypos"				"2"
 		"zpos"				"1"
