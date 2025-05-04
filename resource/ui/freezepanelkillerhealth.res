@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"ProductBold28"//"DefaultVerySmall"
+		"font"			"Novecento28"//"DefaultVerySmall"
 		"fgcolor_override"		"0 0 0 255"
 	}
 
