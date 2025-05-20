@@ -7,6 +7,13 @@
 		"labelText"		"#TF_Class_Name_Sniper"
 	}
 	
+	"ClassLabel"
+	{
+		"labelText"		"V"
+		"textinsetx"	"8"
+		"textinsety"	"0"
+	}
+	
 	"BorderColor"
 	{	
 		"bgcolor_override"	"softred200"

@@ -20,7 +20,30 @@
 		"brighttext"	"0"
 		
 		"bgcolor_override"	"0 0 0 165"
-		"textinsetx"	"12"
+		"textinsetx"	"45"
+	}
+	
+	"ClassLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassLabel"
+		"font"			"Class Symbols 16"
+		"xpos"			"18"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"80"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"E"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		
+		"textinsetx"	"10"
+		"textinsety"	"-2"
 	}
 	
 	"BorderColor"

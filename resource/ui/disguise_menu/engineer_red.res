@@ -7,6 +7,12 @@
 		"labelText"		"#TF_Class_Name_Engineer"
 	}
 	
+	"ClassLabel"
+	{
+		"labelText"		"F"
+		"textinsety"	"0"
+	}
+	
 	"BorderColor"
 	{	
 		"bgcolor_override"	"softred200"

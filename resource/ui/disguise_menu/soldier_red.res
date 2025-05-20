@@ -7,6 +7,12 @@
 		"labelText"		"#TF_Class_Name_Soldier"
 	}
 	
+	"ClassLabel"
+	{
+		"labelText"		"B"
+		"textinsety"	"0"
+	}
+	
 	"BorderColor"
 	{	
 		"bgcolor_override"	"softred200"

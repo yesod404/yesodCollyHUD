@@ -7,6 +7,12 @@
 		"labelText"		"#TF_Class_Name_Demoman"
 	}
 
+	"ClassLabel"
+	{
+		"labelText"		"D"
+		"textinsetx"	"11"
+	}
+
 	"ClassIcon"	
 	{
 		"icon"			"hud_menu_demoman_blu"

@@ -7,6 +7,12 @@
 		"labelText"		"#TF_Class_Name_Medic"
 	}
 	
+	"ClassLabel"
+	{
+		"labelText"		"G"
+		"textinsety"	"0"
+	}
+	
 	"BorderColor"
 	{	
 		"bgcolor_override"	"softred200"

@@ -2,9 +2,18 @@
 
 "Resource/UI/disguise_menu/heavy_red.res"
 {
+
+
 	"ItemNameLabel"
 	{
 		"labelText"		"#TF_Class_Name_Scout"
+	}
+	
+	"ClassLabel"
+	{
+		"labelText"		"A"
+		"textinsety"	"0"
+		"textinsetx"	"12"
 	}
 
 	"ClassIcon"	

@@ -7,6 +7,13 @@
 		"labelText"		"#TF_Class_Name_Scout"
 	}
 	
+	"ClassLabel"
+	{
+		"labelText"		"A"
+		"textinsety"	"0"
+		"textinsetx"	"12"
+	}
+	
 	"BorderColor"
 	{	
 		"bgcolor_override"	"softred200"

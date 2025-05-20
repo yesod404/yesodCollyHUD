@@ -6,6 +6,12 @@
 	{
 		"labelText"		"#TF_Class_Name_Spy"
 	}
+	
+	"ClassLabel"
+	{
+		"labelText"		"W"
+		"textinsety"	"1"
+	}
 
 	"ClassIcon"	
 	{
