@@ -204,10 +204,10 @@
 
 		"pin_to_sibling"							"soldier"
 	}
-	"MvMUpgradeImageSoldier"
+	"MvMUpgradeImageSolider"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"MvMUpgradeImageSoldier"
+		"fieldName"									"MvMUpgradeImageSolider"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
@@ -311,7 +311,7 @@
 		"zpos"										"10"
 		"wide"										"15"
 		"tall"										"15"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"image"			"replay/thumbnails/softicons/gear"
 		"scaleImage"	"1"
