@@ -55,7 +55,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
-		"AllCaps"									"1"
+		"AllCaps"									"0"
 		"fgcolor" 									"White"
 	}
 
@@ -77,7 +77,7 @@
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"cancel"
-		"AllCaps"									"1"
+		"AllCaps"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
@@ -87,8 +87,8 @@
 		"depressedFgColor_override"					"White"
 
 		"defaultBgColor_override"					"30 30 30 255"
-		"armedBgColor_override"						"softgreen"
-		"depressedBgColor_override"					"softgreen"
+		"armedBgColor_override"						"79 79 79 255"
+		"depressedBgColor_override"					"79 79 79 255"
 	}
 
 	"CancelButtonHintIcon"
@@ -125,7 +125,7 @@
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"confirm"
-		"AllCaps"									"1"
+		"AllCaps"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
