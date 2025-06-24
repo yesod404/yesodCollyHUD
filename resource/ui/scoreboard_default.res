@@ -16,14 +16,14 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"medal_width"				"20"
-		"medal_column_width" "18"
+		"medal_column_width" "20"
 		"avatar_width"				"30"
 		"spacer"					"4"
 		"name_width"				"25"
 		"nemesis_width"				"15"
 		"class_width"				"24"
-		"score_width"				"20"
-		"ping_width"				"25"
+		"score_width"				"16"
+		"ping_width"				"22"
 		"killstreak_width"			"12"
 		"killstreak_image_width"	"12"
 	}
@@ -99,8 +99,59 @@
 		"xpos"			"c-255"		
 		"ypos"			"150"
 		"zpos"			"-1"
-		"wide"			"255"
-		"tall"			"258"
+		"wide"			"254"
+		"tall"			"226"
+		"tall_minmode"	"119"
+		"fillcolor"		"0 0 0 200"		//175
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"xpos"			"c-266"
+			"ypos"			"c-70"
+			"wide"			"0"
+			"ypos_minmode"	"c-70"
+			"tall"			"160"
+			"tall_minmode"	"160"
+			"visible"		"1"
+		}
+	}
+	
+		"MainBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBG2"
+		"xpos"			"c1"		
+		"ypos"			"150"
+		"zpos"			"-1"
+		"wide"			"254"
+		"tall"			"226"
+		"tall_minmode"	"119"
+		"fillcolor"		"0 0 0 200"		//175
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	
+	"StatsBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"c-255"		
+		"ypos"			"r103"
+		"ypos_minmode"	"r210"
+		"zpos"			"-1"
+		"wide"			"510"
+		"tall"			"50"
 		"fillcolor"		"0 0 0 200"		//175
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -118,28 +169,6 @@
 			"visible"		"1"
 		}
 	}
-	
-		"MainBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBG2"
-		"xpos"			"c0"		
-		"ypos"			"150"
-		"zpos"			"-1"
-		"wide"			"255"
-		"tall"			"258"
-		"fillcolor"		"0 0 0 200"		//175
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	
 
 	"BlueTeamBorder"
 	{
@@ -379,8 +408,8 @@
 		"font"			"product11"
 		"labelText"		"%blueteamplayercount%"
 		"fgcolor"		"White"
-		"textAlignment"	"east"
-		"xpos"			"c-237"
+		"textAlignment"	"center"
+		"xpos"			"c-210"
 		"ypos"			"131"
 		"wide"			"160"
 		"tall"			"13"
@@ -449,8 +478,8 @@
 		"font"			"product11"
 		"labelText"		"%redteamplayercount%"
 		"fgcolor"		"White"
-		"textAlignment"	"west"
-		"xpos"			"c77"
+		"textAlignment"	"center"
+		"xpos"			"c45"
 		"ypos"			"131"
 		"wide"			"160"
 		"tall"			"13"
@@ -662,15 +691,16 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
-		"xpos"			"c-257"
+		"xpos"			"c-255"
 		"ypos"			"r330"
 		"zpos"			"20"
 		"wide"			"254"
-		"tall"			"204"
+		"tall"			"225"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
 		"linespacing"	"16"
+		"linegap"			"2"
 		"fgcolor"		"blue"
 
 		if_mvm
@@ -682,17 +712,17 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c3"
+		"xpos"			"c1"
 		"ypos"			"r330"
 		"zpos"			"20"
 		"wide"			"254"
-		"tall"			"204"
+		"tall"			"225"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
 		"linespacing"	"16"
 		"textcolor"		"red"
-
+		"linegap"			"2"
  		if_mvm
  		{
  			"visible"		"0"
@@ -825,7 +855,8 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"125"
-		"ypos"			"r125"
+		"ypos"			"r110"
+		"ypos_minmode"	"r210"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
@@ -1077,7 +1108,8 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"c-255"
-		"ypos"			"r125"
+		"ypos"			"r103"
+		"ypos_minmode"	"r210"
 		"zpos"			"3"
 		"wide"			"510"
 		"tall"			"50"
@@ -2303,7 +2335,7 @@
 				"visible"	"0"
 			}
 		}
-		"SupportLabel"
+		"	Label"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"

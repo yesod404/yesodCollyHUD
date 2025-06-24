@@ -5,7 +5,7 @@
 		"fieldName"									"InviteNotification"
 		"zpos"										"1001"
 		"wide"										"200"
-		"tall"										"35"
+		"tall"										"50"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
@@ -37,8 +37,8 @@
 			"wide"									"f35"
 		}
 
-		"xpos"										"rs1-30"
-		"ypos"										"0"
+		"xpos"										"rs1-28"
+		"ypos"										"10"
 		"wide"										"f65"
 		"tall"										"17"
 		"labelText"									"%invite%"
@@ -100,7 +100,7 @@
 	}
 	"AcceptButton"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"CExImageButton"
 		"fieldName"									"AcceptButton"
 		"xpos"										"rs1-75"
 		"ypos"										"rs1-5"
@@ -122,14 +122,24 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"paintborder"								"0"
 
-		"defaultBgColor_override"					"0 0 0 165"
-		"armedBgColor_override"						"softgreen"
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
 	}
 	"DeclineButton"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"CExImageButton"
 		"fieldName"									"DeclineButton"
 
 		"if_incoming"
@@ -157,9 +167,19 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"paintborder"								"0"
 
-		"armedBgColor_override"		"softred"
-		"defaultBgColor_override"	"0 0 0 165"
+		"armedfgcolor_override"		"softred"
+		"depressedfgColor_override"		"softred"
+		"selectedfgColor_override"		"softred"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
 	}
 }

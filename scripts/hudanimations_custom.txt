@@ -225,7 +225,6 @@ event HudLowAmmoPulseStop
 }
 
 //====================================
-
 //====================================
 
 // Flash the medic charge hud when we have full charge

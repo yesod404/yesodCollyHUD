@@ -152,8 +152,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -261,8 +266,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -371,8 +381,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -483,8 +498,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -597,8 +617,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -710,8 +735,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -833,8 +863,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -946,8 +981,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -1058,8 +1098,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -1172,8 +1217,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 		}
 		
 			"BackpackLabel"
@@ -1266,8 +1316,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 		}
 		
 			"CraftingLabel"
@@ -1353,8 +1408,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 		}
 		
 			"CatalogLabel"
@@ -1439,8 +1499,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 
 			"SubImage"
 			{
@@ -1542,8 +1607,13 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 			"selectedFgColor_override" 	"White"
+			
 			"defaultbgColor_override" 	"blank"
-			"armedbgcolor_override"		"softgreen"
+			"armedbgcolor_override"		"softgreen160"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"FriendHighlightBorderThick"	
 		}
 
 			"WarPaintsLabel"

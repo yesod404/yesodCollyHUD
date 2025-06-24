@@ -25,18 +25,19 @@
 	
 	"HudTournamentSetupBGR"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CExImageButton"
 		"fieldName"		"HudTournamentSetupBGR"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"86"
+		"tall"			"40"
+		"labeltext"	""
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 165"
+		"border_default"			"GrayHighlightBorder"
 	}
 
 	"TournamentSetupLabel"
@@ -122,7 +123,7 @@
 
 	"TournamentNotReadyButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"TournamentNotReadyButton"
 		"xpos"		"4"
 		"ypos"		"22"
@@ -140,12 +141,26 @@
 		"command"		"teamnotready"
 		"default"		"1"
 		"font"			"product9"
-		"fgcolor"		"Red"
+
+		"defaultfgColor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softred"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
 	}
 
 	"TournamentReadyButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"TournamentReadyButton"
 		"xpos"		"48"
 		"ypos"		"22"
@@ -164,5 +179,20 @@
 		"default"		"1"
 		"font"			"product9"
 		"fgcolor"		"FooterBGBlack"
+		
+		"defaultfgColor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"FriendHighlightBorderThick"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
 	}
 }

@@ -233,7 +233,7 @@
 		"xpos"					"c-126"
 		"ypos"					"350"
 		"wide"					"252"
-		"tall"					"28"
+		"tall"					"30"
 		"border"				"noborder"
 		"priority"				"40"
 		"priority_lodef"		"35"
@@ -1198,15 +1198,11 @@
 	}
 	"HudMenuTauntSelection"
 	{
-		"fieldName"					"HudMenuTauntSelection"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"										"7"
-		"ypos"										"c-0"
+		"xpos"										"cs-0.5"
+		"ypos"										"c15"
 		"zpos"										"20"
-		"wide"										"88"
-		"tall"										"194"
-		"PaintBackgroundType"		"0"
+		"wide"										"181"
+		"tall"										"79"
 	}
 	"ItemAttributeTracker"
 	{

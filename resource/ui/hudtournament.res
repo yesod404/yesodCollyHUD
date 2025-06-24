@@ -90,12 +90,12 @@
 				
 				if_mvm
 				{
-				"visible"		"1"
+				"visible"		"0"
 				}
 
 				if_readymode
 				{
-				"visible"		"1"
+				"visible"		"0"
 				}
 			}
 			
@@ -471,7 +471,7 @@
 		"ypos"			"6"
 		"zpos"			"1"
 		"wide"			"40"
-		"tall"			"20"
+		"tall"			"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -563,7 +563,7 @@
 		"ypos"			"6"
 		"zpos"			"1"
 		"wide"			"40"
-		"tall"			"20"
+		"tall"			"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

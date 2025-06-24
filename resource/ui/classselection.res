@@ -32,7 +32,7 @@
 
 	"scout"
 	{
-		"controlname"		"cexbutton"
+		"controlname"		"CExImageButton"
 		"fieldname"			"scout"
 		"command"			"joinclass scout"
 		"labeltext"			"Scout"
@@ -44,18 +44,26 @@
 		"font"				"Product8"
 		"textinsety"								"50"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+		"paintbackground"	"0"
+
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -63,7 +71,76 @@
 		
 		"stayselectedonclick"	"0"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"					
+		"keyboardinputenabled"	"0"				
+
+	}
+
+	"scoutbutton"
+	{
+		"controlname"		"CExImageButton"
+		"fieldname"			"scoutbutton"
+		"command"			"joinclass scout"
+		"labeltext"			"Scout"
+		"xpos"				"cs-0.5-60-4"
+		"ypos"				"cs-0.5-60-4"
+		"wide"				"60"
+		"tall"				"60"
+		"textalignment"		"center"
+		"font"				"Product8"
+		"textinsety"								"50"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"AllCaps"			"1"
+
+		"paintbackground"	"1"
+
+		"image_default"		"replay/thumbnails/softicons/scouticonfix"
+		"image_armed"		"replay/thumbnails/softicons/scouticonfix"
+		"image_selected"		"replay/thumbnails/softicons/scouticonfix"
+		"image_depressed"		"replay/thumbnails/softicons/scouticonfix"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/softicons/scouticonfix"
+		}
 	}
 
 	"numScout"
@@ -95,14 +172,14 @@
 		"wide"										"60"
 		"tall"										"60"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
 		"labelText"									"A"
 		"font"										"Class Symbols 34"
-		"fgcolor"									"White"
+		"fgcolor"									"tanlight120"
 
 		"pin_to_sibling"							"scout"
 	}
@@ -144,18 +221,25 @@
 		"font"				"Product8"
 		"textinsety"								"50"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+		"paintbackground"	"0"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -165,6 +249,75 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"					
 	}
+	
+	"soldierbutton"
+	{
+		"controlname"		"CExImageButton"
+		"fieldname"			"soldierbutton"
+		"command"			"joinclass soldier"
+		"labeltext"			"SOLDIER"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5-60-4"
+		"wide"				"60"
+		"tall"				"60"
+		"textalignment"		"center"
+		"font"				"Product8"
+		"textinsety"								"50"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"AllCaps"			"1"
+
+		"paintbackground"	"1"
+
+		"image_default"		"replay/thumbnails/softicons/soldiericon"
+		"image_armed"		"replay/thumbnails/softicons/soldiericon"
+		"image_selected"		"replay/thumbnails/softicons/soldiericon"
+		"image_depressed"		"replay/thumbnails/softicons/soldiericon"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/softicons/soldiericon"
+		}
+	}
+	
 	"numSoldier"
 	{
 		"controlname"		"cexlabel"
@@ -193,8 +346,8 @@
 		"wide"										"60"
 		"tall"										"60"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
@@ -242,18 +395,25 @@
 		"font"				"Product8"
 		"textinsety"								"50"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
-		
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+
+		"paintbackground"	"0"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -263,6 +423,74 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"					
 	}
+	"pyrobutton"
+	{
+		"controlname"		"CExImageButton"
+		"fieldname"			"pyrobutton"
+		"command"			"joinclass pyro"
+		"labeltext"			"PYRO"
+		"xpos"				"cs-0.5+60+4"
+		"ypos"				"cs-0.5-60-4"
+		"wide"				"60"
+		"tall"				"60"
+		"textalignment"		"center"
+		"font"				"Product8"
+		"textinsety"								"50"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"AllCaps"			"1"
+
+		"paintbackground"	"1"
+
+		"image_default"		"replay/thumbnails/softicons/pyroicon"
+		"image_armed"		"replay/thumbnails/softicons/pyroicon"
+		"image_selected"		"replay/thumbnails/softicons/pyroicon"
+		"image_depressed"		"replay/thumbnails/softicons/pyroicon"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/softicons/pyroicon"
+		}
+	}
+	
 	"numPyro"
 	{
 		"controlname"		"cexlabel"
@@ -291,8 +519,8 @@
 		"wide"										"60"
 		"tall"										"60"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
@@ -340,18 +568,25 @@
 		"font"				"Product8"
 		"textinsety"								"50"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
-		
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+
+		"paintbackground"	"0"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -361,6 +596,75 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"			
 	}	
+	
+	"demomanbutton"
+	{
+		"controlname"		"CExImageButton"
+		"fieldname"			"demomanbutton"
+		"command"			"joinclass demoman"
+		"labeltext"			"Demoman"
+		"xpos"				"cs-0.5-60-4"
+		"ypos"				"cs-0.5"
+		"wide"				"60"
+		"tall"				"60"
+		"textalignment"		"center"
+		"font"				"Product8"
+		"textinsety"								"50"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"AllCaps"			"1"
+
+		"paintbackground"	"1"
+
+		"image_default"		"replay/thumbnails/softicons/demoicon"
+		"image_armed"		"replay/thumbnails/softicons/demoicon"
+		"image_selected"		"replay/thumbnails/softicons/demoicon"
+		"image_depressed"		"replay/thumbnails/softicons/demoicon"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/softicons/demoicon"
+		}
+	}
+
 	"numdemoman"
 	{
 		"controlname"		"cexlabel"
@@ -389,8 +693,8 @@
 		"wide"										"60"
 		"tall"										"60"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
@@ -438,18 +742,25 @@
 		"font"				"Product8"
 		"textinsety"								"50"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
-		
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+
+		"paintbackground"	"0"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -459,6 +770,75 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+	
+	"heavyweaponsbutton"
+	{
+		"controlname"		"CExImageButton"
+		"fieldname"			"heavyweaponsbutton"
+		"command"			"joinclass heavyweapons"
+		"labeltext"			"Heavy"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"wide"				"60"
+		"tall"				"60"
+		"textalignment"		"center"
+		"font"				"Product8"
+		"textinsety"								"50"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"AllCaps"			"1"
+
+		"paintbackground"	"1"
+
+		"image_default"		"replay/thumbnails/softicons/heavyicon"
+		"image_armed"		"replay/thumbnails/softicons/heavyicon"
+		"image_selected"		"replay/thumbnails/softicons/heavyicon"
+		"image_depressed"		"replay/thumbnails/softicons/heavyicon"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/softicons/heavyicon"
+		}
+	}
+	
 	"numHeavy"
 	{
 		"controlname"		"cexlabel"
@@ -487,8 +867,8 @@
 		"wide"										"60"
 		"tall"										"60"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
@@ -536,18 +916,25 @@
 		"font"				"Product8"
 		"textinsety"								"50"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+		"paintbackground"	"0"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -557,6 +944,75 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"		
 	}
+	
+	"engineerbutton"
+	{
+		"controlname"		"CExImageButton"
+		"fieldname"			"engineerbutton"
+		"command"			"joinclass engineer"
+		"labeltext"			"Engineer"
+		"xpos"				"cs-0.5+60+4"
+		"ypos"				"cs-0.5"
+		"wide"				"60"
+		"tall"				"60"
+		"textalignment"		"center"
+		"font"				"Product8"
+		"textinsety"								"50"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"AllCaps"			"1"
+
+		"paintbackground"	"1"
+
+		"image_default"		"replay/thumbnails/softicons/engiicon"
+		"image_armed"		"replay/thumbnails/softicons/engiicon"
+		"image_selected"		"replay/thumbnails/softicons/engiicon"
+		"image_depressed"		"replay/thumbnails/softicons/engiicon"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/softicons/engiicon"
+		}
+	}
+	
 	"numEngineer"
 	{
 		"controlname"		"cexlabel"
@@ -587,8 +1043,8 @@
 		"wide"										"60"
 		"tall"										"60"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
@@ -636,18 +1092,25 @@
 		"font"				"Product8"
 		"textinsety"								"50"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+		"paintbackground"	"0"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -656,6 +1119,74 @@
 		"stayselectedonclick"	"0"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"					
+	}
+
+	"medicbutton"
+	{
+		"controlname"		"CExImageButton"
+		"fieldname"			"medicbutton"
+		"command"			"joinclass medic"
+		"labeltext"			"Medic"
+		"xpos"				"cs-0.5-60-4"
+		"ypos"				"cs-0.5+60+4"
+		"wide"				"60"
+		"tall"				"60"
+		"textalignment"		"center"
+		"font"				"Product8"
+		"textinsety"								"50"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"AllCaps"			"1"
+
+		"paintbackground"	"1"
+
+		"image_default"		"replay/thumbnails/softicons/medicicon"
+		"image_armed"		"replay/thumbnails/softicons/medicicon"
+		"image_selected"		"replay/thumbnails/softicons/medicicon"
+		"image_depressed"		"replay/thumbnails/softicons/medicicon"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/softicons/medicicon"
+		}
 	}
 
 	"numMedic"
@@ -686,8 +1217,8 @@
 		"wide"										"60"
 		"tall"										"60"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
@@ -735,18 +1266,25 @@
 		"font"				"Product8"
 		"textinsety"								"50"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+		"paintbackground"	"0"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -756,6 +1294,75 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"				
 	}
+	
+	"sniperbutton"
+	{
+		"controlname"		"CExImageButton"
+		"fieldname"			"sniperbutton"
+		"command"			"joinclass sniper"
+		"labeltext"			"Sniper"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5+60+4"
+		"wide"				"60"
+		"tall"				"60"
+		"textalignment"		"center"
+		"font"				"Product8"
+		"textinsety"								"50"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"AllCaps"			"1"
+
+		"paintbackground"	"1"
+
+		"image_default"		"replay/thumbnails/softicons/snipericon"
+		"image_armed"		"replay/thumbnails/softicons/snipericon"
+		"image_selected"		"replay/thumbnails/softicons/snipericon"
+		"image_depressed"		"replay/thumbnails/softicons/snipericon"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/softicons/snipericon"
+		}
+	}
+	
 	"numSniper"
 	{
 		"controlname"		"cexlabel"
@@ -784,8 +1391,8 @@
 		"wide"										"60"
 		"tall"										"60"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
@@ -833,18 +1440,25 @@
 		"font"				"Product8"
 		"textinsety"								"50"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+		"paintbackground"	"0"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -853,6 +1467,74 @@
 		"stayselectedonclick"	"0"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"				
+	}
+
+	"spybutton"
+	{
+		"controlname"		"CExImageButton"
+		"fieldname"			"spybutton"
+		"command"			"joinclass spy"
+		"labeltext"			"Spy"
+		"xpos"				"cs-0.5+60+4"
+		"ypos"				"cs-0.5+60+4"
+		"wide"				"60"
+		"tall"				"60"
+		"textalignment"		"center"
+		"font"				"Product8"
+		"textinsety"								"50"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"AllCaps"			"1"
+
+		"paintbackground"	"1"
+
+		"image_default"		"replay/thumbnails/softicons/spyicon"
+		"image_armed"		"replay/thumbnails/softicons/spyicon"
+		"image_selected"		"replay/thumbnails/softicons/spyicon"
+		"image_depressed"		"replay/thumbnails/softicons/spyicon"
+
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"softgreen"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/softicons/spyicon"
+		}
 	}
 
 	"numSpy"
@@ -883,8 +1565,8 @@
 		"wide"										"60"
 		"tall"										"60"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
@@ -924,24 +1606,28 @@
 		"labeltext"			"Random"
 		"xpos"				"0"
 		"ypos"				"25"
-		"textinsetx"			"40" 
 		"wide"					"60"
 		"tall"			"20"
-		"textalignment"		"west"
+		"textalignment"		"center"
 		"font"				"Product8"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softorange"
+		"depressedfgColor_override"		"softorange"
+		"selectedfgColor_override"		"softorange"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softorange"
-		"depressedbgcolor_override" "198 122 59 255"
-		"selectedbgcolor_override" 	"198 122 59 255"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"OrangeHighlightBorder"	
+		"border_depressed"				"OrangeHighlightBorder"	
+		"border_selected"				"OrangeHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -965,8 +1651,8 @@
 		"wide"										"20"
 		"tall"										"20"
 		"zpos"										"8"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"textAlignment"								"center"
@@ -1008,19 +1694,23 @@
 		"textalignment"		"center"
 		"font"				"Product8"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
 
-
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"softgreen"
+		"selectedfgColor_override"		"softgreen"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softgreen160"
-		"depressedbgcolor_override" "softgreen160"
-		"selectedbgcolor_override" 	"softgreen160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"FriendHighlightBorder"	
+		"border_selected"				"FriendHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -1067,19 +1757,23 @@
 		"textalignment"		"center"
 		"font"				"Product8"
 		"roundedcorners"	"0"
-		"fgcolor"			"White"
+		"fgcolor"			"tanlight120"
 		"AllCaps"			"1"
 
-
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"White"
-		"depressedfgcolor_override" "White"
-		"selectedfgcolor_override" 	"White"
+		"defaultfgcolor_override"		"tanlight120"	
+		"armedfgcolor_override"		"softred"
+		"depressedfgColor_override"		"softred"
+		"selectedfgColor_override"		"softred"
 
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softred"
-		"depressedbgcolor_override" "softred160"
-		"selectedbgcolor_override" 	"softred160"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"RedHighlightBorder"	
+		"border_selected"				"RedHighlightBorder"
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"

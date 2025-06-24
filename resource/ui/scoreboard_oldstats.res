@@ -524,7 +524,7 @@
 		"font"			"product8lowercase"
 		"fgcolor"		"TANLIGHT120"
 		"textAlignment"		"east"
-		"xpos"			"r204"
+		"xpos"			"r198"
 		"textinsetx"			"0"
 		"ypos"			"c-112"
 		"ypos_minmode"			"c-58"

@@ -30,6 +30,8 @@
 		"textAlignment"	"center"
 		"font"			"product8"
 		"fgcolor_override"		"tanlight120"
+		
+		"border"			"GrayHighlightBorder"
 	}
 	
 	"teambutton0"
@@ -61,7 +63,7 @@
 
 	"bluebutton"
 	{
-		"controlname"		"cexbutton"
+		"controlname"		"CExImageButton"
 		"fieldname"			"bluebutton"
 		"command"			"jointeam blue"
 		"zpos"				"400"
@@ -75,11 +77,22 @@
 		"roundedcorners"	"0"
 		"fgcolor"			"tanlight120"
 
+		"paintbackground"	"1"
 
 		"defaultfgcolor_override" 	"tanlight120"
-		"armedfgcolor_override"		"White"
+		"armedfgcolor_override"		"softblue"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softblue"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"BlueHighlightBorderThick"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -136,11 +149,22 @@
 		"roundedcorners"	"0"
 		"fgcolor"			"tanlight120"
 
+		"paintbackground"	"1"
 
 		"defaultfgcolor_override" 	"tanlight120"
-		"armedfgcolor_override"		"White"
+		"armedfgcolor_override"		"softred"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softred"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -182,20 +206,32 @@
 		"xpos"			"0"
 		"ypos"			"24"
 		"tall"			"20"
-		"wide"		"46"
-		"labeltext"			"RANDOM"
+		"wide"		"55"
+		"labeltext"			"Random"
 		"textinsetx"			"14" 
 		"textalignment"		"center"
 		"font"				"product8"
 		"roundedcorners"	"0"
 		"fgcolor"			"tanlight120"
 		"use_proportional_insets"	"1"
+		"AllCaps"		"1"
 
+		"paintbackground"	"1"
 
 		"defaultfgcolor_override" 	"tanlight120"
-		"armedfgcolor_override"		"White"
+		"armedfgcolor_override"		"softorange"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softorange"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"OrangeHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -238,10 +274,10 @@
 		"fieldname"			"spectatebutton"
 		"command"			"jointeam spectate"
 		"zpos"				"400"
-		"xpos"			"-49"
+		"xpos"			"-58"
 		"ypos"			"0"
 		"tall"			"20"
-		"wide"			"113"
+		"wide"			"104"
 		"labeltext"			";"
 		"textinsetx"			"28" 
 		"textalignment"		"center"
@@ -250,10 +286,20 @@
 		"fgcolor"			"tanlight120"
 		"use_proportional_insets"	"1"
 
+		"paintbackground"	"1"
+
 		"defaultfgcolor_override" 	"tanlight120"
-		"armedfgcolor_override"		"0 0 0 255"
+		"armedfgcolor_override"		"White"
+		
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"White"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"WhiteHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -301,21 +347,75 @@
 		"zpos"				"400"
 		"xpos"			"0"
 		"ypos"			"24"
-		"tall"			"20"
-		"wide"		"55"
-		"labeltext"			"CANCEL"
+		"tall"			"0"
+		"wide"		"0"
+		"labeltext"			"Cancel"
 		"textinsetx"			"14" 
 		"textalignment"		"center"
 		"font"				"product8"
 		"roundedcorners"	"0"
 		"fgcolor"			"tanlight120"
 		"use_proportional_insets"	"1"
-
+		"AllCaps"		"1"
 
 		"defaultfgcolor_override" 	"tanlight120"
-		"armedfgcolor_override"		"White"
+		"armedfgcolor_override"		"softred"
+		
 		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"softred"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
+		
+		
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		"stayselectedonclick"	"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"
+		"default"				"1"
+
+		"pin_to_sibling" "redbutton"
+		"pin_corner_to_sibling" "3"
+		"pin_to_sibling_corner" "3"
+	}
+	
+	"CancelButton2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton2"
+		"command"			"cancelmenu"
+		"zpos"				"400"
+		"xpos"			"0"
+		"ypos"			"24"
+		"tall"			"20"
+		"wide"		"55"
+		"labeltext"			"Cancel"
+		"textinsetx"			"14" 
+		"textalignment"		"center"
+		"font"				"product8"
+		"roundedcorners"	"0"
+		"fgcolor"			"tanlight120"
+		"use_proportional_insets"	"1"
+		"AllCaps"		"1"
+
+		"defaultfgcolor_override" 	"tanlight120"
+		"armedfgcolor_override"		"softred"
+		
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorderThick"	
+		"border_selected"				"WhiteHighlightBorderThick"	
 		
 		
 		"sound_depressed"	"ui/buttonclick.wav"

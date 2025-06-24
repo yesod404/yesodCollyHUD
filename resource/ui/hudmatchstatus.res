@@ -137,7 +137,7 @@
 			"zpos"			"3"
 			"wide"			"40"
 			"textinsety"			"0"
-			"tall"			"20"
+			"tall"			"22"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -154,7 +154,7 @@
 		"ypos"			"6"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"20"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -177,7 +177,7 @@
 		{
 			"visible"		"1"
 			"wide"			"20"
-			"tall"			"20"
+			"tall"			"22"
 			"zpos"			"1"
 
 			"color_portrait_bg_red"	"0 0 0 165"

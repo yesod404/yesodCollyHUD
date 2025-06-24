@@ -2734,6 +2734,38 @@
 				"dropshadow" "1"
 			}
 		}
+		"product9ds"
+		{
+			"1"
+			{
+				"name"		"code_next_regular"
+				"tall"		"9"
+				"antialias" "1"
+				"additive"	"0"
+				"dropshadow" "1"
+			}
+		}
+		"product10ds"
+		{
+			"1"
+			{
+				"name"		"code_next_regular"
+				"tall"		"10"
+				"antialias" "1"
+				"additive"	"0"
+				"dropshadow" "1"
+			}
+		}
+		"Novecento28"
+		{
+			"1"
+			{
+				"name"		"novecento_semi_bold"
+				"tall"		"28"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"product14ds"
 		{
 			"1"
@@ -3986,7 +4018,7 @@
 			"1"
 			{
 				"name"		"code_pro"
-				"tall"		"40"
+				"tall"		"45"
 				"antialias" "1"
 				"additive"	"0"
 				"antialias" "1"

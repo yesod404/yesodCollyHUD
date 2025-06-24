@@ -454,6 +454,23 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
+			"paintbackground"	"1"
+
+			"defaultfgColor_override"		"tanlight120"	
+			"armedfgcolor_override"		"softorange"
+			"depressedfgColor_override"		"White"
+			"selectedfgColor_override"		"White"
+
+			"defaultbgcolor_override"	"0 0 0 165"
+			"armedbgcolor_override"		"0 0 0 165"
+			"depressedbgColor_override"		"0 0 0 165"
+			"selectedbgColor_override"		"0 0 0 165"
+
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"OrangeHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorderThick"	
+			"border_selected"				"WhiteHighlightBorderThick"	
+
 			"pin_to_sibling" "UpgradeApplyBG"
 		}
 		
@@ -494,6 +511,23 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
+			"paintbackground"	"1"
+
+			"defaultfgColor_override"		"tanlight120"	
+			"armedfgcolor_override"		"softred"
+			"depressedfgColor_override"		"White"
+			"selectedfgColor_override"		"White"
+
+			"defaultbgcolor_override"	"0 0 0 165"
+			"armedbgcolor_override"		"0 0 0 165"
+			"depressedbgColor_override"		"0 0 0 165"
+			"selectedbgColor_override"		"0 0 0 165"
+
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"RedHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorderThick"	
+			"border_selected"				"WhiteHighlightBorderThick"	
+
 			"pin_to_sibling" "CloseButton"
 			"pin_corner_to_sibling" "1"
 			"pin_to_sibling_corner" "0"
@@ -515,6 +549,23 @@
 			"Command"		"close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+
+			"defaultfgColor_override"		"tanlight120"	
+			"armedfgcolor_override"		"softgreen"
+			"depressedfgColor_override"		"White"
+			"selectedfgColor_override"		"White"
+
+			"defaultbgcolor_override"	"0 0 0 165"
+			"armedbgcolor_override"		"0 0 0 165"
+			"depressedbgColor_override"		"0 0 0 165"
+			"selectedbgColor_override"		"0 0 0 165"
+
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorderThick"	
+			"border_selected"				"WhiteHighlightBorderThick"	
 
 			"pin_to_sibling" "UpgradeApplyBG"
 			"pin_corner_to_sibling" "1"

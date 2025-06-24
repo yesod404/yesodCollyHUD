@@ -1408,7 +1408,7 @@
 		"tall"			"170"
 		"visible"		"1"
 
-		"border"		"noborder"
+		"border"		"GrayHighlightBorder"
 
 		"TitleLabel"
 		{
@@ -1443,7 +1443,7 @@
 			"proportionaltoparent"	"1"
 
 			"columns_count"	"1"
-			"inset_x"		"0"
+			"inset_x"		"3"
 			"inset_y"		"0"
 			"row_gap"		"0"
 			"column_gap"	"10"
@@ -2014,16 +2014,22 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
-			"paintborder"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
+			"depressedbgColor_override"		"0 0 0 165"
+			"selectedbgColor_override"		"0 0 0 165"
+			
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorder"	
+			"border_selected"				"WhiteHighlightBorder"	
+			
 			"image_drawcolor"	"245 245 245 60"
-			"image_armedcolor"	"245 245 245 120"
+			"image_armedcolor"	"60 163 115 255"
 			"proportionaltoparent"	"1"
 		}
 			"SubImage"
@@ -2080,16 +2086,22 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
-			"paintborder"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
+			"depressedbgColor_override"		"0 0 0 165"
+			"selectedbgColor_override"		"0 0 0 165"
+			
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorder"	
+			"border_selected"				"WhiteHighlightBorder"	
+			
 			"image_drawcolor"	"245 245 245 60"
-			"image_armedcolor"	"245 245 245 120"
+			"image_armedcolor"	"60 163 115 255"
 			"proportionaltoparent"		"1"
 		}
 			"SubImage"
@@ -2147,16 +2159,23 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
+			
 			"paintbackground"	"1"
-			"paintborder"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
+			"depressedbgColor_override"		"0 0 0 165"
+			"selectedbgColor_override"		"0 0 0 165"
+			
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorder"	
+			"border_selected"				"WhiteHighlightBorder"	
+			
 			"image_drawcolor"	"245 245 245 60"
-			"image_armedcolor"	"245 245 245 120"
+			"image_armedcolor"	"60 163 115 255"
 			"proportionaltoparent"		"1"			
 		}
 			"SubImage"
@@ -2214,16 +2233,23 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
+			
 			"paintbackground"	"1"
-			"paintborder"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
+			"depressedbgColor_override"		"0 0 0 165"
+			"selectedbgColor_override"		"0 0 0 165"
+			
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorder"	
+			"border_selected"				"WhiteHighlightBorder"	
+			
 			"image_drawcolor"	"245 245 245 60"
-			"image_armedcolor"	"245 245 245 120"
+			"image_armedcolor"	"60 163 115 255"
 			"proportionaltoparent"		"1"			
 		}
 			"SubImage"
@@ -2281,16 +2307,23 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
+			
 			"paintbackground"	"1"
-			"paintborder"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
+			"depressedbgColor_override"		"0 0 0 165"
+			"selectedbgColor_override"		"0 0 0 165"
+			
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorder"	
+			"border_selected"				"WhiteHighlightBorder"	
+			
 			"image_drawcolor"	"245 245 245 60"
-			"image_armedcolor"	"245 245 245 120"
+			"image_armedcolor"	"60 163 115 255"
 			"proportionaltoparent"		"1"			
 		}
 			"SubImage"
@@ -2347,16 +2380,20 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
-			"paintborder"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"245 245 245 60"
-			"image_armedcolor"	"245 245 245 120"
+			"depressedbgColor_override"		"0 0 0 165"
+			"selectedbgColor_override"		"0 0 0 165"
+			
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorder"	
+			"border_selected"				"WhiteHighlightBorder"	
+			
 			"proportionaltoparent"		"1"			
 		}
 			"SubImage"
@@ -2364,7 +2401,7 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
+				"ypos"			"cs-0.5" 
 				"zpos"			"-5"
 				"wide"			"18"
 				"tall"			"18"
@@ -2373,6 +2410,8 @@
 				"image"			"replay/thumbnails/softicons/report"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
+				"image_drawcolor"			"245 245 245 60"
+				"image_armedcolor"			"60 163 115 255"
 			}
 	}
 
@@ -2517,13 +2556,24 @@
 			
 		"paintbackground"	"1"
 		
-		"armedfgcolor_override"		"245 245 245 160"
-		"armedbgcolor_override"		"255 255 255 16"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
+		
 		"image_drawcolor"			"245 245 245 60"
-		"image_armedcolor"			"245 245 245 200"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
 		
 		"SubImage"
 		{
@@ -2539,7 +2589,7 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 			"image"			"replay/thumbnails/softicons/briefcase"
-		}		
+		}
 
 		"pin_to_sibling" "GeneralStoreButton"
 		"pin_corner_to_sibling" "1"
@@ -2583,13 +2633,24 @@
 		"command" "engine open_store"
 		"proportionaltoparent"	"1"
 		
-		"armedfgcolor_override"		"245 245 245 160"
-		"armedbgcolor_override"		"255 255 255 16"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
+		
 		"image_drawcolor"			"245 245 245 60"
-		"image_armedcolor"			"245 245 245 200"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
 		
 		"SubImage"
 		{
@@ -2638,13 +2699,28 @@
 		"command" "engine disconnect"
 		"proportionaltoparent"	"1"
 		
-		"armedfgcolor_override"		"245 245 245 160"
-		"armedbgcolor_override"		"softred"
+		"armedfgcolor_override"		"softred"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+		
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
+		
 		"image_drawcolor"			"245 245 245 60"
-		"image_armedcolor"			"245 245 245 200"
+		"image_armedcolor"			"180 65 55 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
 		
 		"SubImage"
 		{
@@ -2693,13 +2769,28 @@
 		"command" "engine quit"
 		"proportionaltoparent"	"1"
 		
-		"armedfgcolor_override"		"245 245 245 160"
-		"armedbgcolor_override"		"softred"
+		"armedfgcolor_override"		"softred"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+		
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
+		
 		"image_drawcolor"			"245 245 245 60"
-		"image_armedcolor"			"245 245 245 200"
+		"image_armedcolor"			"180 65 55 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
 		
 		"SubImage"
 		{
@@ -2750,17 +2841,24 @@
 		"command" 					"engine toggle cl_hud_minmode"
 		"proportionaltoparent"		"1"
 		
-		"fgcolor_override"			"245 245 245 60"
-		"defaultfgcolor_override"	"245 245 245 60"
-		"armedfgcolor_override"		"245 245 245 240"
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
 
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-			
-		"paintbackground"			"1"
-				
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
+		
 		"image_drawcolor"			"245 245 245 60"
-		"image_armedcolor"			"245 245 245 200"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
 		
 		"SubImage"
 		{
@@ -2808,18 +2906,25 @@
 		"command"		"openserverbrowser"
 		"labeltext"		"SERVERS"
 		"proportionaltoparent"	"1"
-	
-	
-		
 
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
 		
-		"armedfgcolor_override"		"245 245 245 160"
-		"armedbgcolor_override"		"255 255 255 16"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
+		
 		"image_drawcolor"			"245 245 245 60"
-		"image_armedcolor"			"245 245 245 200"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
 		
 		"SubImage"
 		{
@@ -2872,13 +2977,24 @@
 		"navLeft"		"ReportBugButton"
 		"navRight"		"TF2SettingsButton"
 
-		"armedfgcolor_override"		"245 245 245 160"
-		"armedbgcolor_override"		"255 255 255 16"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"0 0 0 165"
+		"armedbgcolor_override"		"0 0 0 165"
+		"depressedbgColor_override"		"0 0 0 165"
+		"selectedbgColor_override"		"0 0 0 165"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
+		
 		"image_drawcolor"			"245 245 245 60"
-		"image_armedcolor"			"245 245 245 200"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
 		
 		"SubImage"
 		{
@@ -2912,8 +3028,8 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"TF2SettingsButton"
-		"xpos"						"0"
-		"ypos"						"0"
+		"xpos"						"2"
+		"ypos"						"-2"
 		"zpos"						"27"
 		"wide"						"11"
 		"tall"						"12"
@@ -2922,9 +3038,9 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"tabPosition"				"0"
-		"labelText"					"}"
+		"labelText"					"+"
 		"textAlignment"				"west"
-		"font"						"Symbols 12"
+		"font"						"Product18"
 		"textinsetx"				"0"
 		"textinsety"				"-2"
 		"dulltext"					"0"
@@ -2937,10 +3053,12 @@
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"border_default"			"noborder"
+		"border_default"			"NoBorder"
 		
+		"armedfgcolor_override"		"softgreen"
+
 		"image_drawcolor"			"245 245 245 60"
-		"image_armedcolor"			"245 245 245 200"
+		"image_armedcolor"			"60 163 115 255"
 		
 		"SubImage"
 		{
