@@ -1,1 +1,3 @@
 Copy & Paste the colors file in the folder of your choice into resource/scheme
+
+MAKE SURE YOU HAVE AHUD & SAMMYHUD ENABLED IN customizations/ammostyles.res
