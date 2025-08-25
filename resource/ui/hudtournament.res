@@ -278,7 +278,7 @@
 				"fieldName"		"respawntime"
 				"font"			"DefaultSmall"
 				"xpos"			"30"
-				"ypos"			"25"
+				"ypos"			"35"
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"10"

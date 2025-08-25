@@ -251,8 +251,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"-60"
-		"ypos"										"0"
+		"xpos"										"0"
+		"ypos"										"18"
 		"wide"										"1"
 		"tall"										"50"
 		"visible"									"1"
@@ -269,9 +269,8 @@
 		"fieldName"									"ResistIcon"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos" 									"999"
-		"wide"										"50"
-		"tall"										"50"
+		"wide"										"18"
+		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
@@ -279,5 +278,6 @@
 
 		"pin_to_sibling"							"ResistIconAnchor"
 	}
+
 
 }

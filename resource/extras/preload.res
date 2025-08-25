@@ -825,4 +825,144 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_flagpanel_ico_flag_moving_alt"
 	}
+	//==================================================================================================
+	// MVM ICONS
+	//==================================================================================================
+
+	"MvMBombStatusBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombStatusBG"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/bomb_carrier_upgrade_base"
+	}
+	"MvMBombStatusFrame"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombStatusFrame"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/bomb_carrier_upgrade_frame"
+	}
+	"MvMBombStatusMeter"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombStatusMeter"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/bomb_carrier_upgrade_meter"
+	}
+	"MvMBombUpgrade1ON"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade1ON"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_1"
+	}
+	"MvMBombUpgrade1OFF"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade1OFF"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_1_disabled"
+	}
+	"MvMBombUpgrade2ON"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade2ON"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_2"
+	}
+	"MvMBombUpgrade2OFF"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade2OFF"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_2_disabled"
+	}
+	"MvMBombUpgrade3ON"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade3ON"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_3"
+	}
+	"MvMBombUpgrade3OFF"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgrade3OFF"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_3_disabled"
+	}
+	"MvMBombUpgradeBoss"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvMBombUpgradeBoss"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_boss"
+	}
+	"MvM_PowerUp_Building"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvM_PowerUp_Building"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/ico_powerup_building_instant_red"
+	}
+	"MvM_PowerUp_Crits"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvM_PowerUp_Crits"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/ico_powerup_critboost_red"
+	}
+	"MvM_PowerUp_Recall"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvM_PowerUp_Recall"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/ico_powerup_recall_red"
+	}
+	"MvM_PowerUp_Ammo"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvM_PowerUp_Ammo"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/ico_powerup_refill_ammo_red"
+	}
+	"MvM_PowerUp_Uber"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvM_PowerUp_Uber"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/ico_powerup_ubercharge_red"
+	}
+
 }

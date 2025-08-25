@@ -707,7 +707,7 @@
 
 		if_mvm
 		{
-			"ypos"			"999"
+			"ypos"			"54"
 		}
 	}
 	
@@ -737,7 +737,7 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"ypos"			"54"
 		}
 	}
 	"BluePlayerList"

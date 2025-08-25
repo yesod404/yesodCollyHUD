@@ -4,7 +4,7 @@ A minimalistic custom HUD for Team Fortress 2, base was collyhud created by coll
 
 # Links
 
-[Screenshots](https://imgur.com/a/Y95rxHn)
+[Screenshots](https://imgur.com/a/DuWMTA8)
 
 # Compatibility
 

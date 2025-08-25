@@ -1,3 +1,4 @@
+#base "../../resource/extras/preload.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuDarkBG"

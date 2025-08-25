@@ -5,6 +5,8 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
+		"xpos"					"c200"
+		"ypos"					"10"
 		"zpos"					"1001"
 		"wide"					"230"
 		"tall"					"120"
@@ -23,7 +25,7 @@
 		"chat_color_party_event"	"Orange"
 
 		"collapsed_height"		"0"
-		"expanded_height"		"120"
+		"expanded_height"		"115"
 		"resize_time"	"0.3"
 		"invalidate_parent_on_resize"	"0"
 	}

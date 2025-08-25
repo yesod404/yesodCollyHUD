@@ -23,7 +23,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchLabel"
-		"font"										"ProductBold12"
+		"font"										"Product12"
 		"xpos"			"50"
 		"ypos"			"50"
 		"zpos"										"2"
@@ -62,20 +62,18 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"ProductBold24"
-		"xpos"			"65"
+		"font"			"ProductBold18"
+		"xpos"			"80"
 		"ypos"			"25"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
 		"zpos"			"1"
-		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"230"
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
+		"AllCaps"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
 	}

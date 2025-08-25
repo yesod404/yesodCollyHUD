@@ -69,28 +69,6 @@
 			"party_slot"							"0"
 		}
 
-		"RankPanel"
-		{
-			"ControlName"							"CPvPRankPanel"
-			"fieldName"								"RankPanel"
-			"xpos"									"1"
-			"ypos"									"0"
-			"zpos"									"9999"
-			"wide"									"80"
-			"tall"									"20"
-			"visible"								"1"
-			"mouseinputenabled"						"0"
-
-			"matchgroup"							"MatchGroup_Casual_12v12"
-
-			"show_model"							"0"
-			"show_type"								"1"
-
-			"pin_to_sibling" 						"PartySlot0"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-		}
-
 		"PartySlot1"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -113,7 +91,7 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"1"
 
-			"pin_to_sibling" 						"RankPanel"
+			"pin_to_sibling" 						"PartySlot0"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}

@@ -1,6 +1,3 @@
-
-
-
 //thanks omni i stole this from u
 #base "../../resource/extras/preload.res"
 
@@ -293,7 +290,50 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"9999"	
+		"xpos"			"333"
+		"ypos"			"89"
+		"zpos"			"999"
+		"wide"			"30"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"+"
+		"font"			"Product20"
+		"command"		"open_rank_type_menu"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultFgColor_override" "White"
+		"armedFgColor_override"   "softgreen"
+		
+		"paintbackground"	"0"
+		"image_drawcolor"	"White"
+		"image_armedcolor"	"0 191 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/softicons/gear"
+
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+		}
 	}
 
 	"RankTooltipPanel"
@@ -328,12 +368,12 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-350"
-		"ypos"			"-20"
-		"zpos"			"9999"
+		"xpos"			"150"
+		"ypos"			"90"
+		"zpos"			"1"
 		"wide"			"320"
-		"tall"			"0"
-		"visible"		"0"
+		"tall"			"100"
+		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
@@ -347,9 +387,9 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"c-290"
+		"xpos"			"c-325"
 		"ypos"			"94"
-		"zpos"			"-99"
+		"zpos"			"1"
 		"wide"			"260"
 		"tall"			"100"
 		"visible"		"1"
@@ -368,17 +408,18 @@
 
 	"NoGCImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
-		"ypos"			"107"
-		"zpos"			"-99"
-		"wide"			"30"
-		"tall"			"30"
+		"xpos"			"c-335"
+		"ypos"			"90"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"gc_dc"
-		"scaleImage"	"1"
+		"font"			"Ace Icons 50"
+		"fgcolor_override"	"White"
+		"labelText"		"I"
 		"proportionaltoparent" "1"
 	}	
 
@@ -3079,6 +3120,30 @@
 
 		"pin_to_sibling" 			"SettingsButtonR"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT" // This Element
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT" // Target Element
+	}
+	
+	"CasualRankBackground"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldname"		"CasualRankBackground"
+		"xpos"			"164"
+		"ypos"			"5"
+		"zpos"			"0"
+		"wide"			"276"
+		"tall"			"65"
+		"visible"		"1"
+		"labeltext"		""
+		"PaintBackgroundType"	"0"
+		"mouseinputenabled"		"0"
+		"proportionaltoparent"	"1"
+
+		"paintborder"	"1"
+		"border_default"			"GrayHighlightBorder"
+		"bgcolor_override"		"0 0 0 165"
+	
+		"pin_to_sibling" 			"SettingsButtonR"
+		"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT" // This Element
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT" // Target Element
 	}
 	

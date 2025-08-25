@@ -1,0 +1,58 @@
+ //==============================================================================================
+// STICKYBOMB ALIGNMENT
+//==============================================================================================
+// Copy & Replace both elements into scripts/hudlayout.res
+// HudDemomanCharge is the stickybomb charge meter and HudDemomanPipes is the stickybomb counter
+//==============================================================================================
+
+//UNDER AMMO
+
+	"HudDemomanPipes"
+	{
+		"fieldName"		"HudDemomanPipes"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-7"
+		"ypos"			"c100"
+		"wide"			"200"
+		"tall"			"100"
+	}
+	"HudDemomanCharge"
+	{
+		"fieldName"			"HudDemomanCharge"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"			"c95"
+		"ypos"			"c110"
+		"zpos"			"1"			// draw in front of ammo
+		"wide"			"200"
+		"tall"			"100"
+		"MeterFG"			"White"
+		"MeterBG"			"Gray"
+	}
+	
+//CENTERED
+	"HudDemomanPipes"
+	{
+		"fieldName"		"HudDemomanPipes"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-70" [$WIN32]
+		"ypos"			"r163" [$WIN32]
+		"wide"			"140"
+		"tall"			"50"
+	}
+	"HudDemomanCharge"
+	{
+		"fieldName"			"HudDemomanCharge"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"c-70" [$WIN32]
+		"ypos"				"r108" [$WIN32]
+		"zpos"				"1"
+		"wide"				"140"
+		"wide_minmode"		"140"
+		"tall"				"8"
+		"MeterFG"			"White"
+		"MeterBG"			"Gray"
+	}

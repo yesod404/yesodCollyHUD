@@ -68,6 +68,16 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
+	"HudDemomanPipes"
+	{
+		"fieldName"		"HudDemomanPipes"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-7"
+		"ypos"			"c100"
+		"wide"			"200"
+		"tall"			"100"
+	}
 	"HudDemomanCharge"
 	{
 		"fieldName"			"HudDemomanCharge"
@@ -201,11 +211,11 @@
 		"fieldName"		"DisguiseStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"35" [$WIN32]
-		"ypos"			"426" [$WIN32]
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"		"374"				
+		"ypos"		"c130"				
+		"zpos"		"-1"	
+		"wide"		"248"
+		"tall"		"453"
 	}
 	"CMainTargetID"
 	{
@@ -881,16 +891,6 @@
 		"wide"						"f0"
 		"tall"						"f0"
 		"PaintBackgroundType"		"0"
-	}
-	"HudDemomanPipes"
-	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-70" [$WIN32]
-		"ypos"			"r163" [$WIN32]
-		"wide"			"140"
-		"tall"			"50"
 	}
 	"HudTeamGoal"
 	{

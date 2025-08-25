@@ -57,6 +57,12 @@ event HudHealthBonusPulse
 	Animate Health_Shadow_Buff					Position 	"-1 -1" 						Linear 	0.0		0.0
 	Animate Health_Shadow_Extra					FgColor 		"0 0 0 255" 								Linear 	0.0		0.0
 	
+	//INVERSE STYLE
+	Animate Health_Inverse						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate Health_Inverse_Buff					FgColor 	"0 0 0 255" 						Linear 	0.0		0.0
+	Animate Health_Inverse_Buff					Position 	"-1 -1" 						Linear 	0.0		0.0
+	Animate Health_Inverse_Extra					FgColor 		"HighColor" 								Linear 	0.0		0.0
+	
 	//MINIMAL STYLE
 	Animate HealthMinimal		FgColor		"HighColor"	Linear 0.0	0.0
 	
@@ -102,6 +108,12 @@ event HudHealthBonusPulseStop
 	Animate Health_Shadow_Buff					Position 	"-2 -2" 						Linear 	0.0		0.0
 	Animate Health_Shadow_Extra					FgColor 		"0 0 0 0" 								Linear 	0.0		0.0
 	
+	//INVERSE STYLE
+	Animate Health_Inverse						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate Health_Inverse_Buff					FgColor 	"0 0 0 255" 						Linear 	0.0		0.0
+	Animate Health_Inverse_Buff					Position 	"-2 -2" 						Linear 	0.0		0.0
+	Animate Health_Inverse_Extra					FgColor 		"0 0 0 0" 								Linear 	0.0		0.0
+	
 	//MINIMAL STYLE
 	Animate HealthMinimal		FgColor		"White"	Linear 0.0	0.0
 	
@@ -121,7 +133,7 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValueSpectator 							BgColor		"LowColor"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"LowColor"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"160"				Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage			Alpha		"0"									Linear	0.125	0.075
+	Animate	PlayerStatusHealthBonusImage			Alpha		"165"									Linear	0.125	0.075
 	Animate	HurtBG 							Alpha		"255"				Linear 0.0 0.0
 
 	//STANDARD STYLE
@@ -137,6 +149,12 @@ event HudHealthDyingPulse
 	Animate Health_Shadow_Buff					FgColor 	"LowColor" 						Linear 	0.0		0.0
 	Animate Health_Shadow_Buff					Position 	"-1 -1" 						Linear 	0.0		0.0
 	Animate Health_Shadow_Extra					FgColor 		"0 0 0 255" 								Linear 	0.0		0.0
+
+	//INVERSE STYLE
+	Animate Health_Inverse						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate Health_Inverse_Buff					FgColor 	"0 0 0 255" 						Linear 	0.0		0.0
+	Animate Health_Inverse_Buff					Position 	"-1 -1" 						Linear 	0.0		0.0
+	Animate Health_Inverse_Extra					FgColor 		"LowColor" 								Linear 	0.0		0.0
 
 	//MINIMAL STYLE
 	Animate HealthMinimal		FgColor		"LowColor"	Linear 0.0	0.0
@@ -178,6 +196,12 @@ event HudHealthDyingPulseStop
 	Animate Health_Shadow_Buff					FgColor 	"0 0 0 255" 						Linear 	0.0		0.0
 	Animate Health_Shadow_Buff					Position 	"-2 -2" 						Linear 	0.0		0.0
 	Animate Health_Shadow_Extra					FgColor 		"0 0 0 0" 								Linear 	0.0		0.0
+
+	//INVERSE STYLE
+	Animate Health_Inverse						Alpha 		"255" 								Linear 	0.0		0.0
+	Animate Health_Inverse_Buff					FgColor 	"0 0 0 255" 						Linear 	0.0		0.0
+	Animate Health_Inverse_Buff					Position 	"-2 -2" 						Linear 	0.0		0.0
+	Animate Health_Inverse_Extra					FgColor 		"0 0 0 0" 								Linear 	0.0		0.0
 
 	//MINIMAL STYLE
 	Animate HealthMinimal		FgColor		"White"	Linear 0.0	0.075
