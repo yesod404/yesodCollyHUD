@@ -6,5 +6,5 @@
 // IMPORTANT: REMEMBER TO GO TO CUSTOMIZATIONS/DEMOMAN TO CHANGE THE HUDLAYOUT SO YOU CAN RECENTER OR OFFSET IT
 //==============================================================================================
 
-//#base "../resource/ui/huddemomancharge_centered.res"				// CENTERED
-#base "../resource/ui/huddemomancharge_underammo.res"			// UNDER AMMO
+#base "../resource/ui/huddemomancharge_centered.res"				// CENTERED
+//#base "../resource/ui/huddemomancharge_underammo.res"			// UNDER AMMO
