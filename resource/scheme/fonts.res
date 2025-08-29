@@ -4024,6 +4024,17 @@
 				"antialias" "1"
 			}
 		}
+		"HealthAmmoCross"
+		{
+			"1"
+			{
+				"name"		"code_pro"
+				"tall"		"24"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HealthAmmoBlur"
 		{
 			"1"
