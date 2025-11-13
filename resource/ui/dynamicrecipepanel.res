@@ -149,7 +149,7 @@
 		"tall"								"253"
 		"visible"							"1"
 		"enabled"							"1"
-		"fillcolor"							"0 0 0 165"
+		"fillcolor"							"CollyHudTransparentGray"
 		"scaleImage"						"1"
 	}
 
@@ -266,7 +266,7 @@
 			"tall"								"70"
 			"visible"							"1"
 			"enabled"							"1"
-			"fillcolor"							"0 0 0 165"
+			"fillcolor"							"CollyHudTransparentGray"
 			"scaleImage"						"1"
 			
 			"pin_to_sibling" 					"OutputLabel2"

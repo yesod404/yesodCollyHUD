@@ -61,6 +61,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"0 0 0 165"
+		"bgcolor_override"	"CollyHudTransparentGray"
 	}
 }

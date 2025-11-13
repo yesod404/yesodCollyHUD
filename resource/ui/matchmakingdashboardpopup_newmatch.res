@@ -49,7 +49,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"		"0 0 0 165"
+			"bgcolor_override"		"CollyHudTransparentGray"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
 
@@ -126,7 +126,7 @@
 				"paintbackground"	"1"
 
 				"armedBgColor_override"		"softred"
-				"defaultBgColor_override"	"0 0 0 165"
+				"defaultBgColor_override"	"CollyHudTransparentGray"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -165,7 +165,7 @@
 				"actionsignallevel"	"2"
 
 				"armedBgColor_override"		"softgreen"
-				"defaultBgColor_override"	"0 0 0 165"
+				"defaultBgColor_override"	"CollyHudTransparentGray"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -198,7 +198,7 @@
 				"actionsignallevel"	"2"
 
 				"armedBgColor_override"		"softgreen"
-				"defaultBgColor_override"	"0 0 0 165"
+				"defaultBgColor_override"	"CollyHudTransparentGray"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"

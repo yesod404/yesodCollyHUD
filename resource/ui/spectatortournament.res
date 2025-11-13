@@ -40,7 +40,7 @@
 				"enabled"		"1"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"0 0 0 165"
+				"bgcolor_override"					"CollyHudTransparentGray"
 				"proportionaltoparent"				"1"
 			}
 			"PlayerName"
@@ -72,7 +72,7 @@
 				"enabled"							"1"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"0 0 0 165"
+				"bgcolor_override"					"CollyHudTransparentGray"
 				"proportionaltoparent"				"1"
 			}
 			"ClassImage"
@@ -139,7 +139,7 @@
 				"visible"		"0"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				"fgcolor"		"0 0 0 165"
+				"fgcolor"		"CollyHudTransparentGray"
 				
 				"pin_to_sibling"		"MainBG"
 				"pin_corner_to_sibling"	"2"
@@ -259,7 +259,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"product8"
-		"bgcolor_override"			"0 0 0 165"
+		"bgcolor_override"			"CollyHudTransparentGray"
 		"border"			"noborder"
 		"auto_wide_tocontents" "1"
 		
@@ -317,7 +317,7 @@
 		"wide"			"140"
 		"tall"			"100"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 165"
+		"bgcolor_override"		"CollyHudTransparentGray"
 		"PaintBackgroundType"	"0"
 		"paintborder"								"0"
 		"paintBackground"							"1"

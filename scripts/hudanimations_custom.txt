@@ -88,7 +88,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 			0.0
 	StopEvent HudHealthBonusPulseLoop 		0.0
 	Animate	BuffBG 							Alpha		"0"					Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueSpectator 							BgColor		"0 0 0 165"					Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpectator 							BgColor		"CollyHudTransparentGray"					Linear 0.0 0.0
 	Animate	BuffBG2 						Alpha		"0"					Linear 0.0 0.0
 	Animate	HPReal 							FgColor		"220 220 220 250"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"0 0 0 200"		Linear 0.0 0.0
@@ -178,7 +178,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse			0.0
 	StopEvent HudHealthDyingPulseLoop 		0.0
-	Animate	PlayerStatusHealthValueSpectator 							BgColor		"0 0 0 165"					Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpectator 							BgColor		"CollyHudTransparentGray"					Linear 0.0 0.0
 	Animate	HurtBG 							Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueTourn2 	FgColor		"White"			Linear 0.0 0.0

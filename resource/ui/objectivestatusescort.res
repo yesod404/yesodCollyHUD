@@ -49,7 +49,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"fillcolor"			"0 0 0 165"
+		"fillcolor"			"CollyHudTransparentGray"
 		"border"			"noborder"
 		"scaleImage"	"1"
 		

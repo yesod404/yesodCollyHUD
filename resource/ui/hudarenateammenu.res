@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 165"
+		"bgcolor_override"		"CollyHudTransparentGray"
 		"textAlignment"	"center"
 		"font"			"product8"
 		"fgcolor_override"		"tanlight120"
@@ -64,10 +64,10 @@
 			"font"			"productbold58"
 			
 			"fgcolor"		"225 225 225 0"
-			"defaultbgcolor"		"0 0 0 165"
-			"defaultbgcolor_override"		"0 0 0 165"
-			"bgcolor"		"0 0 0 165"
-			"bgcolor_override"		"0 0 0 165"
+			"defaultbgcolor"		"CollyHudTransparentGray"
+			"defaultbgcolor_override"		"CollyHudTransparentGray"
+			"bgcolor"		"CollyHudTransparentGray"
+			"bgcolor_override"		"CollyHudTransparentGray"
 			"armedbgcolor_override"		"softgreen"
 			"armedbgcolor_override"		"softgreen"
 			"fgcolor_override"		"tanlight120"
@@ -114,7 +114,7 @@
 			"paintbackground"						"1"
 			"paintborder"							"0"
 
-			"defaultbgcolor"		"0 0 0 165"
+			"defaultbgcolor"		"CollyHudTransparentGray"
 			"armedbgcolor_override"		"White"
 			
 			"defaultfgcolor_override"		"245 245 245 100"

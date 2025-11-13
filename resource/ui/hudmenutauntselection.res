@@ -53,7 +53,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 165"
+		"bgcolor_override"							"CollyHudTransparentGray"
 
 		"pin_to_sibling"							"TitleBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -77,7 +77,7 @@
 		"fgcolor"									"White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 165"
+		"bgcolor_override"							"CollyHudTransparentGray"
 	}
 	"CancelLabel"
 	{
@@ -97,7 +97,7 @@
 		"fgcolor"									"White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 165"
+		"bgcolor_override"							"CollyHudTransparentGray"
 	}
 
 	//===================================================================================
@@ -138,7 +138,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -217,7 +217,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -299,7 +299,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -381,7 +381,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -463,7 +463,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -545,7 +545,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -627,7 +627,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -709,7 +709,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}

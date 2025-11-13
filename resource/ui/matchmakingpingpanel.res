@@ -29,7 +29,7 @@
 		"visible"									"1"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 165"
+		"bgcolor_override"							"CollyHudTransparentGray"
 		"proportionaltoparent"						"1"
 	}
 
@@ -70,7 +70,7 @@
 		"fgcolor"									"White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 165"
+		"bgcolor_override"							"CollyHudTransparentGray"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
@@ -374,10 +374,10 @@
 			}
 		}
 
-		"0 0 0 165"
+		"CollyHudTransparentGray"
 		{
 			"ControlName"							"EditablePanel"
-			"fieldname"								"0 0 0 165"
+			"fieldname"								"CollyHudTransparentGray"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"0"

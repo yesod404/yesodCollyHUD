@@ -551,7 +551,7 @@
 			"proportionaltoparent"					"1"
 			"paintBackground"						"1"
 			"paintBackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 		}
 
 		"TitleLabel"
@@ -601,7 +601,7 @@
 			"proportionaltoparent"					"1"
 			"paintBackground"						"1"
 			"paintBackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 
 			"pin_to_sibling" 						"VoteSetupList"
 			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
@@ -636,7 +636,7 @@
 			"proportionaltoparent"					"1"
 			"paintBackground"						"1"
 			"paintBackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 
 			"pin_to_sibling" 						"VoteParameterList"
 			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
@@ -701,7 +701,7 @@
 			"proportionaltoparent"					"1"
 			"paintBackground"						"1"
 			"paintBackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 
 			"pin_to_sibling" 						"ComboBox"
 			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
@@ -733,7 +733,7 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 
-			"defaultBgColor_override"				"0 0 0 165"
+			"defaultBgColor_override"				"CollyHudTransparentGray"
 			"armedBgColor_override"					"softgreen"
 			"depressedBgColor_override"				"softgreen"
 		}

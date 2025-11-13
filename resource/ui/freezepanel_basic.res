@@ -17,7 +17,7 @@
 		"wide"			"140"
 		"tall"			"100"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 165"
+		"bgcolor_override"		"CollyHudTransparentGray"
 		"PaintBackgroundType"	"0"
 		"paintborder"								"0"
 		"paintBackground"							"1"
@@ -97,7 +97,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 165"
+			"fillcolor"		"CollyHudTransparentGray"
 		}
 	}
 	

@@ -16,7 +16,7 @@
 		"font"										"ProductBold10"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"					"0 0 0 165"
+		"bgcolor_override"					"CollyHudTransparentGray"
 	}
 
 	//===================================================================================

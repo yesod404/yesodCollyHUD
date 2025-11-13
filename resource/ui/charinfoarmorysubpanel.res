@@ -17,7 +17,7 @@
 		"infocus_bgcolor_override" 			"blank"
 		"outoffocus_bgcolor_override"		"blank"
 
-		"thumbnail_bgcolor"					"0 0 0 165"
+		"thumbnail_bgcolor"					"CollyHudTransparentGray"
 		"thumbnail_bgcolor_mouseover"		"255 255 255 16"
 		"thumbnail_bgcolor_selected"		"255 255 255 16"
 
@@ -153,7 +153,7 @@
 		"unicode"							"0"
 
 		"fgcolor_override"					"245 245 245 60"
-		"bgcolor_override"					"0 0 0 165"
+		"bgcolor_override"					"CollyHudTransparentGray"
 		"disabledFgColor_override"			"184 184 184 255"
 		"disabledBgColor_override" 			"0 0 0 0"
 		"selectionColor_override" 			"80 150 80 0"
@@ -175,7 +175,7 @@
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		"border"		"NoBorder"
-		"bgcolor_override"					"0 0 0 165"
+		"bgcolor_override"					"CollyHudTransparentGray"
 
 		"Data_TextRichText"
 		{

@@ -67,7 +67,7 @@
 				"enabled"							"1"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"0 0 0 165"
+				"bgcolor_override"					"CollyHudTransparentGray"
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
@@ -158,7 +158,7 @@
 		"PaintBackground"							"1"
 		"PaintBorder"								"1"
 		"border"									"Bottom_Line_White"
-		"bgcolor_override"							"0 0 0 165"
+		"bgcolor_override"							"CollyHudTransparentGray"
 	}
 	"FakeBG"
 	{
@@ -187,7 +187,7 @@
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
 		"PaintBackground"							"1"
-		"bgcolor_override"							"0 0 0 165"
+		"bgcolor_override"							"CollyHudTransparentGray"
 		"proportionaltoparent"						"1"
 	}
 	"recipecontainerscroller"
@@ -246,7 +246,7 @@
 			"enabled"								"1"
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 		}
 		"InputLabel"
@@ -279,7 +279,7 @@
 			"enabled"								"1"
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
 			"proportionaltoparent"					"1"
 		}
 		"OutputLabel"
@@ -345,7 +345,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"0"
-			"fgcolor"								"0 0 0 165"
+			"fgcolor"								"CollyHudTransparentGray"
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
 			"PaintBorder"							"1"
@@ -375,7 +375,7 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override"				"0 0 0 165"
+			"defaultBgColor_override"				"CollyHudTransparentGray"
 			"armedBgColor_override"					"0 0 0 180"
 			"depressedBgColor_override"				"0 0 0 180"
 

@@ -6,7 +6,7 @@
 		"fieldName"			"team"
 		"wide"				"f0"
 		"tall"				"f0"
-		"bgcolor_override" 	"0 0 0 165"
+		"bgcolor_override" 	"CollyHudTransparentGray"
 	}
 
 	"mapinfo"		{"visible" "0" "wide" "0"}
@@ -26,7 +26,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 165"
+		"bgcolor_override"		"CollyHudTransparentGray"
 		"textAlignment"	"center"
 		"font"			"product8"
 		"fgcolor_override"		"tanlight120"
@@ -84,10 +84,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"BlueHighlightBorderThick"	
@@ -156,10 +156,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"RedHighlightBorder"	
@@ -223,10 +223,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"OrangeHighlightBorder"	
@@ -291,10 +291,10 @@
 		"defaultfgcolor_override" 	"tanlight120"
 		"armedfgcolor_override"		"White"
 		
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"WhiteHighlightBorder"	
@@ -361,10 +361,10 @@
 		"defaultfgcolor_override" 	"tanlight120"
 		"armedfgcolor_override"		"softred"
 		
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"RedHighlightBorder"	
@@ -407,10 +407,10 @@
 		"defaultfgcolor_override" 	"tanlight120"
 		"armedfgcolor_override"		"softred"
 		
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"RedHighlightBorder"	

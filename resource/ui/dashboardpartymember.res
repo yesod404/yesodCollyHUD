@@ -120,7 +120,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 165"
+		"bgcolor_override"	"CollyHudTransparentGray"
 	}
 
 	"InteractButton"

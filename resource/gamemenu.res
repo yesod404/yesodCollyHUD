@@ -10,6 +10,13 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
+	"RetryButton"
+	{
+		"label"			""
+		"command"		"engine retry"
+		"OnlyInGame"	"1"
+		"tooltip"		"Retry Connection"
+	}
 	"CallVoteButton"
 	{
 		"label"			""

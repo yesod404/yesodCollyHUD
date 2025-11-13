@@ -54,7 +54,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 165"
+		"fillcolor"			"CollyHudTransparentGray"
 	}
 	"TargetIDBG_Black_BarHP"
 	{

@@ -85,7 +85,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"noborder"
-			"bgcolor_override"		"0 0 0 165"
+			"bgcolor_override"		"CollyHudTransparentGray"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 		}
@@ -127,7 +127,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"noborder"
-			"bgcolor_override"		"0 0 0 165"
+			"bgcolor_override"		"CollyHudTransparentGray"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 		}

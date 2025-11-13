@@ -66,7 +66,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor_override"		"0 0 0 165"
+				"fgcolor_override"		"CollyHudTransparentGray"
 			}
 
 			"classimage"
@@ -496,7 +496,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"product8"
-		"bgcolor_override"			"0 0 0 165"
+		"bgcolor_override"			"CollyHudTransparentGray"
 		"border"			"noborder"
 		"auto_wide_tocontents" "1"
 		
@@ -672,7 +672,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 165"
+			"fillcolor"		"CollyHudTransparentGray"
 		}
 	}
 }

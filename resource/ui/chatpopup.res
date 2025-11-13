@@ -28,7 +28,7 @@
 		"keyboardinputenabled"			"0"
 		"mouseinputenabled"				"0"
 
-		"bgcolor_override"				"0 0 0 165"
+		"bgcolor_override"				"CollyHudTransparentGray"
 
 		"paintbackground"				"1"
 	

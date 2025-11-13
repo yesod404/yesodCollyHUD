@@ -99,7 +99,7 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"							"0 0 0 165"
+		"fillcolor"							"CollyHudTransparentGray"
 		"tileImage"		"1"
 	}		
 	"FooterLine"
@@ -186,7 +186,7 @@
 		"border_default"			"noborder"
 		"border_armed"				"noborder"
 		
-		"defaultBgColor_override"	"0 0 0 165"
+		"defaultBgColor_override"	"CollyHudTransparentGray"
 		"armedBgColor_override"		"79 79 79 255"
 		"depressedBgColor_override" "79 79 79 255"
 
@@ -227,7 +227,7 @@
 		"border_default"			"noborder"
 		"border_armed"				"noborder"
 		
-		"defaultBgColor_override"	"0 0 0 165"
+		"defaultBgColor_override"	"CollyHudTransparentGray"
 		"armedBgColor_override"		"79 79 79 255"
 		"depressedBgColor_override" "79 79 79 255"
 

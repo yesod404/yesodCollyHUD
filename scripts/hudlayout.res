@@ -620,7 +620,7 @@
 		"fieldName"		"HudScopeCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c64"
+		"xpos"			"c230"
 		"ypos"			"c-64"
 		"wide"			"64"
 		"tall"			"128"

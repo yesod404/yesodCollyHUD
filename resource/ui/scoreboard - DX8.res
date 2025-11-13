@@ -73,7 +73,7 @@
 		"border"		"noborder"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"0 0 0 165"
+		"fillcolor"			"CollyHudTransparentGray"
 
 		if_mvm
 		{
@@ -101,7 +101,7 @@
 		"border"		"noborder"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"0 0 0 165"
+		"fillcolor"			"CollyHudTransparentGray"
 
 		if_mvm
 		{
@@ -126,7 +126,7 @@
 		"border"		"noborder"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"			"0 0 0 165"
+		"fillcolor"			"CollyHudTransparentGray"
 
 		if_mvm
 		{
@@ -154,7 +154,7 @@
 		"border"		"noborder"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"			"0 0 0 165"
+		"fillcolor"			"CollyHudTransparentGray"
 
 		if_mvm
 		{
@@ -1116,7 +1116,7 @@
 			"border"		"noborder"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"			"0 0 0 165"
+			"fillcolor"			"CollyHudTransparentGray"
 		}
 		"WhiteLine"
 		{

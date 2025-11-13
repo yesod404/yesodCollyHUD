@@ -11,7 +11,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
-		"bgcolor_override"							"0 0 0 165"
+		"bgcolor_override"							"CollyHudTransparentGray"
 	}
 	"avatar"
 	{
@@ -127,10 +127,10 @@
 		"depressedfgColor_override"		"softgreen"
 		"selectedfgColor_override"		"softgreen"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"FriendHighlightBorder"	
@@ -172,10 +172,10 @@
 		"depressedfgColor_override"		"softred"
 		"selectedfgColor_override"		"softred"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"RedHighlightBorder"	

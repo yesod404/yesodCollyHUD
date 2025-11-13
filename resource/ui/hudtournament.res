@@ -480,9 +480,9 @@
 		"wrap"			"0"
 		"labelText"		"%bluestate%"
 		"textAlignment"		"center"
-		"bgcolor"		"0 0 0 165"
+		"bgcolor"		"CollyHudTransparentGray"
 		"use_proportional_insets"	"1"
-		"bgcolor_override"		"0 0 0 165"
+		"bgcolor_override"		"CollyHudTransparentGray"
 		
 		if_mvm
 		{
@@ -573,8 +573,8 @@
 		"labelText"		"%redstate%"
 		"textAlignment"		"center"
 		"use_proportional_insets"	"1"
-		"bgcolor"		"0 0 0 165"
-		"bgcolor_override"		"0 0 0 165"
+		"bgcolor"		"CollyHudTransparentGray"
+		"bgcolor_override"		"CollyHudTransparentGray"
 		
 		if_mvm
 		{

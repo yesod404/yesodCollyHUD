@@ -960,7 +960,7 @@
 			"backgroundtype"		"0"
 			"color"					"0 0 0 165"
 
-			"image"					"replay/thumbnails/white"
+			"image"					"replay/thumbnails/red"
 		}
 		
 		Econ.Button.Border.Default
@@ -1062,8 +1062,13 @@
 			{
 				"1"
 				{
-					"color" 	"blank"
-					"offset" 	"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
 			}
 
@@ -1071,8 +1076,13 @@
 			{
 				"1"
 				{
-					"color" 	"blank"
-					"offset" 	"0 0"
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"1 0"
 				}
 			}
 
@@ -1080,7 +1090,12 @@
 			{
 				"1"
 				{
-					"color" 	"blank"
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
 					"offset" 	"0 0"
 				}
 			}
@@ -1089,7 +1104,12 @@
 			{
 				"1"
 				{
-					"color" 	"blank"
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
 					"offset" 	"0 0"
 				}
 			}
@@ -1101,8 +1121,13 @@
 			{
 				"1"
 				{
-					"color" 	"blank"
-					"offset" 	"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
 			}
 
@@ -1110,8 +1135,13 @@
 			{
 				"1"
 				{
-					"color" 	"blank"
-					"offset" 	"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
 				}
 			}
 
@@ -1119,7 +1149,12 @@
 			{
 				"1"
 				{
-					"color" 	"blank"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
 					"offset" 	"0 0"
 				}
 			}
@@ -1128,7 +1163,12 @@
 			{
 				"1"
 				{
-					"color" 	"blank"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
 					"offset" 	"0 0"
 				}
 			}
@@ -1139,22 +1179,59 @@
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
 				}
 			}
 		}
@@ -1162,22 +1239,59 @@
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
@@ -1185,22 +1299,59 @@
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
@@ -1208,22 +1359,59 @@
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
@@ -1231,22 +1419,59 @@
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
@@ -1256,421 +1481,1105 @@
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Unique"
-					"offset"						"0 0"
+					"color" 	"Unique"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Unique"
-					"offset"						"0 0"
+					"color" 	"Unique"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Unique"
-					"offset"						"0 0"
+					"color" 	"Unique"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Unique"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Unique"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unique"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Unique"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unique"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_Unique"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Unique_Hover"
-					"offset"						"0 0"
+					"color" 	"Unique_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Unique_Hover"
-					"offset"						"0 0"
+					"color" 	"Unique_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Unique_Hover"
-					"offset"						"0 0"
+					"color" 	"Unique_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_Unique"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Unique_Hover"
-					"offset"						"0 0"
+					"color" 	"Unique_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Unique_Hover"
-					"offset"						"0 0"
+					"color" 	"Unique_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Unique_Hover"
-					"offset"						"0 0"
+					"color" 	"Unique_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_Unique"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Unique_Hover"
-					"offset"						"0 0"
+					"color" 	"Unique_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Unique_Hover"
-					"offset"						"0 0"
+					"color" 	"Unique_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Unique_Hover"
-					"offset"						"0 0"
+					"color" 	"Unique_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unique_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Rarity1 ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_1"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Genuine"
-					"offset"						"0 0"
+					"color" 	"Genuine"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Genuine"
-					"offset"						"0 0"
+					"color" 	"Genuine"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Genuine"
-					"offset"						"0 0"
+					"color" 	"Genuine"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Genuine"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Genuine"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_1"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Genuine_Hover"
-					"offset"						"0 0"
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Genuine_Hover"
-					"offset"						"0 0"
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Genuine_Hover"
-					"offset"						"0 0"
+					"color" 	"Genuine_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_1"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Genuine_Hover"
-					"offset"						"0 0"
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Genuine_Hover"
-					"offset"						"0 0"
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Genuine_Hover"
-					"offset"						"0 0"
+					"color" 	"Genuine_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_1"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Genuine_Hover"
-					"offset"						"0 0"
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Genuine_Hover"
-					"offset"						"0 0"
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Genuine_Hover"
-					"offset"						"0 0"
+					"color" 	"Genuine_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Genuine_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
+
 
 		// Rarity2 ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_2"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_2"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_2"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_2"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Rarity3 ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_3"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_3"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_3"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_3"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Normal_Hover"
-					"offset"						"0 0"
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Normal"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Rarity4 ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_4"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Unusual"
-					"offset"						"0 0"
+					"color" 	"Unusual"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Unusual"
-					"offset"						"0 0"
+					"color" 	"Unusual"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Unusual"
-					"offset"						"0 0"
+					"color" 	"Unusual"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Unusual"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Unusual"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_4"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Unusual_Hover"
-					"offset"						"0 0"
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Unusual_Hover"
-					"offset"						"0 0"
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Unusual_Hover"
-					"offset"						"0 0"
+					"color" 	"Unusual_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
@@ -1678,1640 +2587,4300 @@
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Unusual_Hover"
-					"offset"						"0 0"
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Unusual_Hover"
-					"offset"						"0 0"
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Unusual_Hover"
-					"offset"						"0 0"
+					"color" 	"Unusual_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_4"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Unusual_Hover"
-					"offset"						"0 0"
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Unusual_Hover"
-					"offset"						"0 0"
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Unusual_Hover"
-					"offset"						"0 0"
+					"color" 	"Unusual_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Unusual_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Haunted ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_Haunted"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Haunted"
-					"offset"						"0 0"
+					"color" 	"Haunted"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Haunted"
-					"offset"						"0 0"
+					"color" 	"Haunted"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Haunted"
-					"offset"						"0 0"
+					"color" 	"Haunted"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Haunted"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Haunted"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_Haunted"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Haunted_Hover"
-					"offset"						"0 0"
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Haunted_Hover"
-					"offset"						"0 0"
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Haunted_Hover"
-					"offset"						"0 0"
+					"color" 	"Haunted_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_Haunted"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Haunted_Hover"
-					"offset"						"0 0"
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Haunted_Hover"
-					"offset"						"0 0"
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Haunted_Hover"
-					"offset"						"0 0"
+					"color" 	"Haunted_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_Haunted"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Haunted_Hover"
-					"offset"						"0 0"
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Haunted_Hover"
-					"offset"						"0 0"
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Haunted_Hover"
-					"offset"						"0 0"
+					"color" 	"Haunted_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Haunted_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// PaintkitWeapon ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_PaintkitWeapon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"PaintkitWeapon"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"PaintkitWeapon"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"PaintkitWeapon"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"PaintkitWeapon"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"PaintkitWeapon"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_PaintkitWeapon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"PaintkitWeapon_Hover"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"PaintkitWeapon_Hover"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"PaintkitWeapon_Hover"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_PaintkitWeapon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"PaintkitWeapon_Hover"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"PaintkitWeapon_Hover"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"PaintkitWeapon_Hover"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_PaintkitWeapon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"PaintkitWeapon_Hover"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"PaintkitWeapon_Hover"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"PaintkitWeapon_Hover"
-					"offset"						"0 0"
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"PaintkitWeapon_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Collector's ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_Collectors"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Collectors"
-					"offset"						"0 0"
+					"color" 	"Collectors"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Collectors"
-					"offset"						"0 0"
+					"color" 	"Collectors"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Collectors"
-					"offset"						"0 0"
+					"color" 	"Collectors"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Collectors"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Collectors"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_Collectors"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Collectors_Hover"
-					"offset"						"0 0"
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Collectors_Hover"
-					"offset"						"0 0"
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Collectors_Hover"
-					"offset"						"0 0"
+					"color" 	"Collectors_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_Collectors"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Collectors_Hover"
-					"offset"						"0 0"
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Collectors_Hover"
-					"offset"						"0 0"
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Collectors_Hover"
-					"offset"						"0 0"
+					"color" 	"Collectors_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_Collectors"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Collectors_Hover"
-					"offset"						"0 0"
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Collectors_Hover"
-					"offset"						"0 0"
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Collectors_Hover"
-					"offset"						"0 0"
+					"color" 	"Collectors_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Collectors_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Vintage ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_Vintage"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Vintage"
-					"offset"						"0 0"
+					"color" 	"Vintage"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Vintage"
-					"offset"						"0 0"
+					"color" 	"Vintage"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Vintage"
-					"offset"						"0 0"
+					"color" 	"Vintage"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Vintage"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Vintage"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_Vintage"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Vintage_Hover"
-					"offset"						"0 0"
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Vintage_Hover"
-					"offset"						"0 0"
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Vintage_Hover"
-					"offset"						"0 0"
+					"color" 	"Vintage_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_Vintage"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Vintage_Hover"
-					"offset"						"0 0"
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Vintage_Hover"
-					"offset"						"0 0"
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Vintage_Hover"
-					"offset"						"0 0"
+					"color" 	"Vintage_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_Vintage"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Vintage_Hover"
-					"offset"						"0 0"
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Vintage_Hover"
-					"offset"						"0 0"
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Vintage_Hover"
-					"offset"						"0 0"
+					"color" 	"Vintage_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Vintage_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Community ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_Community"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Community"
-					"offset"						"0 0"
+					"color" 	"Community"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Community"
-					"offset"						"0 0"
+					"color" 	"Community"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Community"
-					"offset"						"0 0"
+					"color" 	"Community"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Community"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Community"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Community"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Community"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Community"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_Community"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Community_Hover"
-					"offset"						"0 0"
+					"color" 	"Community_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Community_Hover"
-					"offset"						"0 0"
+					"color" 	"Community_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Community_Hover"
-					"offset"						"0 0"
+					"color" 	"Community_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_Community"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Community_Hover"
-					"offset"						"0 0"
+					"color" 	"Community_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Community_Hover"
-					"offset"						"0 0"
+					"color" 	"Community_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Community_Hover"
-					"offset"						"0 0"
+					"color" 	"Community_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_Community"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Community_Hover"
-					"offset"						"0 0"
+					"color" 	"Community_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Community_Hover"
-					"offset"						"0 0"
+					"color" 	"Community_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Community_Hover"
-					"offset"						"0 0"
+					"color" 	"Community_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Community_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Developer ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_Developer"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Developer"
-					"offset"						"0 0"
+					"color" 	"Developer"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Developer"
-					"offset"						"0 0"
+					"color" 	"Developer"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Developer"
-					"offset"						"0 0"
+					"color" 	"Developer"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Developer"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Developer"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Developer"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Developer"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Developer"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_Developer"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Developer_Hover"
-					"offset"						"0 0"
+					"color" 	"Developer_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Developer_Hover"
-					"offset"						"0 0"
+					"color" 	"Developer_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Developer_Hover"
-					"offset"						"0 0"
+					"color" 	"Developer_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_Developer"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Developer_Hover"
-					"offset"						"0 0"
+					"color" 	"Developer_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Developer_Hover"
-					"offset"						"0 0"
+					"color" 	"Developer_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Developer_Hover"
-					"offset"						"0 0"
+					"color" 	"Developer_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_Developer"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Developer_Hover"
-					"offset"						"0 0"
+					"color" 	"Developer_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Developer_Hover"
-					"offset"						"0 0"
+					"color" 	"Developer_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Developer_Hover"
-					"offset"						"0 0"
+					"color" 	"Developer_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Developer_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// SelfMade ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_SelfMade"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"SelfMade"
-					"offset"						"0 0"
+					"color" 	"SelfMade"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"SelfMade"
-					"offset"						"0 0"
+					"color" 	"SelfMade"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"SelfMade"
-					"offset"						"0 0"
+					"color" 	"SelfMade"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"SelfMade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"SelfMade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_SelfMade"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"SelfMade_Hover"
-					"offset"						"0 0"
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"SelfMade_Hover"
-					"offset"						"0 0"
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"SelfMade_Hover"
-					"offset"						"0 0"
+					"color" 	"SelfMade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_SelfMade"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"SelfMade_Hover"
-					"offset"						"0 0"
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"SelfMade_Hover"
-					"offset"						"0 0"
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"SelfMade_Hover"
-					"offset"						"0 0"
+					"color" 	"SelfMade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_SelfMade"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"SelfMade_Hover"
-					"offset"						"0 0"
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"SelfMade_Hover"
-					"offset"						"0 0"
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"SelfMade_Hover"
-					"offset"						"0 0"
+					"color" 	"SelfMade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"SelfMade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Customized ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_Customized"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Customized"
-					"offset"						"0 0"
+					"color" 	"Customized"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Customized"
-					"offset"						"0 0"
+					"color" 	"Customized"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Customized"
-					"offset"						"0 0"
+					"color" 	"Customized"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Customized"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Customized"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Customized"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Customized"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Customized"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_Customized"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Customized_Hover"
-					"offset"						"0 0"
+					"color" 	"Customized_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Customized_Hover"
-					"offset"						"0 0"
+					"color" 	"Customized_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Customized_Hover"
-					"offset"						"0 0"
+					"color" 	"Customized_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_Customized"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Customized_Hover"
-					"offset"						"0 0"
+					"color" 	"Customized_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Customized_Hover"
-					"offset"						"0 0"
+					"color" 	"Customized_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Customized_Hover"
-					"offset"						"0 0"
+					"color" 	"Customized_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_Customized"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Customized_Hover"
-					"offset"						"0 0"
+					"color" 	"Customized_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Customized_Hover"
-					"offset"						"0 0"
+					"color" 	"Customized_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Customized_Hover"
-					"offset"						"0 0"
+					"color" 	"Customized_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Customized_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Strange ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_Strange"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Strange"
-					"offset"						"0 0"
+					"color" 	"Strange"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Strange"
-					"offset"						"0 0"
+					"color" 	"Strange"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Strange"
-					"offset"						"0 0"
+					"color" 	"Strange"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Strange"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Strange"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Strange"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Strange"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Strange"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_Strange"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Strange_Hover"
-					"offset"						"0 0"
+					"color" 	"Strange_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Strange_Hover"
-					"offset"						"0 0"
+					"color" 	"Strange_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Strange_Hover"
-					"offset"						"0 0"
+					"color" 	"Strange_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"ackpackItemGreyedOutBorder_Strange"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Strange_Hover"
-					"offset"						"0 0"
+					"color" 	"Strange_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Strange_Hover"
-					"offset"						"0 0"
+					"color" 	"Strange_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Strange_Hover"
-					"offset"						"0 0"
+					"color" 	"Strange_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_Strange"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Strange_Hover"
-					"offset"						"0 0"
+					"color" 	"Strange_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Strange_Hover"
-					"offset"						"0 0"
+					"color" 	"Strange_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Strange_Hover"
-					"offset"						"0 0"
+					"color" 	"Strange_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Strange_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		// Completed ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_Completed"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Completed"
-					"offset"						"0 0"
+					"color" 	"Completed"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Completed"
-					"offset"						"0 0"
+					"color" 	"Completed"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Completed"
-					"offset"						"0 0"
+					"color" 	"Completed"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Completed"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Completed"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Completed"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Completed"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Completed"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_Completed"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Completed_Hover"
-					"offset"						"0 0"
+					"color" 	"Completed_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Completed_Hover"
-					"offset"						"0 0"
+					"color" 	"Completed_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Completed_Hover"
-					"offset"						"0 0"
+					"color" 	"Completed_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_Completed"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Completed_Hover"
-					"offset"						"0 0"
+					"color" 	"Completed_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Completed_Hover"
-					"offset"						"0 0"
+					"color" 	"Completed_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Completed_Hover"
-					"offset"						"0 0"
+					"color" 	"Completed_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_Completed"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"Completed_Hover"
-					"offset"						"0 0"
+					"color" 	"Completed_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"Completed_Hover"
-					"offset"						"0 0"
+					"color" 	"Completed_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"Completed_Hover"
-					"offset"						"0 0"
+					"color" 	"Completed_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"Completed_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		// ***************************************************************************
 		// Rarity Default
 		"BackpackItemBorder_RarityDefault"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"GradedWeaponDefault"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"GradedWeaponDefault"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"GradedWeaponDefault"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"GradedWeaponDefault"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"GradedWeaponDefault"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_RarityDefault"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"GradedWeaponDefault_Hover"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"GradedWeaponDefault_Hover"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"GradedWeaponDefault_Hover"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_RarityDefault"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"GradedWeaponDefault_Hover"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"GradedWeaponDefault_Hover"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"GradedWeaponDefault_Hover"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_RarityDefault"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"GradedWeaponDefault_Hover"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"GradedWeaponDefault_Hover"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"GradedWeaponDefault_Hover"
-					"offset"						"0 0"
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"GradedWeaponDefault_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		// ***************************************************
 		"BackpackItemBorder_RarityCommon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"CivilianGrade"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"CivilianGrade"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"CivilianGrade"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"CivilianGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"CivilianGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_RarityCommon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"CivilianGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"CivilianGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"CivilianGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_RarityCommon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"CivilianGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"CivilianGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"CivilianGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_RarityCommon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"CivilianGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"CivilianGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"CivilianGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CivilianGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		//
 		"BackpackItemBorder_RarityUncommon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"FreelanceGrade"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"FreelanceGrade"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"FreelanceGrade"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"FreelanceGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"FreelanceGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_RarityUncommon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"FreelanceGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"FreelanceGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"FreelanceGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_RarityUncommon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"FreelanceGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"FreelanceGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"FreelanceGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_RarityUncommon"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"FreelanceGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"FreelanceGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"FreelanceGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"FreelanceGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		//**************
 		"BackpackItemBorder_RarityRare"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"MercenaryGrade"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"MercenaryGrade"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"MercenaryGrade"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"MercenaryGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"MercenaryGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_RarityRare"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"MercenaryGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"MercenaryGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"MercenaryGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_RarityRare"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"MercenaryGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"MercenaryGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"MercenaryGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_RarityRare"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"MercenaryGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"MercenaryGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"MercenaryGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"MercenaryGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		//******************
 		"BackpackItemBorder_RarityMythical"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"CommandoGrade"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"CommandoGrade"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"CommandoGrade"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"CommandoGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"CommandoGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_RarityMythical"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"CommandoGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"CommandoGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"CommandoGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_RarityMythical"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"CommandoGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"CommandoGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"CommandoGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_RarityMythical"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"CommandoGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"CommandoGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"CommandoGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"CommandoGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		// ***************************************************
 		"BackpackItemBorder_RarityLegendary"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"AssassinGrade"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"AssassinGrade"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"AssassinGrade"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"AssassinGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"AssassinGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_RarityLegendary"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"AssassinGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"AssassinGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"AssassinGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_RarityLegendary"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"AssassinGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"AssassinGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"AssassinGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_RarityLegendary"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"AssassinGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"AssassinGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"AssassinGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"AssassinGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		//*********************************************
 		"BackpackItemBorder_RarityAncient"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"EliteGrade"
-					"offset"						"0 0"
+					"color" 	"EliteGrade"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"EliteGrade"
-					"offset"						"0 0"
+					"color" 	"EliteGrade"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"EliteGrade"
-					"offset"						"0 0"
+					"color" 	"EliteGrade"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"EliteGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"EliteGrade"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemMouseOverBorder_RarityAncient"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"EliteGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"EliteGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"EliteGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutBorder_RarityAncient"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"EliteGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"EliteGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"EliteGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 		"BackpackItemGreyedOutSelectedBorder_RarityAncient"
 		{
 			"inset"									"0 0 0 0"
 
-			"Bottom"
+			Left
 			{
 				"1"
 				{
-					"color"							"EliteGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 1"
 				}
 				"2"
 				{
-					"color"							"EliteGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 1"
 				}
-				"3"
+			}
+
+			Right
+			{
+				"1"
 				{
-					"color"							"EliteGrade_Hover"
-					"offset"						"0 0"
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"1 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
+				}
+				"2"
+				{
+					"color" 	"EliteGrade_Hover"
+					"offset" 	"0 0"
 				}
 			}
 		}
+
 
 		StoreItemBorder
 		{

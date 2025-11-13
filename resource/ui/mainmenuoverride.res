@@ -230,7 +230,7 @@
 		"alpha"			"255"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"0 0 0 165"
+		"fillcolor"			"CollyHudTransparentGray"
 		//"image"			"replay/thumbnails/digi"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"	
@@ -292,7 +292,7 @@
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"333"
 		"ypos"			"89"
-		"zpos"			"999"
+		"zpos"			"5"
 		"wide"			"30"
 		"tall"			"10"
 		"visible"		"1"
@@ -1318,7 +1318,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"0 0 0 165"
+			"bgcolor_override"	"CollyHudTransparentGray"
 		}
 		
 		"Notifications_Scroller"
@@ -1543,7 +1543,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
-			"bgcolor_override"	"0 0 0 165"
+			"bgcolor_override"	"CollyHudTransparentGray"
 		}
 		"BelowDarken2"
 		{
@@ -1594,7 +1594,7 @@
 
 			"paintborder"	"1"
 			"border"		"noborder"
-			"bgcolor_override"		"0 0 0 165"
+			"bgcolor_override"		"CollyHudTransparentGray"
 
 			"TitleLabel"
 			{
@@ -1788,7 +1788,7 @@
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
 
-				"bgcolor_override"		"0 0 0 165"
+				"bgcolor_override"		"CollyHudTransparentGray"
 
 				"items"
 				{
@@ -2016,6 +2016,80 @@
 
 	// command comes from GameMenu.res
 
+	"RetryButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"RetryButton"
+		"xpos"			"4"
+		"ypos"			"30"
+		"zpos"			"26"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling" "FriendsContainer"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"depressedbgColor_override"		"CollyHudTransparentGray"
+			"selectedbgColor_override"		"CollyHudTransparentGray"
+			
+			"border_default"			"GrayHighlightBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorder"	
+			"border_selected"				"WhiteHighlightBorder"	
+			
+			"image_drawcolor"	"245 245 245 60"
+			"image_armedcolor"	"60 163 115 255"
+			"proportionaltoparent"	"1"
+		}
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"-5"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/softicons/minmodeoff"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}				
+	}
+
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2061,8 +2135,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"depressedbgColor_override"		"0 0 0 165"
-			"selectedbgColor_override"		"0 0 0 165"
+			"depressedbgColor_override"		"CollyHudTransparentGray"
+			"selectedbgColor_override"		"CollyHudTransparentGray"
 			
 			"border_default"			"GrayHighlightBorder"
 			"border_armed"				"FriendHighlightBorder"	
@@ -2133,8 +2207,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"depressedbgColor_override"		"0 0 0 165"
-			"selectedbgColor_override"		"0 0 0 165"
+			"depressedbgColor_override"		"CollyHudTransparentGray"
+			"selectedbgColor_override"		"CollyHudTransparentGray"
 			
 			"border_default"			"GrayHighlightBorder"
 			"border_armed"				"FriendHighlightBorder"	
@@ -2207,8 +2281,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"depressedbgColor_override"		"0 0 0 165"
-			"selectedbgColor_override"		"0 0 0 165"
+			"depressedbgColor_override"		"CollyHudTransparentGray"
+			"selectedbgColor_override"		"CollyHudTransparentGray"
 			
 			"border_default"			"GrayHighlightBorder"
 			"border_armed"				"FriendHighlightBorder"	
@@ -2281,8 +2355,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"depressedbgColor_override"		"0 0 0 165"
-			"selectedbgColor_override"		"0 0 0 165"
+			"depressedbgColor_override"		"CollyHudTransparentGray"
+			"selectedbgColor_override"		"CollyHudTransparentGray"
 			
 			"border_default"			"GrayHighlightBorder"
 			"border_armed"				"FriendHighlightBorder"	
@@ -2355,8 +2429,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"depressedbgColor_override"		"0 0 0 165"
-			"selectedbgColor_override"		"0 0 0 165"
+			"depressedbgColor_override"		"CollyHudTransparentGray"
+			"selectedbgColor_override"		"CollyHudTransparentGray"
 			
 			"border_default"			"GrayHighlightBorder"
 			"border_armed"				"FriendHighlightBorder"	
@@ -2427,8 +2501,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"depressedbgColor_override"		"0 0 0 165"
-			"selectedbgColor_override"		"0 0 0 165"
+			"depressedbgColor_override"		"CollyHudTransparentGray"
+			"selectedbgColor_override"		"CollyHudTransparentGray"
 			
 			"border_default"			"GrayHighlightBorder"
 			"border_armed"				"FriendHighlightBorder"	
@@ -2601,10 +2675,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"FriendHighlightBorder"	
@@ -2678,10 +2752,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"FriendHighlightBorder"	
@@ -2744,10 +2818,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 		
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2814,10 +2888,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 		
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2886,10 +2960,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"FriendHighlightBorder"	
@@ -2952,10 +3026,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"FriendHighlightBorder"	
@@ -3022,10 +3096,10 @@
 		"depressedfgColor_override"		"White"
 		"selectedfgColor_override"		"White"
 
-		"defaultbgcolor_override"	"0 0 0 165"
-		"armedbgcolor_override"		"0 0 0 165"
-		"depressedbgColor_override"		"0 0 0 165"
-		"selectedbgColor_override"		"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
 		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"FriendHighlightBorder"	
@@ -3140,7 +3214,7 @@
 
 		"paintborder"	"1"
 		"border_default"			"GrayHighlightBorder"
-		"bgcolor_override"		"0 0 0 165"
+		"bgcolor_override"		"CollyHudTransparentGray"
 	
 		"pin_to_sibling" 			"SettingsButtonR"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT" // This Element

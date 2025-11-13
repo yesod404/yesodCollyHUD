@@ -91,7 +91,7 @@
 
 		"itemoptionpanels_kv"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"CExImageButton"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
@@ -103,16 +103,28 @@
 			"tabPosition"	"0"
 			"labelText"		"+"
 			"textinsety"	"-3"
-			"font"			"productbold14"
-        	"bgcolor_override"				"24 24 24 255"
-        	"defaultbgcolor_override"		"24 24 24 255"
-        	"armedbgcolor_override"			"24 24 24 255"
+			"font"			"productbold18"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultfgcolor_override"		"White"
+			"armedfgcolor_override"		"softgreen"
+			"depressedfgColor_override"		"White"
+			"selectedfgColor_override"		"White"
+			
+			"defaultbgcolor_override"	"24 24 24 255"
+			"armedbgcolor_override"		"24 24 24 255"
+			"depressedbgColor_override"		"24 24 24 255"
+			"selectedbgColor_override"		"24 24 24 255"
+
+			"border_default"			"WhiteHighlightBorder"
+			"border_armed"				"FriendHighlightBorder"	
+			"border_depressed"				"WhiteHighlightBorder"	
+			"border_selected"				"WhiteHighlightBorder"	
 
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"
@@ -344,7 +356,7 @@
 		
 		"defaultfgcolor_override" 	"tanlight120"
 		"armedfgcolor_override"		"White"
-		"defaultbgcolor_override"	"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
 		"armedbgcolor_override"		"softblue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -373,7 +385,7 @@
 		
 		"defaultfgcolor_override" 	"tanlight120"
 		"armedfgcolor_override"		"White"
-		"defaultbgcolor_override"	"0 0 0 165"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
 		"armedbgcolor_override"		"softred"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -406,7 +418,7 @@
 		"tall"								"75"
 		"autoResize"						"1"
 		"visible"							"0"
-		"bgcolor_override"					"0 0 0 165"
+		"bgcolor_override"					"CollyHudTransparentGray"
 		"PaintBackgroundType"				"0"
 	}
 

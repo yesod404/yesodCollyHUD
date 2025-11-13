@@ -89,7 +89,8 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
+			"border"		"GrayHighlightBorder"
 		}
 
 		"IconBackgound"
@@ -106,7 +107,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"blank"
 		}
 
 		"NotBuiltLabel"
@@ -143,7 +144,8 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
+			"border"		"GrayHighlightBorder"
 		}
 
 		"IconBackgound"
@@ -160,7 +162,8 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"CollyHudTransparentGray"
+			"border"		"WhiteHighlightBorder"
 		}
 
 		"Icon_Upgrade_1"
