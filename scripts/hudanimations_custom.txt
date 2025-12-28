@@ -323,7 +323,7 @@ event MenuClose
 event TeamStatus_PlayerDead
 {
 	SetVisible 	SkullPanel  																				1 0
-	Animate 	SkullPanel 							ypos 		"24" 								Accel 	0.1 	0.4
+	Animate 	SkullPanel 							ypos 		"29" 								Accel 	0.1 	0.4
 }
 event TeamStatus_PlayerAlive
 {
