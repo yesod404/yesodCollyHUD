@@ -41,7 +41,7 @@
 		"tall"		"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"		"replay/thumbnails/overheal/health_over_bg_greenj"
+		"image"		"replay/thumbnails/overheal/health_over_bg_green"
 		"scaleImage"	"1"	
 	}
 	
