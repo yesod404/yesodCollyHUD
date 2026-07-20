@@ -22,7 +22,7 @@
 		"ypos"		"8"
 		"zpos"		"99"
 		"auto_wide_tocontents"		"1"
-		"tall"		"20"
+		"tall"		"0"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"

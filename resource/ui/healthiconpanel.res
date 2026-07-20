@@ -8,7 +8,7 @@
 		"xpos_minmode"								"0"
 		"ypos"										"0"
 		"ypos_minmode"								"0"
-		"wide"										"60"
+		"wide"										"26"
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
@@ -33,40 +33,22 @@
 		"TFFont"									"ProductBold14"
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
-
-	// silly lil hack
+	}
 	
-	"PlayerStatusHealthValueMain2"
+	"HealthBG"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"PlayerStatusHealthValueMain2"
-		"xpos"			"0"
-		"ypos"			"-1"
-		"zpos"			"8"
-		"wide"			"60"
-		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		"%Health%"
-		"font"			"ProductSemiBold16"
-		"textAlignment"		"center"
-		"fgcolor_override"		"220 220 220 255"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"HealthBG"
+		"xpos"  "0"
+		"ypos"  "0"
+		"zpos"			"0"
+		"wide"  "40"
+		"tall"  "20"
+		"visible"       "1"           
+		"enabled"       "1"
+		"paintbackground"      "1"
+		"paintbackgroundtype"  "0"
+		"bgcolor_override"     "0 0 0 200"
 	}
-	"PlayerStatusHealthValueMain2Shadow"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"PlayerStatusHealthValueMain2Shadow"
-		"xpos"			"1"
-		"ypos"			"0"
-		"zpos"			"8"
-		"wide"			"60"
-		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		"%Health%"
-		"font"			"ProductSemiBold16"
-		"textAlignment"		"center"
-		"fgcolor_override"		"0 0 0 255"
-	}
-	}
+	
 }

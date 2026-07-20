@@ -134,7 +134,18 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"softgreen"
-		"defaultBgColor_override"	"0 0 0 165"
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
+		
+		"border_default"			"blank"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
 	}
 }

@@ -152,7 +152,7 @@
 		"depressedbgColor_override"		"CollyHudTransparentGray"
 		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
-		"border_default"			"NoBorder"
+		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"RedHighlightBorder"	
 		"border_depressed"				"WhiteHighlightBorderThick"	
 		"border_selected"				"WhiteHighlightBorderThick"	
@@ -190,7 +190,7 @@
 		"depressedbgColor_override"		"CollyHudTransparentGray"
 		"selectedbgColor_override"		"CollyHudTransparentGray"
 		
-		"border_default"			"NoBorder"
+		"border_default"			"GrayHighlightBorder"
 		"border_armed"				"FriendHighlightBorderThick"	
 		"border_depressed"				"WhiteHighlightBorderThick"	
 		"border_selected"				"WhiteHighlightBorderThick"	

@@ -22,7 +22,7 @@
 		"ControlName"								"Panel"
 		"fieldName"									"HealthAnchor"
 		"xpos"										"c-150"
-		"ypos"										"c84"
+		"ypos"										"c90"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"40"
@@ -34,59 +34,23 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"		"c-176"
-		"ypos"		"c85"
+		"xpos"		"c-168"
+		"ypos"		"c93"
 		"zpos"		"-4"
-		"wide"		"55"
-		"tall"		"55"
+		"wide"		"40"
+		"tall"		"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"		"replay/thumbnails/overheal/health_over_bg_white"
+		"image"		"replay/thumbnails/overheal/health_over_bg_greenj"
 		"scaleImage"	"1"	
 	}
-	
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"55"
-		"tall"			"56"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		
-		"pin_to_sibling"							"HealthAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}		
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"0"
-		"ypos"			"2"
-		"zpos"			"3"
-		"wide"			"58"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/health/health_bg"
-		"scaleImage"	"1"	
-		
-		"pin_to_sibling"							"HealthAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}	
 	
 	"PlayerStatusHealthValueMain"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueMain"
 		"xpos"			"0"
-		"ypos"			"-6"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"100"
 		"tall"			"40"
@@ -94,7 +58,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HealthAmmoCross"
+		"font"			"HealthAmmo"
 		"fgcolor"		"White"
 		
 		"pin_to_sibling"							"HealthAnchor"
@@ -106,8 +70,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueMainShadowHidden"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"6"
 		"wide"			"100"
 		"tall"			"40"
@@ -115,7 +79,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HealthAmmoCross"
+		"font"			"HealthAmmo"
 		"fgcolor"		"0 0 0 255"
 		
 		"pin_to_sibling"							"PlayerStatusHealthValueMain"
@@ -700,5 +664,19 @@
 		"pin_to_sibling"							"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"wide"			"0"
+		"tall"			"0"
 	}
 }

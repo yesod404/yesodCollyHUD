@@ -7,4 +7,6 @@
 
 //#base "../resource/ui/hudplayerclass_angled.res"				// ANGLED
 //#base "../resource/ui/hudplayerclass_minimal.res"			// MINIMAL
+//#base "../resource/ui/hudplayerclass_m0re.res"				// m0re
+//#base "../resource/ui/hudplayerclass_old_m0re.res"				// old m0re
 #base "../resource/ui/hudplayerclass_side.res"				// DEFAULT

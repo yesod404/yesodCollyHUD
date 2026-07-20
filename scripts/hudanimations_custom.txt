@@ -35,8 +35,8 @@ event ActiveTimerDim
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthValueSpectator 							BgColor		"HighColor"					Linear 0.0 0.0
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"50"					Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"50"					Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"80"					Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"80"					Linear 0.125 0.075
 	Animate	HPReal 							FgColor		"47 185 123 240"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG				FgColor			"HighColor"		Linear 0.0 0.0
 	

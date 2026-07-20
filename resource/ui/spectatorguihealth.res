@@ -103,16 +103,16 @@
 		"ControlName"		"Label"
 		"fieldName"		"PlayerStatusHealthValueTGS"
 		"xpos"			"1"//-9
-		"ypos"			"1"//11
+		"ypos"			"0"//11
 		"zpos"			"8"
-		"wide"			"30"
-		"tall"			"0"
+		"wide"			"32"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
-		"font"			"bold14"
+		"font"			"ProductSemiBold16"
 		"textAlignment"		"center"
-		"fgcolor_override"		"0 0 0 140"
+		"fgcolor_override"		"0 0 0 255"
 	}
 	"PlayerStatusPlayerLevel"
 	{

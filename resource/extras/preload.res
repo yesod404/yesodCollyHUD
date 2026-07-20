@@ -964,5 +964,23 @@
 		"enabled"			"1"
 		"image"				"../hud/ico_powerup_ubercharge_red"
 	}
+	"Damage_Indicator"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Damage_Indicator"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"vgui/damageIndicator"
+	}
+	"Damage_Indicator2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Damage_Indicator2"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"vgui\damageIndicator"
+	}
 
 }

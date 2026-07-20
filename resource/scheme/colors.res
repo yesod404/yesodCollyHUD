@@ -10,9 +10,8 @@
 		"TFOrange"								"255 255 255 16"
 		"Purple"								"137 69 99 255"
 		
-		"CollyHudDarkGray"						"39 39 40 255"
-		"CollyHudTransparentGray"						"0 0 0 200"
-		
+		"CollyHudDarkGray"						"25 25 25 255"
+		"CollyHudTransparentGray"			"0 0 0 165"
 		"HighColor"								"60 163 115 255"
 		"LowColor"								"180 65 55 255"
 		"ReserveColor"									"60 163 115 255"
@@ -194,7 +193,7 @@
 		
 		"ItemSetName"							"225 255 15 255"
 		"ItemSetItemEquipped"					"149 175 12 255"
-		"ItemSetItemMissing"					"216 216 216 60"
+		"ItemSetItemMissing"					"82 44 147 255"
 		"ItemIsotope"							"225 255 15 255"
 		"ItemBundleItem"						"149 175 12 255"
 		"ItemLimitedUse"						"0 160 0 255"

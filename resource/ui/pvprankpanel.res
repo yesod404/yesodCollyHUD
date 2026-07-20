@@ -188,7 +188,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"125"
+		"wide"			"190"
 		"tall"			"f40"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"

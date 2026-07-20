@@ -14,3 +14,4 @@
 //#base "../resource/ui/hudplayerhealth_inverse.res"			// INVERSE
 #base "../resource/ui/hudplayerhealth_shadow.res"			// SHADOW
 //#base "../resource/ui/hudplayerhealth_m0re.res"			// M0RESHADOW
+//#base "../resource/ui/hudplayerhealth_colored.res"			// COLORED

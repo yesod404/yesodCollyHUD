@@ -109,6 +109,27 @@
 		"brighttext"		"0"
 		"fgcolor"			"220 220 220 255"
 		//"fgcolor"			"white"
+	}	
+	"TargetNameLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"TargetNameLabel"
+		"font"				"product8"
+		"xpos"				"55"
+		"ypos"				"12"
+		"zpos"				"1"
+		"wide"				"2220"
+		"tall"				"17"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%targetname%"
+		"textAlignment"		"West"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor"			"220 220 220 255"
+		//"fgcolor"			"white"
 	}
 
 	"TargetDataLabel"

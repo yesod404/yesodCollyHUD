@@ -7,6 +7,6 @@
 
 
 //#base "../resource/ui/small_bighp.res"				//Big Healthbar Only
-#base "../resource/ui/small_names.res"				// Names Only
+//#base "../resource/ui/small_names.res"				// Names Only
 //#base "../resource/ui/small_both.res"				// Big Healthbar and Names
-//#base "../resource/ui/small_neither.res"				//Small Healthbar No Name (DEFAULT)
+#base "../resource/ui/small_neither.res"				//Small Healthbar No Name (DEFAULT)

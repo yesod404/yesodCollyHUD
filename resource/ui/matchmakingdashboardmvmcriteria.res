@@ -77,7 +77,7 @@
 
 	"MannUpQueueButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"MannUpQueueButton"
 		"xpos"			"106"
 		"ypos"			"rs1-14"
@@ -103,8 +103,19 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"softgreen"
-		"defaultBgColor_override"	"0 0 0 165"
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
 	}
 
 
@@ -127,7 +138,7 @@
 
 	"BootCampQueueButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"BootCampQueueButton"
 		"xpos"			"5"
 		"ypos"			"rs1-14"
@@ -153,15 +164,26 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"softgreen"
-		"defaultBgColor_override"	"0 0 0 165"
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
 	}
 
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"cs-0.51"
 		"ypos"			"rs1-14"
 		"zpos"			"100"
 		"wide"			"f20"
@@ -181,6 +203,25 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
+
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

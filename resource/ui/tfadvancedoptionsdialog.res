@@ -13,11 +13,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"		"CollyHudDarkGray"
+		"bgcolor_override"		"0 0 0 240"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	""
 		"paintbackground"		"1"
-		
+		"border"			"GrayHighlightBorder"
 		"control_w"									"500"
 		"control_h"									"25"
 		"slider_w"									"500"
@@ -43,7 +43,7 @@
 	}
 	"CancelButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"290"
 		"ypos"			"400"
@@ -64,10 +64,30 @@
 		"Command"		"Close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedfgcolor_override"		"softred"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
+		
 	}
 	"OkButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"OkButton"
 		"xpos"			"395"
 		"ypos"			"400"
@@ -88,6 +108,25 @@
 		"Command"		"Ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
+
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
+		
+		"image_drawcolor"			"245 245 245 60"
+		"image_armedcolor"			"60 163 115 255"
+		"image_depressedcolor"			"255 255 255 255"
+		"image_selectedcolor"			"255 255 255 255"
 	}
 	
 	"PanelListPanel"

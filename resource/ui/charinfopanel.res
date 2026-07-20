@@ -156,7 +156,7 @@
 	
 	"BackButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"BackButton"
 		"xpos"				"3"
 		"ypos"			    "r25"
@@ -183,16 +183,19 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"noborder"
-		"border_armed"				"noborder"
-		
-		"defaultBgColor_override"	"CollyHudTransparentGray"
-		"armedBgColor_override"		"79 79 79 255"
-		"depressedBgColor_override" "79 79 79 255"
+		"armedfgcolor_override"		"softgreen"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
 
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"255 255 255 255"
-		"depressedFgColor_override" "White"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"FriendHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
 	}		
 	
 	"CloseButton"
@@ -224,16 +227,19 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"noborder"
-		"border_armed"				"noborder"
-		
-		"defaultBgColor_override"	"CollyHudTransparentGray"
-		"armedBgColor_override"		"79 79 79 255"
-		"depressedBgColor_override" "79 79 79 255"
+		"armedfgcolor_override"		"softred"
+		"depressedfgColor_override"		"White"
+		"selectedfgColor_override"		"White"
 
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"255 255 255 255"
-		"depressedFgColor_override" "White"
+		"defaultbgcolor_override"	"CollyHudTransparentGray"
+		"armedbgcolor_override"		"CollyHudTransparentGray"
+		"depressedbgColor_override"		"CollyHudTransparentGray"
+		"selectedbgColor_override"		"CollyHudTransparentGray"
+		
+		"border_default"			"GrayHighlightBorder"
+		"border_armed"				"RedHighlightBorder"	
+		"border_depressed"				"WhiteHighlightBorder"	
+		"border_selected"				"WhiteHighlightBorder"	
 	}
 	
 	"NotificationsPresentPanel"

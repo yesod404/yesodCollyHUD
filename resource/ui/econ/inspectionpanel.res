@@ -38,7 +38,7 @@
 		"tall"								"f0"
 		"visible"							"1"
 		"enabled"							"1"
-		"fillcolor"							"CollyHudDarkGray"
+		"fillcolor"							"blank"
 		"scaleImage"						"1"
 	}
 

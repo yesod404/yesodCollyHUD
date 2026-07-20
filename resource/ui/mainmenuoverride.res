@@ -1,3 +1,4 @@
+#base "vguipreload.res"
 //thanks omni i stole this from u
 #base "../../resource/extras/preload.res"
 

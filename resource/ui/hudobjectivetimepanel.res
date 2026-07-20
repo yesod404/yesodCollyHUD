@@ -2,14 +2,11 @@
 {
 	"TimePanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TimePanelBG"
-		"xpos"			"38"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"0"
-		"alpha"			"0"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TimePanelBG"
+		"alpha"		"0 0 0 0"
 	}
+	
 	"TimerBG"
 	{
 		"ControlName"		"ImagePanel"

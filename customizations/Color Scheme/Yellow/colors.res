@@ -11,6 +11,7 @@
 		"Purple"								"137 69 99 255"
 		
 		"CollyHudDarkGray"						"39 39 40 255"
+		"CollyHudTransparentGray"			"0 0 0 165"
 		"HighColor"								"209 185 58 255"
 		"LowColor"								"180 65 55 255"
 		"ReserveColor"									"209 185 58 255"
